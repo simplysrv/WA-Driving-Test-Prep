@@ -9,6 +9,9 @@ import Progress from './pages/Progress'
 import Bookmarks from './pages/Bookmarks'
 import ChapterList from './pages/ChapterList'
 
+// Use basename for GitHub Pages deployment
+const basename = import.meta.env.BASE_URL
+
 export const router = createBrowserRouter([
   {
     path: '/',
@@ -48,4 +51,6 @@ export const router = createBrowserRouter([
       },
     ],
   },
-])
+], {
+  basename: basename,
+})
