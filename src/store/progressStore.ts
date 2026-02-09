@@ -138,7 +138,7 @@ export const useProgressStore = create<ProgressState>()(
         })
       },
 
-      updateQuestionProgress: (questionId, isCorrect, timeSpent) => {
+      updateQuestionProgress: (questionId, isCorrect, _timeSpent) => {
         const { userProgress } = get()
         if (!userProgress) return
 

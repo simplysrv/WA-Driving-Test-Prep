@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect } from 'react'
 import { Question } from '../../types/question'
 import { useBookmarkStore } from '../../store/bookmarkStore'
 import Flashcard from './Flashcard'

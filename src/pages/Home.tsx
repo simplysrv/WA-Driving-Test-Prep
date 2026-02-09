@@ -106,7 +106,7 @@ const Home = () => {
           ]
           return (
             <Link
-              key={feature.title}
+              key={feature.titleKey}
               to={feature.href}
               className="relative group"
             >

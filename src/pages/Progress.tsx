@@ -1,4 +1,4 @@
-import { TrendingUp, Target, Clock, Trophy, BookOpen, Brain } from 'lucide-react'
+import { TrendingUp, Target, Trophy, BookOpen, Brain } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 import { useBookmarkStore } from '../store/bookmarkStore'
 import allQuestionsData from '../data/questions'

@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
 import { Question, QuestionCategory, QuestionDifficulty } from '../types/question'
 import FlashcardDeck from '../components/study/FlashcardDeck'
 import { Filter, BookOpen, ArrowLeft } from 'lucide-react'
@@ -8,7 +7,6 @@ import { Filter, BookOpen, ArrowLeft } from 'lucide-react'
 import allQuestionsData from '../data/questions'
 
 const StudyMode = () => {
-  const navigate = useNavigate()
   const [allQuestions] = useState<Question[]>(allQuestionsData)
   const [filteredQuestions, setFilteredQuestions] = useState<Question[]>([])
   const [showFilters, setShowFilters] = useState(true)

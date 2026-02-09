@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
 import { Question, QuestionCategory, QuestionDifficulty } from '../types/question'
 import { useBookmarkStore } from '../store/bookmarkStore'
 import { useProgressStore } from '../store/progressStore'
@@ -16,9 +15,8 @@ import allQuestionsData from '../data/questions'
 type QuizPhase = 'setup' | 'question' | 'feedback' | 'results'
 
 const PracticeMode = () => {
-  const navigate = useNavigate()
   const { isBookmarked, toggleBookmark } = useBookmarkStore()
-  const { userProgress, initializeProgress, recordQuizSession } = useProgressStore()
+  const { userProgress, initializeProgress } = useProgressStore()
 
   // Initialize progress on mount
   useEffect(() => {

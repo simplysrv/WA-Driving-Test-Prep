@@ -1,4 +1,4 @@
-import { ChevronLeft, ChevronRight, RotateCcw, Shuffle, Check } from 'lucide-react'
+import { ChevronLeft, ChevronRight, Shuffle, Check } from 'lucide-react'
 
 interface FlashcardControlsProps {
   onPrevious: () => void
