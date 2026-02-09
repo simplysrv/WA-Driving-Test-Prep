@@ -1,0 +1,294 @@
+[
+  {
+    "id": "ch2_q001",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.3",
+    "question": "What is the minimum liability insurance coverage required for injury to a single person in Washington State?",
+    "options": [
+      {"id": "opt1", "text": "$15,000", "isCorrect": false},
+      {"id": "opt2", "text": "$25,000", "isCorrect": true},
+      {"id": "opt3", "text": "$50,000", "isCorrect": false},
+      {"id": "opt4", "text": "$100,000", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Washington State requires a minimum of $25,000 liability insurance for injury to a single person in an accident.",
+    "tags": ["insurance", "liability", "legal requirements"],
+    "relatedTopics": ["Multiple injury coverage", "Property damage coverage"],
+    "source": "Chapter 2, Section 2.3"
+  },
+  {
+    "id": "ch2_q002",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.2",
+    "question": "License plates must be displayed on both the front and back of your vehicle in Washington State.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, Washington State requires license plates to be displayed on both the front and rear of the vehicle.",
+    "tags": ["license plates", "vehicle registration", "legal requirements"],
+    "relatedTopics": ["Vehicle registration", "Display requirements"],
+    "source": "Chapter 2, Section 2.2"
+  },
+  {
+    "id": "ch2_q003",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "When must headlights be turned on in Washington State?",
+    "options": [
+      {"id": "opt1", "text": "From sunset to sunrise only", "isCorrect": false},
+      {"id": "opt2", "text": "Half hour after sunset to half hour before sunrise", "isCorrect": true},
+      {"id": "opt3", "text": "During nighttime hours only", "isCorrect": false},
+      {"id": "opt4", "text": "Whenever visibility is poor", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Washington law requires headlights to be on from half hour after sunset to half hour before sunrise, as well as in low visibility conditions.",
+    "tags": ["headlights", "lighting", "vehicle operation"],
+    "relatedTopics": ["High beams", "Visibility requirements"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q004",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "You must dim your high beam headlights when you are within how many feet of an oncoming vehicle?",
+    "options": [
+      {"id": "opt1", "text": "300 feet", "isCorrect": false},
+      {"id": "opt2", "text": "400 feet", "isCorrect": false},
+      {"id": "opt3", "text": "500 feet", "isCorrect": true},
+      {"id": "opt4", "text": "600 feet", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt3",
+    "explanation": "You must switch from high beams to low beams when within 500 feet of an oncoming vehicle to avoid blinding other drivers.",
+    "tags": ["high beams", "headlights", "courtesy", "safety"],
+    "relatedTopics": ["Low beam usage", "Night driving"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q005",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "You must dim your high beam headlights when following another vehicle within how many feet?",
+    "options": [
+      {"id": "opt1", "text": "200 feet", "isCorrect": false},
+      {"id": "opt2", "text": "300 feet", "isCorrect": true},
+      {"id": "opt3", "text": "400 feet", "isCorrect": false},
+      {"id": "opt4", "text": "500 feet", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "When following another vehicle within 300 feet, you must dim your high beams to low beams to avoid blinding the driver ahead through their mirrors.",
+    "tags": ["high beams", "following distance", "courtesy"],
+    "relatedTopics": ["High beam switching", "Safe following"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q006",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "What is the minimum tire tread depth required in Washington State?",
+    "options": [
+      {"id": "opt1", "text": "1/32 inch", "isCorrect": false},
+      {"id": "opt2", "text": "2/32 inch", "isCorrect": true},
+      {"id": "opt3", "text": "3/32 inch", "isCorrect": false},
+      {"id": "opt4", "text": "4/32 inch", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Washington State requires a minimum tire tread depth of 2/32 inch for safe traction and stopping ability.",
+    "tags": ["tire maintenance", "tread depth", "vehicle safety"],
+    "relatedTopics": ["Tire pressure", "Vehicle maintenance"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q007",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.6",
+    "question": "Every person in a moving vehicle must wear a seat belt in Washington State.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, Washington State law requires every person in a moving vehicle to wear a seat belt, regardless of seating position.",
+    "tags": ["seat belts", "safety", "legal requirements"],
+    "relatedTopics": ["Occupant protection", "Child safety seats"],
+    "source": "Chapter 2, Section 2.6"
+  },
+  {
+    "id": "ch2_q008",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.6",
+    "question": "Until what age or height must a child use a booster seat in Washington?",
+    "options": [
+      {"id": "opt1", "text": "Age 6 or 4 feet tall", "isCorrect": false},
+      {"id": "opt2", "text": "Age 8 or 4 feet 9 inches tall", "isCorrect": true},
+      {"id": "opt3", "text": "Age 10 or 5 feet tall", "isCorrect": false},
+      {"id": "opt4", "text": "Age 12 or 5 feet 5 inches tall", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Children must use a booster seat until they are at least 8 years old or 4 feet 9 inches tall, whichever comes first.",
+    "tags": ["child safety", "booster seats", "legal requirements"],
+    "relatedTopics": ["Car seats", "Child restraints"],
+    "source": "Chapter 2, Section 2.6"
+  },
+  {
+    "id": "ch2_q009",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "hard",
+    "chapter": 2,
+    "section": "2.6",
+    "question": "What type of car seat should be used for a child from birth to age 2?",
+    "options": [
+      {"id": "opt1", "text": "Forward-facing car seat", "isCorrect": false},
+      {"id": "opt2", "text": "Rear-facing car seat", "isCorrect": true},
+      {"id": "opt3", "text": "Booster seat", "isCorrect": false},
+      {"id": "opt4", "text": "Regular seat belt", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Infants from birth to age 2 should use a rear-facing car seat for optimal safety and proper support for their developing bodies.",
+    "tags": ["infant safety", "car seats", "rear-facing"],
+    "relatedTopics": ["Child restraint stages", "Car seat positioning"],
+    "source": "Chapter 2, Section 2.6"
+  },
+  {
+    "id": "ch2_q010",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Advanced Driver Assistance Systems (ADAS) can include which of the following features?",
+    "options": [
+      {"id": "opt1", "text": "Collision avoidance and lane keeping assistance", "isCorrect": true},
+      {"id": "opt2", "text": "Automatic fuel injection", "isCorrect": false},
+      {"id": "opt3", "text": "Manual transmission control", "isCorrect": false},
+      {"id": "opt4", "text": "Radio tuning assistance", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "ADAS includes safety features like collision avoidance, adaptive cruise control, lane keeping assistance, blind spot detection, and parking assistance.",
+    "tags": ["ADAS", "safety technology", "driver assistance"],
+    "relatedTopics": ["Vehicle Safety Technology", "Collision mitigation"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q011",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "Hand signals can be used instead of turn signals if your turn signals are not working.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, if your vehicle's turn signals are not working, you must use hand signals to indicate your intentions to other drivers.",
+    "tags": ["hand signals", "turn signals", "communication"],
+    "relatedTopics": ["Signal requirements", "Vehicle communication"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q012",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.7",
+    "question": "Which steering method is recommended for most driving situations?",
+    "options": [
+      {"id": "opt1", "text": "One-hand steering", "isCorrect": false},
+      {"id": "opt2", "text": "Hand-to-hand (push-pull) steering", "isCorrect": true},
+      {"id": "opt3", "text": "Palm steering", "isCorrect": false},
+      {"id": "opt4", "text": "Elbow steering", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Hand-to-hand (push-pull) steering is the recommended method for most driving situations as it provides better control and allows both hands to stay on the wheel.",
+    "tags": ["steering", "vehicle control", "safe driving"],
+    "relatedTopics": ["Hand-over-hand steering", "Vehicle handling"],
+    "source": "Chapter 2, Section 2.7"
+  },
+  {
+    "id": "ch2_q013",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "hard",
+    "chapter": 2,
+    "section": "2.7",
+    "question": "What are the three types of vehicle balance?",
+    "options": [
+      {"id": "opt1", "text": "Front, back, and side", "isCorrect": false},
+      {"id": "opt2", "text": "Pitch, roll, and yaw", "isCorrect": true},
+      {"id": "opt3", "text": "Left, right, and center", "isCorrect": false},
+      {"id": "opt4", "text": "Forward, reverse, and neutral", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "The three types of vehicle balance are pitch (forward/backward tilt), roll (side-to-side tilt), and yaw (rotation around vertical axis). Understanding these helps in maintaining control.",
+    "tags": ["vehicle dynamics", "balance", "vehicle control"],
+    "relatedTopics": ["Weight transfer", "Vehicle physics"],
+    "source": "Chapter 2, Section 2.7"
+  },
+  {
+    "id": "ch2_q014",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.13",
+    "question": "You should check your mirrors before starting your vehicle.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, checking and adjusting your mirrors is part of the pre-drive checklist to ensure you have proper visibility before moving.",
+    "tags": ["pre-drive check", "mirrors", "safety"],
+    "relatedTopics": ["Mirror adjustment", "Blind zones"],
+    "source": "Chapter 2, Section 2.13"
+  },
+  {
+    "id": "ch2_q015",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.1",
+    "question": "When must you report a sale of your vehicle to the Department of Licensing?",
+    "options": [
+      {"id": "opt1", "text": "Within 3 days", "isCorrect": false},
+      {"id": "opt2", "text": "Within 5 days", "isCorrect": true},
+      {"id": "opt3", "text": "Within 10 days", "isCorrect": false},
+      {"id": "opt4", "text": "Within 30 days", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You must report the sale of your vehicle to the DOL within 5 days using a Report of Sale to protect yourself from liability.",
+    "tags": ["vehicle sale", "registration", "legal requirements"],
+    "relatedTopics": ["Title transfer", "Ownership change"],
+    "source": "Chapter 2, Section 2.1"
+  }
+]

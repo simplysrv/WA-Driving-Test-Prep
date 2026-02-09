@@ -1,0 +1,296 @@
+[
+  {
+    "id": "ch3_q001",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.0",
+    "question": "Which of the following is NOT a key quality of a safe driver?",
+    "options": [
+      {"id": "opt1", "text": "Mindfulness and awareness", "isCorrect": false},
+      {"id": "opt2", "text": "Patience and courtesy", "isCorrect": false},
+      {"id": "opt3", "text": "Aggression and speed", "isCorrect": true},
+      {"id": "opt4", "text": "Responsibility and vehicle familiarity", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt3",
+    "explanation": "Safe drivers demonstrate mindfulness, responsibility, patience, and vehicle familiarity. Aggression and excessive speed are dangerous behaviors that increase crash risk.",
+    "tags": ["safe driving", "driver qualities", "responsibility"],
+    "relatedTopics": ["Defensive driving", "Road safety"],
+    "source": "Chapter 3, Section 3.0"
+  },
+  {
+    "id": "ch3_q002",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.0",
+    "question": "Seeing well is important to safe driving.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, good vision is critical for safe driving. You need to see clearly to identify hazards, read signs, and respond to traffic conditions.",
+    "tags": ["vision", "safety", "physical fitness"],
+    "relatedTopics": ["Vision requirements", "Corrective lenses"],
+    "source": "Chapter 3, Section 3.0"
+  },
+  {
+    "id": "ch3_q003",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Which of the following is an effect of alcohol on driving ability?",
+    "options": [
+      {"id": "opt1", "text": "Improved reaction time", "isCorrect": false},
+      {"id": "opt2", "text": "Reduced reaction times and overconfidence", "isCorrect": true},
+      {"id": "opt3", "text": "Better coordination", "isCorrect": false},
+      {"id": "opt4", "text": "Enhanced judgment", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Alcohol causes relaxation, drowsiness, reduced reaction times, and overconfidence - all of which impair driving ability and increase crash risk.",
+    "tags": ["alcohol", "impairment", "DUI", "effects"],
+    "relatedTopics": ["Blood alcohol concentration", "Impaired driving"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q004",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Cannabis use can affect driving by causing:",
+    "options": [
+      {"id": "opt1", "text": "Improved attention and faster reactions", "isCorrect": false},
+      {"id": "opt2", "text": "Reduced attention, slower reactions, and drowsiness", "isCorrect": true},
+      {"id": "opt3", "text": "Better coordination", "isCorrect": false},
+      {"id": "opt4", "text": "Enhanced visual perception", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Research shows cannabis use reduces attention, slows reaction times, impairs coordination, and causes drowsiness - all dangerous for driving.",
+    "tags": ["cannabis", "marijuana", "impairment", "THC"],
+    "relatedTopics": ["Drug impairment", "THC limits"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q005",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "hard",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "What is the most common substance combination found in fatal crashes?",
+    "options": [
+      {"id": "opt1", "text": "Alcohol only", "isCorrect": false},
+      {"id": "opt2", "text": "Cannabis only", "isCorrect": false},
+      {"id": "opt3", "text": "Polydrug use (multiple substances)", "isCorrect": true},
+      {"id": "opt4", "text": "Prescription medications only", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt3",
+    "explanation": "Polydrug use (combining multiple substances like alcohol with cannabis or medications) is the most common finding in fatal crashes and greatly increases impairment.",
+    "tags": ["polydrug use", "substance abuse", "fatal crashes"],
+    "relatedTopics": ["Drug combinations", "Impairment levels"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q006",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "How many hours of sleep should adults get per night for safe driving?",
+    "options": [
+      {"id": "opt1", "text": "4-5 hours", "isCorrect": false},
+      {"id": "opt2", "text": "5-6 hours", "isCorrect": false},
+      {"id": "opt3", "text": "7-9 hours", "isCorrect": true},
+      {"id": "opt4", "text": "10-12 hours", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt3",
+    "explanation": "Adults need 7-9 hours of sleep per night to be alert and safe while driving. Less sleep increases the risk of fatigue-related crashes.",
+    "tags": ["fatigue", "sleep", "drowsy driving"],
+    "relatedTopics": ["Fatigue indicators", "Rest breaks"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q007",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "What are signs of driver fatigue?",
+    "options": [
+      {"id": "opt1", "text": "Loss of focus, heavy eyelids, lane drifting, missing exits", "isCorrect": true},
+      {"id": "opt2", "text": "Increased alertness and faster reactions", "isCorrect": false},
+      {"id": "opt3", "text": "Better concentration", "isCorrect": false},
+      {"id": "opt4", "text": "Enhanced vision", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Warning signs of fatigue include difficulty focusing, heavy eyelids, drifting from your lane, and missing traffic signs or exits. If you notice these, pull over and rest.",
+    "tags": ["fatigue", "drowsy driving", "warning signs"],
+    "relatedTopics": ["Rest stops", "Sleep requirements"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q008",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "When driving long distances, how often should you take breaks?",
+    "options": [
+      {"id": "opt1", "text": "Every 50 miles or 1 hour", "isCorrect": false},
+      {"id": "opt2", "text": "Every 100 miles or 2 hours", "isCorrect": true},
+      {"id": "opt3", "text": "Every 200 miles or 4 hours", "isCorrect": false},
+      {"id": "opt4", "text": "Breaks are not necessary", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "To prevent fatigue, take breaks every 100 miles or every 2 hours during long trips. This helps maintain alertness and reduces crash risk.",
+    "tags": ["fatigue prevention", "breaks", "long distance driving"],
+    "relatedTopics": ["Rest stops", "Driver fatigue"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q009",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Aggressive driving and road rage are the same thing.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "False. Aggressive driving is a traffic violation involving dangerous behaviors. Road rage is a criminal offense involving assault or threatening behavior toward other drivers.",
+    "tags": ["aggressive driving", "road rage", "definitions"],
+    "relatedTopics": ["Dangerous behaviors", "Criminal offenses"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q010",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "What should you do if another driver is showing signs of road rage toward you?",
+    "options": [
+      {"id": "opt1", "text": "Engage with them and defend yourself", "isCorrect": false},
+      {"id": "opt2", "text": "Avoid eye contact, create space, and report to police", "isCorrect": true},
+      {"id": "opt3", "text": "Follow them to get their license plate", "isCorrect": false},
+      {"id": "opt4", "text": "Speed up to get away quickly", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "If confronted by road rage, avoid eye contact, don't engage, create space, and report the incident to police. Your safety is the priority.",
+    "tags": ["road rage", "safety", "defensive driving"],
+    "relatedTopics": ["Conflict avoidance", "Emergency response"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q011",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.4",
+    "question": "Washington State has strict laws against:",
+    "options": [
+      {"id": "opt1", "text": "Eating while driving", "isCorrect": false},
+      {"id": "opt2", "text": "Distracted driving", "isCorrect": true},
+      {"id": "opt3", "text": "Listening to music", "isCorrect": false},
+      {"id": "opt4", "text": "Talking to passengers", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Washington State has strict laws against distracted driving, particularly prohibiting holding electronic devices while driving.",
+    "tags": ["distracted driving", "laws", "electronic devices"],
+    "relatedTopics": ["Cell phone use", "Texting while driving"],
+    "source": "Chapter 3, Section 3.4"
+  },
+  {
+    "id": "ch3_q012",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.4",
+    "question": "Holding an electronic device while driving is prohibited for all drivers in Washington State.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, Washington law prohibits all drivers from holding electronic devices while driving, regardless of age or license type.",
+    "tags": ["electronic devices", "distracted driving", "cell phones"],
+    "relatedTopics": ["Hands-free devices", "Legal restrictions"],
+    "source": "Chapter 3, Section 3.4"
+  },
+  {
+    "id": "ch3_q013",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.4",
+    "question": "What are the four types of distraction while driving?",
+    "options": [
+      {"id": "opt1", "text": "Visual, manual, cognitive, and auditory", "isCorrect": false},
+      {"id": "opt2", "text": "Internal, external, physical, and mental", "isCorrect": true},
+      {"id": "opt3", "text": "Phone, food, passengers, and radio", "isCorrect": false},
+      {"id": "opt4", "text": "Seeing, hearing, thinking, and moving", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "The four categories of distraction are internal (thoughts, emotions), external (outside events), physical (manual tasks), and mental (cognitive tasks).",
+    "tags": ["distraction", "attention", "categories"],
+    "relatedTopics": ["Cognitive load", "Multitasking"],
+    "source": "Chapter 3, Section 3.4"
+  },
+  {
+    "id": "ch3_q014",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "hard",
+    "chapter": 3,
+    "section": "3.2",
+    "question": "What does the OODA Loop stand for in driving decision-making?",
+    "options": [
+      {"id": "opt1", "text": "Order, Operate, Direct, Accelerate", "isCorrect": false},
+      {"id": "opt2", "text": "Observe, Orient, Decide, Act", "isCorrect": true},
+      {"id": "opt3", "text": "Overtake, Organize, Defend, Avoid", "isCorrect": false},
+      {"id": "opt4", "text": "Open, Observe, Decide, Adjust", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "The OODA Loop is a problem-solving framework: Observe the situation, Orient yourself to understand it, Decide on action, and Act on your decision.",
+    "tags": ["OODA loop", "decision-making", "problem-solving"],
+    "relatedTopics": ["Situational awareness", "Response strategies"],
+    "source": "Chapter 3, Section 3.2"
+  },
+  {
+    "id": "ch3_q015",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.5",
+    "question": "What are the four types of attention important for driving?",
+    "options": [
+      {"id": "opt1", "text": "Switching, divided, focused, and sustained", "isCorrect": true},
+      {"id": "opt2", "text": "Visual, auditory, tactile, and mental", "isCorrect": false},
+      {"id": "opt3", "text": "Forward, backward, left, and right", "isCorrect": false},
+      {"id": "opt4", "text": "Short, medium, long, and continuous", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "The four types of attention for safe driving are: switching (changing focus), divided (multiple tasks), focused (single target), and sustained (maintaining attention over time).",
+    "tags": ["attention", "focus", "awareness"],
+    "relatedTopics": ["Multitasking", "Concentration"],
+    "source": "Chapter 3, Section 3.5"
+  }
+]

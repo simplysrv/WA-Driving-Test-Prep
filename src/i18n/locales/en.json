@@ -1,0 +1,289 @@
+{
+  "nav": {
+    "home": "Home",
+    "chapters": "Chapters",
+    "study": "Study",
+    "practice": "Practice",
+    "test": "Test",
+    "progress": "Progress",
+    "bookmarks": "Bookmarks",
+    "appTitle": "WA Driving Test Prep",
+    "appTitleShort": "WA Test"
+  },
+  "home": {
+    "hero": {
+      "title": "Washington State",
+      "titleHighlight": "Driving Test Prep",
+      "subtitle": "Pass your WA driver's license knowledge test with confidence. Study, practice, and track your progress with our interactive learning platform.",
+      "startStudying": "Start Studying",
+      "takePracticeTest": "Take Practice Test",
+      "questionsCount": "Questions",
+      "chaptersCount": "Chapters",
+      "passScore": "Pass Score"
+    },
+    "features": {
+      "studyMode": {
+        "title": "Study Mode",
+        "description": "Learn with interactive flashcards covering all chapters"
+      },
+      "practiceMode": {
+        "title": "Practice Mode",
+        "description": "Practice questions with instant feedback and explanations"
+      },
+      "testSimulation": {
+        "title": "Test Simulation",
+        "description": "Take a 40-question test matching the real WA knowledge exam"
+      },
+      "trackProgress": {
+        "title": "Track Progress",
+        "description": "Monitor your performance and identify areas to improve"
+      },
+      "getStarted": "Get started"
+    },
+    "about": {
+      "title": "About the WA Knowledge Test",
+      "description": "The Washington State driver's knowledge test consists of <strong>40 multiple-choice questions</strong> covering traffic laws, road signs, and safe driving practices.",
+      "passRequirement": "✅ You must answer <strong>at least 32 questions correctly (80%)</strong> to pass.",
+      "materialsTitle": "Our comprehensive study materials cover all four chapters:",
+      "chapter1": "Licenses",
+      "chapter1Desc": "requirements, types, laws",
+      "chapter2": "Vehicles",
+      "chapter2Desc": "registration, maintenance, safety",
+      "chapter3": "Drivers",
+      "chapter3Desc": "impairment, distraction, decision-making",
+      "chapter4": "Roads",
+      "chapter4Desc": "sharing roads, traffic rules, right-of-way"
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Join thousands of Washington drivers who have passed their test with confidence!",
+      "button": "Begin Your Journey"
+    }
+  },
+  "study": {
+    "title": "Study Mode",
+    "subtitle": "Master the material with interactive flashcards",
+    "filterBy": "Filter by",
+    "all": "All",
+    "chapter": "Chapter",
+    "category": "Category",
+    "difficulty": "Difficulty",
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard",
+    "startStudying": "Start Studying",
+    "flipCard": "Flip Card",
+    "previous": "Previous",
+    "next": "Next",
+    "shuffle": "Shuffle",
+    "progress": "Progress",
+    "of": "of",
+    "questions": "questions"
+  },
+  "practice": {
+    "title": "Practice Mode",
+    "subtitle": "Test your knowledge with instant feedback",
+    "selectChapter": "Select Chapter",
+    "questionCount": "Number of Questions",
+    "startPractice": "Start Practice",
+    "questionNumber": "Question {{current}} of {{total}}",
+    "submit": "Submit Answer",
+    "next": "Next Question",
+    "showResults": "Show Results",
+    "correct": "Correct!",
+    "incorrect": "Incorrect",
+    "explanation": "Explanation",
+    "accuracy": "Accuracy"
+  },
+  "test": {
+    "title": "Washington State Knowledge Test Simulation",
+    "subtitle": "Experience the real test format before taking the actual exam",
+    "info": {
+      "title": "Test Information",
+      "questions": "Questions",
+      "questionsDesc": "{{count}} multiple-choice questions",
+      "passingScore": "Passing Score",
+      "passingScoreDesc": "32 out of 40 (80%)",
+      "time": "Time",
+      "timeDesc": "No time limit (real test: varies)",
+      "format": "Format",
+      "formatDesc": "Review at end, like real test"
+    },
+    "instructions": {
+      "title": "Test Instructions",
+      "item1": "Answer all 40 questions by selecting the best answer for each",
+      "item2": "You can change your answers before submitting",
+      "item3": "Review all questions before final submission",
+      "item4": "Results and explanations shown after submission",
+      "item5": "You need 32 correct answers (80%) to pass"
+    },
+    "tips": {
+      "title": "💡 Test Tips",
+      "tip1": "• Read each question carefully before selecting your answer",
+      "tip2": "• Don't rush - take your time to think through each question",
+      "tip3": "• If unsure, eliminate obviously wrong answers first",
+      "tip4": "• Trust your first instinct unless you find a clear mistake",
+      "tip5": "• Review all questions before submitting if time permits"
+    },
+    "startButton": "🚀 Start Test Simulation",
+    "questionProgress": "Question {{current}} of {{total}}",
+    "answered": "answered",
+    "remaining": "remaining",
+    "review": "Review",
+    "reviewAll": "Review All",
+    "previous": "Previous",
+    "submitTest": "Submit Test",
+    "backToTest": "Back to Test",
+    "complete": "Test Complete!",
+    "score": "You scored {{correct}} out of {{total}} ({{percentage}}%)"
+  },
+  "results": {
+    "title": "Quiz Complete!",
+    "congratulations": "🎉 Congratulations!",
+    "tryAgain": "Keep studying and try again!",
+    "grade": "Your Grade",
+    "excellent": "Excellent!",
+    "goodJob": "Good Job!",
+    "notBad": "Not Bad",
+    "keepTrying": "Keep Trying",
+    "needsImprovement": "Needs Improvement",
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "timeTaken": "Time Taken",
+    "tryAgainButton": "Try Again",
+    "reviewIncorrect": "Review Incorrect",
+    "viewProgress": "View Progress",
+    "backHome": "Back Home",
+    "passed": "🎊 You passed! You're ready for the real Washington State knowledge test!",
+    "passReminder": "Remember: You need 32 out of 40 (80%) to pass the actual exam."
+  },
+  "progress": {
+    "title": "Your Progress",
+    "subtitle": "Track your learning journey and stay motivated",
+    "totalQuestions": "Total Questions",
+    "bookmarked": "Bookmarked",
+    "passScore": "Pass Score",
+    "chapterProgress": "Study Progress by Chapter",
+    "readyToContinue": "Ready to Continue?",
+    "studyMode": "Study Mode",
+    "practice": "Practice",
+    "takeTest": "Take Test",
+    "achievements": "Achievements",
+    "achievement1": {
+      "title": "First Steps",
+      "desc": "Complete your first quiz"
+    },
+    "achievement2": {
+      "title": "Bookworm",
+      "desc": "Bookmark 10 questions"
+    },
+    "achievement3": {
+      "title": "Perfect Score",
+      "desc": "Get 100% on a practice quiz"
+    },
+    "achievement4": {
+      "title": "Test Ready",
+      "desc": "Pass the 40-question test"
+    }
+  },
+  "bookmarks": {
+    "title": "Bookmarked Questions",
+    "subtitle": "Save questions for later review",
+    "empty": {
+      "title": "No Bookmarks Yet",
+      "description": "Start bookmarking questions while studying or practicing to save them for later review.",
+      "startStudying": "Start Studying",
+      "practiceQuestions": "Practice Questions"
+    },
+    "count": "You have {{count}} bookmarked question",
+    "countPlural": "You have {{count}} bookmarked questions",
+    "filterBy": "Filter by Category",
+    "all": "All",
+    "removeBookmark": "Remove bookmark",
+    "answer": "Answer:",
+    "studyButton": "Study These {{count}} Question",
+    "studyButtonPlural": "Study These {{count}} Questions",
+    "noQuestionsInCategory": "No bookmarked questions in this category"
+  },
+  "chapters": {
+    "title": "Study by Chapter",
+    "subtitle": "Learn the Washington State Driver Guide organized by chapter",
+    "chapter1": {
+      "title": "Licenses",
+      "description": "Licensing process, types, requirements, DUI laws, and violations",
+      "topics": ["REAL ID", "License types", "Knowledge test", "DUI laws", "License suspension"]
+    },
+    "chapter2": {
+      "title": "Vehicles",
+      "description": "Registration, maintenance, safety features, and occupant protection",
+      "topics": ["Insurance", "Headlights", "Seat belts", "Child safety seats", "ADAS"]
+    },
+    "chapter3": {
+      "title": "Drivers",
+      "description": "Impairment, distraction, decision-making, and safe driving behaviors",
+      "topics": ["Alcohol/drug effects", "Fatigue", "Distracted driving", "Road rage", "OODA loop"]
+    },
+    "chapter4": {
+      "title": "Roads",
+      "description": "Sharing roads, traffic rules, right-of-way, and emergency procedures",
+      "topics": ["Pedestrians", "Right-of-way", "Traffic signals", "Parking", "Emergency vehicles"]
+    },
+    "questionsAvailable": "{{count}} questions available",
+    "keyTopics": "Key Topics:",
+    "study": "Study",
+    "practice": "Practice",
+    "about": {
+      "title": "📖 About the WA Driver Guide",
+      "description": "The Washington State Driver Guide is your official resource for learning the rules of the road. All questions on the knowledge test are based on these four chapters. Study each chapter thoroughly to ensure you're prepared for your driver's license exam."
+    }
+  },
+  "review": {
+    "title": "Review Mode",
+    "subtitle": "Practice the questions you got wrong to improve your knowledge",
+    "howItWorks": "How Review Mode Works",
+    "description": "After completing quizzes in Practice Mode, any questions you answer incorrectly are automatically tracked. You can then review these specific questions to focus your studying on areas that need improvement.",
+    "steps": {
+      "title": "To use Review Mode:",
+      "step1": "Complete some quizzes in Practice Mode",
+      "step2": "Any incorrect answers will be tracked automatically",
+      "step3": "Return here to review only your incorrect questions",
+      "step4": "Master the material and improve your accuracy!"
+    },
+    "startPractice": "Start Practice Mode",
+    "studyFlashcards": "Study Flashcards",
+    "tips": {
+      "title": "💡 Study Tips",
+      "tip1": "• Focus on understanding the \"why\" behind each answer",
+      "tip2": "• Review the explanations carefully for incorrect answers",
+      "tip3": "• Use bookmarks to save particularly challenging questions",
+      "tip4": "• Practice consistently to build long-term retention",
+      "tip5": "• Take breaks between study sessions to avoid fatigue"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "continue": "Continue",
+    "finish": "Finish",
+    "bookmark": "Bookmark",
+    "bookmarked": "Bookmarked",
+    "source": "Source",
+    "chapter": "Chapter",
+    "category": "Category",
+    "difficulty": "Difficulty",
+    "question": "Question",
+    "answer": "Answer",
+    "explanation": "Explanation"
+  },
+  "footer": {
+    "disclaimer": "Unofficial practice tool. Please refer to official WA DOL materials for your exam.",
+    "officialGuide": "Official WA Driver Guide",
+    "dolWebsite": "WA DOL Website"
+  }
+}

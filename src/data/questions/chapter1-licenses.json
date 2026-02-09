@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ch1_q001",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.6",
+    "question": "What is the difference between a standard Washington driver license and a REAL ID?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "REAL ID can be used for federal purposes like boarding domestic flights",
+        "isCorrect": true
+      },
+      {
+        "id": "opt2",
+        "text": "REAL ID allows you to drive commercial vehicles",
+        "isCorrect": false
+      },
+      {
+        "id": "opt3",
+        "text": "Standard licenses cost more than REAL ID",
+        "isCorrect": false
+      },
+      {
+        "id": "opt4",
+        "text": "There is no difference between them",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "A REAL ID complies with federal requirements and can be used for boarding domestic flights and entering federal facilities. A standard license cannot be used for these federal purposes.",
+    "tags": ["REAL ID", "license types", "identification"],
+    "relatedTopics": ["Enhanced Driver License", "Federal compliance"],
+    "source": "Chapter 1, Section 1.6"
+  },
+  {
+    "id": "ch1_q002",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "What is the legal blood alcohol concentration (BAC) limit for drivers 21 years old and older in Washington State?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "0.02%",
+        "isCorrect": false
+      },
+      {
+        "id": "opt2",
+        "text": "0.05%",
+        "isCorrect": false
+      },
+      {
+        "id": "opt3",
+        "text": "0.08%",
+        "isCorrect": true
+      },
+      {
+        "id": "opt4",
+        "text": "0.10%",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswerId": "opt3",
+    "explanation": "In Washington State, it is illegal to drive with a BAC of 0.08% or more for drivers 21 years and older. Lower limits apply to drivers under 21 and commercial drivers.",
+    "tags": ["DUI", "BAC", "alcohol", "legal limits"],
+    "relatedTopics": ["DUI penalties", "Implied consent law"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q003",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "What is the THC blood concentration limit for adult drivers in Washington State?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "2.00 nanograms per milliliter",
+        "isCorrect": false
+      },
+      {
+        "id": "opt2",
+        "text": "5.00 nanograms per milliliter",
+        "isCorrect": true
+      },
+      {
+        "id": "opt3",
+        "text": "8.00 nanograms per milliliter",
+        "isCorrect": false
+      },
+      {
+        "id": "opt4",
+        "text": "There is no legal limit",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "It is illegal to drive with a THC concentration of 5.00 ng/mL or more for adult drivers in Washington State.",
+    "tags": ["THC", "marijuana", "cannabis", "impaired driving"],
+    "relatedTopics": ["DUI laws", "Drug impairment"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q004",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "You can apply for a Washington driver's license online using License Express.",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "True",
+        "isCorrect": true
+      },
+      {
+        "id": "opt2",
+        "text": "False",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, Washington State offers License Express, an online platform where eligible applicants can apply for driver's licenses and complete other licensing services.",
+    "tags": ["License Express", "online services", "application process"],
+    "relatedTopics": ["DOL services", "License acquisition"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q005",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "How many correct answers are required to pass the Washington State knowledge test?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "28 out of 40 (70%)",
+        "isCorrect": false
+      },
+      {
+        "id": "opt2",
+        "text": "30 out of 40 (75%)",
+        "isCorrect": false
+      },
+      {
+        "id": "opt3",
+        "text": "32 out of 40 (80%)",
+        "isCorrect": true
+      },
+      {
+        "id": "opt4",
+        "text": "36 out of 40 (90%)",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswerId": "opt3",
+    "explanation": "The Washington State knowledge test consists of 40 multiple-choice questions. You must answer at least 32 questions correctly (80%) to pass.",
+    "tags": ["knowledge test", "passing score", "test requirements"],
+    "relatedTopics": ["Driver examination", "License requirements"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q006",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "hard",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "What does Washington State's 'implied consent law' mean?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "You automatically agree to be searched by police",
+        "isCorrect": false
+      },
+      {
+        "id": "opt2",
+        "text": "You consent to alcohol/drug testing when operating a vehicle",
+        "isCorrect": true
+      },
+      {
+        "id": "opt3",
+        "text": "You agree to follow all traffic laws",
+        "isCorrect": false
+      },
+      {
+        "id": "opt4",
+        "text": "You consent to vehicle inspections at any time",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Washington's implied consent law means that by driving on public roads, you automatically consent to alcohol and drug testing if law enforcement has reasonable grounds to believe you are impaired. Refusing the test results in license suspension.",
+    "tags": ["implied consent", "DUI", "testing", "legal requirements"],
+    "relatedTopics": ["DUI enforcement", "License suspension"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q007",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.5",
+    "question": "If you are a new resident of Washington State and are 18 or older, how long do you have to get a Washington driver license?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "15 days",
+        "isCorrect": false
+      },
+      {
+        "id": "opt2",
+        "text": "30 days",
+        "isCorrect": true
+      },
+      {
+        "id": "opt3",
+        "text": "60 days",
+        "isCorrect": false
+      },
+      {
+        "id": "opt4",
+        "text": "90 days",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "New Washington residents who are 18 or older must obtain a Washington driver license within 30 days of establishing residency.",
+    "tags": ["new residents", "residency requirements", "time limits"],
+    "relatedTopics": ["License transfer", "Residency criteria"],
+    "source": "Chapter 1, Section 1.5"
+  },
+  {
+    "id": "ch1_q008",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.9",
+    "question": "You can indicate your wish to be an organ donor on your Washington driver license.",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "True",
+        "isCorrect": true
+      },
+      {
+        "id": "opt2",
+        "text": "False",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, Washington State allows you to register as an organ donor and this information can be indicated on your driver license.",
+    "tags": ["organ donation", "license features", "health designations"],
+    "relatedTopics": ["Medical designations", "License options"],
+    "source": "Chapter 1, Section 1.9"
+  },
+  {
+    "id": "ch1_q009",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "What is prohibited under Washington State's open container law?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Having any alcohol in the vehicle",
+        "isCorrect": false
+      },
+      {
+        "id": "opt2",
+        "text": "Having an open container of alcohol in the passenger area",
+        "isCorrect": true
+      },
+      {
+        "id": "opt3",
+        "text": "Transporting alcohol in your trunk",
+        "isCorrect": false
+      },
+      {
+        "id": "opt4",
+        "text": "Drinking alcohol 24 hours before driving",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Washington's open container statute prohibits having an open container of alcohol in the passenger area of a vehicle. Sealed containers and containers in the trunk are generally allowed.",
+    "tags": ["open container", "alcohol laws", "vehicle regulations"],
+    "relatedTopics": ["DUI prevention", "Alcohol restrictions"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q010",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "What must you do before taking the driving skills exam in Washington?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Complete a driver training course only",
+        "isCorrect": false
+      },
+      {
+        "id": "opt2",
+        "text": "Pass the knowledge exam and have an instruction permit",
+        "isCorrect": true
+      },
+      {
+        "id": "opt3",
+        "text": "Turn 18 years old",
+        "isCorrect": false
+      },
+      {
+        "id": "opt4",
+        "text": "Own a vehicle",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Before taking the driving skills exam, you must pass the knowledge exam and obtain an instruction permit. Additional requirements like practice hours and training may apply depending on your age.",
+    "tags": ["driving skills exam", "instruction permit", "test requirements"],
+    "relatedTopics": ["License acquisition process", "Knowledge exam"],
+    "source": "Chapter 1, Section 1.8"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:dol.wa.gov)",
+      "WebFetch(domain:www.dol.wa.gov)",
+      "Bash(npm create:*)"
+    ]
+  }
+}

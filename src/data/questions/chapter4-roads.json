@@ -1,0 +1,396 @@
+[
+  {
+    "id": "ch4_q001",
+    "type": "true_false",
+    "category": "roads",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.0",
+    "question": "Courtesy, respect, and awareness of others form the foundation of safe road sharing.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, courtesy, respect, and awareness are fundamental to safely sharing the road with all users including drivers, pedestrians, and cyclists.",
+    "tags": ["road sharing", "courtesy", "safety"],
+    "relatedTopics": ["Defensive driving", "Road etiquette"],
+    "source": "Chapter 4, Section 4.0"
+  },
+  {
+    "id": "ch4_q002",
+    "type": "true_false",
+    "category": "roads",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.1",
+    "question": "You must always yield to pedestrians at crosswalks and intersections.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, drivers must always yield the right-of-way to pedestrians at crosswalks and intersections, whether marked or unmarked.",
+    "tags": ["pedestrians", "right-of-way", "crosswalks"],
+    "relatedTopics": ["Pedestrian safety", "Yielding"],
+    "source": "Chapter 4, Section 4.1"
+  },
+  {
+    "id": "ch4_q003",
+    "type": "multiple_choice",
+    "category": "roads",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.1",
+    "question": "Before proceeding after a pedestrian crosses, you must wait until the pedestrian has cleared:",
+    "options": [
+      {"id": "opt1", "text": "Your lane only", "isCorrect": false},
+      {"id": "opt2", "text": "Your lane and 1 additional lane", "isCorrect": true},
+      {"id": "opt3", "text": "Your lane and 2 additional lanes", "isCorrect": false},
+      {"id": "opt4", "text": "The entire roadway", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You must wait until the pedestrian has cleared your lane and one additional lane before proceeding. This ensures adequate safety distance.",
+    "tags": ["pedestrians", "crosswalks", "safety distance"],
+    "relatedTopics": ["Right-of-way", "Pedestrian protection"],
+    "source": "Chapter 4, Section 4.1"
+  },
+  {
+    "id": "ch4_q004",
+    "type": "multiple_choice",
+    "category": "roads",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.1",
+    "question": "When should you give special consideration to pedestrians?",
+    "options": [
+      {"id": "opt1", "text": "Only during daylight hours", "isCorrect": false},
+      {"id": "opt2", "text": "When they use wheelchair, cane, guide dog, or service animal", "isCorrect": true},
+      {"id": "opt3", "text": "Only at marked crosswalks", "isCorrect": false},
+      {"id": "opt4", "text": "Only in residential areas", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Extra care should be taken for pedestrians using wheelchairs, canes, guide dogs, or other service animals as they may need more time or have limited mobility.",
+    "tags": ["pedestrians", "accessibility", "special needs"],
+    "relatedTopics": ["Service animals", "Mobility aids"],
+    "source": "Chapter 4, Section 4.1"
+  },
+  {
+    "id": "ch4_q005",
+    "type": "true_false",
+    "category": "roads",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.1",
+    "question": "You can cross into oncoming traffic to pass a pedestrian or cyclist if it's safe.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "False. You are prohibited from crossing into oncoming traffic to pass pedestrians or cyclists. You must wait for a safe opportunity to pass.",
+    "tags": ["passing", "pedestrians", "cyclists", "traffic rules"],
+    "relatedTopics": ["Safe passing distance", "Vulnerable road users"],
+    "source": "Chapter 4, Section 4.1"
+  },
+  {
+    "id": "ch4_q006",
+    "type": "multiple_choice",
+    "category": "right_of_way",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.5",
+    "question": "At a four-way stop, who has the right-of-way?",
+    "options": [
+      {"id": "opt1", "text": "The largest vehicle", "isCorrect": false},
+      {"id": "opt2", "text": "The vehicle that arrived first", "isCorrect": true},
+      {"id": "opt3", "text": "The vehicle on the right always", "isCorrect": false},
+      {"id": "opt4", "text": "The vehicle traveling straight", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "At a four-way stop, the vehicle that arrives first has the right-of-way. If two vehicles arrive at the same time, the vehicle on the right goes first.",
+    "tags": ["four-way stop", "right-of-way", "intersections"],
+    "relatedTopics": ["Stop signs", "Intersection rules"],
+    "source": "Chapter 4, Section 4.5"
+  },
+  {
+    "id": "ch4_q007",
+    "type": "multiple_choice",
+    "category": "right_of_way",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.6",
+    "question": "When turning left, you must yield to:",
+    "options": [
+      {"id": "opt1", "text": "Oncoming traffic and pedestrians", "isCorrect": true},
+      {"id": "opt2", "text": "Only vehicles behind you", "isCorrect": false},
+      {"id": "opt3", "text": "No one if you have a green light", "isCorrect": false},
+      {"id": "opt4", "text": "Only pedestrians", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "When turning left, you must yield to oncoming traffic and pedestrians crossing the road you're entering, even if you have a green light.",
+    "tags": ["left turns", "yielding", "right-of-way"],
+    "relatedTopics": ["Green lights", "Intersection safety"],
+    "source": "Chapter 4, Section 4.6"
+  },
+  {
+    "id": "ch4_q008",
+    "type": "multiple_choice",
+    "category": "traffic_signals",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.7",
+    "question": "A flashing yellow traffic light means:",
+    "options": [
+      {"id": "opt1", "text": "Stop completely", "isCorrect": false},
+      {"id": "opt2", "text": "Proceed with caution", "isCorrect": true},
+      {"id": "opt3", "text": "Speed up to clear the intersection", "isCorrect": false},
+      {"id": "opt4", "text": "Yield to all traffic", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "A flashing yellow light means proceed with caution. Slow down and be prepared to stop if necessary.",
+    "tags": ["traffic signals", "yellow light", "caution"],
+    "relatedTopics": ["Signal meanings", "Intersection safety"],
+    "source": "Chapter 4, Section 4.7"
+  },
+  {
+    "id": "ch4_q009",
+    "type": "multiple_choice",
+    "category": "traffic_signals",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.7",
+    "question": "A flashing red traffic light means:",
+    "options": [
+      {"id": "opt1", "text": "Slow down and proceed with caution", "isCorrect": false},
+      {"id": "opt2", "text": "Treat it as a stop sign", "isCorrect": true},
+      {"id": "opt3", "text": "The light is broken, proceed normally", "isCorrect": false},
+      {"id": "opt4", "text": "Yield to traffic from the right only", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "A flashing red light means come to a complete stop, then proceed when safe, treating it like a stop sign.",
+    "tags": ["traffic signals", "red light", "stop"],
+    "relatedTopics": ["Stop signs", "Intersection rules"],
+    "source": "Chapter 4, Section 4.7"
+  },
+  {
+    "id": "ch4_q010",
+    "type": "multiple_choice",
+    "category": "parking",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.10",
+    "question": "When parking on a hill facing uphill with a curb, which way should you turn your wheels?",
+    "options": [
+      {"id": "opt1", "text": "Away from the curb", "isCorrect": true},
+      {"id": "opt2", "text": "Toward the curb", "isCorrect": false},
+      {"id": "opt3", "text": "Straight ahead", "isCorrect": false},
+      {"id": "opt4", "text": "Either direction is fine", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "When parking uphill with a curb, turn your wheels away from the curb. If the car rolls, the back of the tire will catch on the curb.",
+    "tags": ["parking", "hill parking", "wheel position"],
+    "relatedTopics": ["Downhill parking", "Parking safety"],
+    "source": "Chapter 4, Section 4.10"
+  },
+  {
+    "id": "ch4_q011",
+    "type": "multiple_choice",
+    "category": "parking",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.10",
+    "question": "How far from a fire hydrant must you park?",
+    "options": [
+      {"id": "opt1", "text": "5 feet", "isCorrect": false},
+      {"id": "opt2", "text": "10 feet", "isCorrect": false},
+      {"id": "opt3", "text": "15 feet", "isCorrect": true},
+      {"id": "opt4", "text": "20 feet", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt3",
+    "explanation": "You must park at least 15 feet away from a fire hydrant to allow access for emergency vehicles.",
+    "tags": ["parking", "fire hydrants", "distance"],
+    "relatedTopics": ["Parking restrictions", "Emergency access"],
+    "source": "Chapter 4, Section 4.10"
+  },
+  {
+    "id": "ch4_q012",
+    "type": "multiple_choice",
+    "category": "roads",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.8",
+    "question": "What is the proper hand signal for a left turn?",
+    "options": [
+      {"id": "opt1", "text": "Arm extended straight out", "isCorrect": true},
+      {"id": "opt2", "text": "Arm bent upward at 90 degrees", "isCorrect": false},
+      {"id": "opt3", "text": "Arm bent downward at 90 degrees", "isCorrect": false},
+      {"id": "opt4", "text": "Waving motion", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "To signal a left turn, extend your left arm straight out horizontally from your window.",
+    "tags": ["hand signals", "left turn", "communication"],
+    "relatedTopics": ["Right turn signal", "Stop signal"],
+    "source": "Chapter 4, Section 4.8"
+  },
+  {
+    "id": "ch4_q013",
+    "type": "multiple_choice",
+    "category": "roads",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.8",
+    "question": "What is the proper hand signal for a right turn?",
+    "options": [
+      {"id": "opt1", "text": "Arm extended straight out", "isCorrect": false},
+      {"id": "opt2", "text": "Arm bent upward at 90 degrees", "isCorrect": true},
+      {"id": "opt3", "text": "Arm bent downward at 90 degrees", "isCorrect": false},
+      {"id": "opt4", "text": "Pointing to the right", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "To signal a right turn, extend your left arm out and bend it upward at a 90-degree angle.",
+    "tags": ["hand signals", "right turn", "communication"],
+    "relatedTopics": ["Left turn signal", "Stop signal"],
+    "source": "Chapter 4, Section 4.8"
+  },
+  {
+    "id": "ch4_q014",
+    "type": "multiple_choice",
+    "category": "roads",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.9",
+    "question": "When must you use your turn signal?",
+    "options": [
+      {"id": "opt1", "text": "Only when other vehicles are present", "isCorrect": false},
+      {"id": "opt2", "text": "At least 100 feet before turning or changing lanes", "isCorrect": true},
+      {"id": "opt3", "text": "Only on highways", "isCorrect": false},
+      {"id": "opt4", "text": "Only at intersections", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You must signal at least 100 feet before turning or changing lanes to give other drivers adequate warning of your intentions.",
+    "tags": ["turn signals", "signaling", "communication"],
+    "relatedTopics": ["Lane changes", "Turns"],
+    "source": "Chapter 4, Section 4.9"
+  },
+  {
+    "id": "ch4_q015",
+    "type": "multiple_choice",
+    "category": "emergencies",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.12",
+    "question": "When an emergency vehicle with lights and sirens approaches, you should:",
+    "options": [
+      {"id": "opt1", "text": "Speed up to get out of the way", "isCorrect": false},
+      {"id": "opt2", "text": "Pull to the right and stop", "isCorrect": true},
+      {"id": "opt3", "text": "Continue at your current speed", "isCorrect": false},
+      {"id": "opt4", "text": "Move to the left lane", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "When an emergency vehicle with lights and sirens is approaching, you must pull to the right side of the road and stop until it passes.",
+    "tags": ["emergency vehicles", "right-of-way", "safety"],
+    "relatedTopics": ["Sirens", "Emergency response"],
+    "source": "Chapter 4, Section 4.12"
+  },
+  {
+    "id": "ch4_q016",
+    "type": "multiple_choice",
+    "category": "roads",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.11",
+    "question": "When driving in fog, you should:",
+    "options": [
+      {"id": "opt1", "text": "Use high beam headlights", "isCorrect": false},
+      {"id": "opt2", "text": "Use low beam headlights and reduce speed", "isCorrect": true},
+      {"id": "opt3", "text": "Turn off all lights", "isCorrect": false},
+      {"id": "opt4", "text": "Drive faster to get through it quickly", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "In fog, use low beam headlights (high beams reflect back and reduce visibility) and reduce your speed to maintain safe control.",
+    "tags": ["fog", "visibility", "weather conditions"],
+    "relatedTopics": ["Adverse weather", "Low visibility driving"],
+    "source": "Chapter 4, Section 4.11"
+  },
+  {
+    "id": "ch4_q017",
+    "type": "multiple_choice",
+    "category": "roads",
+    "difficulty": "hard",
+    "chapter": 4,
+    "section": "4.13",
+    "question": "What should you do if your vehicle starts to hydroplane?",
+    "options": [
+      {"id": "opt1", "text": "Brake hard immediately", "isCorrect": false},
+      {"id": "opt2", "text": "Ease off the gas and steer straight", "isCorrect": true},
+      {"id": "opt3", "text": "Accelerate to regain traction", "isCorrect": false},
+      {"id": "opt4", "text": "Turn the steering wheel sharply", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "If hydroplaning occurs, ease off the accelerator and keep the steering wheel straight until you regain traction. Avoid sudden braking or steering.",
+    "tags": ["hydroplaning", "wet roads", "emergency handling"],
+    "relatedTopics": ["Wet weather driving", "Traction loss"],
+    "source": "Chapter 4, Section 4.13"
+  },
+  {
+    "id": "ch4_q018",
+    "type": "multiple_choice",
+    "category": "roads",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.14",
+    "question": "The basic speed law means:",
+    "options": [
+      {"id": "opt1", "text": "You can always drive the posted speed limit", "isCorrect": false},
+      {"id": "opt2", "text": "You must drive at a speed reasonable and prudent for conditions", "isCorrect": true},
+      {"id": "opt3", "text": "You must drive at least the minimum speed", "isCorrect": false},
+      {"id": "opt4", "text": "Speed limits don't apply in emergencies", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "The basic speed law requires you to drive at a speed that is reasonable and prudent for current conditions, which may be slower than the posted limit.",
+    "tags": ["speed limits", "basic speed law", "conditions"],
+    "relatedTopics": ["Posted limits", "Safe speed"],
+    "source": "Chapter 4, Section 4.14"
+  },
+  {
+    "id": "ch4_q019",
+    "type": "multiple_choice",
+    "category": "roads",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.15",
+    "question": "What does a yellow school bus with flashing red lights mean?",
+    "options": [
+      {"id": "opt1", "text": "Proceed with caution", "isCorrect": false},
+      {"id": "opt2", "text": "Stop and remain stopped until lights stop flashing", "isCorrect": true},
+      {"id": "opt3", "text": "Slow down but you may pass", "isCorrect": false},
+      {"id": "opt4", "text": "Only stop if on the same side of the road", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "When a school bus displays flashing red lights, all traffic in both directions must stop and remain stopped until the lights stop flashing and children are safely off the road.",
+    "tags": ["school buses", "children", "safety"],
+    "relatedTopics": ["School zones", "Stop requirements"],
+    "source": "Chapter 4, Section 4.15"
+  },
+  {
+    "id": "ch4_q020",
+    "type": "multiple_choice",
+    "category": "roads",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.16",
+    "question": "When can you pass another vehicle on the right?",
+    "options": [
+      {"id": "opt1", "text": "Never", "isCorrect": false},
+      {"id": "opt2", "text": "When the vehicle ahead is making a left turn and there's room", "isCorrect": true},
+      {"id": "opt3", "text": "Anytime on a multi-lane highway", "isCorrect": false},
+      {"id": "opt4", "text": "Only on one-way streets", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You may pass on the right when the vehicle ahead is turning left and there is sufficient room to pass safely on the right side.",
+    "tags": ["passing", "right side", "left turns"],
+    "relatedTopics": ["Passing rules", "Safe passing"],
+    "source": "Chapter 4, Section 4.16"
+  }
+]

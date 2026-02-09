@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer components {
+  /* Custom scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-gray-100 rounded;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 rounded hover:bg-gray-400;
+  }
+
+  /* Focus styles for accessibility */
+  .focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+
+  /* Card base style */
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6 border border-gray-200;
+  }
+
+  /* Button base styles - Polished design */
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed;
+    @apply shadow-sm hover:shadow-md active:shadow-sm;
+    @apply transform hover:-translate-y-0.5 active:translate-y-0;
+    @apply relative overflow-hidden;
+  }
+
+  .btn:focus {
+    @apply outline-none ring-2 ring-primary-500 ring-offset-2;
+  }
+
+  /* Primary button - Gradient with enhanced depth */
+  .btn-primary {
+    @apply bg-gradient-to-br from-primary-500 to-primary-700 text-white;
+    @apply shadow-lg shadow-primary-500/30 hover:shadow-xl hover:shadow-primary-500/40;
+    @apply border border-primary-400;
+    @apply hover:brightness-110 active:brightness-90;
+  }
+
+  /* Secondary button - Subtle gradient with border */
+  .btn-secondary {
+    @apply bg-gradient-to-br from-gray-50 to-gray-100 text-gray-800;
+    @apply border-2 border-gray-300 hover:border-gray-400;
+    @apply shadow-sm hover:shadow-md;
+    @apply hover:brightness-105 active:brightness-95;
+  }
+
+  /* Success button - Green gradient */
+  .btn-success {
+    @apply bg-gradient-to-br from-success-500 to-success-700 text-white;
+    @apply shadow-lg shadow-success-500/30 hover:shadow-xl hover:shadow-success-500/40;
+    @apply border border-success-400;
+    @apply hover:brightness-110 active:brightness-90;
+  }
+
+  /* Error button - Red gradient */
+  .btn-error {
+    @apply bg-gradient-to-br from-error-500 to-error-700 text-white;
+    @apply shadow-lg shadow-error-500/30 hover:shadow-xl hover:shadow-error-500/40;
+    @apply border border-error-400;
+    @apply hover:brightness-110 active:brightness-90;
+  }
+
+  /* Warning button - Orange gradient */
+  .btn-warning {
+    @apply bg-gradient-to-br from-orange-500 to-orange-700 text-white;
+    @apply shadow-lg shadow-orange-500/30 hover:shadow-xl hover:shadow-orange-500/40;
+    @apply border border-orange-400;
+    @apply hover:brightness-110 active:brightness-90;
+  }
+
+  /* Purple button variant - For special actions */
+  .btn-purple {
+    @apply bg-gradient-to-br from-purple-500 to-purple-700 text-white;
+    @apply shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-purple-500/40;
+    @apply border border-purple-400;
+    @apply hover:brightness-110 active:brightness-90;
+  }
+
+  /* Icon button variant - Compact with better touch target */
+  .btn-icon {
+    @apply p-2.5 rounded-lg transition-all duration-200;
+    @apply hover:-translate-y-0.5 active:translate-y-0;
+    @apply shadow-sm hover:shadow-md;
+  }
+
+  /* Large button variant - For primary CTAs */
+  .btn-lg {
+    @apply px-6 py-3.5 text-lg font-semibold rounded-xl;
+    @apply shadow-xl hover:shadow-2xl;
+  }
+
+  /* Ghost button variant - Minimal with border */
+  .btn-ghost {
+    @apply bg-transparent border-2 border-current;
+    @apply hover:bg-gray-50 active:bg-gray-100;
+  }
+}
+
+@layer utilities {
+  /* Animation utilities */
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  /* Text ellipsis for multiple lines */
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
