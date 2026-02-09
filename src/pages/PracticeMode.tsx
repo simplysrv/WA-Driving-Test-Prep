@@ -202,7 +202,7 @@ const PracticeMode = () => {
             <div>
               <h3 className="text-sm font-semibold text-gray-700 mb-3">Chapters</h3>
               <div className="flex flex-wrap gap-2">
-                {[1, 2, 3, 4].map(chapter => (
+                {[1, 2, 3, 4, 5].map(chapter => (
                   <button
                     key={chapter}
                     onClick={() => handleChapterToggle(chapter)}

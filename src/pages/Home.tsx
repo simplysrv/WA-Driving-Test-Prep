@@ -80,11 +80,11 @@ const Home = () => {
         {/* Stats bar */}
         <div className="grid grid-cols-3 gap-4 max-w-2xl mx-auto mt-12 pt-8 border-t border-gray-200">
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary-600">60+</div>
+            <div className="text-3xl font-bold text-primary-600">85+</div>
             <div className="text-sm text-gray-600 mt-1">{t('home.hero.questionsCount')}</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-purple-600">4</div>
+            <div className="text-3xl font-bold text-purple-600">5</div>
             <div className="text-sm text-gray-600 mt-1">{t('home.hero.chaptersCount')}</div>
           </div>
           <div className="text-center">
@@ -168,6 +168,7 @@ const Home = () => {
                       { num: 2, titleKey: 'home.about.chapter2', descKey: 'home.about.chapter2Desc', color: 'green' },
                       { num: 3, titleKey: 'home.about.chapter3', descKey: 'home.about.chapter3Desc', color: 'purple' },
                       { num: 4, titleKey: 'home.about.chapter4', descKey: 'home.about.chapter4Desc', color: 'orange' },
+                      { num: 5, titleKey: 'home.about.chapter5', descKey: 'home.about.chapter5Desc', color: 'red' },
                     ].map((chapter) => (
                       <div key={chapter.num} className="bg-white/80 backdrop-blur rounded-lg p-3 border border-gray-200 hover:border-primary-300 transition-colors">
                         <div className="flex items-start gap-3">

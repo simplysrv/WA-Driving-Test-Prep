@@ -68,6 +68,7 @@ const Progress = () => {
             { chapter: 2, title: 'Vehicles', questions: 15, color: 'green' },
             { chapter: 3, title: 'Drivers', questions: 15, color: 'purple' },
             { chapter: 4, title: 'Roads', questions: 20, color: 'orange' },
+            { chapter: 5, title: 'Hazards', questions: 25, color: 'red' },
           ].map(({ chapter, title, questions, color }) => (
             <div key={chapter} className="space-y-2">
               <div className="flex justify-between items-center">

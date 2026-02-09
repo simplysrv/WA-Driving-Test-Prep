@@ -34,6 +34,13 @@ const ChapterList = () => {
       topics: ['Pedestrians', 'Right-of-way', 'Traffic signals', 'Parking', 'Emergency vehicles'],
       color: 'from-orange-500 to-orange-600',
     },
+    {
+      number: 5,
+      title: 'Hazards',
+      description: 'Weather hazards, road conditions, wildlife, mechanical failures, and emergency procedures',
+      topics: ['Weather conditions', 'Hydroplaning', 'Black ice', 'Wildlife', 'Brake failure', 'Tire blowout', 'Emergency stops', 'Visibility issues'],
+      color: 'from-red-500 to-red-600',
+    },
   ]
 
   return (
@@ -119,7 +126,7 @@ const ChapterList = () => {
         <h3 className="font-bold text-blue-900 mb-2">📖 About the WA Driver Guide</h3>
         <p className="text-blue-800 text-sm">
           The Washington State Driver Guide is your official resource for learning the rules of the road.
-          All questions on the knowledge test are based on these four chapters. Study each chapter thoroughly
+          All questions on the knowledge test are based on these five chapters. Study each chapter thoroughly
           to ensure you're prepared for your driver's license exam.
         </p>
       </div>

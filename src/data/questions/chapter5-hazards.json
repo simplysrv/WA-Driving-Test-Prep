@@ -1,0 +1,1180 @@
+[
+  {
+    "id": "ch5-001",
+    "type": "multiple_choice",
+    "category": "hazards",
+    "difficulty": "easy",
+    "chapter": 5,
+    "section": "5.0 Dangers of driving",
+    "question": "What are the five fatal crash common factors mentioned in the WA Driver Guide?",
+    "options": [
+      { "id": "a", "text": "Speed, impairment, distractions, unrestrained occupants, inexperience" },
+      { "id": "b", "text": "Speed, weather, road conditions, vehicle age, driver age" },
+      { "id": "c", "text": "Impairment, time of day, road type, vehicle type, weather" },
+      { "id": "d", "text": "Distractions, road rage, fatigue, speeding, improper turns" }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "The five fatal crash common factors are: Speed, Impairment, Distractions, Unrestrained occupants, and Inexperience. These are the leading contributors to fatal crashes in Washington.",
+    "tags": ["fatal-crashes", "risk-factors", "safety"],
+    "relatedTopics": ["Risk awareness", "Safe driving", "Crash prevention"],
+    "source": "WA Driver Guide - Chapter 5.0: Dangers of driving"
+  },
+  {
+    "id": "ch5-002",
+    "type": "multiple_choice",
+    "category": "hazards",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.0 Dangers of driving",
+    "question": "What is risk awareness?",
+    "options": [
+      { "id": "a", "text": "Knowing how fast you can drive without getting a ticket" },
+      { "id": "b", "text": "Your ability to identify present and potential hazards on the road" },
+      { "id": "c", "text": "Understanding your vehicle's safety features" },
+      { "id": "d", "text": "Being aware of police presence on the road" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Risk awareness is your ability to identify present and potential hazards on the road. It helps you be aware of things that might require you to change your behavior to avoid a crash, including being mindful of other road users, weather conditions, and potential distractions.",
+    "tags": ["risk-awareness", "hazard-perception", "defensive-driving"],
+    "relatedTopics": ["Hazard perception", "Situational awareness", "Scanning"],
+    "source": "WA Driver Guide - Chapter 5.0: Dangers of driving"
+  },
+  {
+    "id": "ch5-003",
+    "type": "multiple_choice",
+    "category": "hazards",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.0 Dangers of driving",
+    "question": "What is a hazard in driving terms?",
+    "options": [
+      { "id": "a", "text": "Only immediate dangers like children running onto the road" },
+      { "id": "b", "text": "Anything that requires you to make a change in speed or direction" },
+      { "id": "c", "text": "Only moving objects like other vehicles" },
+      { "id": "d", "text": "Only weather-related conditions" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "A hazard is anything that requires you to make a change. It might require you to change your speed or direction. A hazard can be an immediate danger (child running onto road) or something less serious (trash can in road, speed limit sign, turn to your driveway). A hazard can be stationary or moving.",
+    "tags": ["hazards", "hazard-perception", "driving-changes"],
+    "relatedTopics": ["Risk awareness", "Speed adjustment", "Path of travel"],
+    "source": "WA Driver Guide - Chapter 5.0: Dangers of driving"
+  },
+  {
+    "id": "ch5-004",
+    "type": "multiple_choice",
+    "category": "hazards",
+    "difficulty": "hard",
+    "chapter": 5,
+    "section": "5.0 Dangers of driving",
+    "question": "What is the correct order of the hazard management routine?",
+    "options": [
+      { "id": "a", "text": "Execute, Plan, Check, Communicate, Evaluate" },
+      { "id": "b", "text": "Plan, Communicate, Check, Execute, Evaluate" },
+      { "id": "c", "text": "Communicate, Plan, Execute, Check, Evaluate" },
+      { "id": "d", "text": "Check, Plan, Communicate, Execute, Evaluate" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "The hazard management routine is: 1) Plan (scan environment, check mirrors, decide if safe), 2) Communicate (use signals), 3) Check (prepare position/speed, recheck mirrors, look over shoulder), 4) Execute (make the change smoothly), 5) Evaluate (think about how it went).",
+    "tags": ["hazard-management", "safe-driving", "decision-making"],
+    "relatedTopics": ["Situational awareness", "Communication", "Vehicle control"],
+    "source": "WA Driver Guide - Chapter 5.0: Dangers of driving"
+  },
+  {
+    "id": "ch5-005",
+    "type": "true_false",
+    "category": "hazards",
+    "difficulty": "easy",
+    "chapter": 5,
+    "section": "5.0 Dangers of driving",
+    "question": "In Washington, vehicle crashes are a leading cause of death for people ages 16 to 25.",
+    "options": [
+      { "id": "a", "text": "True" },
+      { "id": "b", "text": "False" }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "True. In Washington, vehicle crashes are a leading cause of death for people ages 16 to 25. This age group is more susceptible to fatal and serious injury crashes due to inexperience.",
+    "tags": ["young-drivers", "fatal-crashes", "statistics"],
+    "relatedTopics": ["Inexperience", "Risk factors", "Safe driving"],
+    "source": "WA Driver Guide - Chapter 5.0: Dangers of driving"
+  },
+  {
+    "id": "ch5-006",
+    "type": "multiple_choice",
+    "category": "speed",
+    "difficulty": "easy",
+    "chapter": 5,
+    "section": "5.1 Speed",
+    "question": "What do speed limits indicate?",
+    "options": [
+      { "id": "a", "text": "The minimum speed you must drive" },
+      { "id": "b", "text": "The maximum speed legal under ideal conditions" },
+      { "id": "c", "text": "The recommended speed for all conditions" },
+      { "id": "d", "text": "The average speed other drivers use" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Speed limits indicate the maximum speed legal under ideal conditions. Washington law also requires you to drive at speeds that are safe for current road conditions, which means reducing your speed when conditions are poor.",
+    "tags": ["speed-limits", "safe-speed", "laws"],
+    "relatedTopics": ["Road conditions", "Adjusting speed", "Traffic laws"],
+    "source": "WA Driver Guide - Chapter 5.1: Speed"
+  },
+  {
+    "id": "ch5-007",
+    "type": "multiple_choice",
+    "category": "speed",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.1 Speed",
+    "question": "Which of the following is NOT a consequence of excessive speeds?",
+    "options": [
+      { "id": "a", "text": "Reduced effectiveness of seat belts" },
+      { "id": "b", "text": "Longer stopping distances" },
+      { "id": "c", "text": "Better vehicle control and traction" },
+      { "id": "d", "text": "Increased severity of injuries in a crash" }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "Excessive speeds reduce vehicle and traction control, not improve it. Other consequences include: reduced seat belt effectiveness, limited ability to scan for hazards, longer stopping distances, less time to assess path of travel, and increased injury severity in crashes.",
+    "tags": ["excessive-speed", "consequences", "vehicle-control"],
+    "relatedTopics": ["Speed limits", "Safe driving", "Crash severity"],
+    "source": "WA Driver Guide - Chapter 5.1: Speed"
+  },
+  {
+    "id": "ch5-008",
+    "type": "multiple_choice",
+    "category": "speed",
+    "difficulty": "easy",
+    "chapter": 5,
+    "section": "5.1 Speed",
+    "question": "When should you reduce your speed below the posted speed limit?",
+    "options": [
+      { "id": "a", "text": "Only when it's raining" },
+      { "id": "b", "text": "Never, the speed limit is always safe" },
+      { "id": "c", "text": "When conditions require it, such as sharp curves, slippery roads, heavy traffic, or areas with pedestrians" },
+      { "id": "d", "text": "Only when a police officer tells you to" }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "You should reduce speed when conditions require it, including: sharp curves/hills with limited visibility, slippery roads, areas with pedestrians/children/cyclists/animals, shopping centers/parking lots, heavy traffic, narrow bridges/tunnels, and residential areas. You're responsible for always driving at a safe speed.",
+    "tags": ["speed-adjustment", "conditions", "safe-speed"],
+    "relatedTopics": ["Speed limits", "Road conditions", "Pedestrian safety"],
+    "source": "WA Driver Guide - Chapter 5.1: Speed"
+  },
+  {
+    "id": "ch5-009",
+    "type": "multiple_choice",
+    "category": "space",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.2 Space",
+    "question": "When driving near other vehicles, what is the minimum recommended distance between you and the vehicle ahead?",
+    "options": [
+      { "id": "a", "text": "One car length" },
+      { "id": "b", "text": "At least twice the length of your vehicle" },
+      { "id": "c", "text": "Exactly one vehicle length" },
+      { "id": "d", "text": "As close as possible to improve traffic flow" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "When driving near other vehicles, it's important to leave a distance that's at least twice the length of your vehicle between you and the vehicle ahead. This provides additional room to take action should there be a problem in your path of travel.",
+    "tags": ["following-distance", "space-management", "safe-distance"],
+    "relatedTopics": ["Risk reduction", "Stopping distance", "Reaction time"],
+    "source": "WA Driver Guide - Chapter 5.2: Space"
+  },
+  {
+    "id": "ch5-010",
+    "type": "true_false",
+    "category": "space",
+    "difficulty": "easy",
+    "chapter": 5,
+    "section": "5.2 Space",
+    "question": "Keeping plenty of space around your vehicle while driving can reduce your risk and give you time to determine an alternative path if needed.",
+    "options": [
+      { "id": "a", "text": "True" },
+      { "id": "b", "text": "False" }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "True. You can reduce your risk and give yourself time to determine an alternative path by leaving enough space around your vehicle. It provides additional room to take action should there be a problem in your path of travel.",
+    "tags": ["space-management", "risk-reduction", "safe-driving"],
+    "relatedTopics": ["Following distance", "Escape routes", "Hazard management"],
+    "source": "WA Driver Guide - Chapter 5.2: Space"
+  },
+  {
+    "id": "ch5-011",
+    "type": "multiple_choice",
+    "category": "merging",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.3 Merging",
+    "question": "When merging onto an interstate, what is the correct procedure?",
+    "options": [
+      { "id": "a", "text": "Stop at the end of the on-ramp and wait for a large gap" },
+      { "id": "b", "text": "Drivers on the interstate must yield to merging traffic" },
+      { "id": "c", "text": "Use the entire on-ramp, your turn signal, and mirrors to merge into a safe space; adjust speed as needed" },
+      { "id": "d", "text": "Merge immediately at the beginning of the on-ramp" }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "Drivers already on the interstate have the right-of-way. Use the entire on-ramp, your turn signal, and your mirrors to merge into a safe space on the interstate. Creating space to merge might require you to adjust your speed, faster or slower. Enter traffic with enough space so you don't cause others to swerve, slow, or stop.",
+    "tags": ["merging", "interstate", "right-of-way"],
+    "relatedTopics": ["Space management", "Speed adjustment", "Turn signals"],
+    "source": "WA Driver Guide - Chapter 5.3: Merging"
+  },
+  {
+    "id": "ch5-012",
+    "type": "multiple_choice",
+    "category": "merging",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.3 Merging",
+    "question": "What is zipper merging and when should it be used?",
+    "options": [
+      { "id": "a", "text": "Merging quickly without signaling" },
+      { "id": "b", "text": "A technique where drivers use both lanes until the merge point, then alternate merging; used when traffic is slow or stopped due to lane closure" },
+      { "id": "c", "text": "Merging only when there's a large gap in traffic" },
+      { "id": "d", "text": "Always merging into the left lane first" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Zipper merging is used when traffic is moving slowly or stopped due to a lane closure. Stay in your lane until the designated merge area, then alternate merging with vehicles from the other lane (like zipper teeth). It improves traffic flow by 60%, creates a predictable pattern reducing collisions, and helps avoid frustration.",
+    "tags": ["zipper-merge", "lane-closure", "traffic-flow"],
+    "relatedTopics": ["Merging", "Traffic management", "Courtesy"],
+    "source": "WA Driver Guide - Chapter 5.3: Merging"
+  },
+  {
+    "id": "ch5-013",
+    "type": "true_false",
+    "category": "merging",
+    "difficulty": "easy",
+    "chapter": 5,
+    "section": "5.3 Merging",
+    "question": "Zipper merging can improve traffic flow by 60 percent.",
+    "options": [
+      { "id": "a", "text": "True" },
+      { "id": "b", "text": "False" }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "True. Zipper merging improves traffic flow by 60 percent, creates a predictable merging pattern that reduces collision risk, and helps avoid the frustration of long lines.",
+    "tags": ["zipper-merge", "traffic-flow", "statistics"],
+    "relatedTopics": ["Merging", "Lane closure", "Traffic efficiency"],
+    "source": "WA Driver Guide - Chapter 5.3: Merging"
+  },
+  {
+    "id": "ch5-014",
+    "type": "multiple_choice",
+    "category": "time",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.4 Time",
+    "question": "What is eye-lead time?",
+    "options": [
+      { "id": "a", "text": "The time it takes to change lanes" },
+      { "id": "b", "text": "A technique that allows you to scan the road ahead for potential hazards, giving you time to see, analyze, and respond" },
+      { "id": "c", "text": "The time between when you see a hazard and when it reaches you" },
+      { "id": "d", "text": "How long you can keep your eyes on the road before blinking" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Eye-lead time is a technique that allows you to scan the road ahead for potential hazards. It's an important part of defensive driving that gives you time to see, analyze, and respond to hazards. Scan as far as you can see ahead and to the sides, use mirrors to scan behind. The earlier you identify a hazard, the more time you have to prepare.",
+    "tags": ["eye-lead-time", "scanning", "defensive-driving"],
+    "relatedTopics": ["Hazard perception", "Risk awareness", "Reaction time"],
+    "source": "WA Driver Guide - Chapter 5.4: Time"
+  },
+  {
+    "id": "ch5-015",
+    "type": "multiple_choice",
+    "category": "time",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.4 Time",
+    "question": "When turning in front of approaching vehicles, what should you do?",
+    "options": [
+      { "id": "a", "text": "Turn quickly before they get too close" },
+      { "id": "b", "text": "Watch vehicles pass a marker (like a tree), count seconds until they clear, then estimate if you have enough time" },
+      { "id": "c", "text": "Always wait for all traffic to clear completely" },
+      { "id": "d", "text": "Honk your horn and turn immediately" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Remember approaching traffic has the right-of-way. Watch oncoming vehicles pass a marker on the side of the road (like a tree), count how many seconds it takes until they clear the road you want to turn onto. Use that time frame to estimate how long the next vehicle will take to travel the same distance, then you know when you have enough time to turn safely.",
+    "tags": ["turning", "timing", "right-of-way"],
+    "relatedTopics": ["Space management", "Approaching traffic", "Safe turns"],
+    "source": "WA Driver Guide - Chapter 5.4: Time"
+  },
+  {
+    "id": "ch5-016",
+    "type": "multiple_choice",
+    "category": "focus",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.5 Focus",
+    "question": "What are the three types of vision used while driving?",
+    "options": [
+      { "id": "a", "text": "Day vision, night vision, peripheral vision" },
+      { "id": "b", "text": "Central vision, fringe vision, peripheral vision" },
+      { "id": "c", "text": "Forward vision, side vision, rear vision" },
+      { "id": "d", "text": "Close vision, medium vision, far vision" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "The three types of vision used while driving are: Central vision (see detail straight in front), Fringe vision (see the edges, may not be very focused), and Peripheral vision (what you can see to the side without losing focus). Higher speeds reduce the quality of each type of vision.",
+    "tags": ["vision", "field-of-vision", "visual-attention"],
+    "relatedTopics": ["Scanning", "Speed effects", "Attention"],
+    "source": "WA Driver Guide - Chapter 5.5: Focus"
+  },
+  {
+    "id": "ch5-017",
+    "type": "multiple_choice",
+    "category": "focus",
+    "difficulty": "hard",
+    "chapter": 5,
+    "section": "5.5 Focus",
+    "question": "What is your path of travel?",
+    "options": [
+      { "id": "a", "text": "The line of sight between you and your destination" },
+      { "id": "b", "text": "The route or course you drive to get from one place to another" },
+      { "id": "c", "text": "The distance between your vehicle and the one ahead" },
+      { "id": "d", "text": "Your peripheral vision area" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Your path of travel is the route or course you drive to get from one place to another. You'll likely need to change your path at some point due to hazards, weather conditions, or because you need to travel in a new direction. A big part of driving is constantly shifting your visual focus and mental attention between where you are and where you want to be.",
+    "tags": ["path-of-travel", "route", "driving-course"],
+    "relatedTopics": ["Line of sight", "Target area", "Visual focus"],
+    "source": "WA Driver Guide - Chapter 5.5: Focus"
+  },
+  {
+    "id": "ch5-018",
+    "type": "true_false",
+    "category": "focus",
+    "difficulty": "easy",
+    "chapter": 5,
+    "section": "5.5 Focus",
+    "question": "Your brain can focus on multiple things at the same time while driving.",
+    "options": [
+      { "id": "a", "text": "True" },
+      { "id": "b", "text": "False" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "False. Your brain can only focus on one thing at a time. You must choose to actively pay attention when you're behind the wheel and align your mental attention and visual focus. Your attention is the most valuable asset on the road. Eliminate distractions to maintain focus.",
+    "tags": ["attention", "focus", "brain-function"],
+    "relatedTopics": ["Distracted driving", "Mental attention", "Safety"],
+    "source": "WA Driver Guide - Chapter 5.5: Focus"
+  },
+  {
+    "id": "ch5-019",
+    "type": "multiple_choice",
+    "category": "conditions",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.6 Road and driving conditions",
+    "question": "When driving at night, you should drive at a speed that allows you to stop within what distance?",
+    "options": [
+      { "id": "a", "text": "Within 200 feet" },
+      { "id": "b", "text": "Within the glow of your headlights (usually 400 feet)" },
+      { "id": "c", "text": "Within 600 feet" },
+      { "id": "d", "text": "There's no specific distance requirement" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "When driving at night, drive at a speed that will allow you to stop within the glow of your headlights, which is usually 400 feet. This ensures you have enough time to react to hazards that appear in your headlight range.",
+    "tags": ["night-driving", "speed", "headlights"],
+    "relatedTopics": ["Safe speed", "Visibility", "Stopping distance"],
+    "source": "WA Driver Guide - Chapter 5.6: Road and driving conditions"
+  },
+  {
+    "id": "ch5-020",
+    "type": "multiple_choice",
+    "category": "conditions",
+    "difficulty": "easy",
+    "chapter": 5,
+    "section": "5.6 Road and driving conditions",
+    "question": "When should you use high beam headlights?",
+    "options": [
+      { "id": "a", "text": "Always at night for maximum visibility" },
+      { "id": "b", "text": "Whenever there are no oncoming vehicles; switch to regular headlights when there is approaching traffic" },
+      { "id": "c", "text": "Only in rural areas" },
+      { "id": "d", "text": "Never, they're too bright" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Use high beams whenever there are no oncoming vehicles to maximize visibility. Switch back to regular headlights when there is approaching traffic or when following another vehicle. High beams can blind other drivers if used improperly.",
+    "tags": ["high-beams", "headlights", "night-driving"],
+    "relatedTopics": ["Visibility", "Courtesy", "Night driving"],
+    "source": "WA Driver Guide - Chapter 5.6: Road and driving conditions"
+  },
+  {
+    "id": "ch5-021",
+    "type": "multiple_choice",
+    "category": "conditions",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.6 Road and driving conditions",
+    "question": "If a vehicle comes toward you with its high beams on at night, what should you do?",
+    "options": [
+      { "id": "a", "text": "Turn on your high beams to show them it's bothering you" },
+      { "id": "b", "text": "Look directly at their headlights" },
+      { "id": "c", "text": "Look toward the right side of the road to keep from being distracted by the headlights" },
+      { "id": "d", "text": "Close one eye completely" }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "If a vehicle comes toward you with its high beams on, look toward the right side of the road to keep from being distracted by the headlights. Avoid looking directly into oncoming headlights. Keep your eyes searching the road in front of your vehicle.",
+    "tags": ["high-beams", "blinding-lights", "night-driving"],
+    "relatedTopics": ["Vision protection", "Safe driving", "Headlights"],
+    "source": "WA Driver Guide - Chapter 5.6: Road and driving conditions"
+  },
+  {
+    "id": "ch5-022",
+    "type": "multiple_choice",
+    "category": "conditions",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.6 Road and driving conditions",
+    "question": "When approaching a curve, what should you do?",
+    "options": [
+      { "id": "a", "text": "Maintain speed and brake in the curve if needed" },
+      { "id": "b", "text": "Reduce speed before entering the curve, position slightly to the outside of the lane, and look ahead" },
+      { "id": "c", "text": "Speed up to get through it quickly" },
+      { "id": "d", "text": "Shift to neutral and coast through" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "When approaching a curve: watch your speed and reduce it before entering the curve to maintain traction, look ahead to anticipate the sharpness and length, and position your vehicle slightly to the outside of the lane for more room to maneuver and improved visibility.",
+    "tags": ["curves", "speed-reduction", "vehicle-positioning"],
+    "relatedTopics": ["Safe speed", "Traction", "Visibility"],
+    "source": "WA Driver Guide - Chapter 5.6: Road and driving conditions"
+  },
+  {
+    "id": "ch5-023",
+    "type": "multiple_choice",
+    "category": "conditions",
+    "difficulty": "hard",
+    "chapter": 5,
+    "section": "5.6 Road and driving conditions",
+    "question": "What forces affect your vehicle when driving through curves?",
+    "options": [
+      { "id": "a", "text": "Only gravity" },
+      { "id": "b", "text": "Roll, yaw, momentum, inertia, kinetic energy, and friction" },
+      { "id": "c", "text": "Only speed and steering" },
+      { "id": "d", "text": "Wind resistance and gravity only" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "When driving on curved roads, several forces affect your vehicle: Roll (vehicle tilt), Yaw (side-to-side movement), Momentum (forward force), Inertia (resistance to direction change), Kinetic energy (energy from motion), and Friction (tire grip on road). Understanding these helps you maintain control by adjusting speed and steering.",
+    "tags": ["laws-of-motion", "curves", "physics"],
+    "relatedTopics": ["Vehicle control", "Speed", "Traction"],
+    "source": "WA Driver Guide - Chapter 5.6: Road and driving conditions"
+  },
+  {
+    "id": "ch5-024",
+    "type": "multiple_choice",
+    "category": "conditions",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.6 Road and driving conditions",
+    "question": "Why can roads be very slippery for the first few minutes when it starts to rain on a hot day?",
+    "options": [
+      { "id": "a", "text": "Because rainwater is naturally slippery" },
+      { "id": "b", "text": "Because heat causes oil in the asphalt to come to the surface; the road is slippery until the oil washes away" },
+      { "id": "c", "text": "Because tires heat up and lose traction" },
+      { "id": "d", "text": "This is a myth; rain doesn't make roads more slippery" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "If it starts to rain on a hot day, the pavement can be very slippery for the first few minutes. Heat causes the oil in the asphalt to come to the surface. The road is slippery until the oil washes away. This makes the beginning of rain particularly dangerous.",
+    "tags": ["slippery-roads", "rain", "oil-on-road"],
+    "relatedTopics": ["Weather hazards", "Traction", "Speed adjustment"],
+    "source": "WA Driver Guide - Chapter 5.6: Road and driving conditions"
+  },
+  {
+    "id": "ch5-025",
+    "type": "multiple_choice",
+    "category": "conditions",
+    "difficulty": "hard",
+    "chapter": 5,
+    "section": "5.6 Road and driving conditions",
+    "question": "What is black ice?",
+    "options": [
+      { "id": "a", "text": "Ice that has turned black from dirt and pollution" },
+      { "id": "b", "text": "A thin coating of ice that is hard for drivers to see; dangerous even if you can't see it in near or below freezing temperatures" },
+      { "id": "c", "text": "Ice that only forms at night" },
+      { "id": "d", "text": "Thick ice that's easy to spot on the road" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Black ice refers to a thin coating of ice that is hard for drivers to see. Even if you don't see ice, pay attention when driving in temperatures near or below freezing. Many drivers crash when they lose control of their vehicles on black ice because it's nearly invisible.",
+    "tags": ["black-ice", "winter-driving", "ice-hazards"],
+    "relatedTopics": ["Weather conditions", "Traction", "Vehicle control"],
+    "source": "WA Driver Guide - Chapter 5.6: Road and driving conditions"
+  },
+  {
+    "id": "ch5-026",
+    "type": "multiple_choice",
+    "category": "conditions",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.6 Road and driving conditions",
+    "question": "What should you do if your vehicle starts to skid?",
+    "options": [
+      { "id": "a", "text": "Brake hard and turn the wheel opposite to the skid" },
+      { "id": "b", "text": "Take foot off accelerator, press or pump brakes, steer in the direction the vehicle is moving" },
+      { "id": "c", "text": "Accelerate to regain control" },
+      { "id": "d", "text": "Shift to neutral and let the vehicle coast" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "If you're skidding: 1) Take your foot off the accelerator, 2) Press or pump your brakes (antilock brakes help control wheel rotation; without antilock, pressing hard could cause more skidding), 3) Steer in the same direction your vehicle is moving, 4) Continue to correct your steering until tires regain traction, 5) Assess the situation and adjust driving.",
+    "tags": ["skidding", "vehicle-control", "emergency-procedures"],
+    "relatedTopics": ["Antilock brakes", "Steering correction", "Road conditions"],
+    "source": "WA Driver Guide - Chapter 5.6: Road and driving conditions"
+  },
+  {
+    "id": "ch5-027",
+    "type": "multiple_choice",
+    "category": "conditions",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.6 Road and driving conditions",
+    "question": "What is hydroplaning?",
+    "options": [
+      { "id": "a", "text": "When your engine floods with water" },
+      { "id": "b", "text": "When water builds up between your tires and the road surface, causing tires to lose traction and skid" },
+      { "id": "c", "text": "When your windshield wipers can't keep up with the rain" },
+      { "id": "d", "text": "When water enters your exhaust system" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Hydroplaning happens when water builds up between your tires and the road surface, causing the tires to lose traction and skid. The vehicle can feel like it's floating or sliding, making it hard to keep control. The best way to prevent hydroplaning is to slow down when the road is wet.",
+    "tags": ["hydroplaning", "wet-roads", "traction-loss"],
+    "relatedTopics": ["Weather driving", "Speed reduction", "Tire contact"],
+    "source": "WA Driver Guide - Chapter 5.6: Road and driving conditions"
+  },
+  {
+    "id": "ch5-028",
+    "type": "multiple_choice",
+    "category": "conditions",
+    "difficulty": "hard",
+    "chapter": 5,
+    "section": "5.6 Road and driving conditions",
+    "question": "If you hydroplane, what is the correct response?",
+    "options": [
+      { "id": "a", "text": "Brake hard to regain traction" },
+      { "id": "b", "text": "Take foot off accelerator, gently press brakes, keep steering wheel steady, look where you want to go" },
+      { "id": "c", "text": "Turn the wheel sharply in the opposite direction" },
+      { "id": "d", "text": "Accelerate to push through the water" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "If you hydroplane: 1) Take your foot off the accelerator, 2) Gently press the brakes (antilock brakes help regain road contact; without antilock, forceful braking could cause more hydroplaning), 3) Keep the steering wheel steady—avoid overcorrecting or jerking, 4) Look where you want to go and calmly wait for tires to regain traction, 5) Assess situation and adjust driving.",
+    "tags": ["hydroplaning", "emergency-response", "vehicle-control"],
+    "relatedTopics": ["Wet roads", "Antilock brakes", "Steering control"],
+    "source": "WA Driver Guide - Chapter 5.6: Road and driving conditions"
+  },
+  {
+    "id": "ch5-029",
+    "type": "true_false",
+    "category": "conditions",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.6 Road and driving conditions",
+    "question": "Overpasses and bridges can have icy spots even when the rest of the road doesn't.",
+    "options": [
+      { "id": "a", "text": "True" },
+      { "id": "b", "text": "False" }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "True. Overpasses and other types of bridges can have icy spots even when the rest of the road doesn't because they're exposed to cold air from both above and below, causing them to freeze faster. On cold, wet days, shady spots can also be icy.",
+    "tags": ["bridge-ice", "overpasses", "winter-driving"],
+    "relatedTopics": ["Black ice", "Temperature effects", "Road hazards"],
+    "source": "WA Driver Guide - Chapter 5.6: Road and driving conditions"
+  },
+  {
+    "id": "ch5-030",
+    "type": "multiple_choice",
+    "category": "vehicle-failure",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.7 Vehicle failures",
+    "question": "If a tire blows out or suddenly goes flat while driving, what should you do?",
+    "options": [
+      { "id": "a", "text": "Brake hard immediately" },
+      { "id": "b", "text": "Grip steering wheel firmly, keep vehicle straight, slow down gradually, do not brake hard" },
+      { "id": "c", "text": "Swerve to the shoulder immediately" },
+      { "id": "d", "text": "Shift to neutral and coast" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "If a tire blows out: 1) Grip the steering wheel firmly and keep the vehicle going straight, 2) Slow down gradually by taking your foot off the accelerator, 3) Do not brake (allow vehicle to slow by itself, or brake gently if necessary), 4) Pull off the road in a safe place if possible and turn on emergency flashers.",
+    "tags": ["tire-blowout", "emergency-procedures", "vehicle-control"],
+    "relatedTopics": ["Vehicle failures", "Emergency response", "Safe stopping"],
+    "source": "WA Driver Guide - Chapter 5.7: Vehicle failures"
+  },
+  {
+    "id": "ch5-031",
+    "type": "multiple_choice",
+    "category": "vehicle-failure",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.7 Vehicle failures",
+    "question": "If the engine shuts off while you are driving, what should you do?",
+    "options": [
+      { "id": "a", "text": "Immediately shift to park" },
+      { "id": "b", "text": "Keep grip on steering wheel, look for escape path, brake with steady pressure, pull off roadway, try to restart" },
+      { "id": "c", "text": "Turn off all electrical systems immediately" },
+      { "id": "d", "text": "Coast in neutral until the vehicle stops" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "If the engine shuts off while driving: 1) Keep a strong grip on the steering wheel (it might be difficult to turn, but you can turn it), 2) Look for an escape path, 3) Don't brake hard—brake with steady pressure, slow down, then pull off the roadway, 4) Stop and try to restart the engine, 5) If unsuccessful, raise the hood, turn on hazard warning lights, and call for help.",
+    "tags": ["engine-failure", "power-loss", "emergency-procedures"],
+    "relatedTopics": ["Vehicle failures", "Steering control", "Safe stopping"],
+    "source": "WA Driver Guide - Chapter 5.7: Vehicle failures"
+  },
+  {
+    "id": "ch5-032",
+    "type": "multiple_choice",
+    "category": "vehicle-failure",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.7 Vehicle failures",
+    "question": "If your headlights suddenly go out while driving, what should you do?",
+    "options": [
+      { "id": "a", "text": "Continue driving using street lights" },
+      { "id": "b", "text": "Put on hazard warning lights, turn signals, or fog lights if you have them; pull off the road as soon as possible" },
+      { "id": "c", "text": "Speed up to get to your destination quickly" },
+      { "id": "d", "text": "Follow other vehicles closely to use their lights" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "If your headlights suddenly go out: 1) Put on your hazard warning lights, turn signals, or fog lights if you have them, 2) Pull off the road as soon as possible. This ensures you're visible to other drivers and can safely address the problem.",
+    "tags": ["headlight-failure", "lighting-failure", "emergency-procedures"],
+    "relatedTopics": ["Vehicle failures", "Emergency lights", "Safe stopping"],
+    "source": "WA Driver Guide - Chapter 5.7: Vehicle failures"
+  },
+  {
+    "id": "ch5-033",
+    "type": "multiple_choice",
+    "category": "vehicle-failure",
+    "difficulty": "hard",
+    "chapter": 5,
+    "section": "5.7 Vehicle failures",
+    "question": "If the vehicle keeps going faster and faster (stuck accelerator), what should you do?",
+    "options": [
+      { "id": "a", "text": "Turn off the ignition immediately" },
+      { "id": "b", "text": "Keep eyes on road, quickly shift to neutral, pull off road when safe, turn off engine" },
+      { "id": "c", "text": "Pump the accelerator pedal" },
+      { "id": "d", "text": "Use emergency brake immediately" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "If the vehicle keeps going faster and faster: 1) Keep your eyes on the road, 2) Quickly shift to neutral, 3) Pull off the road when safe to do so, 4) Turn off the engine. Shifting to neutral disconnects the engine from the wheels, allowing you to maintain steering control while slowing down.",
+    "tags": ["stuck-accelerator", "emergency-procedures", "vehicle-control"],
+    "relatedTopics": ["Vehicle failures", "Neutral gear", "Emergency response"],
+    "source": "WA Driver Guide - Chapter 5.7: Vehicle failures"
+  },
+  {
+    "id": "ch5-034",
+    "type": "multiple_choice",
+    "category": "vehicle-failure",
+    "difficulty": "easy",
+    "chapter": 5,
+    "section": "5.7 Vehicle failures",
+    "question": "If you have vehicle troubles on the road, what should you do first?",
+    "options": [
+      { "id": "a", "text": "Leave the vehicle immediately" },
+      { "id": "b", "text": "Get your vehicle off the road and away from traffic, if possible" },
+      { "id": "c", "text": "Call a tow truck" },
+      { "id": "d", "text": "Try to repair the vehicle in traffic" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "If you have vehicle troubles: Get your vehicle off the road and away from traffic, if possible. If you can't, stop where other drivers have a clear view (avoid stopping just over a hill or around a curve). Turn on emergency flashers and headlights, place warning devices 200-300 feet behind vehicle, lift the hood or tie a white cloth to signal emergency.",
+    "tags": ["vehicle-trouble", "roadside-emergency", "safety-procedures"],
+    "relatedTopics": ["Emergency flashers", "Warning devices", "Safe stopping"],
+    "source": "WA Driver Guide - Chapter 5.7: Vehicle failures"
+  },
+  {
+    "id": "ch5-035",
+    "type": "multiple_choice",
+    "category": "communication",
+    "difficulty": "easy",
+    "chapter": 5,
+    "section": "5.8 Communicating risk",
+    "question": "How can you communicate risk to other road users?",
+    "options": [
+      { "id": "a", "text": "Only by using your horn" },
+      { "id": "b", "text": "Thoughtful use of your lights, horn, and hand signals" },
+      { "id": "c", "text": "By flashing your high beams repeatedly" },
+      { "id": "d", "text": "Risk communication is not necessary" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "There might be times when you need to communicate to others that a risk is present. Thoughtful use of your lights, horn, and hand signals can vary depending on the situation but can be effective ways to communicate with other road users. Keep yourself informed of all present and potential risks.",
+    "tags": ["risk-communication", "signals", "safety-communication"],
+    "relatedTopics": ["Lights", "Horn usage", "Hand signals"],
+    "source": "WA Driver Guide - Chapter 5.8: Communicating risk"
+  },
+  {
+    "id": "ch5-036",
+    "type": "multiple_choice",
+    "category": "collisions",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.9 Collisions",
+    "question": "What are the three typical causes of collisions?",
+    "options": [
+      { "id": "a", "text": "Weather, road conditions, vehicle age" },
+      { "id": "b", "text": "Too much speed, too little space, insufficient situational awareness" },
+      { "id": "c", "text": "Distraction, fatigue, impairment" },
+      { "id": "d", "text": "Inexperience, poor visibility, mechanical failure" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Collisions typically have 3 causes: 1) Too much speed, 2) Too little space, 3) Insufficient situational awareness. Understanding these causes helps drivers take preventive action to avoid crashes.",
+    "tags": ["collision-causes", "crash-prevention", "safe-driving"],
+    "relatedTopics": ["Speed management", "Space cushion", "Awareness"],
+    "source": "WA Driver Guide - Chapter 5.9: Collisions"
+  },
+  {
+    "id": "ch5-037",
+    "type": "multiple_choice",
+    "category": "collisions",
+    "difficulty": "hard",
+    "chapter": 5,
+    "section": "5.9 Collisions",
+    "question": "After a collision, you must file a collision report form within how many days if a law enforcement officer doesn't do it for you?",
+    "options": [
+      { "id": "a", "text": "1 day" },
+      { "id": "b", "text": "2 days" },
+      { "id": "c", "text": "4 days" },
+      { "id": "d", "text": "7 days" }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "You must file a collision report form within 4 days of a crash if a law enforcement officer doesn't do this for you. The form is required by state law. Gather information from others involved, take photos of damage, and provide information to police if requested.",
+    "tags": ["collision-reporting", "legal-requirements", "crash-procedures"],
+    "relatedTopics": ["Legal obligations", "Documentation", "Reporting"],
+    "source": "WA Driver Guide - Chapter 5.9: Collisions"
+  },
+  {
+    "id": "ch5-038",
+    "type": "multiple_choice",
+    "category": "collisions",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.9 Collisions",
+    "question": "After a collision, what information should you exchange with other parties involved?",
+    "options": [
+      { "id": "a", "text": "Only your name" },
+      { "id": "b", "text": "Name, contact information, driver license number, insurance company and policy number" },
+      { "id": "c", "text": "Only insurance information" },
+      { "id": "d", "text": "Only vehicle registration" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "After a collision, collect and share: your name, contact information, driver license number, insurance company and policy number. Also take photos or videos of any damage to vehicles, and provide information to police or emergency officials if requested.",
+    "tags": ["collision-information", "information-exchange", "crash-procedures"],
+    "relatedTopics": ["Legal obligations", "Insurance", "Documentation"],
+    "source": "WA Driver Guide - Chapter 5.9: Collisions"
+  },
+  {
+    "id": "ch5-039",
+    "type": "true_false",
+    "category": "collisions",
+    "difficulty": "easy",
+    "chapter": 5,
+    "section": "5.9 Collisions",
+    "question": "You should move injured people immediately after a crash to get them out of the road.",
+    "options": [
+      { "id": "a", "text": "True" },
+      { "id": "b", "text": "False" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "False. Do not move injured people unless they're in a burning vehicle or otherwise in immediate danger. Moving injured people could cause additional injuries. Call 911, help anyone who isn't already walking and talking, check for breathing and bleeding.",
+    "tags": ["injury-procedures", "first-aid", "collision-response"],
+    "relatedTopics": ["Emergency response", "Medical care", "Safety"],
+    "source": "WA Driver Guide - Chapter 5.9: Collisions"
+  },
+  {
+    "id": "ch5-040",
+    "type": "multiple_choice",
+    "category": "collisions",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.9 Collisions",
+    "question": "If you see bleeding after a collision, what is the correct order of steps to stop it?",
+    "options": [
+      { "id": "a", "text": "Apply tourniquet, apply bandage, apply pressure" },
+      { "id": "b", "text": "Apply pressure with hands, apply bandage/dressing, apply tourniquet" },
+      { "id": "c", "text": "Apply bandage, apply tourniquet, apply pressure" },
+      { "id": "d", "text": "Only call 911 and wait" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "If you see bleeding, follow these steps in order: 1) Apply pressure with hands, 2) Apply bandage/dressing, 3) Apply a tourniquet (if needed). Also: don't give injured people anything to drink (not even water), and cover them with a blanket or coat to prevent shock.",
+    "tags": ["bleeding", "first-aid", "emergency-response"],
+    "relatedTopics": ["Injury treatment", "Medical procedures", "Emergency care"],
+    "source": "WA Driver Guide - Chapter 5.9: Collisions"
+  },
+  {
+    "id": "ch5-041",
+    "type": "multiple_choice",
+    "category": "collisions",
+    "difficulty": "hard",
+    "chapter": 5,
+    "section": "5.9 Collisions",
+    "question": "If power lines fall on your vehicle or you hit a transformer box, what should you do?",
+    "options": [
+      { "id": "a", "text": "Exit the vehicle immediately and run away" },
+      { "id": "b", "text": "Stay in your vehicle and call 911; the ground around your vehicle could be energized" },
+      { "id": "c", "text": "Get out carefully and walk slowly away" },
+      { "id": "d", "text": "Try to move the power lines off your vehicle" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "If power lines fall on your vehicle or you hit a transformer box, stay in your vehicle and call 911. The ground around your vehicle could also be energized. When possible, encourage people to stay at least 35 feet away. Never touch power lines—assume they're all energized.",
+    "tags": ["power-lines", "electrical-hazards", "emergency-procedures"],
+    "relatedTopics": ["Vehicle fires", "Emergency response", "Electrical safety"],
+    "source": "WA Driver Guide - Chapter 5.9: Collisions"
+  },
+  {
+    "id": "ch5-042",
+    "type": "multiple_choice",
+    "category": "collisions",
+    "difficulty": "hard",
+    "chapter": 5,
+    "section": "5.9 Collisions",
+    "question": "If your vehicle comes in contact with power lines and a fire starts, how should you evacuate?",
+    "options": [
+      { "id": "a", "text": "Step out normally" },
+      { "id": "b", "text": "Open door, perch on ledge, jump clear with arms at sides, land with both feet together, shuffle 35 feet away" },
+      { "id": "c", "text": "Crawl out on the ground" },
+      { "id": "d", "text": "Wait for firefighters" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "If vehicle contacts power lines and fire starts: 1) Open your door and perch on the ledge, 2) Jump away from vehicle with arms at sides, 3) Be careful not to touch the vehicle, 4) Make sure both feet land together, 5) Shuffle 35 feet away to safety (don't lift feet—shuffle to avoid electric shock), 6) Don't go back inside until advised it's safe.",
+    "tags": ["power-line-fire", "evacuation", "electrical-safety"],
+    "relatedTopics": ["Vehicle fires", "Emergency evacuation", "Power lines"],
+    "source": "WA Driver Guide - Chapter 5.9: Collisions"
+  },
+  {
+    "id": "ch5-043",
+    "type": "multiple_choice",
+    "category": "collisions",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.9 Collisions",
+    "question": "What should you do if you accidentally drive over a power line?",
+    "options": [
+      { "id": "a", "text": "Quickly drive forward to get off it" },
+      { "id": "b", "text": "Stop immediately, call 911, stay inside vehicle until told it's safe" },
+      { "id": "c", "text": "Reverse quickly" },
+      { "id": "d", "text": "Exit the vehicle and check the line" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "If you accidentally drive over a power line, stop immediately. Moving forward or reversing puts you at risk of being electrocuted. Call 911 and stay inside your vehicle until you are told it's safe to exit. Never know how, when, or if a power line is charged—assume they're all energized.",
+    "tags": ["power-lines", "electrical-hazards", "emergency-procedures"],
+    "relatedTopics": ["Electrical safety", "Emergency response", "Vehicle safety"],
+    "source": "WA Driver Guide - Chapter 5.9: Collisions"
+  },
+  {
+    "id": "ch5-044",
+    "type": "multiple_choice",
+    "category": "collisions",
+    "difficulty": "easy",
+    "chapter": 5,
+    "section": "5.9 Collisions",
+    "question": "How far should people stay away from a vehicle that has power lines in contact with it?",
+    "options": [
+      { "id": "a", "text": "10 feet" },
+      { "id": "b", "text": "20 feet" },
+      { "id": "c", "text": "35 feet" },
+      { "id": "d", "text": "50 feet" }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "When possible, encourage people to stay at least 35 feet away from a vehicle in contact with power lines. The ground around the vehicle could be energized. When evacuating a vehicle with a power line fire, shuffle 35 feet away to safety.",
+    "tags": ["power-lines", "safety-distance", "electrical-hazards"],
+    "relatedTopics": ["Electrical safety", "Emergency procedures", "Safe distance"],
+    "source": "WA Driver Guide - Chapter 5.9: Collisions"
+  },
+  {
+    "id": "ch5-045",
+    "type": "multiple_choice",
+    "category": "collisions",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.9 Collisions",
+    "question": "What items should be included in an emergency kit for your vehicle?",
+    "options": [
+      { "id": "a", "text": "Only a first aid kit" },
+      { "id": "b", "text": "First aid kit, flashlight, blanket, water, jumper cables, tool kit, phone charger, spare tire, reflective triangles/flares" },
+      { "id": "c", "text": "Only a spare tire and jack" },
+      { "id": "d", "text": "Only emergency flares" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "An emergency kit should include: first aid kit, flashlight, blanket, water, jumper cables, tool kit or multipurpose utility tool, backup phone charger or power source, spare tire with wheel wrench and jack, reflective triangles or flares. Also keep a paper copy of important numbers (family, insurance) in case phone battery dies.",
+    "tags": ["emergency-kit", "vehicle-safety", "preparedness"],
+    "relatedTopics": ["Emergency equipment", "Safety supplies", "Vehicle maintenance"],
+    "source": "WA Driver Guide - Chapter 5.9: Collisions"
+  },
+  {
+    "id": "ch5-046",
+    "type": "multiple_choice",
+    "category": "collisions",
+    "difficulty": "easy",
+    "chapter": 5,
+    "section": "5.9 Collisions",
+    "question": "When witnessing a crash, what should you avoid doing?",
+    "options": [
+      { "id": "a", "text": "Calling 911" },
+      { "id": "b", "text": "Following emergency responder directions" },
+      { "id": "c", "text": "Blocking emergency responders and slowing down to stare at the scene" },
+      { "id": "d", "text": "Staying focused on your driving" }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "When witnessing a crash: Do not block emergency responders, follow directions given by police/firefighters, and keep emergency responders and people involved safe by focusing on your driving as you pass. Slowing down to stare at the scene creates traffic congestion.",
+    "tags": ["witnessing-crash", "emergency-responders", "traffic-safety"],
+    "relatedTopics": ["Emergency response", "Traffic flow", "Courtesy"],
+    "source": "WA Driver Guide - Chapter 5.9: Collisions"
+  },
+  {
+    "id": "ch5-047",
+    "type": "true_false",
+    "category": "collisions",
+    "difficulty": "easy",
+    "chapter": 5,
+    "section": "5.9 Collisions",
+    "question": "If anyone is injured or killed in a collision, you must call 911 and law enforcement must be notified.",
+    "options": [
+      { "id": "a", "text": "True" },
+      { "id": "b", "text": "False" }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "True. If anyone is injured or killed in a collision, call 911 and law enforcement must be notified. Do not drive away. Also move the vehicle to the side of the road (but near the collision site) as soon as possible, and don't stand or walk in traffic lanes.",
+    "tags": ["collision-reporting", "911", "legal-requirements"],
+    "relatedTopics": ["Emergency response", "Legal obligations", "Safety"],
+    "source": "WA Driver Guide - Chapter 5.9: Collisions"
+  },
+  {
+    "id": "ch5-048",
+    "type": "multiple_choice",
+    "category": "collisions",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.9 Collisions",
+    "question": "If a collision involves a parked vehicle and you cannot locate the owner, what should you do?",
+    "options": [
+      { "id": "a", "text": "Drive away immediately" },
+      { "id": "b", "text": "Wait for 5 minutes then leave" },
+      { "id": "c", "text": "Leave a note in a place where they can easily see it with date, time, and your contact information" },
+      { "id": "d", "text": "Only call your insurance company" }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "If the collision involves a parked vehicle, you must try to locate the owner. If you cannot, leave a note in a place where they can easily see it. Include the date and time of collision and your contact information. Leaving the scene without providing this information is illegal.",
+    "tags": ["parked-vehicle", "hit-and-run", "legal-requirements"],
+    "relatedTopics": ["Collision reporting", "Legal obligations", "Contact information"],
+    "source": "WA Driver Guide - Chapter 5.9: Collisions"
+  },
+  {
+    "id": "ch5-049",
+    "type": "multiple_choice",
+    "category": "collisions",
+    "difficulty": "hard",
+    "chapter": 5,
+    "section": "5.9 Collisions",
+    "question": "When calling 911 after a car crash, what information should you be prepared to provide?",
+    "options": [
+      { "id": "a", "text": "Only your name" },
+      { "id": "b", "text": "Location with landmarks/mile markers, description of crash, number of vehicles, damage, injuries, vehicle types, license plates, hazards" },
+      { "id": "c", "text": "Only the number of vehicles involved" },
+      { "id": "d", "text": "Only whether there are injuries" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "When calling 911: Stay calm, assess the situation, provide clear location with close landmarks or mile markers, give brief description of crash including number of vehicles, damage, and injuries, follow dispatcher instructions, be prepared to provide details like vehicle types, license plate numbers, and any hazards. Stay on the phone until help arrives.",
+    "tags": ["911-call", "emergency-reporting", "collision-procedures"],
+    "relatedTopics": ["Emergency response", "Communication", "Crash reporting"],
+    "source": "WA Driver Guide - Chapter 5.9: Collisions"
+  },
+  {
+    "id": "ch5-050",
+    "type": "true_false",
+    "category": "collisions",
+    "difficulty": "easy",
+    "chapter": 5,
+    "section": "5.9 Collisions",
+    "question": "You should smoke around wrecked vehicles to stay calm after a collision.",
+    "options": [
+      { "id": "a", "text": "True" },
+      { "id": "b", "text": "False" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "False. Do not smoke around wrecked vehicles. Fuel could have spilled, and fire is a real danger. Also turn off wrecked vehicles, don't stand or walk in traffic lanes, and use flares or other warning devices to alert other drivers of the collision.",
+    "tags": ["fire-hazard", "fuel-spill", "collision-safety"],
+    "relatedTopics": ["Fire prevention", "Vehicle safety", "Emergency procedures"],
+    "source": "WA Driver Guide - Chapter 5.9: Collisions"
+  },
+  {
+    "id": "ch5-051",
+    "type": "multiple_choice",
+    "category": "law-enforcement",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.10 Law enforcement",
+    "question": "When a police vehicle is attempting to stop you, what should you do?",
+    "options": [
+      { "id": "a", "text": "Stop immediately wherever you are" },
+      { "id": "b", "text": "Use your turn signal and pull to the right side of the road as soon as it's safe" },
+      { "id": "c", "text": "Speed up to find a better place to stop" },
+      { "id": "d", "text": "Pull to the left side of the road" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Police vehicles attempting to stop drivers will do so by turning on flashing lights and/or a siren. Use your turn signal and pull to the right side of the road as soon as it's safe. Then turn off the engine and any audio devices, stay in your vehicle unless directed to get out, and turn on interior lights if at night.",
+    "tags": ["traffic-stop", "police-procedure", "law-enforcement"],
+    "relatedTopics": ["Legal procedures", "Safe stopping", "Communication"],
+    "source": "WA Driver Guide - Chapter 5.10: Law enforcement"
+  },
+  {
+    "id": "ch5-052",
+    "type": "multiple_choice",
+    "category": "law-enforcement",
+    "difficulty": "easy",
+    "chapter": 5,
+    "section": "5.10 Law enforcement",
+    "question": "When pulled over by police, where should you keep your hands?",
+    "options": [
+      { "id": "a", "text": "In your lap" },
+      { "id": "b", "text": "On the steering wheel" },
+      { "id": "c", "text": "Reaching for your documents immediately" },
+      { "id": "d", "text": "Out the window" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "When pulled over, keep your hands on the steering wheel. Wait for the officer's instructions before reaching for your driver license or vehicle documents. Tell the officer where these documents are located before reaching for them. If you have a weapon in the vehicle, let the officer know right away.",
+    "tags": ["traffic-stop", "police-interaction", "safety-procedures"],
+    "relatedTopics": ["Law enforcement", "Traffic stops", "Communication"],
+    "source": "WA Driver Guide - Chapter 5.10: Law enforcement"
+  },
+  {
+    "id": "ch5-053",
+    "type": "multiple_choice",
+    "category": "law-enforcement",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.10 Law enforcement",
+    "question": "What documents will an officer typically ask for during a traffic stop?",
+    "options": [
+      { "id": "a", "text": "Only your driver license" },
+      { "id": "b", "text": "Driver license, proof of insurance, and vehicle registration" },
+      { "id": "c", "text": "Only proof of insurance" },
+      { "id": "d", "text": "Only vehicle registration" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "An officer will typically ask for your: driver license, proof of insurance, and vehicle registration. Tell the officer where these documents are located before reaching for them. Follow all instructions the officer gives you or your passengers.",
+    "tags": ["traffic-stop", "documents", "legal-requirements"],
+    "relatedTopics": ["Law enforcement", "Vehicle documents", "Driver license"],
+    "source": "WA Driver Guide - Chapter 5.10: Law enforcement"
+  },
+  {
+    "id": "ch5-054",
+    "type": "true_false",
+    "category": "law-enforcement",
+    "difficulty": "easy",
+    "chapter": 5,
+    "section": "5.10 Law enforcement",
+    "question": "If you're pulled over at night, you should turn on your interior lights.",
+    "options": [
+      { "id": "a", "text": "True" },
+      { "id": "b", "text": "False" }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "True. Turn on your interior lights if you're pulled over at night. Officers might use a spotlight for additional visibility. This helps the officer see inside your vehicle and increases safety for everyone involved.",
+    "tags": ["night-traffic-stop", "interior-lights", "police-procedures"],
+    "relatedTopics": ["Traffic stops", "Night driving", "Safety"],
+    "source": "WA Driver Guide - Chapter 5.10: Law enforcement"
+  },
+  {
+    "id": "ch5-055",
+    "type": "multiple_choice",
+    "category": "law-enforcement",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.10 Law enforcement",
+    "question": "What will an officer typically do when they approach your vehicle during a traffic stop?",
+    "options": [
+      { "id": "a", "text": "Only issue a ticket without explanation" },
+      { "id": "b", "text": "Explain why you were stopped, ask for documents, and explain what action they're taking" },
+      { "id": "c", "text": "Search your vehicle immediately" },
+      { "id": "d", "text": "Only check your documents and leave" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "When the officer approaches, they will typically: explain why you were stopped, ask for your driver license, proof of insurance, and vehicle registration, and tell you what action they're taking (warning, ticket, or arrest). If the officer doesn't explain the action, you can respectfully ask them to do so.",
+    "tags": ["traffic-stop", "officer-procedures", "communication"],
+    "relatedTopics": ["Law enforcement", "Legal procedures", "Rights"],
+    "source": "WA Driver Guide - Chapter 5.10: Law enforcement"
+  },
+  {
+    "id": "ch5-056",
+    "type": "multiple_choice",
+    "category": "law-enforcement",
+    "difficulty": "hard",
+    "chapter": 5,
+    "section": "5.10 Law enforcement",
+    "question": "What should you do if you disagree with an officer's decision during a traffic stop?",
+    "options": [
+      { "id": "a", "text": "Argue with the officer until they change their mind" },
+      { "id": "b", "text": "Refuse to cooperate" },
+      { "id": "c", "text": "Do not prolong the contact by arguing; you may seek to contest the decision in court" },
+      { "id": "d", "text": "Leave the scene immediately" }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "You are allowed to respectfully ask the officer questions. If you disagree with the officer's decision or course of action, do not prolong the contact by arguing with the officer. You may seek to contest the decision in court. If you believe the officer acted inappropriately, contact the officer's agency and request a supervisor as soon as possible.",
+    "tags": ["traffic-stop", "disagreement", "legal-rights"],
+    "relatedTopics": ["Court proceedings", "Rights", "Communication"],
+    "source": "WA Driver Guide - Chapter 5.10: Law enforcement"
+  },
+  {
+    "id": "ch5-057",
+    "type": "true_false",
+    "category": "law-enforcement",
+    "difficulty": "easy",
+    "chapter": 5,
+    "section": "5.10 Law enforcement",
+    "question": "Signing a traffic ticket is an admission of guilt.",
+    "options": [
+      { "id": "a", "text": "True" },
+      { "id": "b", "text": "False" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "False. If you get a ticket, you are required to sign for it. Your acceptance and signature isn't an admission of guilt. However, refusing to sign a traffic ticket could result in your arrest. You must follow the instructions on the back of the ticket within 15 days to avoid having your driving privileges suspended.",
+    "tags": ["traffic-ticket", "signature", "legal-procedures"],
+    "relatedTopics": ["Citations", "Legal rights", "Court procedures"],
+    "source": "WA Driver Guide - Chapter 5.10: Law enforcement"
+  },
+  {
+    "id": "ch5-058",
+    "type": "multiple_choice",
+    "category": "law-enforcement",
+    "difficulty": "hard",
+    "chapter": 5,
+    "section": "5.10 Law enforcement",
+    "question": "What must you do within 15 days of receiving a traffic ticket?",
+    "options": [
+      { "id": "a", "text": "Pay the fine" },
+      { "id": "b", "text": "Ignore it" },
+      { "id": "c", "text": "Follow the instructions on the back of the ticket to avoid having your driving privileges suspended" },
+      { "id": "d", "text": "Appear in court immediately" }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "You need to follow the instructions on the back of the ticket within 15 days to avoid having your driving privileges suspended. Driving with a suspended license could result in losing your vehicle and/or getting arrested. Refusing to sign a ticket could also result in arrest.",
+    "tags": ["traffic-ticket", "deadline", "license-suspension"],
+    "relatedTopics": ["Citations", "Legal requirements", "Consequences"],
+    "source": "WA Driver Guide - Chapter 5.10: Law enforcement"
+  },
+  {
+    "id": "ch5-059",
+    "type": "true_false",
+    "category": "law-enforcement",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.10 Law enforcement",
+    "question": "An officer can approach either side of your vehicle during a traffic stop.",
+    "options": [
+      { "id": "a", "text": "True" },
+      { "id": "b", "text": "False" }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "True. The officer could approach either side of the vehicle. When the officer approaches, lower the corresponding window so you and the officer can communicate. This is a safety procedure that allows officers to approach from the side with the best visibility and safety.",
+    "tags": ["traffic-stop", "officer-approach", "safety-procedures"],
+    "relatedTopics": ["Police procedures", "Communication", "Vehicle safety"],
+    "source": "WA Driver Guide - Chapter 5.10: Law enforcement"
+  },
+  {
+    "id": "ch5-060",
+    "type": "multiple_choice",
+    "category": "law-enforcement",
+    "difficulty": "medium",
+    "chapter": 5,
+    "section": "5.10 Law enforcement",
+    "question": "What should you do if you have a weapon in your vehicle when pulled over?",
+    "options": [
+      { "id": "a", "text": "Hide it immediately" },
+      { "id": "b", "text": "Let the officer know right away if you have a weapon in the vehicle" },
+      { "id": "c", "text": "Don't mention it" },
+      { "id": "d", "text": "Put it outside the vehicle" }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Let the officer know right away if you have a weapon in the vehicle. This is important for everyone's safety. Wait for the officer's instructions before reaching for your documents, and tell the officer where documents are located before reaching for them.",
+    "tags": ["traffic-stop", "weapons", "safety-procedures"],
+    "relatedTopics": ["Officer safety", "Communication", "Legal requirements"],
+    "source": "WA Driver Guide - Chapter 5.10: Law enforcement"
+  }
+]

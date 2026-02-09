@@ -29,13 +29,24 @@
 | **Topics Covered** | Traffic laws, road signs, safe driving practices |
 | **Languages** | Available in English and Marathi |
 
+### 📊 Question Bank Statistics
+
+| Chapter | Topic | Questions |
+|---------|-------|-----------|
+| Chapter 1 | Licenses | 15 |
+| Chapter 2 | Vehicles | 15 |
+| Chapter 3 | Drivers | 15 |
+| Chapter 4 | Roads | 110 |
+| Chapter 5 | Hazards | 60 |
+| **Total** | **All Topics** | **215+** |
+
 ---
 
 ## ✨ Features
 
 ### 📚 Study Mode
 - **Interactive Flashcards** - Learn concepts with flip-style flashcards
-- **Chapter-based Learning** - Study organized by the 4 main chapters of the WA Driver Guide
+- **Chapter-based Learning** - Study organized by the 5 main chapters of the WA Driver Guide
 - **Progress Tracking** - Track cards studied and mastery level
 
 ### 📝 Practice Mode
@@ -117,7 +128,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/samajumd_microsoft/WA-Driving-Test-Prep.git
+   git clone https://github.com/simplysrv/WA-Driving-Test-Prep.git
    cd WA-Driving-Test-Prep
    ```
 
@@ -175,6 +186,7 @@ wa-driving-test-prep/
 │   │       ├── chapter2-vehicles.json
 │   │       ├── chapter3-drivers.json
 │   │       ├── chapter4-roads.json
+│   │       ├── chapter5-hazards.json
 │   │       └── index.ts
 │   ├── i18n/
 │   │   ├── config.ts        # i18next configuration
@@ -239,10 +251,23 @@ The question bank is organized by chapters from the official **Washington State 
 
 ### Chapter 4: Roads 🛣️
 - Sharing the road (pedestrians, cyclists, motorcycles)
-- Traffic signs and signals
-- Right-of-way rules
-- Parking regulations
-- Emergency situations
+- School buses and transit vehicles
+- Large vehicles and trains
+- Traffic signs, signals, and road markings
+- Right-of-way rules and intersections
+- Roundabouts and parking regulations
+- Emergency vehicles and zones
+
+### Chapter 5: Hazards ⚠️
+- Risk awareness and hazard management
+- Speed and space management
+- Merging and zipper merge technique
+- Eye-lead time and focus
+- Weather conditions (rain, ice, fog)
+- Hydroplaning and skidding
+- Vehicle failures (tire blowout, brake failure)
+- Collision procedures and reporting
+- Law enforcement interactions
 
 ---
 

@@ -44,7 +44,7 @@
       "title": "About the WA Knowledge Test",
       "description": "The Washington State driver's knowledge test consists of <strong>40 multiple-choice questions</strong> covering traffic laws, road signs, and safe driving practices.",
       "passRequirement": "✅ You must answer <strong>at least 32 questions correctly (80%)</strong> to pass.",
-      "materialsTitle": "Our comprehensive study materials cover all four chapters:",
+      "materialsTitle": "Our comprehensive study materials cover all five chapters:",
       "chapter1": "Licenses",
       "chapter1Desc": "requirements, types, laws",
       "chapter2": "Vehicles",
@@ -52,7 +52,9 @@
       "chapter3": "Drivers",
       "chapter3Desc": "impairment, distraction, decision-making",
       "chapter4": "Roads",
-      "chapter4Desc": "sharing roads, traffic rules, right-of-way"
+      "chapter4Desc": "sharing roads, traffic rules, right-of-way",
+      "chapter5": "Hazards",
+      "chapter5Desc": "weather, road conditions, emergencies"
     },
     "cta": {
       "title": "Ready to Get Started?",
@@ -227,6 +229,11 @@
       "title": "Roads",
       "description": "Sharing roads, traffic rules, right-of-way, and emergency procedures",
       "topics": ["Pedestrians", "Right-of-way", "Traffic signals", "Parking", "Emergency vehicles"]
+    },
+    "chapter5": {
+      "title": "Hazards",
+      "description": "Weather hazards, road conditions, wildlife, mechanical failures, and emergency procedures",
+      "topics": ["Weather conditions", "Hydroplaning", "Black ice", "Wildlife", "Brake failure", "Tire blowout", "Emergency stops", "Visibility issues"]
     },
     "questionsAvailable": "{{count}} questions available",
     "keyTopics": "Key Topics:",

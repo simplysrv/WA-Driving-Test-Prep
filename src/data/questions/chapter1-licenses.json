@@ -1,75 +1,41 @@
 [
   {
     "id": "ch1_q001",
-    "type": "multiple_choice",
+    "type": "true_false",
     "category": "licenses",
     "difficulty": "easy",
     "chapter": 1,
-    "section": "1.6",
-    "question": "What is the difference between a standard Washington driver license and a REAL ID?",
+    "section": "1.0",
+    "question": "Becoming a driver is both a privilege and a responsibility.",
     "options": [
-      {
-        "id": "opt1",
-        "text": "REAL ID can be used for federal purposes like boarding domestic flights",
-        "isCorrect": true
-      },
-      {
-        "id": "opt2",
-        "text": "REAL ID allows you to drive commercial vehicles",
-        "isCorrect": false
-      },
-      {
-        "id": "opt3",
-        "text": "Standard licenses cost more than REAL ID",
-        "isCorrect": false
-      },
-      {
-        "id": "opt4",
-        "text": "There is no difference between them",
-        "isCorrect": false
-      }
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
     ],
     "correctAnswerId": "opt1",
-    "explanation": "A REAL ID complies with federal requirements and can be used for boarding domestic flights and entering federal facilities. A standard license cannot be used for these federal purposes.",
-    "tags": ["REAL ID", "license types", "identification"],
-    "relatedTopics": ["Enhanced Driver License", "Federal compliance"],
-    "source": "Chapter 1, Section 1.6"
+    "explanation": "Becoming a driver is both a privilege and a responsibility. It's something that will stay with you for most of your life.",
+    "tags": ["driving privilege", "responsibility", "basics"],
+    "relatedTopics": ["Safe driving", "Driver education"],
+    "source": "Chapter 1, Section 1.0"
   },
   {
     "id": "ch1_q002",
     "type": "multiple_choice",
     "category": "licenses",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "chapter": 1,
-    "section": "1.15",
-    "question": "What is the legal blood alcohol concentration (BAC) limit for drivers 21 years old and older in Washington State?",
+    "section": "1.1",
+    "question": "All Washington licenses, permits, and ID cards have an assigned number that often starts with the letters:",
     "options": [
-      {
-        "id": "opt1",
-        "text": "0.02%",
-        "isCorrect": false
-      },
-      {
-        "id": "opt2",
-        "text": "0.05%",
-        "isCorrect": false
-      },
-      {
-        "id": "opt3",
-        "text": "0.08%",
-        "isCorrect": true
-      },
-      {
-        "id": "opt4",
-        "text": "0.10%",
-        "isCorrect": false
-      }
+      {"id": "opt1", "text": "WAL", "isCorrect": false},
+      {"id": "opt2", "text": "WDL", "isCorrect": true},
+      {"id": "opt3", "text": "WID", "isCorrect": false},
+      {"id": "opt4", "text": "DLN", "isCorrect": false}
     ],
-    "correctAnswerId": "opt3",
-    "explanation": "In Washington State, it is illegal to drive with a BAC of 0.08% or more for drivers 21 years and older. Lower limits apply to drivers under 21 and commercial drivers.",
-    "tags": ["DUI", "BAC", "alcohol", "legal limits"],
-    "relatedTopics": ["DUI penalties", "Implied consent law"],
-    "source": "Chapter 1, Section 1.15"
+    "correctAnswerId": "opt2",
+    "explanation": "All Washington licenses, permits, and ID cards have an assigned Washington number that is specific to you. It often starts with the letters WDL.",
+    "tags": ["WDL number", "identification", "license number"],
+    "relatedTopics": ["License Express", "DOL services"],
+    "source": "Chapter 1, Section 1.1"
   },
   {
     "id": "ch1_q003",
@@ -77,195 +43,117 @@
     "category": "licenses",
     "difficulty": "medium",
     "chapter": 1,
-    "section": "1.15",
-    "question": "What is the THC blood concentration limit for adult drivers in Washington State?",
+    "section": "1.2",
+    "question": "Which of the following can you do through License Express?",
     "options": [
-      {
-        "id": "opt1",
-        "text": "2.00 nanograms per milliliter",
-        "isCorrect": false
-      },
-      {
-        "id": "opt2",
-        "text": "5.00 nanograms per milliliter",
-        "isCorrect": true
-      },
-      {
-        "id": "opt3",
-        "text": "8.00 nanograms per milliliter",
-        "isCorrect": false
-      },
-      {
-        "id": "opt4",
-        "text": "There is no legal limit",
-        "isCorrect": false
-      }
+      {"id": "opt1", "text": "Only renew your driver license", "isCorrect": false},
+      {"id": "opt2", "text": "Make appointments, pre-apply for permits, schedule driving exams, renew licenses, manage vehicle tabs, and update your address", "isCorrect": true},
+      {"id": "opt3", "text": "Only schedule a Driving Skills Exam", "isCorrect": false},
+      {"id": "opt4", "text": "Only update your address", "isCorrect": false}
     ],
     "correctAnswerId": "opt2",
-    "explanation": "It is illegal to drive with a THC concentration of 5.00 ng/mL or more for adult drivers in Washington State.",
-    "tags": ["THC", "marijuana", "cannabis", "impaired driving"],
-    "relatedTopics": ["DUI laws", "Drug impairment"],
-    "source": "Chapter 1, Section 1.15"
+    "explanation": "In License Express, you can: make an appointment at a driver licensing office, pre-apply for an instruction permit, schedule your Driving Skills Exam, renew your driver license, manage your vehicle tabs, and update your address.",
+    "tags": ["License Express", "online services", "DOL"],
+    "relatedTopics": ["DOL services", "Online account"],
+    "source": "Chapter 1, Section 1.2"
   },
   {
     "id": "ch1_q004",
     "type": "true_false",
     "category": "licenses",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "chapter": 1,
-    "section": "1.8",
-    "question": "You can apply for a Washington driver's license online using License Express.",
+    "section": "1.2",
+    "question": "New drivers can get services for themselves by using someone else's License Express account.",
     "options": [
-      {
-        "id": "opt1",
-        "text": "True",
-        "isCorrect": true
-      },
-      {
-        "id": "opt2",
-        "text": "False",
-        "isCorrect": false
-      }
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
     ],
-    "correctAnswerId": "opt1",
-    "explanation": "Yes, Washington State offers License Express, an online platform where eligible applicants can apply for driver's licenses and complete other licensing services.",
-    "tags": ["License Express", "online services", "application process"],
-    "relatedTopics": ["DOL services", "License acquisition"],
-    "source": "Chapter 1, Section 1.8"
+    "correctAnswerId": "opt2",
+    "explanation": "New drivers need to set up their own account. You can't get services for yourself by using someone else's account. The account must belong to you.",
+    "tags": ["License Express", "account", "requirements"],
+    "relatedTopics": ["DOL services", "Online account setup"],
+    "source": "Chapter 1, Section 1.2"
   },
   {
     "id": "ch1_q005",
     "type": "multiple_choice",
     "category": "licenses",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "chapter": 1,
-    "section": "1.8",
-    "question": "How many correct answers are required to pass the Washington State knowledge test?",
+    "section": "1.2",
+    "question": "If you don't remember your WDL number or have questions about your License Express account, you should call:",
     "options": [
-      {
-        "id": "opt1",
-        "text": "28 out of 40 (70%)",
-        "isCorrect": false
-      },
-      {
-        "id": "opt2",
-        "text": "30 out of 40 (75%)",
-        "isCorrect": false
-      },
-      {
-        "id": "opt3",
-        "text": "32 out of 40 (80%)",
-        "isCorrect": true
-      },
-      {
-        "id": "opt4",
-        "text": "36 out of 40 (90%)",
-        "isCorrect": false
-      }
+      {"id": "opt1", "text": "911", "isCorrect": false},
+      {"id": "opt2", "text": "DOL driver licensing customer service at 360-902-3900", "isCorrect": true},
+      {"id": "opt3", "text": "Your local police department", "isCorrect": false},
+      {"id": "opt4", "text": "The Secretary of State's office", "isCorrect": false}
     ],
-    "correctAnswerId": "opt3",
-    "explanation": "The Washington State knowledge test consists of 40 multiple-choice questions. You must answer at least 32 questions correctly (80%) to pass.",
-    "tags": ["knowledge test", "passing score", "test requirements"],
-    "relatedTopics": ["Driver examination", "License requirements"],
-    "source": "Chapter 1, Section 1.8"
+    "correctAnswerId": "opt2",
+    "explanation": "If you don't remember your WDL number or have questions about your License Express account, call DOL driver licensing customer service at 360-902-3900.",
+    "tags": ["DOL", "customer service", "WDL number"],
+    "relatedTopics": ["License Express", "Contact information"],
+    "source": "Chapter 1, Section 1.2"
   },
   {
     "id": "ch1_q006",
     "type": "multiple_choice",
     "category": "licenses",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "chapter": 1,
-    "section": "1.15",
-    "question": "What does Washington State's 'implied consent law' mean?",
+    "section": "1.3",
+    "question": "For help related to vehicle licensing and registration, you should visit:",
     "options": [
-      {
-        "id": "opt1",
-        "text": "You automatically agree to be searched by police",
-        "isCorrect": false
-      },
-      {
-        "id": "opt2",
-        "text": "You consent to alcohol/drug testing when operating a vehicle",
-        "isCorrect": true
-      },
-      {
-        "id": "opt3",
-        "text": "You agree to follow all traffic laws",
-        "isCorrect": false
-      },
-      {
-        "id": "opt4",
-        "text": "You consent to vehicle inspections at any time",
-        "isCorrect": false
-      }
+      {"id": "opt1", "text": "A driver licensing office", "isCorrect": false},
+      {"id": "opt2", "text": "A vehicle licensing office", "isCorrect": true},
+      {"id": "opt3", "text": "Any police station", "isCorrect": false},
+      {"id": "opt4", "text": "The Secretary of State", "isCorrect": false}
     ],
     "correctAnswerId": "opt2",
-    "explanation": "Washington's implied consent law means that by driving on public roads, you automatically consent to alcohol and drug testing if law enforcement has reasonable grounds to believe you are impaired. Refusing the test results in license suspension.",
-    "tags": ["implied consent", "DUI", "testing", "legal requirements"],
-    "relatedTopics": ["DUI enforcement", "License suspension"],
-    "source": "Chapter 1, Section 1.15"
+    "explanation": "Staff at driver licensing offices can help you get your driver license or ID card. Visit a vehicle licensing office for help related to vehicle licensing and registration.",
+    "tags": ["licensing offices", "vehicle registration", "services"],
+    "relatedTopics": ["Driver licensing", "Vehicle licensing"],
+    "source": "Chapter 1, Section 1.3"
   },
   {
     "id": "ch1_q007",
     "type": "multiple_choice",
     "category": "licenses",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "chapter": 1,
-    "section": "1.5",
-    "question": "If you are a new resident of Washington State and are 18 or older, how long do you have to get a Washington driver license?",
+    "section": "1.4",
+    "question": "Which of the following makes you a Washington resident?",
     "options": [
-      {
-        "id": "opt1",
-        "text": "15 days",
-        "isCorrect": false
-      },
-      {
-        "id": "opt2",
-        "text": "30 days",
-        "isCorrect": true
-      },
-      {
-        "id": "opt3",
-        "text": "60 days",
-        "isCorrect": false
-      },
-      {
-        "id": "opt4",
-        "text": "90 days",
-        "isCorrect": false
-      }
+      {"id": "opt1", "text": "Only maintaining a residence in Washington", "isCorrect": false},
+      {"id": "opt2", "text": "Maintaining a residence, being registered to vote, using a WA address for taxes, receiving WA public assistance, or attending school paying WA tuition", "isCorrect": true},
+      {"id": "opt3", "text": "Only being registered to vote in Washington", "isCorrect": false},
+      {"id": "opt4", "text": "Only visiting Washington for more than 30 days", "isCorrect": false}
     ],
     "correctAnswerId": "opt2",
-    "explanation": "New Washington residents who are 18 or older must obtain a Washington driver license within 30 days of establishing residency.",
-    "tags": ["new residents", "residency requirements", "time limits"],
-    "relatedTopics": ["License transfer", "Residency criteria"],
-    "source": "Chapter 1, Section 1.5"
+    "explanation": "You are a WA resident if any of the following are true: you maintain a residence in WA, are registered to vote in WA, use a WA address for taxes, receive WA public assistance benefits, or attend school paying WA tuition.",
+    "tags": ["residency", "Washington resident", "criteria"],
+    "relatedTopics": ["New residents", "Licensing requirements"],
+    "source": "Chapter 1, Section 1.4"
   },
   {
     "id": "ch1_q008",
-    "type": "true_false",
+    "type": "multiple_choice",
     "category": "licenses",
     "difficulty": "easy",
     "chapter": 1,
-    "section": "1.9",
-    "question": "You can indicate your wish to be an organ donor on your Washington driver license.",
+    "section": "1.5",
+    "question": "New residents who are 18 or older and licensed in another state have how long to obtain a Washington State driver license?",
     "options": [
-      {
-        "id": "opt1",
-        "text": "True",
-        "isCorrect": true
-      },
-      {
-        "id": "opt2",
-        "text": "False",
-        "isCorrect": false
-      }
+      {"id": "opt1", "text": "15 days", "isCorrect": false},
+      {"id": "opt2", "text": "30 days", "isCorrect": true},
+      {"id": "opt3", "text": "60 days", "isCorrect": false},
+      {"id": "opt4", "text": "90 days", "isCorrect": false}
     ],
-    "correctAnswerId": "opt1",
-    "explanation": "Yes, Washington State allows you to register as an organ donor and this information can be indicated on your driver license.",
-    "tags": ["organ donation", "license features", "health designations"],
-    "relatedTopics": ["Medical designations", "License options"],
-    "source": "Chapter 1, Section 1.9"
+    "correctAnswerId": "opt2",
+    "explanation": "New residents that are licensed in another state have 30 days to obtain a Washington State driver license.",
+    "tags": ["new residents", "time limit", "license transfer"],
+    "relatedTopics": ["Residency requirements", "Out-of-state licenses"],
+    "source": "Chapter 1, Section 1.5"
   },
   {
     "id": "ch1_q009",
@@ -273,35 +161,19 @@
     "category": "licenses",
     "difficulty": "medium",
     "chapter": 1,
-    "section": "1.15",
-    "question": "What is prohibited under Washington State's open container law?",
+    "section": "1.5",
+    "question": "If your out-of-state license is expired when you move to Washington, you will need to:",
     "options": [
-      {
-        "id": "opt1",
-        "text": "Having any alcohol in the vehicle",
-        "isCorrect": false
-      },
-      {
-        "id": "opt2",
-        "text": "Having an open container of alcohol in the passenger area",
-        "isCorrect": true
-      },
-      {
-        "id": "opt3",
-        "text": "Transporting alcohol in your trunk",
-        "isCorrect": false
-      },
-      {
-        "id": "opt4",
-        "text": "Drinking alcohol 24 hours before driving",
-        "isCorrect": false
-      }
+      {"id": "opt1", "text": "Only take the knowledge exam", "isCorrect": false},
+      {"id": "opt2", "text": "Pass both the Driving Knowledge Exam and Driving Skills Exam", "isCorrect": true},
+      {"id": "opt3", "text": "Only take the skills exam", "isCorrect": false},
+      {"id": "opt4", "text": "Pay a transfer fee only", "isCorrect": false}
     ],
     "correctAnswerId": "opt2",
-    "explanation": "Washington's open container statute prohibits having an open container of alcohol in the passenger area of a vehicle. Sealed containers and containers in the trunk are generally allowed.",
-    "tags": ["open container", "alcohol laws", "vehicle regulations"],
-    "relatedTopics": ["DUI prevention", "Alcohol restrictions"],
-    "source": "Chapter 1, Section 1.15"
+    "explanation": "If your out-of-state license is expired, you'll need to pass both the Driving Knowledge Exam and Driving Skills Exam before getting a Washington license.",
+    "tags": ["expired license", "out-of-state", "exams"],
+    "relatedTopics": ["License transfer", "Testing requirements"],
+    "source": "Chapter 1, Section 1.5"
   },
   {
     "id": "ch1_q010",
@@ -309,34 +181,1732 @@
     "category": "licenses",
     "difficulty": "medium",
     "chapter": 1,
-    "section": "1.8",
-    "question": "What must you do before taking the driving skills exam in Washington?",
+    "section": "1.5",
+    "question": "If you're under 18 and have a license from another state, you'll need to apply for a:",
     "options": [
-      {
-        "id": "opt1",
-        "text": "Complete a driver training course only",
-        "isCorrect": false
-      },
-      {
-        "id": "opt2",
-        "text": "Pass the knowledge exam and have an instruction permit",
-        "isCorrect": true
-      },
-      {
-        "id": "opt3",
-        "text": "Turn 18 years old",
-        "isCorrect": false
-      },
-      {
-        "id": "opt4",
-        "text": "Own a vehicle",
-        "isCorrect": false
-      }
+      {"id": "opt1", "text": "Standard driver license", "isCorrect": false},
+      {"id": "opt2", "text": "Washington Intermediate Driver License", "isCorrect": true},
+      {"id": "opt3", "text": "Commercial driver license", "isCorrect": false},
+      {"id": "opt4", "text": "Enhanced driver license", "isCorrect": false}
     ],
     "correctAnswerId": "opt2",
-    "explanation": "Before taking the driving skills exam, you must pass the knowledge exam and obtain an instruction permit. Additional requirements like practice hours and training may apply depending on your age.",
-    "tags": ["driving skills exam", "instruction permit", "test requirements"],
-    "relatedTopics": ["License acquisition process", "Knowledge exam"],
+    "explanation": "If you're under 18 and have your license from another state, you'll need to apply for a Washington Intermediate Driver License. The DOL will need to verify your driver education and that you had your instruction permit for at least 6 months.",
+    "tags": ["under 18", "intermediate license", "out-of-state"],
+    "relatedTopics": ["License transfer", "Teen drivers"],
+    "source": "Chapter 1, Section 1.5"
+  },
+  {
+    "id": "ch1_q011",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.5",
+    "question": "To get an instruction permit, driver license, or identification card, you'll need to provide documentation that proves your identity.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "To get an instruction permit, driver license, or identification card, you'll need to provide documentation that proves your identity. Bring original copies of all necessary documents.",
+    "tags": ["identity documents", "requirements", "application"],
+    "relatedTopics": ["Documentation", "Licensing office"],
+    "source": "Chapter 1, Section 1.5"
+  },
+  {
+    "id": "ch1_q012",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.5",
+    "question": "If you are experiencing homelessness, you're eligible for a no-cost ID or a reduced-fee ID.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "If you are experiencing homelessness, you're eligible for a no-cost ID or a reduced-fee ID. People receiving public assistance might also be eligible for an ID card at a reduced cost.",
+    "tags": ["homelessness", "reduced fee", "ID card"],
+    "relatedTopics": ["DSHS", "Public assistance"],
+    "source": "Chapter 1, Section 1.5"
+  },
+  {
+    "id": "ch1_q013",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.6",
+    "question": "A standard Washington driver license is NOT suitable for:",
+    "options": [
+      {"id": "opt1", "text": "Identification", "isCorrect": false},
+      {"id": "opt2", "text": "Domestic air travel, international border crossing, or access to federal facilities", "isCorrect": true},
+      {"id": "opt3", "text": "Operating a motor vehicle", "isCorrect": false},
+      {"id": "opt4", "text": "Proving your age", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "A standard driver license is suitable for identification and operating a motor vehicle, but NOT suitable for domestic air travel, international air travel, international border crossing by land or sea, or access to federal facilities.",
+    "tags": ["standard license", "limitations", "identification"],
+    "relatedTopics": ["Enhanced license", "REAL ID"],
+    "source": "Chapter 1, Section 1.6"
+  },
+  {
+    "id": "ch1_q014",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.6",
+    "question": "An enhanced driver license is suitable for all of the following EXCEPT:",
+    "options": [
+      {"id": "opt1", "text": "Domestic air travel", "isCorrect": false},
+      {"id": "opt2", "text": "International air travel", "isCorrect": true},
+      {"id": "opt3", "text": "International border crossing by land or sea", "isCorrect": false},
+      {"id": "opt4", "text": "Access to federal facilities", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "An enhanced driver license is suitable for identification, operating a motor vehicle, domestic air travel, international border crossing by land or sea, and access to federal facilities. It is NOT suitable for international air travel.",
+    "tags": ["enhanced license", "travel", "limitations"],
+    "relatedTopics": ["Standard license", "REAL ID"],
+    "source": "Chapter 1, Section 1.6"
+  },
+  {
+    "id": "ch1_q015",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.6",
+    "question": "Standard licenses and IDs meet REAL ID standards.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Standard licenses and IDs do NOT meet REAL ID standards. Enhanced licenses and IDs meet REAL ID standards.",
+    "tags": ["standard license", "REAL ID", "compliance"],
+    "relatedTopics": ["Enhanced license", "Federal requirements"],
+    "source": "Chapter 1, Section 1.6"
+  },
+  {
+    "id": "ch1_q016",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.7",
+    "question": "REAL ID is a law, not an actual piece of ID.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "REAL ID is a law, not an actual piece of ID. An enhanced driver license or ID is among several options that meet REAL ID requirements.",
+    "tags": ["REAL ID", "law", "definition"],
+    "relatedTopics": ["Enhanced license", "Federal compliance"],
+    "source": "Chapter 1, Section 1.7"
+  },
+  {
+    "id": "ch1_q017",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.7",
+    "question": "Standard driver licenses will no longer be an acceptable form of identification for airport security checkpoints, U.S. border crossings, or accessing secure federal buildings.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Standard driver licenses will no longer be an acceptable form of identification for airport security checkpoints, U.S. border crossings, or accessing secure federal buildings. You need a REAL ID-compliant document.",
+    "tags": ["REAL ID", "standard license", "restrictions"],
+    "relatedTopics": ["Enhanced license", "Airport security"],
+    "source": "Chapter 1, Section 1.7"
+  },
+  {
+    "id": "ch1_q018",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "If you are enrolling in a driver training course, you can apply for your instruction permit as early as:",
+    "options": [
+      {"id": "opt1", "text": "14 years old", "isCorrect": false},
+      {"id": "opt2", "text": "15 years old", "isCorrect": true},
+      {"id": "opt3", "text": "15½ years old", "isCorrect": false},
+      {"id": "opt4", "text": "16 years old", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "If you are enrolling in a driver training course, you can apply for your permit as early as 15 years old. Apply at a driver licensing office or online 1 to 10 days before your course starts.",
+    "tags": ["instruction permit", "age requirement", "driver training"],
+    "relatedTopics": ["Driver training", "Permit application"],
     "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q019",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "If you are NOT enrolling in a driver training course, you can take the knowledge exam after you turn:",
+    "options": [
+      {"id": "opt1", "text": "15 years old", "isCorrect": false},
+      {"id": "opt2", "text": "15½ years old", "isCorrect": true},
+      {"id": "opt3", "text": "16 years old", "isCorrect": false},
+      {"id": "opt4", "text": "17 years old", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "If you are not enrolling in a driver training course, you can take the knowledge exam after you turn 15½. Once you pass, you'll get your permit, but you need to wait until you're 18 to take the skills exam.",
+    "tags": ["knowledge exam", "age requirement", "no training course"],
+    "relatedTopics": ["Instruction permit", "Skills exam"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q020",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "Your instruction permit is valid for:",
+    "options": [
+      {"id": "opt1", "text": "6 months", "isCorrect": false},
+      {"id": "opt2", "text": "1 year (can be renewed for a fee)", "isCorrect": true},
+      {"id": "opt3", "text": "2 years", "isCorrect": false},
+      {"id": "opt4", "text": "Until you pass the skills exam", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Your permit is valid for 1 year and can be renewed for a fee. Your knowledge exam score is only valid for 2 years.",
+    "tags": ["instruction permit", "validity", "renewal"],
+    "relatedTopics": ["Knowledge exam validity", "Skills exam"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q021",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "Your knowledge exam score is valid for:",
+    "options": [
+      {"id": "opt1", "text": "1 year", "isCorrect": false},
+      {"id": "opt2", "text": "2 years", "isCorrect": true},
+      {"id": "opt3", "text": "3 years", "isCorrect": false},
+      {"id": "opt4", "text": "5 years", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Your knowledge exam score is only valid for 2 years. If you wait too long to take your skills exam, you may have to take the knowledge exam again.",
+    "tags": ["knowledge exam", "score validity", "time limit"],
+    "relatedTopics": ["Skills exam", "Instruction permit"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q022",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "To get your first driver license at ages 16-17, you must have your instruction permit for at least:",
+    "options": [
+      {"id": "opt1", "text": "3 months", "isCorrect": false},
+      {"id": "opt2", "text": "6 months", "isCorrect": true},
+      {"id": "opt3", "text": "9 months", "isCorrect": false},
+      {"id": "opt4", "text": "12 months", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "To get your first driver license at ages 16-17, you must have your instruction permit for at least 6 months.",
+    "tags": ["instruction permit", "6 months", "teen license"],
+    "relatedTopics": ["Licensing requirements", "Teen drivers"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q023",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "For ages 16-17, the minimum driving practice required with a licensed driver is:",
+    "options": [
+      {"id": "opt1", "text": "30 hours of day driving and 5 hours of night driving", "isCorrect": false},
+      {"id": "opt2", "text": "40 hours of day driving and 10 hours of night driving", "isCorrect": true},
+      {"id": "opt3", "text": "50 hours of day driving and 10 hours of night driving", "isCorrect": false},
+      {"id": "opt4", "text": "20 hours of day driving and 5 hours of night driving", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You must complete at least 40 hours of day driving and 10 hours of night driving with a licensed driver who has 3 or more years of experience.",
+    "tags": ["practice hours", "day driving", "night driving"],
+    "relatedTopics": ["Supervised driving", "Teen requirements"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q024",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "For teens ages 16-17, the licensed driver supervising their practice must have at least how many years of experience?",
+    "options": [
+      {"id": "opt1", "text": "1 year", "isCorrect": false},
+      {"id": "opt2", "text": "3 years", "isCorrect": true},
+      {"id": "opt3", "text": "5 years", "isCorrect": false},
+      {"id": "opt4", "text": "10 years", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Teens must complete at least 40 hours of day driving and 10 hours of night driving with a licensed driver who has 3 or more years of experience.",
+    "tags": ["supervised driving", "experience requirement", "practice"],
+    "relatedTopics": ["Teen drivers", "Driving practice"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q025",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "To get a license at ages 16-17, you must be without any traffic violations or convictions for 6 months prior to applying.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "You must be without any traffic violations or convictions for 6 months prior to applying for the license, and have no alcohol or drug offenses while driving with your instruction permit.",
+    "tags": ["teen license", "violations", "clean record"],
+    "relatedTopics": ["Licensing requirements", "Traffic violations"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q026",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "A traffic safety course completed in another state must meet Washington's minimum requirement of:",
+    "options": [
+      {"id": "opt1", "text": "20 hours of classroom and 4 hours of behind-the-wheel", "isCorrect": false},
+      {"id": "opt2", "text": "30 hours of classroom and 6 hours of behind-the-wheel instruction", "isCorrect": true},
+      {"id": "opt3", "text": "40 hours of classroom and 8 hours of behind-the-wheel", "isCorrect": false},
+      {"id": "opt4", "text": "50 hours of classroom and 10 hours of behind-the-wheel", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "A traffic safety course completed in another state must meet Washington's minimum requirement of 30 hours of classroom and 6 hours of behind-the-wheel instruction.",
+    "tags": ["driver training", "out-of-state", "requirements"],
+    "relatedTopics": ["Traffic safety course", "Licensing requirements"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q027",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "When you get your license in person at a driver licensing office, you will receive a temporary license that is good for:",
+    "options": [
+      {"id": "opt1", "text": "30 days", "isCorrect": false},
+      {"id": "opt2", "text": "45 days", "isCorrect": true},
+      {"id": "opt3", "text": "60 days", "isCorrect": false},
+      {"id": "opt4", "text": "90 days", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Before leaving the office, you'll receive a temporary license that is good for 45 days. Your official license will be mailed to you.",
+    "tags": ["temporary license", "in-person", "45 days"],
+    "relatedTopics": ["License issuance", "Official license"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q028",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "If you get your license online, the printed receipt serves as your temporary license but won't include your photo, so it's not valid for identification.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "When getting your license online, print the receipt — this is your temporary license. It won't include your photo, so it's not valid for identification.",
+    "tags": ["online license", "temporary license", "identification"],
+    "relatedTopics": ["License issuance", "Online services"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q029",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "If you are 18 or over and want to get your first Washington driver license, how many options do you have?",
+    "options": [
+      {"id": "opt1", "text": "2 options", "isCorrect": false},
+      {"id": "opt2", "text": "4 options", "isCorrect": true},
+      {"id": "opt3", "text": "3 options", "isCorrect": false},
+      {"id": "opt4", "text": "1 option", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Adults 18+ have 4 options: transfer from another state, pass both exams, get a permit and practice with a licensed driver (5+ years experience) then pass skills exam, or get an exam waiver and take a driver training course.",
+    "tags": ["adult license", "options", "18+"],
+    "relatedTopics": ["License acquisition", "Adult drivers"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q030",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "For adults 18 or over who want to practice driving with a permit, the licensed driver accompanying them must have at least how many years of experience?",
+    "options": [
+      {"id": "opt1", "text": "3 years", "isCorrect": false},
+      {"id": "opt2", "text": "5 years", "isCorrect": true},
+      {"id": "opt3", "text": "7 years", "isCorrect": false},
+      {"id": "opt4", "text": "10 years", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "For adults 18+, one option is to pass the knowledge exam, get a permit, practice driving with a licensed driver who has 5 or more years of experience, and then pass the skills exam.",
+    "tags": ["adult permit", "practice driving", "experience requirement"],
+    "relatedTopics": ["Adult licensing", "Supervised driving"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q031",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "hard",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "During the first 6 months with an intermediate driver license, teens cannot have passengers under age:",
+    "options": [
+      {"id": "opt1", "text": "18, except immediate family", "isCorrect": false},
+      {"id": "opt2", "text": "20, except immediate family", "isCorrect": true},
+      {"id": "opt3", "text": "21, except immediate family", "isCorrect": false},
+      {"id": "opt4", "text": "16, except immediate family", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "From issue date to 6 months: no passengers under age 20 except immediate family members. From 6 months to age 18: no more than 3 passengers under age 20 except immediate family.",
+    "tags": ["intermediate license", "passenger restrictions", "teen drivers"],
+    "relatedTopics": ["Graduated licensing", "Teen restrictions"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q032",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "With an intermediate driver license, driving is restricted between what hours unless accompanied by a parent, guardian, or licensed driver at least age 25?",
+    "options": [
+      {"id": "opt1", "text": "10 p.m. and 5 a.m.", "isCorrect": false},
+      {"id": "opt2", "text": "1 a.m. and 5 a.m.", "isCorrect": true},
+      {"id": "opt3", "text": "Midnight and 6 a.m.", "isCorrect": false},
+      {"id": "opt4", "text": "11 p.m. and 5 a.m.", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "During the first 6 months, no driving between 1 a.m. and 5 a.m. unless accompanied by a parent, guardian, or licensed driver at least age 25.",
+    "tags": ["intermediate license", "nighttime restriction", "curfew"],
+    "relatedTopics": ["Teen restrictions", "Graduated licensing"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q033",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "Intermediate license laws restrict the use of cell phones and wireless communication devices while driving, even with hands-free technology.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Intermediate license laws restrict the use of cell phones and wireless communication devices while you're driving, even with hands-free technology. You can only use your phone to report an emergency.",
+    "tags": ["intermediate license", "cell phone", "hands-free"],
+    "relatedTopics": ["Teen restrictions", "Distracted driving"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q034",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "hard",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "For an intermediate license holder, what is the penalty for a second traffic violation?",
+    "options": [
+      {"id": "opt1", "text": "Current restrictions apply until age 18", "isCorrect": false},
+      {"id": "opt2", "text": "License is suspended for 6 months or until age 18, whichever comes first", "isCorrect": true},
+      {"id": "opt3", "text": "License is suspended until age 18", "isCorrect": false},
+      {"id": "opt4", "text": "A warning letter is sent home", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "1st violation: current restrictions apply until 18. 2nd violation: license suspended for 6 months or until age 18, whichever comes first. 3rd violation: license suspended until age 18.",
+    "tags": ["intermediate license", "violations", "penalties"],
+    "relatedTopics": ["Graduated licensing", "License suspension"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q035",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "hard",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "For an intermediate license holder, what is the penalty for a third traffic violation?",
+    "options": [
+      {"id": "opt1", "text": "A fine and community service", "isCorrect": false},
+      {"id": "opt2", "text": "License is suspended until you're 18", "isCorrect": true},
+      {"id": "opt3", "text": "License is suspended for 3 months", "isCorrect": false},
+      {"id": "opt4", "text": "Required to retake the knowledge exam", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "3rd violation: License is suspended until you're 18. This is the most severe penalty for intermediate license holders.",
+    "tags": ["intermediate license", "third violation", "suspension"],
+    "relatedTopics": ["License suspension", "Teen penalties"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q036",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "After 6 months with an intermediate license, a teen can have no more than how many passengers under age 20 (except immediate family)?",
+    "options": [
+      {"id": "opt1", "text": "1 passenger", "isCorrect": false},
+      {"id": "opt2", "text": "3 passengers", "isCorrect": true},
+      {"id": "opt3", "text": "2 passengers", "isCorrect": false},
+      {"id": "opt4", "text": "No limit", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "From 6 months to age 18 or 1 year (whichever comes first): no more than 3 passengers under age 20 except immediate family members.",
+    "tags": ["intermediate license", "passenger limit", "6 months"],
+    "relatedTopics": ["Teen restrictions", "Graduated licensing"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q037",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "You don't need to get a new license when you turn 18. Intermediate driver license restrictions are automatically lifted.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "You don't need to get a new license when you turn 18. Intermediate driver license restrictions are automatically lifted. You can wait until you renew your license to get an updated physical copy.",
+    "tags": ["intermediate license", "age 18", "automatic"],
+    "relatedTopics": ["License renewal", "Graduated licensing"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q038",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "Intermediate driver license holders may drive at any hour, with passengers, for agricultural purposes.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Agricultural purposes is an exception to intermediate license restrictions. Intermediate driver license holders may drive at any hour, with passengers, for agricultural purposes.",
+    "tags": ["intermediate license", "exceptions", "agriculture"],
+    "relatedTopics": ["Agricultural permits", "Exceptions"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q039",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "After 1 year of safe driving without a crash or traffic offense, intermediate license holders may drive at any hour with passengers.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Intermediate driver license holders may drive at any hour, with passengers, if they haven't been involved in a crash or committed a traffic offense for 1 year of safe driving.",
+    "tags": ["intermediate license", "safe driving", "1 year"],
+    "relatedTopics": ["Exceptions", "Clean driving record"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q040",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "An agricultural permit is a substitution for an instruction permit.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "An agricultural permit isn't a substitution for an instruction permit. You still have to get an instruction permit and meet all driving practice requirements before you can get your first driver license.",
+    "tags": ["agricultural permit", "instruction permit", "requirements"],
+    "relatedTopics": ["Farm driving", "Licensing requirements"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q041",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "There is no minimum age requirement for a juvenile agricultural permit.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Agricultural permits allow drivers under 18 years old to drive within a specific area for farm work. There's no minimum age requirement for a juvenile agricultural permit.",
+    "tags": ["agricultural permit", "no minimum age", "farm work"],
+    "relatedTopics": ["Agricultural driving", "Youth permits"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q042",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "The DOL sends early warning letters to drivers ages:",
+    "options": [
+      {"id": "opt1", "text": "16 to 18", "isCorrect": false},
+      {"id": "opt2", "text": "18 to 21", "isCorrect": true},
+      {"id": "opt3", "text": "21 to 25", "isCorrect": false},
+      {"id": "opt4", "text": "16 to 25", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "The DOL sends letters to all drivers ages 18 to 21 who receive their first moving violation. A driver's chances of crashing doubles after receiving their first violation.",
+    "tags": ["early warning", "young drivers", "violations"],
+    "relatedTopics": ["Traffic violations", "Safety awareness"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q043",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.9",
+    "question": "DOL will check your vision before issuing your license.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "DOL will check your vision before issuing your license. If you use corrective glasses or contact lenses, this will be recorded on your license.",
+    "tags": ["vision screening", "license requirements", "vision"],
+    "relatedTopics": ["Health requirements", "Corrective lenses"],
+    "source": "Chapter 1, Section 1.9"
+  },
+  {
+    "id": "ch1_q044",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.9",
+    "question": "When you get your license, you'll be asked if you want to become an organ donor.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "When you get your license, you'll be asked if you want to become an organ donor. If you choose to, the donor heart symbol will appear on your license.",
+    "tags": ["organ donor", "license", "donor symbol"],
+    "relatedTopics": ["Health designations", "License features"],
+    "source": "Chapter 1, Section 1.9"
+  },
+  {
+    "id": "ch1_q045",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.9",
+    "question": "Which medical designations can you add to your driver license or ID card?",
+    "options": [
+      {"id": "opt1", "text": "Only medical alert", "isCorrect": false},
+      {"id": "opt2", "text": "Developmental disability, deaf or hard of hearing, and medical alert", "isCorrect": true},
+      {"id": "opt3", "text": "Only deaf or hard of hearing", "isCorrect": false},
+      {"id": "opt4", "text": "Only developmental disability", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You can add 1 or more of these designations to your record: developmental disability, deaf or hard of hearing, and medical alert. These give first responders important information in emergencies.",
+    "tags": ["medical designations", "disability", "first responders"],
+    "relatedTopics": ["Health designations", "Emergency information"],
+    "source": "Chapter 1, Section 1.9"
+  },
+  {
+    "id": "ch1_q046",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.10",
+    "question": "To drive motorcycles or commercial motor vehicles, you need to get an additional endorsement added to your personal driver license.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "To drive motorcycles or commercial motor vehicles, you need to get an additional endorsement added to your personal driver license.",
+    "tags": ["endorsements", "motorcycle", "commercial vehicles"],
+    "relatedTopics": ["License types", "Special permits"],
+    "source": "Chapter 1, Section 1.10"
+  },
+  {
+    "id": "ch1_q047",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.11",
+    "question": "Decisions about your driving ability should be based on age alone.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Decisions about your driving ability shouldn't be based on age alone. However, changes in vision, physical fitness, and reflexes could cause safety concerns.",
+    "tags": ["older drivers", "age", "driving ability"],
+    "relatedTopics": ["Driver fitness", "Age-related changes"],
+    "source": "Chapter 1, Section 1.11"
+  },
+  {
+    "id": "ch1_q048",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.12",
+    "question": "Before you can be a licensed driver, you must pass:",
+    "options": [
+      {"id": "opt1", "text": "Only the knowledge exam", "isCorrect": false},
+      {"id": "opt2", "text": "Both the Driving Knowledge Exam and the Driving Skills Exam", "isCorrect": true},
+      {"id": "opt3", "text": "Only the skills exam", "isCorrect": false},
+      {"id": "opt4", "text": "A written test and an oral test", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Before you can be a licensed driver, you have to pass 2 exams: the Driving Knowledge Exam and the Driving Skills Exam.",
+    "tags": ["exams", "knowledge exam", "skills exam"],
+    "relatedTopics": ["License requirements", "Testing"],
+    "source": "Chapter 1, Section 1.12"
+  },
+  {
+    "id": "ch1_q049",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.12",
+    "question": "You must first pass the knowledge exam before you can take the Driving Skills Exam.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "You must first pass the knowledge exam before you can take the Driving Skills Exam. After you pass the knowledge exam, you have 2 years to complete the skills exam.",
+    "tags": ["exam order", "knowledge first", "skills second"],
+    "relatedTopics": ["Testing sequence", "Exam timeline"],
+    "source": "Chapter 1, Section 1.12"
+  },
+  {
+    "id": "ch1_q050",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.12",
+    "question": "During the Driving Skills Exam, who is allowed in the vehicle?",
+    "options": [
+      {"id": "opt1", "text": "You, the examiner, and one parent or guardian", "isCorrect": false},
+      {"id": "opt2", "text": "Only you and the examiner (exceptions for service animals and sign language interpreters)", "isCorrect": true},
+      {"id": "opt3", "text": "You, the examiner, and your driving instructor", "isCorrect": false},
+      {"id": "opt4", "text": "Anyone you choose", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You and the examiner are the only people allowed in the vehicle during the exam. Exceptions are made for service animals and sign language interpreters.",
+    "tags": ["skills exam", "vehicle occupants", "rules"],
+    "relatedTopics": ["Driving test", "Exam procedures"],
+    "source": "Chapter 1, Section 1.12"
+  },
+  {
+    "id": "ch1_q051",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.12",
+    "question": "The vehicle used for the Driving Skills Exam must have:",
+    "options": [
+      {"id": "opt1", "text": "Only working brake lights", "isCorrect": false},
+      {"id": "opt2", "text": "Proof of current liability insurance, working brake lights, signal lights, and seat belts, and be in safe operating condition", "isCorrect": true},
+      {"id": "opt3", "text": "Only proof of insurance", "isCorrect": false},
+      {"id": "opt4", "text": "Only working seat belts", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "The vehicle needs to have proof of current liability insurance, be legally licensed and registered, and be in safe operating condition. Brake lights, signal lights, and seat belts must work.",
+    "tags": ["skills exam", "vehicle requirements", "insurance"],
+    "relatedTopics": ["Driving test", "Vehicle safety"],
+    "source": "Chapter 1, Section 1.12"
+  },
+  {
+    "id": "ch1_q052",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.13",
+    "question": "Some driver training schools also offer adult traffic safety courses for new drivers over the age of 18.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Drivers over 18 who haven't completed a driver training course face an increased crash risk. Some driver training schools offer adult traffic safety courses for new drivers over 18.",
+    "tags": ["adult training", "driver education", "over 18"],
+    "relatedTopics": ["Driver training schools", "Adult drivers"],
+    "source": "Chapter 1, Section 1.13"
+  },
+  {
+    "id": "ch1_q053",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.13",
+    "question": "Drivers over 18 who haven't completed a driver training course face an increased crash risk.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Drivers over 18 who haven't completed a driver training course face an increased crash risk. Proper training and skill review is good for any age.",
+    "tags": ["crash risk", "driver training", "adult drivers"],
+    "relatedTopics": ["Driver education", "Safety"],
+    "source": "Chapter 1, Section 1.13"
+  },
+  {
+    "id": "ch1_q054",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.14",
+    "question": "Driver training courses for students under age 18 are required to offer a parent orientation class.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Driver training courses for students under age 18 are required to offer a parent orientation class. These sessions familiarize mentors with the program and driving requirements.",
+    "tags": ["parent orientation", "driver training", "under 18"],
+    "relatedTopics": ["Guardian involvement", "Teen drivers"],
+    "source": "Chapter 1, Section 1.14"
+  },
+  {
+    "id": "ch1_q055",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "You can renew your driver license up to how long before it expires?",
+    "options": [
+      {"id": "opt1", "text": "6 months", "isCorrect": false},
+      {"id": "opt2", "text": "1 year", "isCorrect": true},
+      {"id": "opt3", "text": "2 years", "isCorrect": false},
+      {"id": "opt4", "text": "3 months", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You can renew your license up to 1 year before it expires. Renew online through License Express, or at a driver licensing office.",
+    "tags": ["license renewal", "expiration", "timeline"],
+    "relatedTopics": ["License Express", "License maintenance"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q056",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "If your license is 8 or more years expired, you'll need to:",
+    "options": [
+      {"id": "opt1", "text": "Just pay a renewal fee", "isCorrect": false},
+      {"id": "opt2", "text": "Retake the skills and knowledge test", "isCorrect": true},
+      {"id": "opt3", "text": "Only retake the knowledge test", "isCorrect": false},
+      {"id": "opt4", "text": "Only retake the skills test", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "If your license is 8 or more years expired, you'll need to retake the skills and knowledge test.",
+    "tags": ["expired license", "8 years", "retake exams"],
+    "relatedTopics": ["License renewal", "Testing requirements"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q057",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "Which of the following is NOT a reason you can lose your driving privileges?",
+    "options": [
+      {"id": "opt1", "text": "Driving under the influence", "isCorrect": false},
+      {"id": "opt2", "text": "Renewing your license before it expires", "isCorrect": true},
+      {"id": "opt3", "text": "Running from law enforcement", "isCorrect": false},
+      {"id": "opt4", "text": "Driving without insurance", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You can lose driving privileges for: violating intermediate license restrictions, DUI, accumulation of moving violations, suspended/revoked license, running from law enforcement, racing, endangering workers, hit and run, vehicular assault/homicide, felonies, driving without insurance, and more.",
+    "tags": ["losing privileges", "license suspension", "violations"],
+    "relatedTopics": ["License suspension", "Traffic violations"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q058",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "Minors who receive an alcohol, drug, or firearm offense run the risk of delaying their license until they are 17 years of age.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Minors who receive an alcohol, drug, or firearm offense run the risk of delaying their license until they are 17 years of age.",
+    "tags": ["minors", "alcohol", "firearms", "license delay"],
+    "relatedTopics": ["Alcohol violations", "Teen penalties"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q059",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "In Washington, it is illegal to drive under the influence of alcohol or drugs.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "In Washington, it is illegal to drive under the influence of alcohol or drugs (RCW 46.61.502). Driving under the influence has life-threatening and legal consequences.",
+    "tags": ["DUI", "illegal", "alcohol", "drugs"],
+    "relatedTopics": ["RCW 46.61.502", "DUI penalties"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q060",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "hard",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "DUI also applies to being in control of a vehicle, even if it's parked.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "DUI also applies to being in control of a vehicle, even if it's parked (RCW 46.61.503). If you have the ability to take control of a vehicle's engine or operation, you are considered in physical control of the vehicle.",
+    "tags": ["DUI", "physical control", "parked vehicle"],
+    "relatedTopics": ["RCW 46.61.503", "DUI law"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q061",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "hard",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "Under the Implied Consent Law, everyone who drives in Washington agrees to:",
+    "options": [
+      {"id": "opt1", "text": "Always carry proof of insurance", "isCorrect": false},
+      {"id": "opt2", "text": "Be tested if an officer suspects they are under the influence of alcohol or drugs", "isCorrect": true},
+      {"id": "opt3", "text": "Allow vehicle searches at any time", "isCorrect": false},
+      {"id": "opt4", "text": "Report all traffic incidents", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Under the Implied Consent Law (RCW 46.20.308), everyone who drives in Washington agrees to be tested if an officer suspects they are under the influence of alcohol or drugs.",
+    "tags": ["implied consent", "testing", "DUI"],
+    "relatedTopics": ["RCW 46.20.308", "BAC testing"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q062",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "For drivers age 21 and older, what BAC level is considered a DUI?",
+    "options": [
+      {"id": "opt1", "text": "0.02% or higher", "isCorrect": false},
+      {"id": "opt2", "text": "0.08% or higher", "isCorrect": true},
+      {"id": "opt3", "text": "0.05% or higher", "isCorrect": false},
+      {"id": "opt4", "text": "0.10% or higher", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "For drivers age 21 and older, having a BAC of 0.08% or higher is considered a DUI and can result in legal consequences.",
+    "tags": ["BAC", "DUI", "legal limit", "21+"],
+    "relatedTopics": ["Blood alcohol", "DUI penalties"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q063",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "For drivers under age 21, what BAC level can result in DUI consequences?",
+    "options": [
+      {"id": "opt1", "text": "0.08%", "isCorrect": false},
+      {"id": "opt2", "text": "0.02%", "isCorrect": true},
+      {"id": "opt3", "text": "0.05%", "isCorrect": false},
+      {"id": "opt4", "text": "0.00%", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Drivers under age 21 have the same potential DUI consequences for having a BAC of 0.02% — much lower than the 0.08% limit for adults 21+.",
+    "tags": ["BAC", "under 21", "DUI", "zero tolerance"],
+    "relatedTopics": ["Minor DUI", "Legal limits"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q064",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "For drivers age 21 and older, the THC concentration that is considered a DUI is:",
+    "options": [
+      {"id": "opt1", "text": "2.00 ng/mL or more", "isCorrect": false},
+      {"id": "opt2", "text": "5.00 ng/mL or more", "isCorrect": true},
+      {"id": "opt3", "text": "10.00 ng/mL or more", "isCorrect": false},
+      {"id": "opt4", "text": "Any amount", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "For drivers age 21 and older, having more than 5 nanograms of active THC per milliliter of blood is considered a DUI.",
+    "tags": ["THC", "cannabis", "DUI", "legal limit"],
+    "relatedTopics": ["Cannabis DUI", "Drug testing"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q065",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "hard",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "For drivers under age 21, the THC concentration that results in DUI consequences is:",
+    "options": [
+      {"id": "opt1", "text": "5.00 ng/mL or more", "isCorrect": false},
+      {"id": "opt2", "text": "Anything more than 0.00 ng/mL", "isCorrect": true},
+      {"id": "opt3", "text": "2.00 ng/mL or more", "isCorrect": false},
+      {"id": "opt4", "text": "1.00 ng/mL or more", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Drivers under age 21 face DUI consequences for anything more than 0 nanograms of active THC per milliliter of blood — a zero-tolerance policy.",
+    "tags": ["THC", "under 21", "zero tolerance", "DUI"],
+    "relatedTopics": ["Minor DUI", "Cannabis law"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q066",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "hard",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "If you refuse to be tested for alcohol or drugs under the Implied Consent Law, you could lose your driving privilege for:",
+    "options": [
+      {"id": "opt1", "text": "30 to 60 days", "isCorrect": false},
+      {"id": "opt2", "text": "90 to 730 days, or until you reach age 21, whichever is longer", "isCorrect": true},
+      {"id": "opt3", "text": "1 to 5 years", "isCorrect": false},
+      {"id": "opt4", "text": "Permanently", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "If you refuse to be tested, you could lose your driving privilege for 90 to 730 days, or until you reach age 21, whichever is longer.",
+    "tags": ["implied consent", "refusal", "suspension period"],
+    "relatedTopics": ["DUI testing", "License suspension"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q067",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "Alcohol- and drug-related offenses appear on your driving record for life.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Alcohol- and drug-related offenses appear on your driving record for life. If arrested for DUI, penalties include loss of license, heavy fines, criminal penalties, jail, and higher insurance rates.",
+    "tags": ["DUI record", "lifetime", "consequences"],
+    "relatedTopics": ["Driving record", "DUI penalties"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q068",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "DUI convictions can include driving privileges suspended for:",
+    "options": [
+      {"id": "opt1", "text": "30 days to 1 year", "isCorrect": false},
+      {"id": "opt2", "text": "90 days to 4 years", "isCorrect": true},
+      {"id": "opt3", "text": "6 months to 2 years", "isCorrect": false},
+      {"id": "opt4", "text": "1 year to 5 years", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "DUI convictions can include driving privileges suspended for 90 days to 4 years, along with other penalties such as probationary license, ignition interlock device, and alcohol assessment.",
+    "tags": ["DUI", "suspension", "penalties"],
+    "relatedTopics": ["DUI consequences", "License suspension"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q069",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "Under the open container law, it is a traffic infraction if any person in a vehicle on the road:",
+    "options": [
+      {"id": "opt1", "text": "Has sealed alcohol in the trunk", "isCorrect": false},
+      {"id": "opt2", "text": "Drinks alcohol or cannabis, possesses opened containers, or hides them in unlabeled containers", "isCorrect": true},
+      {"id": "opt3", "text": "Transports alcohol for a business", "isCorrect": false},
+      {"id": "opt4", "text": "Has empty containers in the recycling bin", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Under the open container law, it is a traffic infraction if any person in a vehicle drinks alcohol/cannabis, possesses opened/broken seal/partially consumed containers, or hides them in unlabeled/mislabeled containers.",
+    "tags": ["open container", "alcohol", "cannabis", "infraction"],
+    "relatedTopics": ["Open container law", "Vehicle violations"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q070",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "Open alcohol and cannabis products can only be transported in:",
+    "options": [
+      {"id": "opt1", "text": "The back seat", "isCorrect": false},
+      {"id": "opt2", "text": "A trunk or truck bed", "isCorrect": true},
+      {"id": "opt3", "text": "The glove box", "isCorrect": false},
+      {"id": "opt4", "text": "Any compartment in the vehicle", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Open alcohol and cannabis products can only be transported in a trunk or truck bed. They cannot be kept in storage compartments accessible to the driver.",
+    "tags": ["open container", "transport", "trunk"],
+    "relatedTopics": ["Open container law", "Vehicle storage"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q071",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.16",
+    "question": "If your address changes, you must update your information in License Express within:",
+    "options": [
+      {"id": "opt1", "text": "5 days", "isCorrect": false},
+      {"id": "opt2", "text": "10 days", "isCorrect": true},
+      {"id": "opt3", "text": "30 days", "isCorrect": false},
+      {"id": "opt4", "text": "60 days", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "If your address changes, update your information in License Express within 10 days of the change.",
+    "tags": ["address change", "10 days", "License Express"],
+    "relatedTopics": ["License maintenance", "Address update"],
+    "source": "Chapter 1, Section 1.16"
+  },
+  {
+    "id": "ch1_q072",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.16",
+    "question": "Name changes on your driver license must be made:",
+    "options": [
+      {"id": "opt1", "text": "Online through License Express", "isCorrect": false},
+      {"id": "opt2", "text": "In a driver licensing office", "isCorrect": true},
+      {"id": "opt3", "text": "By calling DOL customer service", "isCorrect": false},
+      {"id": "opt4", "text": "By email", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Name changes must be made in a driver licensing office. Address changes can be made online through License Express.",
+    "tags": ["name change", "in person", "licensing office"],
+    "relatedTopics": ["License updates", "DOL services"],
+    "source": "Chapter 1, Section 1.16"
+  },
+  {
+    "id": "ch1_q073",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.16",
+    "question": "Residents who are 16 and 17 years old can opt to pre-register to vote when applying for a driver license or ID card.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "You can register to vote on the Secretary of State website or at any driver licensing office. Residents who are 16 and 17 years old can opt to pre-register to vote when applying for a driver license or ID card.",
+    "tags": ["voter registration", "pre-register", "16-17 years old"],
+    "relatedTopics": ["Civic duties", "License services"],
+    "source": "Chapter 1, Section 1.16"
+  },
+  {
+    "id": "ch1_q074",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "Your parent or guardian must come with you to the licensing office to sign the parental authorization form when you get your license at ages 16-17.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Bring your parent or guardian with you to the licensing office to sign the parental authorization form. This form gives you permission to apply, certifies 50+ hours of driving experience, and confirms no traffic infractions in the last 6 months.",
+    "tags": ["parental authorization", "teen license", "in-person"],
+    "relatedTopics": ["Teen licensing", "Guardian role"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q075",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "A parental authorization form certifies the teen has at least how many total hours of driving experience?",
+    "options": [
+      {"id": "opt1", "text": "40 hours", "isCorrect": false},
+      {"id": "opt2", "text": "50 hours", "isCorrect": true},
+      {"id": "opt3", "text": "60 hours", "isCorrect": false},
+      {"id": "opt4", "text": "100 hours", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "The parental authorization form certifies you have at least 50 hours of driving experience (40 hours day + 10 hours night) and confirms no traffic infractions in the last 6 months.",
+    "tags": ["parental authorization", "50 hours", "driving experience"],
+    "relatedTopics": ["Practice requirements", "Teen licensing"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q076",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "Your driver training school has 24 hours to enter your scores in the system once you've passed each exam.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Your driver training school has 24 hours to enter your scores in the system once you've passed each exam. Wait for them to do so before applying for your license.",
+    "tags": ["driver training school", "score entry", "24 hours"],
+    "relatedTopics": ["Exam scores", "License application"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q077",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "A driver's chances of crashing doubles after receiving their first violation.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "A driver's chances of crashing doubles after receiving their first violation. This is why the DOL sends early warning letters to drivers ages 18-21 who receive their first moving violation.",
+    "tags": ["crash risk", "first violation", "statistics"],
+    "relatedTopics": ["Early warning letters", "Traffic safety"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q078",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "DUI conviction penalties can include a combination of:",
+    "options": [
+      {"id": "opt1", "text": "Only fines", "isCorrect": false},
+      {"id": "opt2", "text": "Suspended privileges, probationary license, ignition interlock device, proof of financial responsibility, alcohol assessment, retaking exams, and paying reissue fees", "isCorrect": true},
+      {"id": "opt3", "text": "Only license suspension", "isCorrect": false},
+      {"id": "opt4", "text": "Only community service", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "DUI convictions can include: suspended privileges (90 days to 4 years), probationary license, ignition interlock device, required proof of financial responsibility, alcohol assessment and treatment, reapplying for license, retaking exams, and paying reissue fees.",
+    "tags": ["DUI penalties", "convictions", "consequences"],
+    "relatedTopics": ["Ignition interlock", "License reissue"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q079",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "If your license is lost, stolen, destroyed, or illegible, you can apply for a replacement online.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "If your license is lost, stolen, destroyed, or illegible, you can apply for a replacement online. You can also request a duplicate in person at any driver licensing office.",
+    "tags": ["replacement license", "lost license", "online"],
+    "relatedTopics": ["License maintenance", "DOL services"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q080",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.12",
+    "question": "There are 2 ways you can take your driver license exams:",
+    "options": [
+      {"id": "opt1", "text": "At a police station or online", "isCorrect": false},
+      {"id": "opt2", "text": "At an approved driver training school or by scheduling an appointment at a driver licensing office through License Express", "isCorrect": true},
+      {"id": "opt3", "text": "At home or at a school", "isCorrect": false},
+      {"id": "opt4", "text": "Online only", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "There are 2 ways to take your driver license exams: find a driver training school exam location or schedule an appointment at a driver licensing office in License Express.",
+    "tags": ["exam locations", "driver training school", "licensing office"],
+    "relatedTopics": ["Testing options", "License Express"],
+    "source": "Chapter 1, Section 1.12"
+  },
+  {
+    "id": "ch1_q081",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.9",
+    "question": "You should always wear your glasses or contacts while driving if you need corrective lenses.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Remember to always wear your glasses or contacts while driving. Have your eyes checked regularly by an eye doctor.",
+    "tags": ["corrective lenses", "vision", "driving safety"],
+    "relatedTopics": ["Vision screening", "License requirements"],
+    "source": "Chapter 1, Section 1.9"
+  },
+  {
+    "id": "ch1_q082",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.16",
+    "question": "You can register with the United States Selective Service System when applying for a license or ID card.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "You can register with the United States Selective Service System when applying for a license or ID card.",
+    "tags": ["selective service", "registration", "license application"],
+    "relatedTopics": ["Additional services", "Civic duties"],
+    "source": "Chapter 1, Section 1.16"
+  },
+  {
+    "id": "ch1_q083",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.6",
+    "question": "Which type of Washington license can be used for international border crossing by land or sea?",
+    "options": [
+      {"id": "opt1", "text": "Standard driver license", "isCorrect": false},
+      {"id": "opt2", "text": "Enhanced driver license", "isCorrect": true},
+      {"id": "opt3", "text": "Both standard and enhanced", "isCorrect": false},
+      {"id": "opt4", "text": "Neither standard nor enhanced", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "An enhanced driver license is suitable for international border crossing by land or sea. A standard driver license is NOT suitable for this purpose.",
+    "tags": ["enhanced license", "border crossing", "travel"],
+    "relatedTopics": ["Standard license", "International travel"],
+    "source": "Chapter 1, Section 1.6"
+  },
+  {
+    "id": "ch1_q084",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.4",
+    "question": "You are considered a Washington resident if you live in a motor home or vessel not permanently attached to any property, previously lived in Washington, and:",
+    "options": [
+      {"id": "opt1", "text": "Have a permanent residence in another state", "isCorrect": false},
+      {"id": "opt2", "text": "Don't have a permanent residence in any other state", "isCorrect": true},
+      {"id": "opt3", "text": "Own property in Washington", "isCorrect": false},
+      {"id": "opt4", "text": "Have a Washington mailing address", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You are a WA resident if you live in a motor home or vessel not permanently attached to any property, previously lived in Washington, and don't have a permanent residence in any other state.",
+    "tags": ["residency", "motor home", "vessel"],
+    "relatedTopics": ["Washington residency", "Living situation"],
+    "source": "Chapter 1, Section 1.4"
+  },
+  {
+    "id": "ch1_q085",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.14",
+    "question": "Experienced driving mentors can be a great resource for new drivers by modeling safe driving behaviors and clear communication.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Experienced driving mentors can be a great resource for new drivers. Modeling safe driving behaviors and clear communication are 2 ways mentors can get involved in a young driver's learning.",
+    "tags": ["mentors", "safe driving", "new drivers"],
+    "relatedTopics": ["Parent involvement", "Driver education"],
+    "source": "Chapter 1, Section 1.14"
+  },
+  {
+    "id": "ch1_q086",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "When you are eligible to get your driver license back after an alcohol, drug, or firearm offense, you must take the driving knowledge and skills exams even if you've already taken them.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "When you are eligible to get your driver license back, you must take the driving knowledge and skills exams (even if you've already taken them). You'll also need to pay a reissue fee.",
+    "tags": ["license reinstatement", "exams", "reissue fee"],
+    "relatedTopics": ["Alcohol violations", "License recovery"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q087",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "Even experienced drivers cannot drive safely after drinking alcohol and/or using drugs.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Even experienced drivers cannot drive safely after drinking alcohol and/or using drugs. Save lives by making the choice to never drive under the influence!",
+    "tags": ["DUI", "experienced drivers", "impairment"],
+    "relatedTopics": ["Alcohol impairment", "Drug impairment"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q088",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "For the first violation of intermediate license restrictions, the penalty is:",
+    "options": [
+      {"id": "opt1", "text": "Current restrictions apply until you're 18", "isCorrect": true},
+      {"id": "opt2", "text": "License suspended for 6 months", "isCorrect": false},
+      {"id": "opt3", "text": "License suspended until age 18", "isCorrect": false},
+      {"id": "opt4", "text": "A warning only", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "1st violation: Current restrictions apply until you're 18. 2nd violation: License suspended for 6 months or until age 18, whichever comes first. 3rd violation: License suspended until age 18.",
+    "tags": ["intermediate license", "first violation", "penalty"],
+    "relatedTopics": ["Teen penalties", "Graduated licensing"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q089",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.5",
+    "question": "You must bring original copies of all necessary identity documents with you to the driver licensing office.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "To get an instruction permit, driver license, or identification card, you'll need to provide documentation that proves your identity. Bring original copies of all necessary documents with you.",
+    "tags": ["identity documents", "original copies", "requirements"],
+    "relatedTopics": ["Documentation", "Application process"],
+    "source": "Chapter 1, Section 1.5"
+  },
+  {
+    "id": "ch1_q090",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.11",
+    "question": "By accurately assessing age-related changes, older drivers can change their driving habits to remain safe on the road or choose other kinds of transportation.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "By accurately assessing age-related changes in vision, physical fitness, and reflexes, older drivers can change their driving habits to remain safe on the road or choose other kinds of transportation.",
+    "tags": ["older drivers", "age-related changes", "safety"],
+    "relatedTopics": ["Driver fitness", "Transportation alternatives"],
+    "source": "Chapter 1, Section 1.11"
+  },
+  {
+    "id": "ch1_q091",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "Alcohol or cannabis containers cannot be kept in storage compartments accessible to the driver.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Alcohol or cannabis containers cannot be kept in storage compartments accessible to the driver. Open alcohol and cannabis products can only be transported in a trunk or truck bed.",
+    "tags": ["open container", "storage", "accessible"],
+    "relatedTopics": ["Open container law", "Vehicle storage"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q092",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.2",
+    "question": "If you do not have a WDL number, you can get one at:",
+    "options": [
+      {"id": "opt1", "text": "Only at a driver licensing office", "isCorrect": false},
+      {"id": "opt2", "text": "A driver licensing office or by creating a new customer account on License Express", "isCorrect": true},
+      {"id": "opt3", "text": "Only online through License Express", "isCorrect": false},
+      {"id": "opt4", "text": "Any government office", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "If you do not have a WDL number, you can get one at a driver licensing office or by creating a new customer account on License Express.",
+    "tags": ["WDL number", "License Express", "new account"],
+    "relatedTopics": ["DOL services", "Getting started"],
+    "source": "Chapter 1, Section 1.2"
+  },
+  {
+    "id": "ch1_q093",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "Before applying for an instruction permit, you need to have a WDL number.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Before applying for an instruction permit, you need to have a WDL number. You can get one at a driver licensing office or through License Express.",
+    "tags": ["WDL number", "instruction permit", "prerequisite"],
+    "relatedTopics": ["Permit application", "License Express"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q094",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "If you apply for your permit online before a driver training course, you should apply:",
+    "options": [
+      {"id": "opt1", "text": "At least 30 days before your course starts", "isCorrect": false},
+      {"id": "opt2", "text": "1 to 10 days before your course starts", "isCorrect": true},
+      {"id": "opt3", "text": "The same day your course starts", "isCorrect": false},
+      {"id": "opt4", "text": "After your course is completed", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Apply at a driver licensing office or online 1 to 10 days before your course starts. Be prepared to give your WDL number to your driving school for record keeping.",
+    "tags": ["permit application", "driver training", "timing"],
+    "relatedTopics": ["Instruction permit", "Course enrollment"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q095",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "If you get your permit without enrolling in a driver training course, you must wait until what age to take the skills exam?",
+    "options": [
+      {"id": "opt1", "text": "16", "isCorrect": false},
+      {"id": "opt2", "text": "18", "isCorrect": true},
+      {"id": "opt3", "text": "17", "isCorrect": false},
+      {"id": "opt4", "text": "21", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "If you are not enrolling in a driver training course, you can get your permit at 15½, but you need to wait until you're 18 to take the skills exam and get your license.",
+    "tags": ["no training course", "skills exam", "age 18"],
+    "relatedTopics": ["Instruction permit", "Licensing timeline"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q096",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "If you are arrested for driving under the influence, the penalties include loss of license, heavy fines, criminal penalties, jail, and higher insurance rates.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "If you are arrested for driving under the influence, the penalties are severe: loss of license, heavy fines, criminal penalties, jail, and higher insurance rates.",
+    "tags": ["DUI arrest", "penalties", "consequences"],
+    "relatedTopics": ["DUI law", "Legal consequences"],
+    "source": "Chapter 1, Section 1.15"
+  },
+  {
+    "id": "ch1_q097",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "When getting your license online, your official license will have the same photo as your instruction permit or Washington ID card.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "When getting your license online, your official license will have the same photo as your instruction permit or Washington ID card.",
+    "tags": ["online license", "photo", "official license"],
+    "relatedTopics": ["License photo", "Online application"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q098",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "easy",
+    "chapter": 1,
+    "section": "1.16",
+    "question": "When you apply for your license, you'll be asked if you are a twin for the Washington State Twin Registry.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "When you apply for your license, you'll be asked if you are a twin. The Washington State Twin Registry is for twins interested in participating in research studies.",
+    "tags": ["twin registry", "license application", "research"],
+    "relatedTopics": ["Additional services", "License application"],
+    "source": "Chapter 1, Section 1.16"
+  },
+  {
+    "id": "ch1_q099",
+    "type": "true_false",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.8",
+    "question": "To get your license at ages 16-17, you must have no alcohol or drug offenses while driving with your instruction permit.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "To get your first driver license at ages 16-17, you must have no alcohol or drug offenses while driving with your instruction permit.",
+    "tags": ["teen license", "alcohol", "drug offenses", "permit"],
+    "relatedTopics": ["Licensing requirements", "Teen drivers"],
+    "source": "Chapter 1, Section 1.8"
+  },
+  {
+    "id": "ch1_q100",
+    "type": "multiple_choice",
+    "category": "licenses",
+    "difficulty": "medium",
+    "chapter": 1,
+    "section": "1.15",
+    "question": "If you renew your license after it has expired, you might need to:",
+    "options": [
+      {"id": "opt1", "text": "Start the entire licensing process over", "isCorrect": false},
+      {"id": "opt2", "text": "Pay an additional fee", "isCorrect": true},
+      {"id": "opt3", "text": "Take both exams again regardless of how long it's been expired", "isCorrect": false},
+      {"id": "opt4", "text": "Get a new WDL number", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "If you renew your license after it has expired, you might need to pay an additional fee. If your license is 8 or more years expired, you'll need to retake the skills and knowledge test.",
+    "tags": ["expired license", "renewal fee", "additional fee"],
+    "relatedTopics": ["License renewal", "Expired license"],
+    "source": "Chapter 1, Section 1.15"
   }
 ]

@@ -6,15 +6,15 @@
     "difficulty": "medium",
     "chapter": 3,
     "section": "3.0",
-    "question": "Which of the following is NOT a key quality of a safe driver?",
+    "question": "To be a good driver, you need to be:",
     "options": [
-      {"id": "opt1", "text": "Mindfulness and awareness", "isCorrect": false},
-      {"id": "opt2", "text": "Patience and courtesy", "isCorrect": false},
-      {"id": "opt3", "text": "Aggression and speed", "isCorrect": true},
-      {"id": "opt4", "text": "Responsibility and vehicle familiarity", "isCorrect": false}
+      {"id": "opt1", "text": "Mindful, responsible, familiar with your vehicle, and patient", "isCorrect": true},
+      {"id": "opt2", "text": "Aggressive, fast, and competitive", "isCorrect": false},
+      {"id": "opt3", "text": "Always in a hurry to reach your destination", "isCorrect": false},
+      {"id": "opt4", "text": "Focused only on your own needs", "isCorrect": false}
     ],
-    "correctAnswerId": "opt3",
-    "explanation": "Safe drivers demonstrate mindfulness, responsibility, patience, and vehicle familiarity. Aggression and excessive speed are dangerous behaviors that increase crash risk.",
+    "correctAnswerId": "opt1",
+    "explanation": "Good drivers are mindful of themselves and others, responsible for following rules, familiar with their vehicle, and patient and level-headed.",
     "tags": ["safe driving", "driver qualities", "responsibility"],
     "relatedTopics": ["Defensive driving", "Road safety"],
     "source": "Chapter 3, Section 3.0"
@@ -26,36 +26,34 @@
     "difficulty": "easy",
     "chapter": 3,
     "section": "3.0",
+    "question": "Before starting the engine, you should take a moment to check in with yourself to ensure you're healthy enough to drive safely.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, before starting the engine, take a moment to check if you're healthy in a way that supports wise decision-making, self-control, and situational awareness.",
+    "tags": ["health", "safety", "preparation"],
+    "relatedTopics": ["Physical fitness", "Mental readiness"],
+    "source": "Chapter 3, Section 3.0"
+  },
+  {
+    "id": "ch3_q003",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.0",
     "question": "Seeing well is important to safe driving.",
     "options": [
       {"id": "opt1", "text": "True", "isCorrect": true},
       {"id": "opt2", "text": "False", "isCorrect": false}
     ],
     "correctAnswerId": "opt1",
-    "explanation": "Yes, good vision is critical for safe driving. You need to see clearly to identify hazards, read signs, and respond to traffic conditions.",
+    "explanation": "Good vision is so important that the law requires you to pass a vision test before getting your driver license. It helps you identify traffic hazards and respond to problems.",
     "tags": ["vision", "safety", "physical fitness"],
     "relatedTopics": ["Vision requirements", "Corrective lenses"],
     "source": "Chapter 3, Section 3.0"
-  },
-  {
-    "id": "ch3_q003",
-    "type": "multiple_choice",
-    "category": "drivers",
-    "difficulty": "medium",
-    "chapter": 3,
-    "section": "3.1",
-    "question": "Which of the following is an effect of alcohol on driving ability?",
-    "options": [
-      {"id": "opt1", "text": "Improved reaction time", "isCorrect": false},
-      {"id": "opt2", "text": "Reduced reaction times and overconfidence", "isCorrect": true},
-      {"id": "opt3", "text": "Better coordination", "isCorrect": false},
-      {"id": "opt4", "text": "Enhanced judgment", "isCorrect": false}
-    ],
-    "correctAnswerId": "opt2",
-    "explanation": "Alcohol causes relaxation, drowsiness, reduced reaction times, and overconfidence - all of which impair driving ability and increase crash risk.",
-    "tags": ["alcohol", "impairment", "DUI", "effects"],
-    "relatedTopics": ["Blood alcohol concentration", "Impaired driving"],
-    "source": "Chapter 3, Section 3.1"
   },
   {
     "id": "ch3_q004",
@@ -63,48 +61,394 @@
     "category": "drivers",
     "difficulty": "medium",
     "chapter": 3,
-    "section": "3.1",
-    "question": "Cannabis use can affect driving by causing:",
+    "section": "3.0",
+    "question": "If you are required to wear corrective lenses while driving, you should:",
     "options": [
-      {"id": "opt1", "text": "Improved attention and faster reactions", "isCorrect": false},
-      {"id": "opt2", "text": "Reduced attention, slower reactions, and drowsiness", "isCorrect": true},
-      {"id": "opt3", "text": "Better coordination", "isCorrect": false},
-      {"id": "opt4", "text": "Enhanced visual perception", "isCorrect": false}
+      {"id": "opt1", "text": "Only wear them during the day", "isCorrect": false},
+      {"id": "opt2", "text": "Always wear them when driving and avoid dark or tinted lenses at night", "isCorrect": true},
+      {"id": "opt3", "text": "Only wear them on highways", "isCorrect": false},
+      {"id": "opt4", "text": "Wear dark tinted lenses for better night vision", "isCorrect": false}
     ],
     "correctAnswerId": "opt2",
-    "explanation": "Research shows cannabis use reduces attention, slows reaction times, impairs coordination, and causes drowsiness - all dangerous for driving.",
-    "tags": ["cannabis", "marijuana", "impairment", "THC"],
-    "relatedTopics": ["Drug impairment", "THC limits"],
-    "source": "Chapter 3, Section 3.1"
+    "explanation": "If required to wear corrective lenses, always wear them when driving and avoid using dark or tinted corrective lenses at night.",
+    "tags": ["vision", "corrective lenses", "requirements"],
+    "relatedTopics": ["Vision testing", "Night driving"],
+    "source": "Chapter 3, Section 3.0"
   },
   {
     "id": "ch3_q005",
     "type": "multiple_choice",
     "category": "drivers",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "chapter": 3,
-    "section": "3.1",
-    "question": "What is the most common substance combination found in fatal crashes?",
+    "section": "3.0",
+    "question": "Peripheral vision helps you:",
     "options": [
-      {"id": "opt1", "text": "Alcohol only", "isCorrect": false},
-      {"id": "opt2", "text": "Cannabis only", "isCorrect": false},
-      {"id": "opt3", "text": "Polydrug use (multiple substances)", "isCorrect": true},
-      {"id": "opt4", "text": "Prescription medications only", "isCorrect": false}
+      {"id": "opt1", "text": "Read road signs more clearly", "isCorrect": false},
+      {"id": "opt2", "text": "Spot vehicles and potential trouble out of the corner of your eye while looking ahead", "isCorrect": true},
+      {"id": "opt3", "text": "See better at night", "isCorrect": false},
+      {"id": "opt4", "text": "Reduce glare from headlights", "isCorrect": false}
     ],
-    "correctAnswerId": "opt3",
-    "explanation": "Polydrug use (combining multiple substances like alcohol with cannabis or medications) is the most common finding in fatal crashes and greatly increases impairment.",
-    "tags": ["polydrug use", "substance abuse", "fatal crashes"],
-    "relatedTopics": ["Drug combinations", "Impairment levels"],
-    "source": "Chapter 3, Section 3.1"
+    "correctAnswerId": "opt2",
+    "explanation": "Peripheral vision allows you to spot vehicles and other potential trouble out of the corner of your eye while you're still looking ahead.",
+    "tags": ["vision", "peripheral vision", "awareness"],
+    "relatedTopics": ["Visual scanning", "Hazard detection"],
+    "source": "Chapter 3, Section 3.0"
   },
   {
     "id": "ch3_q006",
     "type": "multiple_choice",
     "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.0",
+    "question": "When driving at night and bothered by glare from oncoming headlights, you should:",
+    "options": [
+      {"id": "opt1", "text": "Look directly at the oncoming lights", "isCorrect": false},
+      {"id": "opt2", "text": "Watch the right edge of the road and use it as a steering guide", "isCorrect": true},
+      {"id": "opt3", "text": "Close one eye", "isCorrect": false},
+      {"id": "opt4", "text": "Speed up to pass the oncoming vehicle quickly", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "To avoid glare from oncoming lights, watch the right edge of the road and use it as a steering guide while ensuring your headlights are on.",
+    "tags": ["night driving", "glare", "vision"],
+    "relatedTopics": ["Headlight use", "Night safety"],
+    "source": "Chapter 3, Section 3.0"
+  },
+  {
+    "id": "ch3_q007",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.0",
+    "question": "When driving at night, you should be able to stop inside the lit area created by your headlights.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "You should reduce your speed and increase following distances at night so you can stop inside the lit area created by your headlights.",
+    "tags": ["night driving", "speed", "stopping distance"],
+    "relatedTopics": ["Following distance", "Speed adjustment"],
+    "source": "Chapter 3, Section 3.0"
+  },
+  {
+    "id": "ch3_q008",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.0",
+    "question": "It is illegal to drive while wearing earbuds, earphones, headphones, or headsets that broadcast sound or cancel noise.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "It is against the law to drive a vehicle while wearing earbuds, earphones, headphones, or headsets that broadcast sound or cancel noise. Sound cues are important for safe driving.",
+    "tags": ["hearing", "laws", "safety devices"],
+    "relatedTopics": ["Audio devices", "Distracted driving"],
+    "source": "Chapter 3, Section 3.0"
+  },
+  {
+    "id": "ch3_q009",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.0",
+    "question": "You can use a hands-free device while driving if:",
+    "options": [
+      {"id": "opt1", "text": "It is used in both ears", "isCorrect": false},
+      {"id": "opt2", "text": "It is used in one ear and complies with WAC 204-10-045", "isCorrect": true},
+      {"id": "opt3", "text": "You have an instruction permit", "isCorrect": false},
+      {"id": "opt4", "text": "You have an intermediate license", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You can use a hands-free device in one ear if it complies with Washington Administrative Code statute 204-10-045. However, permit and intermediate license holders cannot use any mobile device.",
+    "tags": ["hearing", "hands-free", "devices", "laws"],
+    "relatedTopics": ["Cell phone use", "License restrictions"],
+    "source": "Chapter 3, Section 3.0"
+  },
+  {
+    "id": "ch3_q010",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.0",
+    "question": "If you have an instruction permit or intermediate license, you cannot use a cell phone or any mobile electronic device while driving, even if it is hands-free.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Instruction permit and intermediate license holders cannot use a cell phone or any mobile electronic device while driving, even if it is hands-free.",
+    "tags": ["license restrictions", "cell phones", "teen drivers"],
+    "relatedTopics": ["Graduated licensing", "Distracted driving"],
+    "source": "Chapter 3, Section 3.0"
+  },
+  {
+    "id": "ch3_q011",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Impaired driving happens when:",
+    "options": [
+      {"id": "opt1", "text": "Only when you drink alcohol", "isCorrect": false},
+      {"id": "opt2", "text": "Anything makes it hard to think straight, respond quickly, or control your car", "isCorrect": true},
+      {"id": "opt3", "text": "Only when using illegal drugs", "isCorrect": false},
+      {"id": "opt4", "text": "Only when you're sleepy", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Impaired driving happens when anything makes it hard for you to think straight, respond quickly, or control your car, including alcohol, drugs, or being tired.",
+    "tags": ["impaired driving", "definition", "safety"],
+    "relatedTopics": ["DUI", "Driver fitness"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q012",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Alcohol can affect drivers by causing:",
+    "options": [
+      {"id": "opt1", "text": "Improved reaction time and better vision", "isCorrect": false},
+      {"id": "opt2", "text": "Relaxation, drowsiness, blurry vision, reduced reaction times, and overconfidence", "isCorrect": true},
+      {"id": "opt3", "text": "Enhanced concentration and alertness", "isCorrect": false},
+      {"id": "opt4", "text": "Better ability to multitask", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Alcohol causes feelings of relaxation and drowsiness, blurry vision, reduced reaction times and concentration, difficulty understanding situations, and overconfidence leading to risky behavior.",
+    "tags": ["alcohol", "impairment", "effects"],
+    "relatedTopics": ["DUI", "Alcohol effects"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q013",
+    "type": "true_false",
+    "category": "drivers",
     "difficulty": "easy",
     "chapter": 3,
     "section": "3.1",
-    "question": "How many hours of sleep should adults get per night for safe driving?",
+    "question": "There is no safe amount of cannabis for driving.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "There is no safe amount of cannabis for driving. Driving after consuming any cannabis is illegal for all ages, even though recreational use is legal for those 21 and over.",
+    "tags": ["cannabis", "marijuana", "impairment", "zero tolerance"],
+    "relatedTopics": ["Drug impairment", "THC"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q014",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Cannabis can impair drivers by causing:",
+    "options": [
+      {"id": "opt1", "text": "Better attention and faster reactions", "isCorrect": false},
+      {"id": "opt2", "text": "Reduced attention, slower reactions, decreased car handling, inability to judge distances, and drowsiness", "isCorrect": true},
+      {"id": "opt3", "text": "Improved coordination and alertness", "isCorrect": false},
+      {"id": "opt4", "text": "Enhanced mental functions", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Cannabis impairs attention, reaction time, coordination, car handling, distance judgment, and causes drowsiness and loss of motor coordination.",
+    "tags": ["cannabis", "impairment", "effects"],
+    "relatedTopics": ["THC effects", "Drug impairment"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q015",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Just because a drug is legal does not mean it is safe to use while driving.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Many legally obtained over-the-counter and prescription drugs can impact driving ability. Impaired driving is a criminal behavior regardless of whether the drug is legal.",
+    "tags": ["medications", "impairment", "prescription drugs"],
+    "relatedTopics": ["Drug effects", "Legal substances"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q016",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Over-the-counter drugs taken for headaches, colds, or allergies can:",
+    "options": [
+      {"id": "opt1", "text": "Improve your driving ability", "isCorrect": false},
+      {"id": "opt2", "text": "Make a person drowsy and affect driving", "isCorrect": true},
+      {"id": "opt3", "text": "Sharpen your reflexes", "isCorrect": false},
+      {"id": "opt4", "text": "Have no effect on driving", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Over-the-counter drugs for headaches, colds, or allergies can make a person drowsy, which could affect your driving, reflexes, judgment, vision, and alertness.",
+    "tags": ["medications", "over-the-counter", "drowsiness"],
+    "relatedTopics": ["Drug side effects", "Impairment"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q017",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "When starting a new prescription medication or taking a higher dose, you should:",
+    "options": [
+      {"id": "opt1", "text": "Drive immediately to test its effects", "isCorrect": false},
+      {"id": "opt2", "text": "Wait until you know what effect it has on your judgment, coordination, and reaction time", "isCorrect": true},
+      {"id": "opt3", "text": "Only drive short distances", "isCorrect": false},
+      {"id": "opt4", "text": "Drive only during the day", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Do not drive if you just started taking prescription drugs for the first time, started a new medication, or started a higher dose until you know its effects on your judgment, coordination, and reaction time.",
+    "tags": ["medications", "prescription drugs", "safety"],
+    "relatedTopics": ["Drug effects", "Driving restrictions"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q018",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Warnings against 'operating heavy machinery' on medication labels include driving a vehicle.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Warnings against 'operating heavy machinery' on medication labels include driving a vehicle. Always read warning labels before driving.",
+    "tags": ["medications", "warnings", "heavy machinery"],
+    "relatedTopics": ["Drug labels", "Safety warnings"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q019",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Taking medications with alcohol can:",
+    "options": [
+      {"id": "opt1", "text": "Cancel out the effects of both", "isCorrect": false},
+      {"id": "opt2", "text": "Cause severe impairment and multiply the effects of alcohol", "isCorrect": true},
+      {"id": "opt3", "text": "Make driving safer", "isCorrect": false},
+      {"id": "opt4", "text": "Have no additional effects", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Many drugs multiply the effects of alcohol or have other side effects. A medication that doesn't impact you alone could cause severe impairment when combined with alcohol.",
+    "tags": ["medications", "alcohol", "drug interactions"],
+    "relatedTopics": ["Polydrug use", "Impairment"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q020",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "hard",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Polydrug use is:",
+    "options": [
+      {"id": "opt1", "text": "Using only prescription medications", "isCorrect": false},
+      {"id": "opt2", "text": "The mixing or taking of more than one type of drug", "isCorrect": true},
+      {"id": "opt3", "text": "Taking vitamins with food", "isCorrect": false},
+      {"id": "opt4", "text": "Using drugs as prescribed", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Polydrug use is the mixing or taking of more than one type of drug, including alcohol, cannabis, illegal drugs, prescription drugs, over-the-counter medicines, and other substances.",
+    "tags": ["polydrug use", "drug mixing", "impairment"],
+    "relatedTopics": ["Multiple substances", "Fatal crashes"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q021",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Polydrug use is the most common impairment involved in fatal crashes.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Polydrug use is the most common impairment involved in fatal crashes. Mixing substances can produce effects greater than any drug on its own.",
+    "tags": ["polydrug use", "fatal crashes", "statistics"],
+    "relatedTopics": ["Drug combinations", "Crash causes"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q022",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Fatigue is caused by:",
+    "options": [
+      {"id": "opt1", "text": "Only lack of sleep", "isCorrect": false},
+      {"id": "opt2", "text": "Physical or mental strain, repetitive tasks, illness, or lack of sleep", "isCorrect": true},
+      {"id": "opt3", "text": "Only physical strain", "isCorrect": false},
+      {"id": "opt4", "text": "Drinking too much water", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Fatigue is caused by physical or mental strain, repetitive tasks, illness, or lack of sleep. Like alcohol and drugs, fatigue impairs your vision and judgment.",
+    "tags": ["fatigue", "causes", "impairment"],
+    "relatedTopics": ["Drowsy driving", "Rest"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q023",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Signs of driver fatigue include:",
+    "options": [
+      {"id": "opt1", "text": "Better focus and alertness", "isCorrect": false},
+      {"id": "opt2", "text": "Difficulty focusing, frequent blinking, lane drifting, and missing exits", "isCorrect": true},
+      {"id": "opt3", "text": "Faster reaction times", "isCorrect": false},
+      {"id": "opt4", "text": "Enhanced judgment", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Warning signs include difficulty focusing, forgetting the last few miles, frequent blinking or heavy eyelids, drifting from lane, swerving, tailgating, hitting rumble strips, trouble keeping head up, missing exits or signs, and feeling restless, irritable, or aggressive.",
+    "tags": ["fatigue", "warning signs", "drowsy driving"],
+    "relatedTopics": ["Sleep deprivation", "Rest stops"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q024",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Most people need how many hours of sleep to stay alert while driving?",
     "options": [
       {"id": "opt1", "text": "4-5 hours", "isCorrect": false},
       {"id": "opt2", "text": "5-6 hours", "isCorrect": false},
@@ -112,185 +456,925 @@
       {"id": "opt4", "text": "10-12 hours", "isCorrect": false}
     ],
     "correctAnswerId": "opt3",
-    "explanation": "Adults need 7-9 hours of sleep per night to be alert and safe while driving. Less sleep increases the risk of fatigue-related crashes.",
-    "tags": ["fatigue", "sleep", "drowsy driving"],
-    "relatedTopics": ["Fatigue indicators", "Rest breaks"],
+    "explanation": "Most people need 7 to 9 hours of sleep to stay alert. Getting adequate sleep before a trip is essential to prevent drowsy driving.",
+    "tags": ["sleep", "fatigue prevention", "requirements"],
+    "relatedTopics": ["Drowsy driving", "Rest"],
     "source": "Chapter 3, Section 3.1"
   },
   {
-    "id": "ch3_q007",
+    "id": "ch3_q025",
     "type": "multiple_choice",
     "category": "drivers",
     "difficulty": "medium",
     "chapter": 3,
     "section": "3.1",
-    "question": "What are signs of driver fatigue?",
+    "question": "During long trips, you should plan to stop about every:",
     "options": [
-      {"id": "opt1", "text": "Loss of focus, heavy eyelids, lane drifting, missing exits", "isCorrect": true},
-      {"id": "opt2", "text": "Increased alertness and faster reactions", "isCorrect": false},
-      {"id": "opt3", "text": "Better concentration", "isCorrect": false},
-      {"id": "opt4", "text": "Enhanced vision", "isCorrect": false}
+      {"id": "opt1", "text": "50 miles or 1 hour", "isCorrect": false},
+      {"id": "opt2", "text": "100 miles or 2 hours", "isCorrect": true},
+      {"id": "opt3", "text": "200 miles or 4 hours", "isCorrect": false},
+      {"id": "opt4", "text": "300 miles or 6 hours", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Plan to stop about every 100 miles or 2 hours during long trips to prevent fatigue and maintain alertness.",
+    "tags": ["long trips", "breaks", "fatigue prevention"],
+    "relatedTopics": ["Rest stops", "Trip planning"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q026",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "If you're traveling alone and start to feel tired, you should:",
+    "options": [
+      {"id": "opt1", "text": "Turn up the radio and keep driving", "isCorrect": false},
+      {"id": "opt2", "text": "Pull off the road and take a 20-minute nap", "isCorrect": true},
+      {"id": "opt3", "text": "Drink an energy drink and continue", "isCorrect": false},
+      {"id": "opt4", "text": "Open all windows and drive faster", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "If you start to feel tired, pull off the road and take a 20-minute nap. It's better to stop and sleep than to risk causing an accident.",
+    "tags": ["fatigue", "napping", "safety"],
+    "relatedTopics": ["Rest stops", "Drowsy driving"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q027",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "If you're feeling anxious while driving, you might:",
+    "options": [
+      {"id": "opt1", "text": "Be preoccupied and drive too fast", "isCorrect": true},
+      {"id": "opt2", "text": "Have perfect concentration", "isCorrect": false},
+      {"id": "opt3", "text": "Make better decisions", "isCorrect": false},
+      {"id": "opt4", "text": "Be more patient with others", "isCorrect": false}
     ],
     "correctAnswerId": "opt1",
-    "explanation": "Warning signs of fatigue include difficulty focusing, heavy eyelids, drifting from your lane, and missing traffic signs or exits. If you notice these, pull over and rest.",
-    "tags": ["fatigue", "drowsy driving", "warning signs"],
-    "relatedTopics": ["Rest stops", "Sleep requirements"],
+    "explanation": "Emotions affect your driving. If you're anxious, you might be preoccupied and allow your foot to be too heavy on the accelerator. Understanding how feelings affect behavior helps you make better decisions.",
+    "tags": ["mental health", "emotions", "anxiety"],
+    "relatedTopics": ["Emotional awareness", "Safe driving"],
     "source": "Chapter 3, Section 3.1"
   },
   {
-    "id": "ch3_q008",
+    "id": "ch3_q028",
     "type": "multiple_choice",
     "category": "drivers",
     "difficulty": "medium",
     "chapter": 3,
     "section": "3.1",
-    "question": "When driving long distances, how often should you take breaks?",
+    "question": "Which technique can help calm down before driving?",
     "options": [
-      {"id": "opt1", "text": "Every 50 miles or 1 hour", "isCorrect": false},
-      {"id": "opt2", "text": "Every 100 miles or 2 hours", "isCorrect": true},
-      {"id": "opt3", "text": "Every 200 miles or 4 hours", "isCorrect": false},
-      {"id": "opt4", "text": "Breaks are not necessary", "isCorrect": false}
+      {"id": "opt1", "text": "Rushing to leave quickly", "isCorrect": false},
+      {"id": "opt2", "text": "Breathe in through your nose and exhale like cooling hot soup", "isCorrect": true},
+      {"id": "opt3", "text": "Think about stressful situations", "isCorrect": false},
+      {"id": "opt4", "text": "Check social media one more time", "isCorrect": false}
     ],
     "correctAnswerId": "opt2",
-    "explanation": "To prevent fatigue, take breaks every 100 miles or every 2 hours during long trips. This helps maintain alertness and reduces crash risk.",
-    "tags": ["fatigue prevention", "breaks", "long distance driving"],
-    "relatedTopics": ["Rest stops", "Driver fatigue"],
+    "explanation": "Breathing techniques help calm you down: breathe in through your nose and exhale like you're cooling hot soup. You can also count slowly from 1 to 20 or backwards from 100 by 3.",
+    "tags": ["mental health", "stress relief", "techniques"],
+    "relatedTopics": ["Emotional awareness", "Preparation"],
     "source": "Chapter 3, Section 3.1"
   },
   {
-    "id": "ch3_q009",
-    "type": "true_false",
-    "category": "drivers",
-    "difficulty": "easy",
-    "chapter": 3,
-    "section": "3.1",
-    "question": "Aggressive driving and road rage are the same thing.",
-    "options": [
-      {"id": "opt1", "text": "True", "isCorrect": false},
-      {"id": "opt2", "text": "False", "isCorrect": true}
-    ],
-    "correctAnswerId": "opt2",
-    "explanation": "False. Aggressive driving is a traffic violation involving dangerous behaviors. Road rage is a criminal offense involving assault or threatening behavior toward other drivers.",
-    "tags": ["aggressive driving", "road rage", "definitions"],
-    "relatedTopics": ["Dangerous behaviors", "Criminal offenses"],
-    "source": "Chapter 3, Section 3.1"
-  },
-  {
-    "id": "ch3_q010",
+    "id": "ch3_q029",
     "type": "multiple_choice",
     "category": "drivers",
     "difficulty": "medium",
     "chapter": 3,
     "section": "3.1",
-    "question": "What should you do if another driver is showing signs of road rage toward you?",
+    "question": "Aggressive driving is:",
     "options": [
-      {"id": "opt1", "text": "Engage with them and defend yourself", "isCorrect": false},
-      {"id": "opt2", "text": "Avoid eye contact, create space, and report to police", "isCorrect": true},
-      {"id": "opt3", "text": "Follow them to get their license plate", "isCorrect": false},
-      {"id": "opt4", "text": "Speed up to get away quickly", "isCorrect": false}
+      {"id": "opt1", "text": "A criminal offense involving assault", "isCorrect": false},
+      {"id": "opt2", "text": "A traffic offense when a driver endangers people or property", "isCorrect": true},
+      {"id": "opt3", "text": "Normal driving behavior", "isCorrect": false},
+      {"id": "opt4", "text": "The same as road rage", "isCorrect": false}
     ],
     "correctAnswerId": "opt2",
-    "explanation": "If confronted by road rage, avoid eye contact, don't engage, create space, and report the incident to police. Your safety is the priority.",
-    "tags": ["road rage", "safety", "defensive driving"],
-    "relatedTopics": ["Conflict avoidance", "Emergency response"],
+    "explanation": "Aggressive driving is a traffic offense that occurs when a driver purposely does something that endangers people or property, such as actions that require others to protect themselves.",
+    "tags": ["aggressive driving", "traffic offense", "definition"],
+    "relatedTopics": ["Road rage", "Dangerous behaviors"],
     "source": "Chapter 3, Section 3.1"
   },
   {
-    "id": "ch3_q011",
+    "id": "ch3_q030",
     "type": "multiple_choice",
     "category": "drivers",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "chapter": 3,
-    "section": "3.4",
-    "question": "Washington State has strict laws against:",
+    "section": "3.1",
+    "question": "Which of the following is considered aggressive driving?",
     "options": [
-      {"id": "opt1", "text": "Eating while driving", "isCorrect": false},
-      {"id": "opt2", "text": "Distracted driving", "isCorrect": true},
-      {"id": "opt3", "text": "Listening to music", "isCorrect": false},
-      {"id": "opt4", "text": "Talking to passengers", "isCorrect": false}
+      {"id": "opt1", "text": "Speeding, following too close, making unsafe lane changes, and failing to obey traffic control devices", "isCorrect": true},
+      {"id": "opt2", "text": "Using turn signals properly", "isCorrect": false},
+      {"id": "opt3", "text": "Maintaining safe following distances", "isCorrect": false},
+      {"id": "opt4", "text": "Obeying speed limits", "isCorrect": false}
     ],
-    "correctAnswerId": "opt2",
-    "explanation": "Washington State has strict laws against distracted driving, particularly prohibiting holding electronic devices while driving.",
-    "tags": ["distracted driving", "laws", "electronic devices"],
-    "relatedTopics": ["Cell phone use", "Texting while driving"],
-    "source": "Chapter 3, Section 3.4"
+    "correctAnswerId": "opt1",
+    "explanation": "Aggressive driving includes speeding, following too close, making unsafe lane changes, using improper signaling, failing to obey traffic control devices, and driving too close to pedestrians or cyclists.",
+    "tags": ["aggressive driving", "behaviors", "violations"],
+    "relatedTopics": ["Traffic offenses", "Dangerous driving"],
+    "source": "Chapter 3, Section 3.1"
   },
   {
-    "id": "ch3_q012",
+    "id": "ch3_q031",
     "type": "true_false",
     "category": "drivers",
     "difficulty": "easy",
     "chapter": 3,
-    "section": "3.4",
-    "question": "Holding an electronic device while driving is prohibited for all drivers in Washington State.",
+    "section": "3.1",
+    "question": "Street racing and unauthorized street demonstrations can result in fines, jail time, and vehicle impoundment.",
     "options": [
       {"id": "opt1", "text": "True", "isCorrect": true},
       {"id": "opt2", "text": "False", "isCorrect": false}
     ],
     "correctAnswerId": "opt1",
-    "explanation": "Yes, Washington law prohibits all drivers from holding electronic devices while driving, regardless of age or license type.",
-    "tags": ["electronic devices", "distracted driving", "cell phones"],
-    "relatedTopics": ["Hands-free devices", "Legal restrictions"],
-    "source": "Chapter 3, Section 3.4"
+    "explanation": "Because street racing and unauthorized street demonstrations are so dangerous, penalties are severe and can include fines, jail time, and vehicle impoundment for participants and those who assist.",
+    "tags": ["street racing", "penalties", "consequences"],
+    "relatedTopics": ["Illegal activities", "Vehicle impoundment"],
+    "source": "Chapter 3, Section 3.1"
   },
   {
-    "id": "ch3_q013",
+    "id": "ch3_q032",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Road rage is:",
+    "options": [
+      {"id": "opt1", "text": "A traffic offense", "isCorrect": false},
+      {"id": "opt2", "text": "A criminal offense involving violent behavior with a vehicle or weapon", "isCorrect": true},
+      {"id": "opt3", "text": "Normal frustration while driving", "isCorrect": false},
+      {"id": "opt4", "text": "The same as aggressive driving", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Road rage is a criminal offense - an angry response to something on the road that leads to violent behavior with a vehicle or other weapon toward another driver, passenger, or road user.",
+    "tags": ["road rage", "criminal offense", "violence"],
+    "relatedTopics": ["Aggressive driving", "Legal consequences"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q033",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Things that can contribute to road rage include:",
+    "options": [
+      {"id": "opt1", "text": "Having plenty of time for your trip", "isCorrect": false},
+      {"id": "opt2", "text": "Stress, tight schedules, traffic, or non-driving frustrations", "isCorrect": true},
+      {"id": "opt3", "text": "Being well-rested", "isCorrect": false},
+      {"id": "opt4", "text": "Showing grace to others", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Many things can contribute to road rage including stress, tight schedules, traffic, or non-driving frustrations. Give yourself plenty of time to travel and show grace to others.",
+    "tags": ["road rage", "causes", "stress"],
+    "relatedTopics": ["Emotional driving", "Time management"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q034",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "Signs that you might be experiencing road rage include:",
+    "options": [
+      {"id": "opt1", "text": "Following too close, speeding, weaving in traffic, using horn excessively, and flashing headlights", "isCorrect": true},
+      {"id": "opt2", "text": "Being patient with other drivers", "isCorrect": false},
+      {"id": "opt3", "text": "Obeying all traffic laws", "isCorrect": false},
+      {"id": "opt4", "text": "Maintaining safe following distances", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Road rage signs include having violent thoughts, verbally disapproving of others, not obeying traffic laws, following too close, speeding, weaving in traffic, beating traffic lights, using horn or flashing headlights excessively, brake checking, or passing to teach a lesson.",
+    "tags": ["road rage", "warning signs", "behaviors"],
+    "relatedTopics": ["Self-awareness", "Dangerous behaviors"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q035",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "If you are the victim of road rage, you should:",
+    "options": [
+      {"id": "opt1", "text": "Engage with the aggressive driver", "isCorrect": false},
+      {"id": "opt2", "text": "Distance yourself, take a deep breath, move out of the way, and call police if necessary", "isCorrect": true},
+      {"id": "opt3", "text": "Speed up to get away", "isCorrect": false},
+      {"id": "opt4", "text": "Make hand gestures at the other driver", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "When facing road rage, distance yourself physically and mentally, take a deep breath and move out of the way, avoid aggressive responses, keep eyes on the road, drive to populated areas if followed, and call police if necessary.",
+    "tags": ["road rage", "victim response", "safety"],
+    "relatedTopics": ["Defensive driving", "Emergency response"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q036",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.1",
+    "question": "When reporting road rage to 911, you should provide:",
+    "options": [
+      {"id": "opt1", "text": "Only the color of the vehicle", "isCorrect": false},
+      {"id": "opt2", "text": "Location, plate number, direction of travel, vehicle colors, weapons involved, summary of incident, and your role", "isCorrect": true},
+      {"id": "opt3", "text": "Just your name and location", "isCorrect": false},
+      {"id": "opt4", "text": "Only the plate number", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "When reporting road rage, provide: location vehicles were last seen, plate number (if known), direction of travel, road/highway, vehicle colors, weapons involved (if applicable), summary of what happened, and your role (victim or witness).",
+    "tags": ["road rage", "reporting", "911"],
+    "relatedTopics": ["Emergency response", "Police procedures"],
+    "source": "Chapter 3, Section 3.1"
+  },
+  {
+    "id": "ch3_q037",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.2",
+    "question": "Teen drivers are more prone to taking risks because the part of their brain responsible for judgment and decision making is still developing.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "The part of the brain responsible for judgment and decision making is still developing in teens, which means they can be more prone to taking risks or miscalculating situations.",
+    "tags": ["teen drivers", "brain development", "risk-taking"],
+    "relatedTopics": ["Youth drivers", "Decision-making"],
+    "source": "Chapter 3, Section 3.2"
+  },
+  {
+    "id": "ch3_q038",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.2",
+    "question": "Making informed decisions while driving can:",
+    "options": [
+      {"id": "opt1", "text": "Only help experienced drivers", "isCorrect": false},
+      {"id": "opt2", "text": "Increase awareness, promote responsible driving, and reduce crashes", "isCorrect": true},
+      {"id": "opt3", "text": "Make driving more complicated", "isCorrect": false},
+      {"id": "opt4", "text": "Slow you down unnecessarily", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Informed decisions increase awareness through constant analysis, promote responsible driving by understanding consequences, and reduce crashes by anticipating potential problems.",
+    "tags": ["informed decisions", "benefits", "safety"],
+    "relatedTopics": ["Decision-making", "Crash prevention"],
+    "source": "Chapter 3, Section 3.2"
+  },
+  {
+    "id": "ch3_q039",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.2",
+    "question": "To make good decisions while driving, you should:",
+    "options": [
+      {"id": "opt1", "text": "Only watch the car directly in front of you", "isCorrect": false},
+      {"id": "opt2", "text": "Inform yourself with mirror checks, prepare the vehicle, and do final checks before maneuvering", "isCorrect": true},
+      {"id": "opt3", "text": "React without thinking", "isCorrect": false},
+      {"id": "opt4", "text": "Focus only on your own needs", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Good decisions require: informing yourself with mirror checks about the whole situation, preparing the vehicle to arrive at hazards in the right position and speed, and doing a final check before maneuvering.",
+    "tags": ["decision-making", "mirror checks", "preparation"],
+    "relatedTopics": ["Situational awareness", "Safe maneuvering"],
+    "source": "Chapter 3, Section 3.2"
+  },
+  {
+    "id": "ch3_q040",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.2",
+    "question": "Older drivers can be more susceptible to serious injuries in vehicle crashes, but many remain safe and competent drivers well into their later years.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "While older drivers may be more susceptible to injuries and experience changes in physical and mental capabilities, many remain safe and competent drivers well into their later years.",
+    "tags": ["older drivers", "safety", "aging"],
+    "relatedTopics": ["Driver fitness", "Age-related changes"],
+    "source": "Chapter 3, Section 3.2"
+  },
+  {
+    "id": "ch3_q041",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "hard",
+    "chapter": 3,
+    "section": "3.3",
+    "question": "The OODA Loop stands for:",
+    "options": [
+      {"id": "opt1", "text": "Operate, Organize, Direct, Avoid", "isCorrect": false},
+      {"id": "opt2", "text": "Observe, Orient, Decide, Act", "isCorrect": true},
+      {"id": "opt3", "text": "Order, Obey, Drive, Adjust", "isCorrect": false},
+      {"id": "opt4", "text": "Open, Observe, Defend, Accelerate", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "OODA Loop is a problem-solving tool: Observe the situation, Orient using knowledge and experience, Decide on the safest action, and Act smoothly and decisively.",
+    "tags": ["OODA loop", "problem-solving", "decision-making"],
+    "relatedTopics": ["Situational awareness", "Response strategies"],
+    "source": "Chapter 3, Section 3.3"
+  },
+  {
+    "id": "ch3_q042",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.3",
+    "question": "Problem solving on the road may require you to make thoughtful changes like:",
+    "options": [
+      {"id": "opt1", "text": "Only changing your speed", "isCorrect": false},
+      {"id": "opt2", "text": "Modifying speed, adjusting lane position, or changing direction", "isCorrect": true},
+      {"id": "opt3", "text": "Ignoring hazards", "isCorrect": false},
+      {"id": "opt4", "text": "Always maintaining the same course", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Problem solving on the road requires modifying your speed, adjusting your lane position to reduce risk and avoid hazards, or changing your direction/path to get to a safe place to reassess.",
+    "tags": ["problem-solving", "adjustments", "hazard response"],
+    "relatedTopics": ["OODA loop", "Defensive driving"],
+    "source": "Chapter 3, Section 3.3"
+  },
+  {
+    "id": "ch3_q043",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.3",
+    "question": "You should try not to surprise other people on the road and communicate your intentions to avoid creating problems.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "You should not surprise other road users. Communicate your intentions to other drivers to avoid creating problems.",
+    "tags": ["communication", "predictability", "safety"],
+    "relatedTopics": ["Signaling", "Defensive driving"],
+    "source": "Chapter 3, Section 3.3"
+  },
+  {
+    "id": "ch3_q044",
     "type": "multiple_choice",
     "category": "drivers",
     "difficulty": "medium",
     "chapter": 3,
     "section": "3.4",
-    "question": "What are the four types of distraction while driving?",
+    "question": "Distracted driving is:",
     "options": [
-      {"id": "opt1", "text": "Visual, manual, cognitive, and auditory", "isCorrect": false},
-      {"id": "opt2", "text": "Internal, external, physical, and mental", "isCorrect": true},
-      {"id": "opt3", "text": "Phone, food, passengers, and radio", "isCorrect": false},
-      {"id": "opt4", "text": "Seeing, hearing, thinking, and moving", "isCorrect": false}
+      {"id": "opt1", "text": "Only using your phone", "isCorrect": false},
+      {"id": "opt2", "text": "Any activity that takes your attention away from the primary task of driving", "isCorrect": true},
+      {"id": "opt3", "text": "Only eating while driving", "isCorrect": false},
+      {"id": "opt4", "text": "Not a serious concern", "isCorrect": false}
     ],
     "correctAnswerId": "opt2",
-    "explanation": "The four categories of distraction are internal (thoughts, emotions), external (outside events), physical (manual tasks), and mental (cognitive tasks).",
-    "tags": ["distraction", "attention", "categories"],
-    "relatedTopics": ["Cognitive load", "Multitasking"],
+    "explanation": "Distracted driving is any activity that takes a person's attention away from the primary task of driving. All distractions endanger driver, passengers, and others on the road.",
+    "tags": ["distracted driving", "definition", "safety"],
+    "relatedTopics": ["Cell phone use", "Focus"],
     "source": "Chapter 3, Section 3.4"
   },
   {
-    "id": "ch3_q014",
+    "id": "ch3_q045",
     "type": "multiple_choice",
     "category": "drivers",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "chapter": 3,
-    "section": "3.2",
-    "question": "What does the OODA Loop stand for in driving decision-making?",
+    "section": "3.4",
+    "question": "Distractions while driving come in four types:",
     "options": [
-      {"id": "opt1", "text": "Order, Operate, Direct, Accelerate", "isCorrect": false},
-      {"id": "opt2", "text": "Observe, Orient, Decide, Act", "isCorrect": true},
-      {"id": "opt3", "text": "Overtake, Organize, Defend, Avoid", "isCorrect": false},
-      {"id": "opt4", "text": "Open, Observe, Decide, Adjust", "isCorrect": false}
+      {"id": "opt1", "text": "Visual, manual, cognitive, and auditory", "isCorrect": false},
+      {"id": "opt2", "text": "Inside the vehicle, outside the vehicle, physical, and mental", "isCorrect": true},
+      {"id": "opt3", "text": "Front, back, left, and right", "isCorrect": false},
+      {"id": "opt4", "text": "Morning, afternoon, evening, and night", "isCorrect": false}
     ],
     "correctAnswerId": "opt2",
-    "explanation": "The OODA Loop is a problem-solving framework: Observe the situation, Orient yourself to understand it, Decide on action, and Act on your decision.",
-    "tags": ["OODA loop", "decision-making", "problem-solving"],
-    "relatedTopics": ["Situational awareness", "Response strategies"],
-    "source": "Chapter 3, Section 3.2"
+    "explanation": "Distractions come in four types: inside the vehicle (phones, eating, radio, passengers), outside (billboards, crashes), physical (fatigue, discomfort), and mental (daydreaming, worrying, emotions).",
+    "tags": ["distractions", "types", "categories"],
+    "relatedTopics": ["Focus", "Attention"],
+    "source": "Chapter 3, Section 3.4"
   },
   {
-    "id": "ch3_q015",
+    "id": "ch3_q046",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.4",
+    "question": "Distracted drivers are more prone to:",
+    "options": [
+      {"id": "opt1", "text": "Better lane control", "isCorrect": false},
+      {"id": "opt2", "text": "Swerving out of lane, speeding or driving too slowly, and failing to see traffic signals", "isCorrect": true},
+      {"id": "opt3", "text": "Improved awareness", "isCorrect": false},
+      {"id": "opt4", "text": "Better reaction times", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Distracted drivers are more prone to swerving out of lane, speeding or driving too slowly, failing to see traffic signals, stop signs, motorcyclists, bicyclists, or pedestrians, following too closely, and other dangerous behaviors.",
+    "tags": ["distracted driving", "consequences", "behaviors"],
+    "relatedTopics": ["Crash risk", "Impaired awareness"],
+    "source": "Chapter 3, Section 3.4"
+  },
+  {
+    "id": "ch3_q047",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.4",
+    "question": "Strategies to avoid distractions include:",
+    "options": [
+      {"id": "opt1", "text": "Multitasking while driving", "isCorrect": false},
+      {"id": "opt2", "text": "Plan ahead, put your phone away, and be observant", "isCorrect": true},
+      {"id": "opt3", "text": "Checking your phone at red lights", "isCorrect": false},
+      {"id": "opt4", "text": "Eating complex meals while driving", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Key strategies to avoid distractions are: plan ahead, put your phone away, and be observant. Eliminate distractions inside your vehicle and stay focused on driving.",
+    "tags": ["distracted driving", "prevention", "strategies"],
+    "relatedTopics": ["Phone use", "Focus"],
+    "source": "Chapter 3, Section 3.4"
+  },
+  {
+    "id": "ch3_q048",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.4",
+    "question": "By keeping your full attention on the road, you can:",
+    "options": [
+      {"id": "opt1", "text": "Only drive faster", "isCorrect": false},
+      {"id": "opt2", "text": "React faster, make better decisions, improve situational awareness, and reduce stress", "isCorrect": true},
+      {"id": "opt3", "text": "Use your phone safely", "isCorrect": false},
+      {"id": "opt4", "text": "Multitask effectively", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Keeping full attention on the road allows you to react faster, make better decisions, improve situational awareness, and reduce stress and fatigue.",
+    "tags": ["attention", "benefits", "safety"],
+    "relatedTopics": ["Focus", "Defensive driving"],
+    "source": "Chapter 3, Section 3.4"
+  },
+  {
+    "id": "ch3_q049",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.4",
+    "question": "In Washington State, you cannot hold any electronic device while driving, regardless of age or experience.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Washington State has strict laws - you cannot hold any electronic device while driving (like cell phones, tablets, or gaming devices), regardless of age or experience.",
+    "tags": ["electronic devices", "laws", "Washington"],
+    "relatedTopics": ["Cell phones", "Legal restrictions"],
+    "source": "Chapter 3, Section 3.4"
+  },
+  {
+    "id": "ch3_q050",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.4",
+    "question": "Even though hands-free devices are permitted, the notifications, bright lights, and visual cues of your phone can still be dangerous distractions.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "While hands-free devices are permitted, anything that takes your eyes and mind off the road can still be dangerous. Phone notifications, bright lights, and visual cues are all significant distractions.",
+    "tags": ["hands-free", "distractions", "phones"],
+    "relatedTopics": ["Electronic devices", "Focus"],
+    "source": "Chapter 3, Section 3.4"
+  },
+  {
+    "id": "ch3_q051",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.4",
+    "question": "Fines for violating the distracted driving law:",
+    "options": [
+      {"id": "opt1", "text": "Are always the same amount", "isCorrect": false},
+      {"id": "opt2", "text": "Can be doubled after your first violation", "isCorrect": true},
+      {"id": "opt3", "text": "Are not enforced", "isCorrect": false},
+      {"id": "opt4", "text": "Only apply to teen drivers", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "A law enforcement officer can issue a ticket for violating the distracted driving law with heavy fines. Fines after your first violation can be doubled.",
+    "tags": ["fines", "penalties", "distracted driving"],
+    "relatedTopics": ["Legal consequences", "Enforcement"],
+    "source": "Chapter 3, Section 3.4"
+  },
+  {
+    "id": "ch3_q052",
     "type": "multiple_choice",
     "category": "drivers",
     "difficulty": "medium",
     "chapter": 3,
     "section": "3.5",
-    "question": "What are the four types of attention important for driving?",
+    "question": "Smart drivers are:",
+    "options": [
+      {"id": "opt1", "text": "Fast and aggressive", "isCorrect": false},
+      {"id": "opt2", "text": "Aware, able to control their vehicle, predictable, thoughtful, and intentional", "isCorrect": true},
+      {"id": "opt3", "text": "Always in a hurry", "isCorrect": false},
+      {"id": "opt4", "text": "Focused only on themselves", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Smart drivers are aware of what's happening, able to control their vehicle, predictable to others with signaling and smooth movements, thoughtful with decisions, and intentional when learning and using driving skills.",
+    "tags": ["smart drivers", "characteristics", "qualities"],
+    "relatedTopics": ["Safe driving", "Skills"],
+    "source": "Chapter 3, Section 3.5"
+  },
+  {
+    "id": "ch3_q053",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.5",
+    "question": "The four types of attention important for driving are:",
     "options": [
       {"id": "opt1", "text": "Switching, divided, focused, and sustained", "isCorrect": true},
       {"id": "opt2", "text": "Visual, auditory, tactile, and mental", "isCorrect": false},
       {"id": "opt3", "text": "Forward, backward, left, and right", "isCorrect": false},
-      {"id": "opt4", "text": "Short, medium, long, and continuous", "isCorrect": false}
+      {"id": "opt4", "text": "Fast, slow, medium, and variable", "isCorrect": false}
     ],
     "correctAnswerId": "opt1",
-    "explanation": "The four types of attention for safe driving are: switching (changing focus), divided (multiple tasks), focused (single target), and sustained (maintaining attention over time).",
-    "tags": ["attention", "focus", "awareness"],
-    "relatedTopics": ["Multitasking", "Concentration"],
+    "explanation": "The four types are: switching attention (quickly changing focus), divided attention (performing several things simultaneously), focused attention (concentrating on one task), and sustained attention (maintaining focus over time).",
+    "tags": ["attention", "types", "focus"],
+    "relatedTopics": ["Concentration", "Awareness"],
     "source": "Chapter 3, Section 3.5"
+  },
+  {
+    "id": "ch3_q054",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.5",
+    "question": "To help pay attention while driving, you should:",
+    "options": [
+      {"id": "opt1", "text": "Use your phone for entertainment", "isCorrect": false},
+      {"id": "opt2", "text": "Eliminate distractions, be well-rested, silence electronics, limit passengers and pets, and resist multitasking", "isCorrect": true},
+      {"id": "opt3", "text": "Bring snacks and eat while driving", "isCorrect": false},
+      {"id": "opt4", "text": "Multitask to stay alert", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Things that help attention: eliminate distractions inside your vehicle, be well-rested, put away and silence electronics, limit number of passengers and pets, and resist multitasking behind the wheel.",
+    "tags": ["attention", "strategies", "focus"],
+    "relatedTopics": ["Distraction prevention", "Preparation"],
+    "source": "Chapter 3, Section 3.5"
+  },
+  {
+    "id": "ch3_q055",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.5",
+    "question": "Visual searching and scanning involve:",
+    "options": [
+      {"id": "opt1", "text": "Only looking straight ahead", "isCorrect": false},
+      {"id": "opt2", "text": "Using your eyes to check surroundings and moving your head, neck, and body to see as much as possible", "isCorrect": true},
+      {"id": "opt3", "text": "Checking mirrors once per trip", "isCorrect": false},
+      {"id": "opt4", "text": "Only using mirrors", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Visual searching means using your eyes to actively check surroundings. Scanning involves also moving your head, neck, and body so you can see as much as possible around your vehicle.",
+    "tags": ["visual search", "scanning", "awareness"],
+    "relatedTopics": ["Observation", "Mirrors"],
+    "source": "Chapter 3, Section 3.5"
+  },
+  {
+    "id": "ch3_q056",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.5",
+    "question": "Make sure you are traveling at a speed that supports your ability to search and scan effectively.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Constant visual searching supports your ability to drive safely. Make sure you are traveling at a speed that supports your ability to search and scan effectively.",
+    "tags": ["speed", "scanning", "visual search"],
+    "relatedTopics": ["Speed adjustment", "Observation"],
+    "source": "Chapter 3, Section 3.5"
+  },
+  {
+    "id": "ch3_q057",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.5",
+    "question": "When scanning to the front, look ahead for:",
+    "options": [
+      {"id": "opt1", "text": "Only the vehicle directly in front of you", "isCorrect": false},
+      {"id": "opt2", "text": "Traffic situations to steer around, blockages hiding hazards, feet/wheels/shadows around parked vehicles, and what's happening beyond the vehicle ahead", "isCorrect": true},
+      {"id": "opt3", "text": "Only traffic signals", "isCorrect": false},
+      {"id": "opt4", "text": "Nothing specific", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Scanning to the front means looking for traffic situations to steer around, blockages that might hide pedestrians/cyclists/vehicles, feet/wheels/shadows around parked vehicles, and what's happening beyond the vehicle in front of you.",
+    "tags": ["scanning", "forward vision", "hazards"],
+    "relatedTopics": ["Visual search", "Anticipation"],
+    "source": "Chapter 3, Section 3.5"
+  },
+  {
+    "id": "ch3_q058",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.5",
+    "question": "When scanning to the side at intersections, you should:",
+    "options": [
+      {"id": "opt1", "text": "Only look left", "isCorrect": false},
+      {"id": "opt2", "text": "Pay close attention to vehicles, pedestrians, and cyclists approaching from left and right, and watch for movement when view is obscured", "isCorrect": true},
+      {"id": "opt3", "text": "Only look right", "isCorrect": false},
+      {"id": "opt4", "text": "Not check sides at all", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "At intersections, pay close attention to vehicles, pedestrians, and cyclists from left and right. Watch for pedestrians and cyclists crossing. When foliage or objects obscure your view, watch for movement.",
+    "tags": ["scanning", "intersections", "side vision"],
+    "relatedTopics": ["Intersection safety", "Pedestrians"],
+    "source": "Chapter 3, Section 3.5"
+  },
+  {
+    "id": "ch3_q059",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.5",
+    "question": "Before turning, you should:",
+    "options": [
+      {"id": "opt1", "text": "Only use your turn signal", "isCorrect": false},
+      {"id": "opt2", "text": "Check side mirrors and do an over-shoulder check for bicyclists or pedestrians", "isCorrect": true},
+      {"id": "opt3", "text": "Only check your rearview mirror", "isCorrect": false},
+      {"id": "opt4", "text": "Just turn without checking", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Before turning, check your side mirrors and do an over-shoulder check for bicyclists or pedestrians who might be alongside you or about to cross the street.",
+    "tags": ["turning", "blind spot", "checking"],
+    "relatedTopics": ["Bicyclists", "Pedestrians"],
+    "source": "Chapter 3, Section 3.5"
+  },
+  {
+    "id": "ch3_q060",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.5",
+    "question": "It is essential to check traffic behind you when you:",
+    "options": [
+      {"id": "opt1", "text": "Only when backing up", "isCorrect": false},
+      {"id": "opt2", "text": "Change lanes, turn across a bicycle lane, slow down, back up, or drive down a long or steep hill", "isCorrect": true},
+      {"id": "opt3", "text": "Never need to check behind", "isCorrect": false},
+      {"id": "opt4", "text": "Only when starting the car", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Check traffic behind you when you change lanes, turn across a bicycle lane, slow down, back up, or drive down a long or steep hill. Check more often when traffic is heavy.",
+    "tags": ["scanning behind", "mirrors", "awareness"],
+    "relatedTopics": ["Lane changes", "Following distance"],
+    "source": "Chapter 3, Section 3.5"
+  },
+  {
+    "id": "ch3_q061",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.6",
+    "question": "Safe, respectful, and responsible driver behavior includes:",
+    "options": [
+      {"id": "opt1", "text": "Only ensuring you wear a seatbelt", "isCorrect": false},
+      {"id": "opt2", "text": "Ensuring all people use safety restraints, being fit to drive, showing empathy, respecting space, avoiding conflict, and taking care of the road environment", "isCorrect": true},
+      {"id": "opt3", "text": "Focusing only on your destination", "isCorrect": false},
+      {"id": "opt4", "text": "Driving as fast as possible", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Responsible behavior includes: ensuring all people use safety restraints, being fit to drive, showing empathy toward others, respecting other road users' space, avoiding conflict regardless of fault, and taking care of the road environment.",
+    "tags": ["responsibility", "respect", "behavior"],
+    "relatedTopics": ["Safety", "Ethics"],
+    "source": "Chapter 3, Section 3.6"
+  },
+  {
+    "id": "ch3_q062",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.6",
+    "question": "Traffic advisories are:",
+    "options": [
+      {"id": "opt1", "text": "Not important to check", "isCorrect": false},
+      {"id": "opt2", "text": "Notifications about current or upcoming traffic conditions, incidents, or road closures", "isCorrect": true},
+      {"id": "opt3", "text": "Only available on the radio", "isCorrect": false},
+      {"id": "opt4", "text": "Illegal to use while driving", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Traffic advisories are notifications or alerts about current or upcoming traffic conditions, incidents, or road closures. They help you make informed decisions about travel routes and avoid delays or hazards.",
+    "tags": ["traffic advisories", "information", "planning"],
+    "relatedTopics": ["Route planning", "Traffic conditions"],
+    "source": "Chapter 3, Section 3.6"
+  },
+  {
+    "id": "ch3_q063",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.6",
+    "question": "Traffic advisories are provided through:",
+    "options": [
+      {"id": "opt1", "text": "Only electronic road signs", "isCorrect": false},
+      {"id": "opt2", "text": "Electronic road signs, social media, radio broadcasts, traffic websites, and mobile apps", "isCorrect": true},
+      {"id": "opt3", "text": "Only radio", "isCorrect": false},
+      {"id": "opt4", "text": "Only mobile apps", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Traffic advisories are provided in many ways including electronic road signs, social media, radio broadcasts, traffic websites, and mobile apps.",
+    "tags": ["traffic advisories", "sources", "technology"],
+    "relatedTopics": ["Information sources", "Navigation"],
+    "source": "Chapter 3, Section 3.6"
+  },
+  {
+    "id": "ch3_q064",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.6",
+    "question": "Litter on roads can cause accidents and create safety hazards for road users.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Litter creates safety hazards for people using roads and can cause accidents. Flammable or inflamed litter can spark wildfires, which is why fines for littering in Washington are severe.",
+    "tags": ["litter", "safety", "hazards"],
+    "relatedTopics": ["Road maintenance", "Environmental responsibility"],
+    "source": "Chapter 3, Section 3.6"
+  },
+  {
+    "id": "ch3_q065",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.6",
+    "question": "You and your passengers are responsible for securing items you're transporting and properly throwing away trash.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "You and your passengers are responsible for securing items you're transporting and properly throwing away trash. Washington State law sets minimum fines for littering and illegal dumping.",
+    "tags": ["litter", "responsibility", "cargo"],
+    "relatedTopics": ["Load security", "Fines"],
+    "source": "Chapter 3, Section 3.6"
+  },
+  {
+    "id": "ch3_q066",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.6",
+    "question": "Leaving your car running while parked can release harmful gases like carbon monoxide, which can be lethal.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "When you leave your car running while parked, especially in a garage, it can release harmful gases like carbon monoxide, which can be lethal. Idling also adds pollution to the air.",
+    "tags": ["idling", "carbon monoxide", "environment"],
+    "relatedTopics": ["Vehicle emissions", "Safety"],
+    "source": "Chapter 3, Section 3.6"
+  },
+  {
+    "id": "ch3_q067",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.6",
+    "question": "Small changes to help lower vehicle emissions include:",
+    "options": [
+      {"id": "opt1", "text": "Leaving your engine running all the time", "isCorrect": false},
+      {"id": "opt2", "text": "Turn off engine when parked, drive smoothly, keep tires inflated, and carpool or use public transport", "isCorrect": true},
+      {"id": "opt3", "text": "Always driving at maximum speed", "isCorrect": false},
+      {"id": "opt4", "text": "Never checking tire pressure", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "To lower emissions: turn off engine if parked for a while, drive smoothly instead of speeding or braking hard, keep tires properly inflated for better gas mileage, and carpool or use public transport when possible.",
+    "tags": ["emissions", "environment", "fuel efficiency"],
+    "relatedTopics": ["Eco-driving", "Maintenance"],
+    "source": "Chapter 3, Section 3.6"
+  },
+  {
+    "id": "ch3_q068",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.6",
+    "question": "Washington's Clean Car Law requires vehicles made in 2009 and later to meet strict clean air standards before they can be registered, licensed, or sold.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Washington's Clean Car Law requires vehicles made in 2009 and later to meet strict clean air standards before they can be registered, licensed, or sold.",
+    "tags": ["Clean Car Law", "emissions", "Washington"],
+    "relatedTopics": ["Vehicle standards", "Environmental regulations"],
+    "source": "Chapter 3, Section 3.6"
+  },
+  {
+    "id": "ch3_q069",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.6",
+    "question": "Self-evaluation questions to ask during or after driving include:",
+    "options": [
+      {"id": "opt1", "text": "How fast did I go?", "isCorrect": false},
+      {"id": "opt2", "text": "Did anything surprise me? Did I surprise anyone? Was my driving legal, proficient, and smooth? What changes do I need to make?", "isCorrect": true},
+      {"id": "opt3", "text": "Did I beat other cars?", "isCorrect": false},
+      {"id": "opt4", "text": "How much gas did I use?", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Self-evaluation questions include: Did anything surprise me? Did I surprise anyone? Was my driving legal, proficient, and smooth? What changes do I need to make for next time?",
+    "tags": ["self-evaluation", "improvement", "reflection"],
+    "relatedTopics": ["Skill development", "Safe driving"],
+    "source": "Chapter 3, Section 3.6"
+  },
+  {
+    "id": "ch3_q070",
+    "type": "true_false",
+    "category": "drivers",
+    "difficulty": "easy",
+    "chapter": 3,
+    "section": "3.6",
+    "question": "Regularly reviewing your driving skills helps you improve your abilities and maintain skills once they are developed.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Regularly reviewing your driving skills at the end of each drive helps you improve your abilities and maintain your skills once developed. Skills deteriorate over time, so regular evaluation keeps you driving at your best.",
+    "tags": ["self-evaluation", "skill maintenance", "improvement"],
+    "relatedTopics": ["Lifelong learning", "Skill development"],
+    "source": "Chapter 3, Section 3.6"
+  },
+  {
+    "id": "ch3_q071",
+    "type": "multiple_choice",
+    "category": "drivers",
+    "difficulty": "medium",
+    "chapter": 3,
+    "section": "3.6",
+    "question": "To keep your driving skills fresh, you should identify:",
+    "options": [
+      {"id": "opt1", "text": "Only factors that contribute to changes in your skills", "isCorrect": false},
+      {"id": "opt2", "text": "Factors that contribute to skill changes, changes in driving practices, changes in traffic laws, vehicle technology advancements, and lifelong learning opportunities", "isCorrect": true},
+      {"id": "opt3", "text": "Only new traffic laws", "isCorrect": false},
+      {"id": "opt4", "text": "Nothing specific", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "To keep skills fresh, identify: factors contributing to changes in driving skills, changes in driving practices, changes in traffic laws, changes and advancements in vehicle technology, and opportunities for lifelong learning related to driving.",
+    "tags": ["skill maintenance", "learning", "adaptation"],
+    "relatedTopics": ["Continuing education", "Technology"],
+    "source": "Chapter 3, Section 3.6"
   }
 ]

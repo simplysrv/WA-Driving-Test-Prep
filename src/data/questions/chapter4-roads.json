@@ -6,13 +6,13 @@
     "difficulty": "easy",
     "chapter": 4,
     "section": "4.0",
-    "question": "Courtesy, respect, and awareness of others form the foundation of safe road sharing.",
+    "question": "Courtesy, respect, and awareness of others are key to road safety and could save someone from serious injury or death.",
     "options": [
       {"id": "opt1", "text": "True", "isCorrect": true},
       {"id": "opt2", "text": "False", "isCorrect": false}
     ],
     "correctAnswerId": "opt1",
-    "explanation": "Yes, courtesy, respect, and awareness are fundamental to safely sharing the road with all users including drivers, pedestrians, and cyclists.",
+    "explanation": "Yes, courtesy, respect, and awareness form the foundation of safely sharing Washington roads with all users.",
     "tags": ["road sharing", "courtesy", "safety"],
     "relatedTopics": ["Defensive driving", "Road etiquette"],
     "source": "Chapter 4, Section 4.0"
@@ -24,13 +24,13 @@
     "difficulty": "easy",
     "chapter": 4,
     "section": "4.1",
-    "question": "You must always yield to pedestrians at crosswalks and intersections.",
+    "question": "You must always yield to pedestrians at crosswalks and intersections whether the road is marked or not.",
     "options": [
       {"id": "opt1", "text": "True", "isCorrect": true},
       {"id": "opt2", "text": "False", "isCorrect": false}
     ],
     "correctAnswerId": "opt1",
-    "explanation": "Yes, drivers must always yield the right-of-way to pedestrians at crosswalks and intersections, whether marked or unmarked.",
+    "explanation": "Pedestrians and bicyclists have the right-of-way at crosswalks and intersections whether the road is marked or not.",
     "tags": ["pedestrians", "right-of-way", "crosswalks"],
     "relatedTopics": ["Pedestrian safety", "Yielding"],
     "source": "Chapter 4, Section 4.1"
@@ -50,347 +50,2027 @@
       {"id": "opt4", "text": "The entire roadway", "isCorrect": false}
     ],
     "correctAnswerId": "opt2",
-    "explanation": "You must wait until the pedestrian has cleared your lane and one additional lane before proceeding. This ensures adequate safety distance.",
+    "explanation": "You must wait until a pedestrian has cleared your lane and 1 additional lane before proceeding. If using a wheelchair, cane, guide dog, or service animal, wait until they have completely crossed.",
     "tags": ["pedestrians", "crosswalks", "safety distance"],
     "relatedTopics": ["Right-of-way", "Pedestrian protection"],
     "source": "Chapter 4, Section 4.1"
   },
   {
     "id": "ch4_q004",
-    "type": "multiple_choice",
+    "type": "true_false",
     "category": "roads",
     "difficulty": "medium",
     "chapter": 4,
     "section": "4.1",
-    "question": "When should you give special consideration to pedestrians?",
+    "question": "It's lawful to honk at a pedestrian using a service animal to alert them of your presence.",
     "options": [
-      {"id": "opt1", "text": "Only during daylight hours", "isCorrect": false},
-      {"id": "opt2", "text": "When they use wheelchair, cane, guide dog, or service animal", "isCorrect": true},
-      {"id": "opt3", "text": "Only at marked crosswalks", "isCorrect": false},
-      {"id": "opt4", "text": "Only in residential areas", "isCorrect": false}
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
     ],
     "correctAnswerId": "opt2",
-    "explanation": "Extra care should be taken for pedestrians using wheelchairs, canes, guide dogs, or other service animals as they may need more time or have limited mobility.",
-    "tags": ["pedestrians", "accessibility", "special needs"],
-    "relatedTopics": ["Service animals", "Mobility aids"],
+    "explanation": "It's unlawful to interfere with a service animal. Don't honk as it could confuse or frighten the animal or pedestrian.",
+    "tags": ["pedestrians", "service animals", "accessibility"],
+    "relatedTopics": ["Guide dogs", "Disability access"],
     "source": "Chapter 4, Section 4.1"
   },
   {
     "id": "ch4_q005",
     "type": "true_false",
     "category": "roads",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "chapter": 4,
     "section": "4.1",
-    "question": "You can cross into oncoming traffic to pass a pedestrian or cyclist if it's safe.",
+    "question": "You can cross into oncoming traffic to pass a pedestrian or bicyclist if it's safe.",
     "options": [
       {"id": "opt1", "text": "True", "isCorrect": false},
       {"id": "opt2", "text": "False", "isCorrect": true}
     ],
     "correctAnswerId": "opt2",
-    "explanation": "False. You are prohibited from crossing into oncoming traffic to pass pedestrians or cyclists. You must wait for a safe opportunity to pass.",
-    "tags": ["passing", "pedestrians", "cyclists", "traffic rules"],
-    "relatedTopics": ["Safe passing distance", "Vulnerable road users"],
+    "explanation": "You are prohibited from driving into oncoming traffic to pass a pedestrian or bicyclist.",
+    "tags": ["passing", "pedestrians", "cyclists"],
+    "relatedTopics": ["Safe passing", "Traffic safety"],
     "source": "Chapter 4, Section 4.1"
   },
   {
     "id": "ch4_q006",
-    "type": "multiple_choice",
-    "category": "right_of_way",
-    "difficulty": "medium",
+    "type": "true_false",
+    "category": "school_bus",
+    "difficulty": "easy",
     "chapter": 4,
-    "section": "4.5",
-    "question": "At a four-way stop, who has the right-of-way?",
+    "section": "4.2",
+    "question": "Fines are doubled for anyone who passes a stopped school bus.",
     "options": [
-      {"id": "opt1", "text": "The largest vehicle", "isCorrect": false},
-      {"id": "opt2", "text": "The vehicle that arrived first", "isCorrect": true},
-      {"id": "opt3", "text": "The vehicle on the right always", "isCorrect": false},
-      {"id": "opt4", "text": "The vehicle traveling straight", "isCorrect": false}
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
     ],
-    "correctAnswerId": "opt2",
-    "explanation": "At a four-way stop, the vehicle that arrives first has the right-of-way. If two vehicles arrive at the same time, the vehicle on the right goes first.",
-    "tags": ["four-way stop", "right-of-way", "intersections"],
-    "relatedTopics": ["Stop signs", "Intersection rules"],
-    "source": "Chapter 4, Section 4.5"
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, fines are doubled for passing a stopped school bus, and it's unlawful to pass when red lights flash.",
+    "tags": ["school bus", "fines", "safety"],
+    "relatedTopics": ["Children safety", "Traffic violations"],
+    "source": "Chapter 4, Section 4.2"
   },
   {
     "id": "ch4_q007",
-    "type": "multiple_choice",
-    "category": "right_of_way",
-    "difficulty": "easy",
+    "type": "true_false",
+    "category": "school_bus",
+    "difficulty": "medium",
     "chapter": 4,
-    "section": "4.6",
-    "question": "When turning left, you must yield to:",
+    "section": "4.2",
+    "question": "You can use a center turn lane to pass a school bus with flashing red lights.",
     "options": [
-      {"id": "opt1", "text": "Oncoming traffic and pedestrians", "isCorrect": true},
-      {"id": "opt2", "text": "Only vehicles behind you", "isCorrect": false},
-      {"id": "opt3", "text": "No one if you have a green light", "isCorrect": false},
-      {"id": "opt4", "text": "Only pedestrians", "isCorrect": false}
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
     ],
-    "correctAnswerId": "opt1",
-    "explanation": "When turning left, you must yield to oncoming traffic and pedestrians crossing the road you're entering, even if you have a green light.",
-    "tags": ["left turns", "yielding", "right-of-way"],
-    "relatedTopics": ["Green lights", "Intersection safety"],
-    "source": "Chapter 4, Section 4.6"
+    "correctAnswerId": "opt2",
+    "explanation": "Don't use a center turn lane to pass a school bus. Drivers in all turn lanes must stop when red lights flash.",
+    "tags": ["school bus", "turn lane", "safety"],
+    "relatedTopics": ["School bus laws", "Lane restrictions"],
+    "source": "Chapter 4, Section 4.2"
   },
   {
     "id": "ch4_q008",
     "type": "multiple_choice",
-    "category": "traffic_signals",
-    "difficulty": "easy",
+    "category": "school_bus",
+    "difficulty": "medium",
     "chapter": 4,
-    "section": "4.7",
-    "question": "A flashing yellow traffic light means:",
+    "section": "4.2",
+    "question": "When can you proceed after a school bus stops with flashing red lights?",
     "options": [
-      {"id": "opt1", "text": "Stop completely", "isCorrect": false},
-      {"id": "opt2", "text": "Proceed with caution", "isCorrect": true},
-      {"id": "opt3", "text": "Speed up to clear the intersection", "isCorrect": false},
-      {"id": "opt4", "text": "Yield to all traffic", "isCorrect": false}
+      {"id": "opt1", "text": "When the children have crossed", "isCorrect": false},
+      {"id": "opt2", "text": "After waiting 30 seconds", "isCorrect": false},
+      {"id": "opt3", "text": "When the lights stop flashing, the sign is retracted, and the metal arm returns to the front bumper", "isCorrect": true},
+      {"id": "opt4", "text": "When other vehicles start moving", "isCorrect": false}
     ],
-    "correctAnswerId": "opt2",
-    "explanation": "A flashing yellow light means proceed with caution. Slow down and be prepared to stop if necessary.",
-    "tags": ["traffic signals", "yellow light", "caution"],
-    "relatedTopics": ["Signal meanings", "Intersection safety"],
-    "source": "Chapter 4, Section 4.7"
+    "correctAnswerId": "opt3",
+    "explanation": "You may go only after the lights stop flashing, the sign is retracted, and the metal arm returns to the front bumper of the bus. Continue watching for children even after.",
+    "tags": ["school bus", "red lights", "safety"],
+    "relatedTopics": ["School bus signals", "Child safety"],
+    "source": "Chapter 4, Section 4.2"
   },
   {
     "id": "ch4_q009",
     "type": "multiple_choice",
-    "category": "traffic_signals",
+    "category": "school_bus",
+    "difficulty": "hard",
+    "chapter": 4,
+    "section": "4.2",
+    "question": "On a multilane road (3 or more lanes), when do drivers traveling in the opposite direction need to stop for a school bus with flashing red lights?",
+    "options": [
+      {"id": "opt1", "text": "Always, regardless of road configuration", "isCorrect": false},
+      {"id": "opt2", "text": "Never, only drivers behind the bus must stop", "isCorrect": false},
+      {"id": "opt3", "text": "Only if lanes are NOT separated by a median or barrier", "isCorrect": true},
+      {"id": "opt4", "text": "Only during school hours", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt3",
+    "explanation": "On multilane roads with 3 or more lanes, drivers in the opposite direction don't need to stop IF the lanes are separated by a median or barrier. Otherwise, all must stop.",
+    "tags": ["school bus", "multilane road", "median"],
+    "relatedTopics": ["Road configuration", "School bus laws"],
+    "source": "Chapter 4, Section 4.2"
+  },
+  {
+    "id": "ch4_q010",
+    "type": "true_false",
+    "category": "transit",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.3",
+    "question": "You must yield to a transit vehicle that has signaled and is pulling back onto the roadway.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, yield to any transit vehicle traveling in the same direction as you that has signaled and is pulling back onto the roadway.",
+    "tags": ["transit bus", "yielding", "right-of-way"],
+    "relatedTopics": ["Public transit", "Bus safety"],
+    "source": "Chapter 4, Section 4.3"
+  },
+  {
+    "id": "ch4_q011",
+    "type": "multiple_choice",
+    "category": "large_vehicles",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.4",
+    "question": "How long does it take a loaded truck with properly adjusted brakes, traveling at 55 mph, to come to a complete stop?",
+    "options": [
+      {"id": "opt1", "text": "150 feet", "isCorrect": false},
+      {"id": "opt2", "text": "250 feet", "isCorrect": false},
+      {"id": "opt3", "text": "450 feet", "isCorrect": true},
+      {"id": "opt4", "text": "600 feet", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt3",
+    "explanation": "It takes a loaded truck with properly adjusted brakes, traveling at 55 mph, 450 feet to come to a complete stop. Cutting in front without enough space is dangerous.",
+    "tags": ["large vehicles", "stopping distance", "safety"],
+    "relatedTopics": ["Truck safety", "Following distance"],
+    "source": "Chapter 4, Section 4.4"
+  },
+  {
+    "id": "ch4_q012",
+    "type": "true_false",
+    "category": "large_vehicles",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.4",
+    "question": "When following a large vehicle, you should stay close behind to maintain traffic flow.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "When following large vehicles, adjust your following distance so you have a wide view of the roadway ahead. Staying too close reduces visibility.",
+    "tags": ["large vehicles", "following distance", "visibility"],
+    "relatedTopics": ["Safe following", "Blind zones"],
+    "source": "Chapter 4, Section 4.4"
+  },
+  {
+    "id": "ch4_q013",
+    "type": "multiple_choice",
+    "category": "large_vehicles",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.4",
+    "question": "When entering traffic ahead of a large vehicle, when is it safe to merge?",
+    "options": [
+      {"id": "opt1", "text": "When you can see one headlight in your rearview mirror", "isCorrect": false},
+      {"id": "opt2", "text": "When you can clearly see both headlights in your rearview mirror", "isCorrect": true},
+      {"id": "opt3", "text": "When you can see the driver's face", "isCorrect": false},
+      {"id": "opt4", "text": "Anytime if you signal", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Wait until you can clearly see both headlights of the large vehicle in your rearview mirror before merging in front of them.",
+    "tags": ["large vehicles", "merging", "safety distance"],
+    "relatedTopics": ["Safe merging", "Following distance"],
+    "source": "Chapter 4, Section 4.4"
+  },
+  {
+    "id": "ch4_q014",
+    "type": "true_false",
+    "category": "large_vehicles",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.4",
+    "question": "Large vehicles require more than 1 lane to complete a turn and need 2 lanes of space in a roundabout.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, large vehicles might require more than 1 lane to complete a turn and need 2 lanes of space in a roundabout. Don't pass when they're turning.",
+    "tags": ["large vehicles", "turning", "roundabouts"],
+    "relatedTopics": ["Truck turning space", "Roundabout safety"],
+    "source": "Chapter 4, Section 4.4"
+  },
+  {
+    "id": "ch4_q015",
+    "type": "true_false",
+    "category": "large_vehicles",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.4",
+    "question": "Snowplows can create blizzard-like conditions for drivers following too closely.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Snowplows can force snow up and off the road, causing blizzard-like conditions that reduce visibility for drivers following too closely.",
+    "tags": ["snowplows", "visibility", "winter driving"],
+    "relatedTopics": ["Winter conditions", "Following distance"],
+    "source": "Chapter 4, Section 4.4"
+  },
+  {
+    "id": "ch4_q016",
+    "type": "true_false",
+    "category": "motorcycles",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.5",
+    "question": "Motorcyclists have the same rights and responsibilities as other road users and obey the same traffic laws.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, motorcyclists have the same rights and responsibilities as other road users. They obey the same traffic laws but are more vulnerable and harder to see.",
+    "tags": ["motorcycles", "rights", "traffic laws"],
+    "relatedTopics": ["Motorcycle safety", "Road sharing"],
+    "source": "Chapter 4, Section 4.5"
+  },
+  {
+    "id": "ch4_q017",
+    "type": "true_false",
+    "category": "motorcycles",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.5",
+    "question": "You can move into the same lane alongside a motorcyclist if the lane is wide and the motorcyclist is riding far to one side.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Motorcyclists are entitled to the same lane width as all other vehicles. Never move into the same lane alongside a motorcyclist, even if the lane is wide.",
+    "tags": ["motorcycles", "lane sharing", "safety"],
+    "relatedTopics": ["Lane usage", "Motorcycle space"],
+    "source": "Chapter 4, Section 4.5"
+  },
+  {
+    "id": "ch4_q018",
+    "type": "multiple_choice",
+    "category": "motorcycles",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.5",
+    "question": "Why do motorcyclists constantly change positions within their lane?",
+    "options": [
+      {"id": "opt1", "text": "To show off their riding skills", "isCorrect": false},
+      {"id": "opt2", "text": "To see and be seen, and to avoid objects in the road", "isCorrect": true},
+      {"id": "opt3", "text": "To prepare for a turn", "isCorrect": false},
+      {"id": "opt4", "text": "To confuse other drivers", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Motorcyclists constantly change positions within their lane so they can see and be seen, and to avoid objects in the road.",
+    "tags": ["motorcycles", "lane position", "visibility"],
+    "relatedTopics": ["Motorcycle behavior", "Road hazards"],
+    "source": "Chapter 4, Section 4.5"
+  },
+  {
+    "id": "ch4_q019",
+    "type": "true_false",
+    "category": "motorcycles",
+    "difficulty": "hard",
+    "chapter": 4,
+    "section": "4.5",
+    "question": "When slowing down, motorcyclists always use their brakes, so brake lights will be visible.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "When slowing down, motorcyclists might use the throttle and not their brakes, so brake lights wouldn't be visible. Stay alert.",
+    "tags": ["motorcycles", "brake lights", "awareness"],
+    "relatedTopics": ["Motorcycle signals", "Following motorcycles"],
+    "source": "Chapter 4, Section 4.5"
+  },
+  {
+    "id": "ch4_q020",
+    "type": "true_false",
+    "category": "motorcycles",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.5",
+    "question": "You should allow even more following room when following a motorcycle in rain or on slick roads.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Weather conditions and slippery surfaces can be serious problems for motorcyclists. Allow even more following room when it's raining or the road is slick.",
+    "tags": ["motorcycles", "following distance", "weather"],
+    "relatedTopics": ["Wet weather driving", "Motorcycle safety"],
+    "source": "Chapter 4, Section 4.5"
+  },
+  {
+    "id": "ch4_q021",
+    "type": "multiple_choice",
+    "category": "bicycles",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.6",
+    "question": "When passing a bicyclist, how much space must you leave between the bicyclist and your vehicle?",
+    "options": [
+      {"id": "opt1", "text": "At least 1 foot", "isCorrect": false},
+      {"id": "opt2", "text": "At least 2 feet", "isCorrect": false},
+      {"id": "opt3", "text": "At least 3 feet", "isCorrect": true},
+      {"id": "opt4", "text": "At least 5 feet", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt3",
+    "explanation": "Leave at least 3 feet between the bicyclist and the widest part of your vehicle when passing. Bicyclists may need to change position to avoid hazards.",
+    "tags": ["bicycles", "passing", "safety distance"],
+    "relatedTopics": ["Safe passing", "Bicycle safety"],
+    "source": "Chapter 4, Section 4.6"
+  },
+  {
+    "id": "ch4_q022",
+    "type": "true_false",
+    "category": "bicycles",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.6",
+    "question": "Bicyclists have the same rights, duties, and responsibilities as a vehicle driver.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, bicyclists have the same rights, duties, and responsibilities as a vehicle driver. Like motorcycles, bicycles are small and less visible.",
+    "tags": ["bicycles", "rights", "responsibilities"],
+    "relatedTopics": ["Bicycle laws", "Road sharing"],
+    "source": "Chapter 4, Section 4.6"
+  },
+  {
+    "id": "ch4_q023",
+    "type": "true_false",
+    "category": "bicycles",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.6",
+    "question": "You can share a lane with a bicyclist when driving behind them.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You cannot share a lane with a bicyclist. Bicyclists may legally use the full lane and ride where they're most visible. Leave at least 3 feet of space.",
+    "tags": ["bicycles", "lane sharing", "safety"],
+    "relatedTopics": ["Lane usage", "Bicycle rights"],
+    "source": "Chapter 4, Section 4.6"
+  },
+  {
+    "id": "ch4_q024",
+    "type": "multiple_choice",
+    "category": "bicycles",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.6",
+    "question": "When passing a bicyclist on a road with only 1 lane in each direction, what should you do?",
+    "options": [
+      {"id": "opt1", "text": "Stay in your lane and pass slowly", "isCorrect": false},
+      {"id": "opt2", "text": "Move into the other lane when there isn't any oncoming traffic", "isCorrect": true},
+      {"id": "opt3", "text": "Use the shoulder to pass", "isCorrect": false},
+      {"id": "opt4", "text": "Honk and pass quickly", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "If there's only 1 lane in each direction, move into the other lane when there isn't any oncoming traffic. Leave at least 3 feet between the bicyclist and your vehicle.",
+    "tags": ["bicycles", "passing", "single lane"],
+    "relatedTopics": ["Safe passing", "Lane usage"],
+    "source": "Chapter 4, Section 4.6"
+  },
+  {
+    "id": "ch4_q025",
+    "type": "true_false",
+    "category": "bicycles",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.6",
+    "question": "Bicyclists in crosswalks are considered pedestrians and you must yield to them.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, bicyclists in crosswalks are considered pedestrians. You must yield to them in both marked and unmarked crosswalks and intersections.",
+    "tags": ["bicycles", "crosswalks", "pedestrians"],
+    "relatedTopics": ["Yielding", "Crosswalk safety"],
+    "source": "Chapter 4, Section 4.6"
+  },
+  {
+    "id": "ch4_q026",
+    "type": "true_false",
+    "category": "bicycles",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.6",
+    "question": "You can drive in bicycle lanes when turning or crossing the lane to park near the curb.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, you can drive in bicycle lanes only when turning or crossing the lane to park near the curb. Otherwise, stay out of bike lanes.",
+    "tags": ["bicycles", "bike lanes", "turning"],
+    "relatedTopics": ["Lane usage", "Parking"],
+    "source": "Chapter 4, Section 4.6"
+  },
+  {
+    "id": "ch4_q027",
+    "type": "true_false",
+    "category": "trains",
     "difficulty": "easy",
     "chapter": 4,
     "section": "4.7",
+    "question": "Trains ALWAYS have the right-of-way.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, trains ALWAYS have the right-of-way. They are heavy and cannot stop quickly even if traveling at low speeds.",
+    "tags": ["trains", "right-of-way", "railroad crossings"],
+    "relatedTopics": ["Railroad safety", "Train crossings"],
+    "source": "Chapter 4, Section 4.7"
+  },
+  {
+    "id": "ch4_q028",
+    "type": "multiple_choice",
+    "category": "trains",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.7",
+    "question": "How far can it take for a train to come to a full stop?",
+    "options": [
+      {"id": "opt1", "text": "Up to 500 feet", "isCorrect": false},
+      {"id": "opt2", "text": "Up to a quarter mile", "isCorrect": false},
+      {"id": "opt3", "text": "Up to a mile", "isCorrect": true},
+      {"id": "opt4", "text": "Up to 2 miles", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt3",
+    "explanation": "It can take up to a mile for a train to come to a full stop, even at low speeds, due to their weight.",
+    "tags": ["trains", "stopping distance", "safety"],
+    "relatedTopics": ["Railroad crossings", "Train physics"],
+    "source": "Chapter 4, Section 4.7"
+  },
+  {
+    "id": "ch4_q029",
+    "type": "multiple_choice",
+    "category": "trains",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.7",
+    "question": "How far from the nearest rail should you stop at a railroad crossing when signals are flashing?",
+    "options": [
+      {"id": "opt1", "text": "Between 5 and 15 feet", "isCorrect": false},
+      {"id": "opt2", "text": "Between 15 and 50 feet", "isCorrect": true},
+      {"id": "opt3", "text": "Between 20 and 75 feet", "isCorrect": false},
+      {"id": "opt4", "text": "At least 100 feet", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Stop between 15 and 50 feet away from the nearest rail when the signal is flashing, the gate is lowering, or a train is approaching.",
+    "tags": ["trains", "railroad crossings", "stopping distance"],
+    "relatedTopics": ["Railroad safety", "Signal compliance"],
+    "source": "Chapter 4, Section 4.7"
+  },
+  {
+    "id": "ch4_q030",
+    "type": "true_false",
+    "category": "trains",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.7",
+    "question": "When lights are flashing and bells are ringing at a train crossing, you must stop even if the gate is not down.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, when lights are flashing and bells are ringing, you must stop whether the gate is down or not. Never drive around the gate.",
+    "tags": ["trains", "railroad crossings", "signals"],
+    "relatedTopics": ["Warning signals", "Railroad safety"],
+    "source": "Chapter 4, Section 4.7"
+  },
+  {
+    "id": "ch4_q031",
+    "type": "true_false",
+    "category": "trains",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.7",
+    "question": "You should trust railroad crossing signals even if you don't see a train because trains can come from either direction on any track.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, even if you don't see a train, trust the signals. Trains might be closer, quieter, and moving faster than they appear, and can come from either direction on any track.",
+    "tags": ["trains", "signals", "safety"],
+    "relatedTopics": ["Railroad crossings", "Warning compliance"],
+    "source": "Chapter 4, Section 4.7"
+  },
+  {
+    "id": "ch4_q032",
+    "type": "multiple_choice",
+    "category": "trains",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.7",
+    "question": "For light rail trains, how much space should you leave between your vehicle and the train?",
+    "options": [
+      {"id": "opt1", "text": "At least half a car length", "isCorrect": false},
+      {"id": "opt2", "text": "At least 1 car length or more", "isCorrect": true},
+      {"id": "opt3", "text": "At least 2 car lengths", "isCorrect": false},
+      {"id": "opt4", "text": "Any amount is fine", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Leave at least 1 car length (or more) between your vehicle and light rail trains. Do not stop, park, or leave your car on the tracks.",
+    "tags": ["light rail", "following distance", "safety"],
+    "relatedTopics": ["Urban transit", "Rail safety"],
+    "source": "Chapter 4, Section 4.7"
+  },
+  {
+    "id": "ch4_q033",
+    "type": "multiple_choice",
+    "category": "agricultural",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.8",
+    "question": "Agricultural and farm vehicles designed to go 25 mph or less display what sign on the back?",
+    "options": [
+      {"id": "opt1", "text": "A red octagon", "isCorrect": false},
+      {"id": "opt2", "text": "A triangle sign or emblem", "isCorrect": true},
+      {"id": "opt3", "text": "A yellow diamond", "isCorrect": false},
+      {"id": "opt4", "text": "A circular sign", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Agricultural and farm vehicles designed to go 25 mph or less will have a triangle sign or emblem on the back indicating they are slow-moving vehicles.",
+    "tags": ["agricultural vehicles", "slow moving", "signs"],
+    "relatedTopics": ["Farm equipment", "Rural driving"],
+    "source": "Chapter 4, Section 4.8"
+  },
+  {
+    "id": "ch4_q034",
+    "type": "multiple_choice",
+    "category": "agricultural",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.8",
+    "question": "When passing an agricultural vehicle on a road with only 1 lane in each direction, how much space should you leave?",
+    "options": [
+      {"id": "opt1", "text": "At least 1 foot", "isCorrect": false},
+      {"id": "opt2", "text": "At least 2 feet", "isCorrect": false},
+      {"id": "opt3", "text": "At least 3 feet", "isCorrect": true},
+      {"id": "opt4", "text": "At least 5 feet", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt3",
+    "explanation": "When passing an agricultural vehicle, there should be at least 3 feet between the widest part of your vehicle and the agricultural vehicle.",
+    "tags": ["agricultural vehicles", "passing", "safety distance"],
+    "relatedTopics": ["Safe passing", "Rural roads"],
+    "source": "Chapter 4, Section 4.8"
+  },
+  {
+    "id": "ch4_q035",
+    "type": "multiple_choice",
+    "category": "emergency_vehicles",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.9",
+    "question": "When an emergency vehicle with lights and/or sirens approaches, you should:",
+    "options": [
+      {"id": "opt1", "text": "Speed up to get out of the way", "isCorrect": false},
+      {"id": "opt2", "text": "Pull to the right side of the road and stop", "isCorrect": true},
+      {"id": "opt3", "text": "Continue at your current speed", "isCorrect": false},
+      {"id": "opt4", "text": "Move to the left lane", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Immediately pull your vehicle to the right side of the road and stop. Wait until the emergency vehicle has passed before signaling and reentering traffic.",
+    "tags": ["emergency vehicles", "right-of-way", "safety"],
+    "relatedTopics": ["Sirens", "Emergency response"],
+    "source": "Chapter 4, Section 4.9"
+  },
+  {
+    "id": "ch4_q036",
+    "type": "true_false",
+    "category": "emergency_vehicles",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.9",
+    "question": "After an emergency vehicle passes, you should reenter traffic in the order you were traveling before.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, wait until the emergency vehicle has passed before signaling and reentering traffic. Reenter in the order you were traveling before.",
+    "tags": ["emergency vehicles", "traffic order", "safety"],
+    "relatedTopics": ["Right-of-way", "Emergency response"],
+    "source": "Chapter 4, Section 4.9"
+  },
+  {
+    "id": "ch4_q037",
+    "type": "true_false",
+    "category": "traffic_laws",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.10",
+    "question": "You should drive on the right side of the road in Washington state.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, drive on the right side of the road. The only time you might temporarily travel on the left is when safely and legally passing on a 2-lane road.",
+    "tags": ["traffic laws", "lane position", "general rules"],
+    "relatedTopics": ["Basic driving rules", "Lane usage"],
+    "source": "Chapter 4, Section 4.10"
+  },
+  {
+    "id": "ch4_q038",
+    "type": "true_false",
+    "category": "traffic_laws",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.10",
+    "question": "It's legal to back up on a freeway shoulder if you miss your exit.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "It's illegal to drive in reverse on the road, even if you miss your turn or exit. Keep moving forward and find another way to your destination.",
+    "tags": ["traffic laws", "reversing", "freeway rules"],
+    "relatedTopics": ["Illegal maneuvers", "Highway safety"],
+    "source": "Chapter 4, Section 4.10"
+  },
+  {
+    "id": "ch4_q039",
+    "type": "true_false",
+    "category": "traffic_laws",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.10",
+    "question": "Hitchhiking and picking up hitchhikers on Washington freeways is illegal and dangerous.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, it's illegal and dangerous to hitchhike or pick up hitchhikers on Washington freeways.",
+    "tags": ["traffic laws", "hitchhiking", "freeway safety"],
+    "relatedTopics": ["Illegal activities", "Highway rules"],
+    "source": "Chapter 4, Section 4.10"
+  },
+  {
+    "id": "ch4_q040",
+    "type": "true_false",
+    "category": "traffic_laws",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.10",
+    "question": "If a traffic signal isn't working, you should treat the intersection like a 4-way stop.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, if a traffic signal isn't working, treat the intersection like a 4-way stop. Come to a complete stop, yield to traffic on your right, and proceed cautiously when safe.",
+    "tags": ["traffic signals", "broken lights", "intersections"],
+    "relatedTopics": ["4-way stops", "Intersection safety"],
+    "source": "Chapter 4, Section 4.10"
+  },
+  {
+    "id": "ch4_q041",
+    "type": "multiple_choice",
+    "category": "traffic_signals",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.11",
+    "question": "A solid red traffic light means:",
+    "options": [
+      {"id": "opt1", "text": "Slow down and proceed with caution", "isCorrect": false},
+      {"id": "opt2", "text": "Stop and wait until the light turns green", "isCorrect": true},
+      {"id": "opt3", "text": "Stop, then proceed when safe", "isCorrect": false},
+      {"id": "opt4", "text": "Yield to oncoming traffic", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Stop. Wait until the traffic light turns green and there are no vehicles or pedestrians in the intersection before you move ahead.",
+    "tags": ["traffic signals", "red light", "stop"],
+    "relatedTopics": ["Signal meanings", "Intersection rules"],
+    "source": "Chapter 4, Section 4.11"
+  },
+  {
+    "id": "ch4_q042",
+    "type": "true_false",
+    "category": "traffic_signals",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.11",
+    "question": "After stopping at a red light, you can turn right unless there's a 'no turn on red' sign.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, after coming to a complete stop at a red light, you can turn right if you don't see a 'no turn on red' sign and you have plenty of room to enter traffic.",
+    "tags": ["traffic signals", "red light", "right turn"],
+    "relatedTopics": ["Turn on red", "Intersection rules"],
+    "source": "Chapter 4, Section 4.11"
+  },
+  {
+    "id": "ch4_q043",
+    "type": "true_false",
+    "category": "traffic_signals",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.11",
+    "question": "After stopping at a red light, you can turn left onto a one-way street unless there's a 'no turn on red' sign.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, after coming to a complete stop at a red light, you can turn left onto a one-way street if you don't see a 'no turn on red' sign and you have plenty of room.",
+    "tags": ["traffic signals", "red light", "left turn"],
+    "relatedTopics": ["Turn on red", "One-way streets"],
+    "source": "Chapter 4, Section 4.11"
+  },
+  {
+    "id": "ch4_q044",
+    "type": "multiple_choice",
+    "category": "traffic_signals",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.11",
     "question": "A flashing red traffic light means:",
     "options": [
       {"id": "opt1", "text": "Slow down and proceed with caution", "isCorrect": false},
       {"id": "opt2", "text": "Treat it as a stop sign", "isCorrect": true},
       {"id": "opt3", "text": "The light is broken, proceed normally", "isCorrect": false},
-      {"id": "opt4", "text": "Yield to traffic from the right only", "isCorrect": false}
+      {"id": "opt4", "text": "Yield to traffic from the right", "isCorrect": false}
     ],
     "correctAnswerId": "opt2",
-    "explanation": "A flashing red light means come to a complete stop, then proceed when safe, treating it like a stop sign.",
-    "tags": ["traffic signals", "red light", "stop"],
+    "explanation": "A flashing red traffic light functions as a stop sign. Come to a full stop and then go when it's your turn.",
+    "tags": ["traffic signals", "flashing red", "stop"],
     "relatedTopics": ["Stop signs", "Intersection rules"],
-    "source": "Chapter 4, Section 4.7"
+    "source": "Chapter 4, Section 4.11"
   },
   {
-    "id": "ch4_q010",
+    "id": "ch4_q045",
+    "type": "multiple_choice",
+    "category": "traffic_signals",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.11",
+    "question": "A solid yellow traffic light means:",
+    "options": [
+      {"id": "opt1", "text": "Speed up to clear the intersection", "isCorrect": false},
+      {"id": "opt2", "text": "Slow down, the light is changing to red", "isCorrect": true},
+      {"id": "opt3", "text": "Proceed through the intersection quickly", "isCorrect": false},
+      {"id": "opt4", "text": "Stop immediately", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Slow down. The light is changing to red. When you see a yellow light, slow down and prepare to stop. If you're in the intersection, continue through at posted speed.",
+    "tags": ["traffic signals", "yellow light", "caution"],
+    "relatedTopics": ["Signal meanings", "Intersection safety"],
+    "source": "Chapter 4, Section 4.11"
+  },
+  {
+    "id": "ch4_q046",
+    "type": "true_false",
+    "category": "traffic_signals",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.11",
+    "question": "You are allowed to accelerate beyond the posted speed limit to clear an intersection when the light is yellow.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You are not allowed to accelerate beyond the posted speed limit to enter or clear an intersection when the light is yellow.",
+    "tags": ["traffic signals", "yellow light", "speed limit"],
+    "relatedTopics": ["Speed laws", "Signal compliance"],
+    "source": "Chapter 4, Section 4.11"
+  },
+  {
+    "id": "ch4_q047",
+    "type": "multiple_choice",
+    "category": "traffic_signals",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.11",
+    "question": "A flashing yellow traffic light means:",
+    "options": [
+      {"id": "opt1", "text": "Stop completely", "isCorrect": false},
+      {"id": "opt2", "text": "Slow down and proceed with caution", "isCorrect": true},
+      {"id": "opt3", "text": "Speed up to clear the intersection", "isCorrect": false},
+      {"id": "opt4", "text": "Yield to all traffic", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Slow down. A flashing yellow light has the same meaning as a yield sign. Treat the intersection as uncontrolled and proceed when you have the right-of-way.",
+    "tags": ["traffic signals", "flashing yellow", "caution"],
+    "relatedTopics": ["Yield signs", "Uncontrolled intersections"],
+    "source": "Chapter 4, Section 4.11"
+  },
+  {
+    "id": "ch4_q048",
+    "type": "multiple_choice",
+    "category": "traffic_signals",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.11",
+    "question": "A green arrow traffic signal means:",
+    "options": [
+      {"id": "opt1", "text": "Proceed with caution in that direction", "isCorrect": false},
+      {"id": "opt2", "text": "You have the right-of-way to travel in that direction", "isCorrect": true},
+      {"id": "opt3", "text": "Yield to oncoming traffic and then proceed", "isCorrect": false},
+      {"id": "opt4", "text": "The light is about to change", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "A green arrow gives you the right-of-way to travel in that direction. There should be no oncoming vehicles, crossing traffic, or pedestrians while the arrow is green.",
+    "tags": ["traffic signals", "green arrow", "right-of-way"],
+    "relatedTopics": ["Protected turns", "Signal meanings"],
+    "source": "Chapter 4, Section 4.11"
+  },
+  {
+    "id": "ch4_q049",
+    "type": "true_false",
+    "category": "traffic_signals",
+    "difficulty": "hard",
+    "chapter": 4,
+    "section": "4.11",
+    "question": "You will see flashing green lights at intersections in Washington state.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You won't see a flashing green light in Washington state. However, you might see them in British Columbia, Canada, as warning that pedestrians are waiting to cross.",
+    "tags": ["traffic signals", "flashing green", "regional differences"],
+    "relatedTopics": ["Signal types", "Canada driving"],
+    "source": "Chapter 4, Section 4.11"
+  },
+  {
+    "id": "ch4_q050",
+    "type": "multiple_choice",
+    "category": "traffic_signals",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.11",
+    "question": "At freeway ramp meters with a red light, where should you stop?",
+    "options": [
+      {"id": "opt1", "text": "Anywhere before the freeway entrance", "isCorrect": false},
+      {"id": "opt2", "text": "At the white stop line", "isCorrect": true},
+      {"id": "opt3", "text": "At the edge of the ramp", "isCorrect": false},
+      {"id": "opt4", "text": "Ramp meters don't require stopping", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Ramp meters work like regular traffic signals. When the light is red, stop at the white stop line. When it turns green, continue along the on-ramp.",
+    "tags": ["ramp meters", "traffic signals", "freeway entrance"],
+    "relatedTopics": ["Freeway access", "Signal compliance"],
+    "source": "Chapter 4, Section 4.11"
+  },
+  {
+    "id": "ch4_q051",
+    "type": "multiple_choice",
+    "category": "signs",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.12",
+    "question": "Red traffic signs indicate:",
+    "options": [
+      {"id": "opt1", "text": "Construction warnings", "isCorrect": false},
+      {"id": "opt2", "text": "Prohibitive or restricted action", "isCorrect": true},
+      {"id": "opt3", "text": "General road warnings", "isCorrect": false},
+      {"id": "opt4", "text": "Service information", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Red signs indicate prohibitive or restricted actions. They tell you what you cannot do.",
+    "tags": ["signs", "red signs", "traffic control"],
+    "relatedTopics": ["Sign colors", "Regulatory signs"],
+    "source": "Chapter 4, Section 4.12"
+  },
+  {
+    "id": "ch4_q052",
+    "type": "multiple_choice",
+    "category": "signs",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.12",
+    "question": "Orange traffic signs indicate:",
+    "options": [
+      {"id": "opt1", "text": "School zones", "isCorrect": false},
+      {"id": "opt2", "text": "Construction and maintenance warning", "isCorrect": true},
+      {"id": "opt3", "text": "Regulatory information", "isCorrect": false},
+      {"id": "opt4", "text": "Recreation areas", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Orange signs indicate construction and maintenance warnings, alerting drivers to work zones and potential hazards.",
+    "tags": ["signs", "orange signs", "construction"],
+    "relatedTopics": ["Work zones", "Sign colors"],
+    "source": "Chapter 4, Section 4.12"
+  },
+  {
+    "id": "ch4_q053",
+    "type": "multiple_choice",
+    "category": "signs",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.12",
+    "question": "Yellow traffic signs indicate:",
+    "options": [
+      {"id": "opt1", "text": "School zones only", "isCorrect": false},
+      {"id": "opt2", "text": "General and unexpected road conditions warning", "isCorrect": true},
+      {"id": "opt3", "text": "No parking zones", "isCorrect": false},
+      {"id": "opt4", "text": "Directional information", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Yellow signs provide general and unexpected road conditions warnings, such as curves, intersections, or animal crossings.",
+    "tags": ["signs", "yellow signs", "warnings"],
+    "relatedTopics": ["Warning signs", "Road hazards"],
+    "source": "Chapter 4, Section 4.12"
+  },
+  {
+    "id": "ch4_q054",
+    "type": "multiple_choice",
+    "category": "signs",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.12",
+    "question": "Fluorescent yellow-green traffic signs warn of:",
+    "options": [
+      {"id": "opt1", "text": "Construction zones", "isCorrect": false},
+      {"id": "opt2", "text": "School, pedestrian, and bicycling activity", "isCorrect": true},
+      {"id": "opt3", "text": "Railroad crossings", "isCorrect": false},
+      {"id": "opt4", "text": "Emergency zones", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Fluorescent yellow-green signs warn of school, pedestrian, and bicycling activity, indicating areas with vulnerable road users.",
+    "tags": ["signs", "fluorescent yellow-green", "pedestrians"],
+    "relatedTopics": ["School zones", "Pedestrian safety"],
+    "source": "Chapter 4, Section 4.12"
+  },
+  {
+    "id": "ch4_q055",
+    "type": "multiple_choice",
+    "category": "signs",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.12",
+    "question": "A yield sign means you must:",
+    "options": [
+      {"id": "opt1", "text": "Come to a complete stop", "isCorrect": false},
+      {"id": "opt2", "text": "Slow down and allow traffic with right-of-way to cross first", "isCorrect": true},
+      {"id": "opt3", "text": "Proceed without stopping", "isCorrect": false},
+      {"id": "opt4", "text": "Stop only if other vehicles are present", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "A yield sign means you must slow down and allow traffic that has the right-of-way to cross first.",
+    "tags": ["signs", "yield", "right-of-way"],
+    "relatedTopics": ["Yielding", "Intersection rules"],
+    "source": "Chapter 4, Section 4.12"
+  },
+  {
+    "id": "ch4_q056",
+    "type": "true_false",
+    "category": "signs",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.12",
+    "question": "The maximum speed limit posted is for ideal conditions only, and you must reduce speed when road conditions require it.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, the maximum speed limit is for ideal conditions. You must reduce speed when conditions require it, and you can get a ticket for traveling too fast for conditions even under the posted limit.",
+    "tags": ["signs", "speed limit", "road conditions"],
+    "relatedTopics": ["Basic speed law", "Safe speed"],
+    "source": "Chapter 4, Section 4.12"
+  },
+  {
+    "id": "ch4_q057",
+    "type": "true_false",
+    "category": "signs",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.12",
+    "question": "A 'Do Not Enter' sign means you cannot enter the street from that direction.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, a square sign with a white horizontal line inside a circle means you can't enter the street from that direction.",
+    "tags": ["signs", "do not enter", "traffic control"],
+    "relatedTopics": ["Wrong way", "One-way streets"],
+    "source": "Chapter 4, Section 4.12"
+  },
+  {
+    "id": "ch4_q058",
+    "type": "multiple_choice",
+    "category": "signs",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.12",
+    "question": "If you see a 'Wrong Way' sign, you should:",
+    "options": [
+      {"id": "opt1", "text": "Continue driving slowly", "isCorrect": false},
+      {"id": "opt2", "text": "Stop and turn around immediately", "isCorrect": true},
+      {"id": "opt3", "text": "Pull over and wait", "isCorrect": false},
+      {"id": "opt4", "text": "Proceed to the next exit", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "A 'Wrong Way' sign alerts you that you're driving in the wrong direction. Stop and turn around immediately to prevent head-on collisions.",
+    "tags": ["signs", "wrong way", "safety"],
+    "relatedTopics": ["Do not enter", "Head-on collision prevention"],
+    "source": "Chapter 4, Section 4.12"
+  },
+  {
+    "id": "ch4_q059",
+    "type": "true_false",
+    "category": "signs",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.12",
+    "question": "Fines double for offenses committed in construction areas when workers are present.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, fines double for offenses committed while driving in construction areas when workers are present.",
+    "tags": ["signs", "work zones", "fines"],
+    "relatedTopics": ["Construction safety", "Traffic penalties"],
+    "source": "Chapter 4, Section 4.12"
+  },
+  {
+    "id": "ch4_q060",
+    "type": "true_false",
+    "category": "signs",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.12",
+    "question": "Speed warning signs indicate a recommended speed change for a potential hazard, and you should adjust your speed appropriately.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, speed warning signs indicate a recommended speed change for a potential hazard or road condition. Adjust your speed appropriately given all factors.",
+    "tags": ["signs", "speed warning", "advisory speed"],
+    "relatedTopics": ["Curves", "Road conditions"],
+    "source": "Chapter 4, Section 4.12"
+  },
+  {
+    "id": "ch4_q061",
+    "type": "multiple_choice",
+    "category": "intersections",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.13",
+    "question": "At a 4-way stop, if two vehicles arrive at approximately the same time, which vehicle has the right-of-way?",
+    "options": [
+      {"id": "opt1", "text": "The larger vehicle", "isCorrect": false},
+      {"id": "opt2", "text": "The vehicle on the right", "isCorrect": true},
+      {"id": "opt3", "text": "The vehicle going straight", "isCorrect": false},
+      {"id": "opt4", "text": "The vehicle that signals first", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "If 2 vehicles arrive at approximately the same time at a 4-way stop, yield to the one on the right.",
+    "tags": ["4-way stop", "right-of-way", "intersections"],
+    "relatedTopics": ["Stop signs", "Yielding"],
+    "source": "Chapter 4, Section 4.13"
+  },
+  {
+    "id": "ch4_q062",
+    "type": "true_false",
+    "category": "intersections",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.13",
+    "question": "At a 4-way stop, any vehicle turning left must yield the right-of-way to vehicles going straight or turning right.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, at a 4-way stop, any vehicle turning left must yield the right-of-way to vehicles going straight or turning right.",
+    "tags": ["4-way stop", "left turn", "right-of-way"],
+    "relatedTopics": ["Turning", "Intersection rules"],
+    "source": "Chapter 4, Section 4.13"
+  },
+  {
+    "id": "ch4_q063",
+    "type": "true_false",
+    "category": "intersections",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.13",
+    "question": "Every intersection is legally a crosswalk, whether it's marked or unmarked.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, every intersection is legally a crosswalk, whether it's marked or unmarked. You must yield to pedestrians.",
+    "tags": ["intersections", "crosswalks", "pedestrians"],
+    "relatedTopics": ["Unmarked crosswalks", "Pedestrian safety"],
+    "source": "Chapter 4, Section 4.13"
+  },
+  {
+    "id": "ch4_q064",
+    "type": "multiple_choice",
+    "category": "intersections",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.13",
+    "question": "At a 2-way stop, which vehicle has the right-of-way?",
+    "options": [
+      {"id": "opt1", "text": "The turning vehicle", "isCorrect": false},
+      {"id": "opt2", "text": "The vehicle going straight", "isCorrect": true},
+      {"id": "opt3", "text": "The vehicle that arrived first", "isCorrect": false},
+      {"id": "opt4", "text": "The larger vehicle", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "At a 2-way stop, turning vehicles must yield to the vehicle going straight. The vehicle going straight has the right-of-way.",
+    "tags": ["2-way stop", "right-of-way", "intersections"],
+    "relatedTopics": ["Stop signs", "Yielding"],
+    "source": "Chapter 4, Section 4.13"
+  },
+  {
+    "id": "ch4_q065",
+    "type": "true_false",
+    "category": "intersections",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.13",
+    "question": "Pedestrians always have the right-of-way in a marked mid-block crosswalk.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, pedestrians always have the right-of-way in marked mid-block crosswalks. Drivers should stop regardless of whether there's a stop sign.",
+    "tags": ["crosswalks", "mid-block crossing", "pedestrians"],
+    "relatedTopics": ["Pedestrian right-of-way", "Crosswalk safety"],
+    "source": "Chapter 4, Section 4.13"
+  },
+  {
+    "id": "ch4_q066",
+    "type": "multiple_choice",
+    "category": "turning",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.14",
+    "question": "When turning left or right at an intersection, which lane should you turn into?",
+    "options": [
+      {"id": "opt1", "text": "Any available lane", "isCorrect": false},
+      {"id": "opt2", "text": "The lane closest to the direction you are coming from", "isCorrect": true},
+      {"id": "opt3", "text": "The center lane", "isCorrect": false},
+      {"id": "opt4", "text": "The furthest lane from where you started", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "State law requires you to turn into the lane closest to the direction you are coming from. Once you complete the turn, you can change lanes if needed.",
+    "tags": ["turning", "lane position", "intersections"],
+    "relatedTopics": ["Left turns", "Right turns"],
+    "source": "Chapter 4, Section 4.14"
+  },
+  {
+    "id": "ch4_q067",
+    "type": "multiple_choice",
+    "category": "turning",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.14",
+    "question": "How far before turning must you put on your turn signal?",
+    "options": [
+      {"id": "opt1", "text": "At least 50 feet", "isCorrect": false},
+      {"id": "opt2", "text": "At least 75 feet", "isCorrect": false},
+      {"id": "opt3", "text": "At least 100 feet", "isCorrect": true},
+      {"id": "opt4", "text": "At least 150 feet", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt3",
+    "explanation": "Put on your turn signal at least 100 feet before you turn left or right across oncoming traffic.",
+    "tags": ["turning", "turn signals", "signaling"],
+    "relatedTopics": ["Communication", "Turn preparation"],
+    "source": "Chapter 4, Section 4.14"
+  },
+  {
+    "id": "ch4_q068",
+    "type": "true_false",
+    "category": "turning",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.14",
+    "question": "U-turns are generally allowed in Washington unless a sign is posted telling you a U-turn is not allowed.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, in Washington, U-turns are generally allowed unless a sign is posted prohibiting them. You must have clear visibility in all directions.",
+    "tags": ["turning", "U-turns", "traffic laws"],
+    "relatedTopics": ["Turn restrictions", "Visibility"],
+    "source": "Chapter 4, Section 4.14"
+  },
+  {
+    "id": "ch4_q069",
+    "type": "true_false",
+    "category": "turning",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.14",
+    "question": "You can make a U-turn on a curve or when approaching the crest of a hill.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Do not make a U-turn on a curve or when approaching the crest of a hill. You must have clear visibility in all directions before making a U-turn.",
+    "tags": ["turning", "U-turns", "visibility"],
+    "relatedTopics": ["Safe turning", "Road conditions"],
+    "source": "Chapter 4, Section 4.14"
+  },
+  {
+    "id": "ch4_q070",
+    "type": "true_false",
+    "category": "turning",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.14",
+    "question": "If there is more than 1 turn lane, you should stay in your original lane as you turn.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, if there is more than 1 turn lane, stay in your original lane as you turn. Make sure you don't veer into another lane while turning.",
+    "tags": ["turning", "multiple turn lanes", "lane control"],
+    "relatedTopics": ["Lane discipline", "Safe turning"],
+    "source": "Chapter 4, Section 4.14"
+  },
+  {
+    "id": "ch4_q071",
+    "type": "multiple_choice",
+    "category": "roundabouts",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.15",
+    "question": "What is the designed speed range for roundabouts?",
+    "options": [
+      {"id": "opt1", "text": "5-10 mph", "isCorrect": false},
+      {"id": "opt2", "text": "15-25 mph", "isCorrect": true},
+      {"id": "opt3", "text": "25-35 mph", "isCorrect": false},
+      {"id": "opt4", "text": "30-40 mph", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Roundabouts are designed for speeds between 15 and 25 mph. Slow down when approaching.",
+    "tags": ["roundabouts", "speed", "safety"],
+    "relatedTopics": ["Circular intersections", "Speed control"],
+    "source": "Chapter 4, Section 4.15"
+  },
+  {
+    "id": "ch4_q072",
+    "type": "true_false",
+    "category": "roundabouts",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.15",
+    "question": "When entering a roundabout, you must yield to all traffic already in the roundabout.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, yield to all traffic already in the roundabout since they have the right-of-way. Look left and yield before entering.",
+    "tags": ["roundabouts", "yielding", "right-of-way"],
+    "relatedTopics": ["Roundabout entry", "Traffic flow"],
+    "source": "Chapter 4, Section 4.15"
+  },
+  {
+    "id": "ch4_q073",
+    "type": "multiple_choice",
+    "category": "roundabouts",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.15",
+    "question": "In a roundabout, which direction do you travel?",
+    "options": [
+      {"id": "opt1", "text": "Clockwise", "isCorrect": false},
+      {"id": "opt2", "text": "Counterclockwise", "isCorrect": true},
+      {"id": "opt3", "text": "Either direction depending on traffic", "isCorrect": false},
+      {"id": "opt4", "text": "Straight through", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "In a roundabout, all traffic travels counterclockwise around the raised center island.",
+    "tags": ["roundabouts", "traffic flow", "direction"],
+    "relatedTopics": ["Circular intersections", "Roundabout rules"],
+    "source": "Chapter 4, Section 4.15"
+  },
+  {
+    "id": "ch4_q074",
+    "type": "true_false",
+    "category": "roundabouts",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.15",
+    "question": "Large vehicles like trucks are allowed to use both lanes and cross truck aprons in roundabouts.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, give large vehicles plenty of space as they are allowed to cross truck aprons and both lanes as they approach and drive through roundabouts.",
+    "tags": ["roundabouts", "large vehicles", "truck aprons"],
+    "relatedTopics": ["Large vehicle accommodation", "Roundabout design"],
+    "source": "Chapter 4, Section 4.15"
+  },
+  {
+    "id": "ch4_q075",
+    "type": "true_false",
+    "category": "roundabouts",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.15",
+    "question": "You should stop for pedestrians and bicyclists in crosswalks when entering and exiting a roundabout.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, stop for pedestrians and bicyclists in crosswalks when you enter and exit the roundabout.",
+    "tags": ["roundabouts", "pedestrians", "crosswalks"],
+    "relatedTopics": ["Pedestrian safety", "Roundabout entry/exit"],
+    "source": "Chapter 4, Section 4.15"
+  },
+  {
+    "id": "ch4_q076",
+    "type": "true_false",
+    "category": "intersections",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.15",
+    "question": "Traffic calming circles can be found at 4-way, 3-way, or 2-way intersections and may have stop or yield signs on some or none of its approaches.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, traffic calming circles can be found at various intersection types and may have stop or yield signs on all, some, or none of its approaches.",
+    "tags": ["traffic calming circles", "intersections", "signs"],
+    "relatedTopics": ["Circular intersections", "Neighborhood traffic control"],
+    "source": "Chapter 4, Section 4.15"
+  },
+  {
+    "id": "ch4_q077",
+    "type": "true_false",
+    "category": "intersections",
+    "difficulty": "hard",
+    "chapter": 4,
+    "section": "4.15",
+    "question": "Large vehicles like fire trucks may need to go clockwise through a traffic calming circle.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, traffic calming circles may not easily accommodate large vehicles like fire trucks. Give them plenty of space as they might have to go clockwise to get through.",
+    "tags": ["traffic calming circles", "large vehicles", "exceptions"],
+    "relatedTopics": ["Emergency vehicles", "Traffic circle navigation"],
+    "source": "Chapter 4, Section 4.15"
+  },
+  {
+    "id": "ch4_q078",
+    "type": "true_false",
+    "category": "intersections",
+    "difficulty": "hard",
+    "chapter": 4,
+    "section": "4.15",
+    "question": "Diverging diamond intersections allow you to make left turns onto the freeway without stopping or yielding to oncoming traffic.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, diverging diamond intersections allow free-flow left turns onto the freeway without stopping or yielding to oncoming traffic, improving traffic flow.",
+    "tags": ["diverging diamonds", "intersections", "left turns"],
+    "relatedTopics": ["Freeway access", "Advanced intersection design"],
+    "source": "Chapter 4, Section 4.15"
+  },
+  {
+    "id": "ch4_q079",
+    "type": "multiple_choice",
+    "category": "intersections",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.15",
+    "question": "At an uncontrolled intersection, you must yield the right-of-way if:",
+    "options": [
+      {"id": "opt1", "text": "A vehicle is already in the intersection", "isCorrect": true},
+      {"id": "opt2", "text": "You are on a paved road", "isCorrect": false},
+      {"id": "opt3", "text": "You arrive first", "isCorrect": false},
+      {"id": "opt4", "text": "You are making a right turn", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "At uncontrolled intersections, you must yield if a vehicle is already in the intersection, among other conditions like entering from a secondary road or making a left turn.",
+    "tags": ["uncontrolled intersections", "right-of-way", "yielding"],
+    "relatedTopics": ["Intersection rules", "Right-of-way laws"],
+    "source": "Chapter 4, Section 4.15"
+  },
+  {
+    "id": "ch4_q080",
+    "type": "true_false",
+    "category": "road_markings",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.16",
+    "question": "Yellow lines separate traffic in opposite directions, while white lines separate traffic lanes moving in the same direction.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, yellow lines separate traffic in opposite directions, and white lines separate traffic lanes moving in the same direction.",
+    "tags": ["road markings", "lane lines", "traffic flow"],
+    "relatedTopics": ["Lane separation", "Road safety"],
+    "source": "Chapter 4, Section 4.16"
+  },
+  {
+    "id": "ch4_q081",
+    "type": "true_false",
+    "category": "road_markings",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.16",
+    "question": "It's legal to cross double solid white lines to change lanes.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "It's illegal to cross double white lines. They are a barrier between lanes.",
+    "tags": ["road markings", "double white lines", "lane changes"],
+    "relatedTopics": ["Lane restrictions", "Traffic laws"],
+    "source": "Chapter 4, Section 4.16"
+  },
+  {
+    "id": "ch4_q082",
+    "type": "true_false",
+    "category": "road_markings",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.16",
+    "question": "You can pass on roads with double solid yellow centerlines.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You are not allowed to pass, in either direction, on roads with double yellow lines.",
+    "tags": ["road markings", "double yellow lines", "passing"],
+    "relatedTopics": ["No-passing zones", "Centerlines"],
+    "source": "Chapter 4, Section 4.16"
+  },
+  {
+    "id": "ch4_q083",
+    "type": "multiple_choice",
+    "category": "road_markings",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.16",
+    "question": "When you see a solid yellow line with a dashed yellow line, when can you pass?",
+    "options": [
+      {"id": "opt1", "text": "Never", "isCorrect": false},
+      {"id": "opt2", "text": "Always", "isCorrect": false},
+      {"id": "opt3", "text": "Only if the dashed line is on your side of the road", "isCorrect": true},
+      {"id": "opt4", "text": "Only during daylight", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt3",
+    "explanation": "You're not allowed to pass when the solid yellow line is on your side. If the dashed line is on your side, you may pass if it's safe to do so.",
+    "tags": ["road markings", "yellow lines", "passing"],
+    "relatedTopics": ["Passing zones", "Centerline markings"],
+    "source": "Chapter 4, Section 4.16"
+  },
+  {
+    "id": "ch4_q084",
+    "type": "multiple_choice",
+    "category": "road_markings",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.16",
+    "question": "How far can you travel in a shared center turn lane?",
+    "options": [
+      {"id": "opt1", "text": "Up to 100 feet", "isCorrect": false},
+      {"id": "opt2", "text": "Up to 200 feet", "isCorrect": false},
+      {"id": "opt3", "text": "Up to 300 feet", "isCorrect": true},
+      {"id": "opt4", "text": "Any distance", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt3",
+    "explanation": "You shouldn't travel farther than 300 feet in a center turn lane. These lanes are for left turns only, not for passing or through traffic.",
+    "tags": ["road markings", "center turn lane", "distance"],
+    "relatedTopics": ["Turn lanes", "Lane restrictions"],
+    "source": "Chapter 4, Section 4.16"
+  },
+  {
+    "id": "ch4_q085",
+    "type": "true_false",
+    "category": "road_markings",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.16",
+    "question": "Shared center lanes marked with left turn arrows can be used for passing other vehicles.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "These lanes must not be used for passing. They are reserved for left-turning vehicles from either direction and U-turns when permitted.",
+    "tags": ["road markings", "center turn lane", "passing"],
+    "relatedTopics": ["Lane restrictions", "Turn lanes"],
+    "source": "Chapter 4, Section 4.16"
+  },
+  {
+    "id": "ch4_q086",
+    "type": "true_false",
+    "category": "road_markings",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.16",
+    "question": "Motorcycles are allowed to use HOV lanes.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, motorcycles are allowed to use HOV (carpool) lanes regardless of occupancy requirements.",
+    "tags": ["road markings", "HOV lanes", "motorcycles"],
+    "relatedTopics": ["Carpool lanes", "Motorcycle privileges"],
+    "source": "Chapter 4, Section 4.16"
+  },
+  {
+    "id": "ch4_q087",
+    "type": "multiple_choice",
+    "category": "road_markings",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.16",
+    "question": "In a reversible lane, what does a green arrow mean?",
+    "options": [
+      {"id": "opt1", "text": "The lane is closing", "isCorrect": false},
+      {"id": "opt2", "text": "You can use the lane", "isCorrect": true},
+      {"id": "opt3", "text": "Yield to oncoming traffic", "isCorrect": false},
+      {"id": "opt4", "text": "The lane is for buses only", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "A green arrow means you can use the reversible lane. A red X means you can't, and a yellow X means the lane is changing direction.",
+    "tags": ["road markings", "reversible lanes", "signals"],
+    "relatedTopics": ["Lane control", "Express lanes"],
+    "source": "Chapter 4, Section 4.16"
+  },
+  {
+    "id": "ch4_q088",
+    "type": "true_false",
+    "category": "road_markings",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.16",
+    "question": "Not all crosswalks are marked, but every intersection is legally defined as a crosswalk.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, every intersection is legally defined as a crosswalk regardless of whether a crosswalk marking is present.",
+    "tags": ["road markings", "crosswalks", "intersections"],
+    "relatedTopics": ["Unmarked crosswalks", "Pedestrian safety"],
+    "source": "Chapter 4, Section 4.16"
+  },
+  {
+    "id": "ch4_q089",
+    "type": "multiple_choice",
+    "category": "road_markings",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.16",
+    "question": "What do sharrows (shared lane markings) indicate?",
+    "options": [
+      {"id": "opt1", "text": "Bicycles are prohibited", "isCorrect": false},
+      {"id": "opt2", "text": "A vehicle lane is shared with bicycle traffic", "isCorrect": true},
+      {"id": "opt3", "text": "A dedicated bike lane", "isCorrect": false},
+      {"id": "opt4", "text": "Pedestrian crossing area", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Sharrows indicate a vehicle lane is shared with bicycle traffic. Watch for bikes, drive slowly, and provide at least 3 feet when passing.",
+    "tags": ["road markings", "sharrows", "bicycles"],
+    "relatedTopics": ["Bicycle safety", "Shared lanes"],
+    "source": "Chapter 4, Section 4.16"
+  },
+  {
+    "id": "ch4_q090",
+    "type": "true_false",
+    "category": "road_markings",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.16",
+    "question": "You can turn right on red near a bicycle box.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You can't turn right on red near a bicycle box. Stay behind the white line until the bicycle box is clear when the light turns green.",
+    "tags": ["road markings", "bicycle boxes", "right turn on red"],
+    "relatedTopics": ["Bicycle safety", "Intersection rules"],
+    "source": "Chapter 4, Section 4.16"
+  },
+  {
+    "id": "ch4_q091",
+    "type": "multiple_choice",
+    "category": "zones",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.17",
+    "question": "What is the school zone speed limit?",
+    "options": [
+      {"id": "opt1", "text": "15 mph", "isCorrect": false},
+      {"id": "opt2", "text": "20 mph", "isCorrect": true},
+      {"id": "opt3", "text": "25 mph", "isCorrect": false},
+      {"id": "opt4", "text": "30 mph", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "The school zone speed limit is 20 mph because higher speeds increase the risk of fatal crashes involving children.",
+    "tags": ["zones", "school zone", "speed limit"],
+    "relatedTopics": ["Child safety", "Speed limits"],
+    "source": "Chapter 4, Section 4.17"
+  },
+  {
+    "id": "ch4_q092",
+    "type": "true_false",
+    "category": "zones",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.17",
+    "question": "You should reduce your speed in a work zone even if there are no workers present.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, always reduce your speed in a work zone, even if there are no workers. Narrower lanes and rough pavement can create hazardous conditions.",
+    "tags": ["zones", "work zone", "speed"],
+    "relatedTopics": ["Construction safety", "Worker protection"],
+    "source": "Chapter 4, Section 4.17"
+  },
+  {
+    "id": "ch4_q093",
+    "type": "multiple_choice",
+    "category": "zones",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.17",
+    "question": "In an emergency zone with flashing lights from roadside response vehicles, you must either move over or slow down to at least how much below the posted speed limit?",
+    "options": [
+      {"id": "opt1", "text": "5 mph below", "isCorrect": false},
+      {"id": "opt2", "text": "10 mph below", "isCorrect": true},
+      {"id": "opt3", "text": "15 mph below", "isCorrect": false},
+      {"id": "opt4", "text": "20 mph below", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You must either move over into a farther lane or slow down to at least 10 mph below the posted speed limit. Never drive faster than 50 mph in an emergency zone.",
+    "tags": ["zones", "emergency zone", "speed"],
+    "relatedTopics": ["Move over law", "Emergency vehicles"],
+    "source": "Chapter 4, Section 4.17"
+  },
+  {
+    "id": "ch4_q094",
+    "type": "true_false",
+    "category": "zones",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.17",
+    "question": "You can drive faster than 50 mph in an emergency zone if the posted speed limit is higher.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Never drive faster than 50 mph in an emergency zone, even if the posted speed limit is higher.",
+    "tags": ["zones", "emergency zone", "speed limit"],
+    "relatedTopics": ["Speed restrictions", "Move over law"],
+    "source": "Chapter 4, Section 4.17"
+  },
+  {
+    "id": "ch4_q095",
     "type": "multiple_choice",
     "category": "parking",
     "difficulty": "medium",
     "chapter": 4,
-    "section": "4.10",
-    "question": "When parking on a hill facing uphill with a curb, which way should you turn your wheels?",
+    "section": "4.18",
+    "question": "How far from a fire hydrant must you park?",
+    "options": [
+      {"id": "opt1", "text": "Within 10 feet", "isCorrect": false},
+      {"id": "opt2", "text": "Within 15 feet", "isCorrect": true},
+      {"id": "opt3", "text": "Within 20 feet", "isCorrect": false},
+      {"id": "opt4", "text": "Within 25 feet", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You must park at least 15 feet (within 15 feet means you cannot be closer than 15 feet) away from a fire hydrant to allow access for emergency vehicles.",
+    "tags": ["parking", "fire hydrants", "distance"],
+    "relatedTopics": ["Parking restrictions", "Emergency access"],
+    "source": "Chapter 4, Section 4.18"
+  },
+  {
+    "id": "ch4_q096",
+    "type": "multiple_choice",
+    "category": "parking",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.18",
+    "question": "How far from a traffic signal, stop sign, or yield sign must you not park?",
+    "options": [
+      {"id": "opt1", "text": "Within 20 feet", "isCorrect": false},
+      {"id": "opt2", "text": "Within 25 feet", "isCorrect": false},
+      {"id": "opt3", "text": "Within 30 feet", "isCorrect": true},
+      {"id": "opt4", "text": "Within 50 feet", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt3",
+    "explanation": "Do not park within 30 feet of a traffic signal, stop sign, or yield sign to maintain visibility and access.",
+    "tags": ["parking", "traffic control devices", "distance"],
+    "relatedTopics": ["Parking restrictions", "Intersection safety"],
+    "source": "Chapter 4, Section 4.18"
+  },
+  {
+    "id": "ch4_q097",
+    "type": "multiple_choice",
+    "category": "parking",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.18",
+    "question": "How far from a railroad crossing must you not park?",
+    "options": [
+      {"id": "opt1", "text": "Within 25 feet", "isCorrect": false},
+      {"id": "opt2", "text": "Within 50 feet", "isCorrect": true},
+      {"id": "opt3", "text": "Within 75 feet", "isCorrect": false},
+      {"id": "opt4", "text": "Within 100 feet", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Do not park within 50 feet of a railroad crossing to ensure clear access and visibility.",
+    "tags": ["parking", "railroad crossings", "distance"],
+    "relatedTopics": ["Parking restrictions", "Railroad safety"],
+    "source": "Chapter 4, Section 4.18"
+  },
+  {
+    "id": "ch4_q098",
+    "type": "multiple_choice",
+    "category": "parking",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.18",
+    "question": "How far from the curb can you legally park?",
+    "options": [
+      {"id": "opt1", "text": "No more than 6 inches", "isCorrect": false},
+      {"id": "opt2", "text": "No more than 12 inches", "isCorrect": true},
+      {"id": "opt3", "text": "No more than 18 inches", "isCorrect": false},
+      {"id": "opt4", "text": "Any distance is acceptable", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You must park no more than 12 inches from the curb.",
+    "tags": ["parking", "curb distance", "regulations"],
+    "relatedTopics": ["Parking rules", "Parallel parking"],
+    "source": "Chapter 4, Section 4.18"
+  },
+  {
+    "id": "ch4_q099",
+    "type": "true_false",
+    "category": "parking",
+    "difficulty": "easy",
+    "chapter": 4,
+    "section": "4.18",
+    "question": "You should always set your parking brake, especially on a hill.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, always set your parking brake, especially on a hill, to prevent your vehicle from rolling.",
+    "tags": ["parking", "parking brake", "safety"],
+    "relatedTopics": ["Hill parking", "Vehicle control"],
+    "source": "Chapter 4, Section 4.18"
+  },
+  {
+    "id": "ch4_q100",
+    "type": "multiple_choice",
+    "category": "parking",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.18",
+    "question": "When parking on a hill facing downhill, which way should you turn your wheels?",
+    "options": [
+      {"id": "opt1", "text": "Away from the curb", "isCorrect": false},
+      {"id": "opt2", "text": "Toward the curb", "isCorrect": true},
+      {"id": "opt3", "text": "Straight ahead", "isCorrect": false},
+      {"id": "opt4", "text": "Either direction is fine", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "When parking downhill, turn your wheels toward the curb so if the vehicle starts to roll, it will roll forward into the curb.",
+    "tags": ["parking", "hill parking", "wheel position"],
+    "relatedTopics": ["Downhill parking", "Parking safety"],
+    "source": "Chapter 4, Section 4.18"
+  },
+  {
+    "id": "ch4_q101",
+    "type": "multiple_choice",
+    "category": "parking",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.18",
+    "question": "When parking on a hill facing uphill with a tall curb, which way should you turn your wheels?",
     "options": [
       {"id": "opt1", "text": "Away from the curb", "isCorrect": true},
       {"id": "opt2", "text": "Toward the curb", "isCorrect": false},
       {"id": "opt3", "text": "Straight ahead", "isCorrect": false},
-      {"id": "opt4", "text": "Either direction is fine", "isCorrect": false}
+      {"id": "opt4", "text": "It doesn't matter", "isCorrect": false}
     ],
     "correctAnswerId": "opt1",
-    "explanation": "When parking uphill with a curb, turn your wheels away from the curb. If the car rolls, the back of the tire will catch on the curb.",
+    "explanation": "On hills with tall curbs, turn your steering wheel away from the curb until the back of your front tire touches the curb. If the vehicle rolls, it will roll backwards into the curb.",
     "tags": ["parking", "hill parking", "wheel position"],
-    "relatedTopics": ["Downhill parking", "Parking safety"],
-    "source": "Chapter 4, Section 4.10"
+    "relatedTopics": ["Uphill parking", "Parking safety"],
+    "source": "Chapter 4, Section 4.18"
   },
   {
-    "id": "ch4_q011",
+    "id": "ch4_q102",
     "type": "multiple_choice",
     "category": "parking",
     "difficulty": "medium",
     "chapter": 4,
-    "section": "4.10",
-    "question": "How far from a fire hydrant must you park?",
+    "section": "4.18",
+    "question": "When parking on a hill with no curb, which way should you turn your wheels?",
     "options": [
-      {"id": "opt1", "text": "5 feet", "isCorrect": false},
-      {"id": "opt2", "text": "10 feet", "isCorrect": false},
-      {"id": "opt3", "text": "15 feet", "isCorrect": true},
-      {"id": "opt4", "text": "20 feet", "isCorrect": false}
+      {"id": "opt1", "text": "Straight ahead", "isCorrect": false},
+      {"id": "opt2", "text": "Toward the edge of the road", "isCorrect": true},
+      {"id": "opt3", "text": "Away from the edge of the road", "isCorrect": false},
+      {"id": "opt4", "text": "Either direction", "isCorrect": false}
     ],
-    "correctAnswerId": "opt3",
-    "explanation": "You must park at least 15 feet away from a fire hydrant to allow access for emergency vehicles.",
-    "tags": ["parking", "fire hydrants", "distance"],
-    "relatedTopics": ["Parking restrictions", "Emergency access"],
-    "source": "Chapter 4, Section 4.10"
+    "correctAnswerId": "opt2",
+    "explanation": "If there is no curb, turn your steering wheel and tires toward the edge of the road so if your vehicle starts to roll, it will roll away from traffic.",
+    "tags": ["parking", "hill parking", "no curb"],
+    "relatedTopics": ["Parking safety", "Rural parking"],
+    "source": "Chapter 4, Section 4.18"
   },
   {
-    "id": "ch4_q012",
-    "type": "multiple_choice",
-    "category": "roads",
+    "id": "ch4_q103",
+    "type": "true_false",
+    "category": "parking",
     "difficulty": "medium",
     "chapter": 4,
-    "section": "4.8",
-    "question": "What is the proper hand signal for a left turn?",
+    "section": "4.18",
+    "question": "The 'Dutch Reach' method of opening your car door helps you see approaching bicyclists.",
     "options": [
-      {"id": "opt1", "text": "Arm extended straight out", "isCorrect": true},
-      {"id": "opt2", "text": "Arm bent upward at 90 degrees", "isCorrect": false},
-      {"id": "opt3", "text": "Arm bent downward at 90 degrees", "isCorrect": false},
-      {"id": "opt4", "text": "Waving motion", "isCorrect": false}
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
     ],
     "correctAnswerId": "opt1",
-    "explanation": "To signal a left turn, extend your left arm straight out horizontally from your window.",
-    "tags": ["hand signals", "left turn", "communication"],
-    "relatedTopics": ["Right turn signal", "Stop signal"],
-    "source": "Chapter 4, Section 4.8"
+    "explanation": "Yes, the Dutch Reach method (opening the door with your far hand) forces your body to turn, allowing you to see approaching bicyclists and prevents the door from opening too quickly.",
+    "tags": ["parking", "Dutch Reach", "bicycle safety"],
+    "relatedTopics": ["Dooring prevention", "Exiting vehicle"],
+    "source": "Chapter 4, Section 4.18"
   },
   {
-    "id": "ch4_q013",
-    "type": "multiple_choice",
-    "category": "roads",
-    "difficulty": "medium",
-    "chapter": 4,
-    "section": "4.8",
-    "question": "What is the proper hand signal for a right turn?",
-    "options": [
-      {"id": "opt1", "text": "Arm extended straight out", "isCorrect": false},
-      {"id": "opt2", "text": "Arm bent upward at 90 degrees", "isCorrect": true},
-      {"id": "opt3", "text": "Arm bent downward at 90 degrees", "isCorrect": false},
-      {"id": "opt4", "text": "Pointing to the right", "isCorrect": false}
-    ],
-    "correctAnswerId": "opt2",
-    "explanation": "To signal a right turn, extend your left arm out and bend it upward at a 90-degree angle.",
-    "tags": ["hand signals", "right turn", "communication"],
-    "relatedTopics": ["Left turn signal", "Stop signal"],
-    "source": "Chapter 4, Section 4.8"
-  },
-  {
-    "id": "ch4_q014",
-    "type": "multiple_choice",
-    "category": "roads",
+    "id": "ch4_q104",
+    "type": "true_false",
+    "category": "parking",
     "difficulty": "easy",
     "chapter": 4,
-    "section": "4.9",
-    "question": "When must you use your turn signal?",
+    "section": "4.18",
+    "question": "It's a crime to leave a child under 16 unattended in a parked vehicle while the motor is running.",
     "options": [
-      {"id": "opt1", "text": "Only when other vehicles are present", "isCorrect": false},
-      {"id": "opt2", "text": "At least 100 feet before turning or changing lanes", "isCorrect": true},
-      {"id": "opt3", "text": "Only on highways", "isCorrect": false},
-      {"id": "opt4", "text": "Only at intersections", "isCorrect": false}
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
     ],
-    "correctAnswerId": "opt2",
-    "explanation": "You must signal at least 100 feet before turning or changing lanes to give other drivers adequate warning of your intentions.",
-    "tags": ["turn signals", "signaling", "communication"],
-    "relatedTopics": ["Lane changes", "Turns"],
-    "source": "Chapter 4, Section 4.9"
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, it's a crime to leave a child under the age of 16 unattended in a parked vehicle while the motor is running.",
+    "tags": ["parking", "children", "safety"],
+    "relatedTopics": ["Child endangerment", "Vehicle safety"],
+    "source": "Chapter 4, Section 4.18"
   },
   {
-    "id": "ch4_q015",
-    "type": "multiple_choice",
-    "category": "emergencies",
+    "id": "ch4_q105",
+    "type": "true_false",
+    "category": "parking",
     "difficulty": "easy",
     "chapter": 4,
-    "section": "4.12",
-    "question": "When an emergency vehicle with lights and sirens approaches, you should:",
+    "section": "4.18",
+    "question": "It's a crime to leave an animal unattended in a vehicle if the animal could be harmed by heat, cold, lack of ventilation, or lack of water.",
     "options": [
-      {"id": "opt1", "text": "Speed up to get out of the way", "isCorrect": false},
-      {"id": "opt2", "text": "Pull to the right and stop", "isCorrect": true},
-      {"id": "opt3", "text": "Continue at your current speed", "isCorrect": false},
-      {"id": "opt4", "text": "Move to the left lane", "isCorrect": false}
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
     ],
-    "correctAnswerId": "opt2",
-    "explanation": "When an emergency vehicle with lights and sirens is approaching, you must pull to the right side of the road and stop until it passes.",
-    "tags": ["emergency vehicles", "right-of-way", "safety"],
-    "relatedTopics": ["Sirens", "Emergency response"],
-    "source": "Chapter 4, Section 4.12"
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, it's a crime to leave an animal unattended in a vehicle if the animal could be harmed or killed by exposure to excessive heat, cold, lack of ventilation, or lack of necessary water.",
+    "tags": ["parking", "animals", "safety"],
+    "relatedTopics": ["Animal welfare", "Hot car danger"],
+    "source": "Chapter 4, Section 4.18"
   },
   {
-    "id": "ch4_q016",
-    "type": "multiple_choice",
-    "category": "roads",
+    "id": "ch4_q106",
+    "type": "true_false",
+    "category": "parking",
     "difficulty": "medium",
     "chapter": 4,
-    "section": "4.11",
-    "question": "When driving in fog, you should:",
+    "section": "4.18",
+    "question": "It's illegal to park a vehicle in an electric vehicle charging station if the vehicle is not connected to the charging equipment.",
     "options": [
-      {"id": "opt1", "text": "Use high beam headlights", "isCorrect": false},
-      {"id": "opt2", "text": "Use low beam headlights and reduce speed", "isCorrect": true},
-      {"id": "opt3", "text": "Turn off all lights", "isCorrect": false},
-      {"id": "opt4", "text": "Drive faster to get through it quickly", "isCorrect": false}
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
     ],
-    "correctAnswerId": "opt2",
-    "explanation": "In fog, use low beam headlights (high beams reflect back and reduce visibility) and reduce your speed to maintain safe control.",
-    "tags": ["fog", "visibility", "weather conditions"],
-    "relatedTopics": ["Adverse weather", "Low visibility driving"],
-    "source": "Chapter 4, Section 4.11"
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, it's illegal to park in any electric vehicle charging station if your vehicle is not connected to the charging equipment.",
+    "tags": ["parking", "electric vehicles", "charging stations"],
+    "relatedTopics": ["EV parking", "Parking restrictions"],
+    "source": "Chapter 4, Section 4.18"
   },
   {
-    "id": "ch4_q017",
-    "type": "multiple_choice",
-    "category": "roads",
-    "difficulty": "hard",
-    "chapter": 4,
-    "section": "4.13",
-    "question": "What should you do if your vehicle starts to hydroplane?",
-    "options": [
-      {"id": "opt1", "text": "Brake hard immediately", "isCorrect": false},
-      {"id": "opt2", "text": "Ease off the gas and steer straight", "isCorrect": true},
-      {"id": "opt3", "text": "Accelerate to regain traction", "isCorrect": false},
-      {"id": "opt4", "text": "Turn the steering wheel sharply", "isCorrect": false}
-    ],
-    "correctAnswerId": "opt2",
-    "explanation": "If hydroplaning occurs, ease off the accelerator and keep the steering wheel straight until you regain traction. Avoid sudden braking or steering.",
-    "tags": ["hydroplaning", "wet roads", "emergency handling"],
-    "relatedTopics": ["Wet weather driving", "Traction loss"],
-    "source": "Chapter 4, Section 4.13"
-  },
-  {
-    "id": "ch4_q018",
-    "type": "multiple_choice",
-    "category": "roads",
+    "id": "ch4_q107",
+    "type": "true_false",
+    "category": "transporting",
     "difficulty": "medium",
     "chapter": 4,
-    "section": "4.14",
-    "question": "The basic speed law means:",
+    "section": "4.19",
+    "question": "Driving with an unsecured load is both against the law and extremely dangerous.",
     "options": [
-      {"id": "opt1", "text": "You can always drive the posted speed limit", "isCorrect": false},
-      {"id": "opt2", "text": "You must drive at a speed reasonable and prudent for conditions", "isCorrect": true},
-      {"id": "opt3", "text": "You must drive at least the minimum speed", "isCorrect": false},
-      {"id": "opt4", "text": "Speed limits don't apply in emergencies", "isCorrect": false}
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
     ],
-    "correctAnswerId": "opt2",
-    "explanation": "The basic speed law requires you to drive at a speed that is reasonable and prudent for current conditions, which may be slower than the posted limit.",
-    "tags": ["speed limits", "basic speed law", "conditions"],
-    "relatedTopics": ["Posted limits", "Safe speed"],
-    "source": "Chapter 4, Section 4.14"
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, driving with an unsecured load is both against the law and extremely dangerous. Secure your load so items don't fall onto the road and cause crashes.",
+    "tags": ["transporting", "cargo", "safety"],
+    "relatedTopics": ["Load securement", "Cargo safety"],
+    "source": "Chapter 4, Section 4.19"
   },
   {
-    "id": "ch4_q019",
-    "type": "multiple_choice",
-    "category": "roads",
+    "id": "ch4_q108",
+    "type": "true_false",
+    "category": "transporting",
     "difficulty": "easy",
     "chapter": 4,
-    "section": "4.15",
-    "question": "What does a yellow school bus with flashing red lights mean?",
+    "section": "4.19",
+    "question": "It's illegal to transport an animal in the bed of a truck without a protective harness or enclosure.",
     "options": [
-      {"id": "opt1", "text": "Proceed with caution", "isCorrect": false},
-      {"id": "opt2", "text": "Stop and remain stopped until lights stop flashing", "isCorrect": true},
-      {"id": "opt3", "text": "Slow down but you may pass", "isCorrect": false},
-      {"id": "opt4", "text": "Only stop if on the same side of the road", "isCorrect": false}
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
     ],
-    "correctAnswerId": "opt2",
-    "explanation": "When a school bus displays flashing red lights, all traffic in both directions must stop and remain stopped until the lights stop flashing and children are safely off the road.",
-    "tags": ["school buses", "children", "safety"],
-    "relatedTopics": ["School zones", "Stop requirements"],
-    "source": "Chapter 4, Section 4.15"
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, it's illegal to transport an animal outside a vehicle (like the bed of a truck) without a protective harness or enclosure, so the animal can't jump or fall out.",
+    "tags": ["transporting", "animals", "safety"],
+    "relatedTopics": ["Animal transport", "Truck bed safety"],
+    "source": "Chapter 4, Section 4.19"
   },
   {
-    "id": "ch4_q020",
-    "type": "multiple_choice",
-    "category": "roads",
+    "id": "ch4_q109",
+    "type": "true_false",
+    "category": "large_vehicles",
     "difficulty": "medium",
     "chapter": 4,
-    "section": "4.16",
-    "question": "When can you pass another vehicle on the right?",
+    "section": "4.4",
+    "question": "Passing a large vehicle when the driver is turning is a frequent cause of collisions involving large vehicles.",
     "options": [
-      {"id": "opt1", "text": "Never", "isCorrect": false},
-      {"id": "opt2", "text": "When the vehicle ahead is making a left turn and there's room", "isCorrect": true},
-      {"id": "opt3", "text": "Anytime on a multi-lane highway", "isCorrect": false},
-      {"id": "opt4", "text": "Only on one-way streets", "isCorrect": false}
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Yes, don't pass a large vehicle when the driver is turning. This is a frequent cause of collisions. Be patient and wait until their turn is complete.",
+    "tags": ["large vehicles", "turning", "collisions"],
+    "relatedTopics": ["Truck safety", "Passing restrictions"],
+    "source": "Chapter 4, Section 4.4"
+  },
+  {
+    "id": "ch4_q110",
+    "type": "multiple_choice",
+    "category": "bicycles",
+    "difficulty": "medium",
+    "chapter": 4,
+    "section": "4.6",
+    "question": "When passing a bicyclist on a road with 2 lanes in the same direction, what should you do?",
+    "options": [
+      {"id": "opt1", "text": "Stay in your lane and pass slowly", "isCorrect": false},
+      {"id": "opt2", "text": "Move over 1 full lane", "isCorrect": true},
+      {"id": "opt3", "text": "Use the shoulder", "isCorrect": false},
+      {"id": "opt4", "text": "Honk and pass quickly", "isCorrect": false}
     ],
     "correctAnswerId": "opt2",
-    "explanation": "You may pass on the right when the vehicle ahead is turning left and there is sufficient room to pass safely on the right side.",
-    "tags": ["passing", "right side", "left turns"],
-    "relatedTopics": ["Passing rules", "Safe passing"],
-    "source": "Chapter 4, Section 4.16"
+    "explanation": "If there are 2 lanes in the same direction, move over 1 full lane when passing a bicyclist.",
+    "tags": ["bicycles", "passing", "lane change"],
+    "relatedTopics": ["Safe passing", "Bicycle safety"],
+    "source": "Chapter 4, Section 4.6"
   }
 ]

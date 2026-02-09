@@ -3,39 +3,41 @@
     "id": "ch2_q001",
     "type": "multiple_choice",
     "category": "vehicles",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "chapter": 2,
-    "section": "2.3",
-    "question": "What is the minimum liability insurance coverage required for injury to a single person in Washington State?",
+    "section": "2.0",
+    "question": "The Certificate of Ownership (title) for your vehicle should be kept:",
     "options": [
-      {"id": "opt1", "text": "$15,000", "isCorrect": false},
-      {"id": "opt2", "text": "$25,000", "isCorrect": true},
-      {"id": "opt3", "text": "$50,000", "isCorrect": false},
-      {"id": "opt4", "text": "$100,000", "isCorrect": false}
+      {"id": "opt1", "text": "In the glove box of your vehicle", "isCorrect": false},
+      {"id": "opt2", "text": "In a safe place, but not in the vehicle", "isCorrect": true},
+      {"id": "opt3", "text": "Under the driver's seat", "isCorrect": false},
+      {"id": "opt4", "text": "In the trunk of your vehicle", "isCorrect": false}
     ],
     "correctAnswerId": "opt2",
-    "explanation": "Washington State requires a minimum of $25,000 liability insurance for injury to a single person in an accident.",
-    "tags": ["insurance", "liability", "legal requirements"],
-    "relatedTopics": ["Multiple injury coverage", "Property damage coverage"],
-    "source": "Chapter 2, Section 2.3"
+    "explanation": "The Certificate of Ownership (title) is an important document. Keep it in a safe place but not in the vehicle.",
+    "tags": ["title", "certificate of ownership", "documents"],
+    "relatedTopics": ["Vehicle registration", "Important documents"],
+    "source": "Chapter 2, Section 2.0"
   },
   {
     "id": "ch2_q002",
-    "type": "true_false",
+    "type": "multiple_choice",
     "category": "vehicles",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "chapter": 2,
-    "section": "2.2",
-    "question": "License plates must be displayed on both the front and back of your vehicle in Washington State.",
+    "section": "2.0",
+    "question": "The Certificate of Ownership (title) shows:",
     "options": [
-      {"id": "opt1", "text": "True", "isCorrect": true},
-      {"id": "opt2", "text": "False", "isCorrect": false}
+      {"id": "opt1", "text": "Only the vehicle's color and make", "isCorrect": false},
+      {"id": "opt2", "text": "The registered and legal owner(s), Vehicle Identification Number (VIN), and bank information if there is a loan", "isCorrect": true},
+      {"id": "opt3", "text": "Only the purchase price of the vehicle", "isCorrect": false},
+      {"id": "opt4", "text": "Only the driver's license number", "isCorrect": false}
     ],
-    "correctAnswerId": "opt1",
-    "explanation": "Yes, Washington State requires license plates to be displayed on both the front and rear of the vehicle.",
-    "tags": ["license plates", "vehicle registration", "legal requirements"],
-    "relatedTopics": ["Vehicle registration", "Display requirements"],
-    "source": "Chapter 2, Section 2.2"
+    "correctAnswerId": "opt2",
+    "explanation": "The title shows the registered and legal owner(s) of the vehicle, the Vehicle Identification Number (VIN), and bank information (if there is a loan).",
+    "tags": ["title", "VIN", "ownership"],
+    "relatedTopics": ["Vehicle registration", "Legal ownership"],
+    "source": "Chapter 2, Section 2.0"
   },
   {
     "id": "ch2_q003",
@@ -43,233 +45,223 @@
     "category": "vehicles",
     "difficulty": "medium",
     "chapter": 2,
-    "section": "2.5",
-    "question": "When must headlights be turned on in Washington State?",
+    "section": "2.0",
+    "question": "New residents of Washington have how long to complete their vehicle registration?",
     "options": [
-      {"id": "opt1", "text": "From sunset to sunrise only", "isCorrect": false},
-      {"id": "opt2", "text": "Half hour after sunset to half hour before sunrise", "isCorrect": true},
-      {"id": "opt3", "text": "During nighttime hours only", "isCorrect": false},
-      {"id": "opt4", "text": "Whenever visibility is poor", "isCorrect": false}
+      {"id": "opt1", "text": "10 days", "isCorrect": false},
+      {"id": "opt2", "text": "15 days", "isCorrect": false},
+      {"id": "opt3", "text": "30 days", "isCorrect": true},
+      {"id": "opt4", "text": "60 days", "isCorrect": false}
     ],
-    "correctAnswerId": "opt2",
-    "explanation": "Washington law requires headlights to be on from half hour after sunset to half hour before sunrise, as well as in low visibility conditions.",
-    "tags": ["headlights", "lighting", "vehicle operation"],
-    "relatedTopics": ["High beams", "Visibility requirements"],
-    "source": "Chapter 2, Section 2.5"
+    "correctAnswerId": "opt3",
+    "explanation": "New residents have 30 days to complete their vehicle registration. Vehicles purchased in another state should be registered in Washington immediately.",
+    "tags": ["registration", "new residents", "timeline"],
+    "relatedTopics": ["Vehicle registration", "Moving to Washington"],
+    "source": "Chapter 2, Section 2.0"
   },
   {
     "id": "ch2_q004",
-    "type": "multiple_choice",
-    "category": "vehicles",
-    "difficulty": "medium",
-    "chapter": 2,
-    "section": "2.5",
-    "question": "You must dim your high beam headlights when you are within how many feet of an oncoming vehicle?",
-    "options": [
-      {"id": "opt1", "text": "300 feet", "isCorrect": false},
-      {"id": "opt2", "text": "400 feet", "isCorrect": false},
-      {"id": "opt3", "text": "500 feet", "isCorrect": true},
-      {"id": "opt4", "text": "600 feet", "isCorrect": false}
-    ],
-    "correctAnswerId": "opt3",
-    "explanation": "You must switch from high beams to low beams when within 500 feet of an oncoming vehicle to avoid blinding other drivers.",
-    "tags": ["high beams", "headlights", "courtesy", "safety"],
-    "relatedTopics": ["Low beam usage", "Night driving"],
-    "source": "Chapter 2, Section 2.5"
-  },
-  {
-    "id": "ch2_q005",
-    "type": "multiple_choice",
-    "category": "vehicles",
-    "difficulty": "medium",
-    "chapter": 2,
-    "section": "2.5",
-    "question": "You must dim your high beam headlights when following another vehicle within how many feet?",
-    "options": [
-      {"id": "opt1", "text": "200 feet", "isCorrect": false},
-      {"id": "opt2", "text": "300 feet", "isCorrect": true},
-      {"id": "opt3", "text": "400 feet", "isCorrect": false},
-      {"id": "opt4", "text": "500 feet", "isCorrect": false}
-    ],
-    "correctAnswerId": "opt2",
-    "explanation": "When following another vehicle within 300 feet, you must dim your high beams to low beams to avoid blinding the driver ahead through their mirrors.",
-    "tags": ["high beams", "following distance", "courtesy"],
-    "relatedTopics": ["High beam switching", "Safe following"],
-    "source": "Chapter 2, Section 2.5"
-  },
-  {
-    "id": "ch2_q006",
-    "type": "multiple_choice",
-    "category": "vehicles",
-    "difficulty": "easy",
-    "chapter": 2,
-    "section": "2.5",
-    "question": "What is the minimum tire tread depth required in Washington State?",
-    "options": [
-      {"id": "opt1", "text": "1/32 inch", "isCorrect": false},
-      {"id": "opt2", "text": "2/32 inch", "isCorrect": true},
-      {"id": "opt3", "text": "3/32 inch", "isCorrect": false},
-      {"id": "opt4", "text": "4/32 inch", "isCorrect": false}
-    ],
-    "correctAnswerId": "opt2",
-    "explanation": "Washington State requires a minimum tire tread depth of 2/32 inch for safe traction and stopping ability.",
-    "tags": ["tire maintenance", "tread depth", "vehicle safety"],
-    "relatedTopics": ["Tire pressure", "Vehicle maintenance"],
-    "source": "Chapter 2, Section 2.5"
-  },
-  {
-    "id": "ch2_q007",
     "type": "true_false",
     "category": "vehicles",
     "difficulty": "easy",
     "chapter": 2,
-    "section": "2.6",
-    "question": "Every person in a moving vehicle must wear a seat belt in Washington State.",
+    "section": "2.0",
+    "question": "All vehicles must be registered with the Department of Licensing in Washington.",
     "options": [
       {"id": "opt1", "text": "True", "isCorrect": true},
       {"id": "opt2", "text": "False", "isCorrect": false}
     ],
     "correctAnswerId": "opt1",
-    "explanation": "Yes, Washington State law requires every person in a moving vehicle to wear a seat belt, regardless of seating position.",
-    "tags": ["seat belts", "safety", "legal requirements"],
-    "relatedTopics": ["Occupant protection", "Child safety seats"],
-    "source": "Chapter 2, Section 2.6"
+    "explanation": "All vehicles must be registered with the Department of Licensing. Before you can register a vehicle in Washington, you need to have a driver license (unless you are exempt by law).",
+    "tags": ["registration", "requirements", "DOL"],
+    "relatedTopics": ["Vehicle registration", "Driver license"],
+    "source": "Chapter 2, Section 2.0"
   },
   {
-    "id": "ch2_q008",
+    "id": "ch2_q005",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.0",
+    "question": "Changing your address on your driver license automatically changes your vehicle address.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Changing your address on your driver license does NOT change your vehicle address. You must change your vehicle address separately through License Express or at a vehicle licensing office.",
+    "tags": ["address change", "registration", "vehicle address"],
+    "relatedTopics": ["License Express", "Vehicle registration"],
+    "source": "Chapter 2, Section 2.0"
+  },
+  {
+    "id": "ch2_q006",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.0",
+    "question": "A new registration document will be given each year when you renew your tabs, and you should sign it and keep it in your vehicle.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "A new registration document will be given each year when you renew your tabs. Sign each new registration and keep it in your vehicle.",
+    "tags": ["registration", "tabs", "documents"],
+    "relatedTopics": ["Vehicle registration", "Annual renewal"],
+    "source": "Chapter 2, Section 2.0"
+  },
+  {
+    "id": "ch2_q007",
     "type": "multiple_choice",
     "category": "vehicles",
     "difficulty": "medium",
     "chapter": 2,
-    "section": "2.6",
-    "question": "Until what age or height must a child use a booster seat in Washington?",
+    "section": "2.1",
+    "question": "If you sell, trade, gift, or dispose of your vehicle, you must file a Vehicle Report of Sale within:",
     "options": [
-      {"id": "opt1", "text": "Age 6 or 4 feet tall", "isCorrect": false},
-      {"id": "opt2", "text": "Age 8 or 4 feet 9 inches tall", "isCorrect": true},
-      {"id": "opt3", "text": "Age 10 or 5 feet tall", "isCorrect": false},
-      {"id": "opt4", "text": "Age 12 or 5 feet 5 inches tall", "isCorrect": false}
+      {"id": "opt1", "text": "3 days", "isCorrect": false},
+      {"id": "opt2", "text": "5 days", "isCorrect": true},
+      {"id": "opt3", "text": "10 days", "isCorrect": false},
+      {"id": "opt4", "text": "30 days", "isCorrect": false}
     ],
     "correctAnswerId": "opt2",
-    "explanation": "Children must use a booster seat until they are at least 8 years old or 4 feet 9 inches tall, whichever comes first.",
-    "tags": ["child safety", "booster seats", "legal requirements"],
-    "relatedTopics": ["Car seats", "Child restraints"],
-    "source": "Chapter 2, Section 2.6"
+    "explanation": "If you sell, trade, gift, or dispose of your vehicle, file a Vehicle Report of Sale form within 5 days. Remove the license plates from the vehicle.",
+    "tags": ["report of sale", "vehicle sale", "timeline"],
+    "relatedTopics": ["Title transfer", "License plates"],
+    "source": "Chapter 2, Section 2.1"
+  },
+  {
+    "id": "ch2_q008",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.1",
+    "question": "A report of sale transfers ownership of a vehicle.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "A report of sale does NOT transfer ownership. The title must be signed and dated by the owner(s) and given to the purchaser, who must bring it to a licensing office to transfer ownership.",
+    "tags": ["report of sale", "ownership transfer", "title"],
+    "relatedTopics": ["Vehicle sale", "Title transfer"],
+    "source": "Chapter 2, Section 2.1"
   },
   {
     "id": "ch2_q009",
     "type": "multiple_choice",
     "category": "vehicles",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "chapter": 2,
-    "section": "2.6",
-    "question": "What type of car seat should be used for a child from birth to age 2?",
+    "section": "2.1",
+    "question": "When buying a vehicle from an individual, the purchaser must bring the signed title to a licensing office to transfer ownership within how many days to avoid penalty fees?",
     "options": [
-      {"id": "opt1", "text": "Forward-facing car seat", "isCorrect": false},
-      {"id": "opt2", "text": "Rear-facing car seat", "isCorrect": true},
-      {"id": "opt3", "text": "Booster seat", "isCorrect": false},
-      {"id": "opt4", "text": "Regular seat belt", "isCorrect": false}
+      {"id": "opt1", "text": "5 days", "isCorrect": false},
+      {"id": "opt2", "text": "10 days", "isCorrect": false},
+      {"id": "opt3", "text": "15 days", "isCorrect": true},
+      {"id": "opt4", "text": "30 days", "isCorrect": false}
     ],
-    "correctAnswerId": "opt2",
-    "explanation": "Infants from birth to age 2 should use a rear-facing car seat for optimal safety and proper support for their developing bodies.",
-    "tags": ["infant safety", "car seats", "rear-facing"],
-    "relatedTopics": ["Child restraint stages", "Car seat positioning"],
-    "source": "Chapter 2, Section 2.6"
+    "correctAnswerId": "opt3",
+    "explanation": "The purchaser must bring the signed title to a licensing office to transfer ownership within 15 days to avoid penalty fees.",
+    "tags": ["title transfer", "purchaser", "penalty fees"],
+    "relatedTopics": ["Vehicle purchase", "Registration"],
+    "source": "Chapter 2, Section 2.1"
   },
   {
     "id": "ch2_q010",
-    "type": "multiple_choice",
+    "type": "true_false",
     "category": "vehicles",
     "difficulty": "medium",
     "chapter": 2,
-    "section": "2.4",
-    "question": "Advanced Driver Assistance Systems (ADAS) can include which of the following features?",
+    "section": "2.1",
+    "question": "When you sell a vehicle, you should remove the license plates from the vehicle before giving it to the new owner.",
     "options": [
-      {"id": "opt1", "text": "Collision avoidance and lane keeping assistance", "isCorrect": true},
-      {"id": "opt2", "text": "Automatic fuel injection", "isCorrect": false},
-      {"id": "opt3", "text": "Manual transmission control", "isCorrect": false},
-      {"id": "opt4", "text": "Radio tuning assistance", "isCorrect": false}
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
     ],
     "correctAnswerId": "opt1",
-    "explanation": "ADAS includes safety features like collision avoidance, adaptive cruise control, lane keeping assistance, blind spot detection, and parking assistance.",
-    "tags": ["ADAS", "safety technology", "driver assistance"],
-    "relatedTopics": ["Vehicle Safety Technology", "Collision mitigation"],
-    "source": "Chapter 2, Section 2.4"
+    "explanation": "When you sell your vehicle, remove the license plates from the vehicle, pay the fee, and file your report of sale.",
+    "tags": ["vehicle sale", "license plates", "report of sale"],
+    "relatedTopics": ["Selling a vehicle", "License plates"],
+    "source": "Chapter 2, Section 2.1"
   },
   {
     "id": "ch2_q011",
     "type": "true_false",
     "category": "vehicles",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "chapter": 2,
-    "section": "2.5",
-    "question": "Hand signals can be used instead of turn signals if your turn signals are not working.",
+    "section": "2.1",
+    "question": "If a dealership sells you a vehicle, they are required by law to file a report of sale on your behalf.",
     "options": [
-      {"id": "opt1", "text": "True", "isCorrect": true},
-      {"id": "opt2", "text": "False", "isCorrect": false}
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
     ],
-    "correctAnswerId": "opt1",
-    "explanation": "Yes, if your vehicle's turn signals are not working, you must use hand signals to indicate your intentions to other drivers.",
-    "tags": ["hand signals", "turn signals", "communication"],
-    "relatedTopics": ["Signal requirements", "Vehicle communication"],
-    "source": "Chapter 2, Section 2.5"
+    "correctAnswerId": "opt2",
+    "explanation": "If the vehicle is sold by a dealer, the dealership might file a report of sale on your behalf, but they are not required to. It's in your best interest to file the report of sale yourself.",
+    "tags": ["dealership", "report of sale", "vehicle purchase"],
+    "relatedTopics": ["Dealership sales", "Report of sale"],
+    "source": "Chapter 2, Section 2.1"
   },
   {
     "id": "ch2_q012",
-    "type": "multiple_choice",
-    "category": "vehicles",
-    "difficulty": "medium",
-    "chapter": 2,
-    "section": "2.7",
-    "question": "Which steering method is recommended for most driving situations?",
-    "options": [
-      {"id": "opt1", "text": "One-hand steering", "isCorrect": false},
-      {"id": "opt2", "text": "Hand-to-hand (push-pull) steering", "isCorrect": true},
-      {"id": "opt3", "text": "Palm steering", "isCorrect": false},
-      {"id": "opt4", "text": "Elbow steering", "isCorrect": false}
-    ],
-    "correctAnswerId": "opt2",
-    "explanation": "Hand-to-hand (push-pull) steering is the recommended method for most driving situations as it provides better control and allows both hands to stay on the wheel.",
-    "tags": ["steering", "vehicle control", "safe driving"],
-    "relatedTopics": ["Hand-over-hand steering", "Vehicle handling"],
-    "source": "Chapter 2, Section 2.7"
-  },
-  {
-    "id": "ch2_q013",
-    "type": "multiple_choice",
-    "category": "vehicles",
-    "difficulty": "hard",
-    "chapter": 2,
-    "section": "2.7",
-    "question": "What are the three types of vehicle balance?",
-    "options": [
-      {"id": "opt1", "text": "Front, back, and side", "isCorrect": false},
-      {"id": "opt2", "text": "Pitch, roll, and yaw", "isCorrect": true},
-      {"id": "opt3", "text": "Left, right, and center", "isCorrect": false},
-      {"id": "opt4", "text": "Forward, reverse, and neutral", "isCorrect": false}
-    ],
-    "correctAnswerId": "opt2",
-    "explanation": "The three types of vehicle balance are pitch (forward/backward tilt), roll (side-to-side tilt), and yaw (rotation around vertical axis). Understanding these helps in maintaining control.",
-    "tags": ["vehicle dynamics", "balance", "vehicle control"],
-    "relatedTopics": ["Weight transfer", "Vehicle physics"],
-    "source": "Chapter 2, Section 2.7"
-  },
-  {
-    "id": "ch2_q014",
     "type": "true_false",
     "category": "vehicles",
     "difficulty": "easy",
     "chapter": 2,
-    "section": "2.13",
-    "question": "You should check your mirrors before starting your vehicle.",
+    "section": "2.2",
+    "question": "License plates must be clearly displayed on the front and rear of motor vehicles registered in Washington.",
     "options": [
       {"id": "opt1", "text": "True", "isCorrect": true},
       {"id": "opt2", "text": "False", "isCorrect": false}
     ],
     "correctAnswerId": "opt1",
-    "explanation": "Yes, checking and adjusting your mirrors is part of the pre-drive checklist to ensure you have proper visibility before moving.",
-    "tags": ["pre-drive check", "mirrors", "safety"],
-    "relatedTopics": ["Mirror adjustment", "Blind zones"],
-    "source": "Chapter 2, Section 2.13"
+    "explanation": "License plates must be clearly displayed on the front and rear of motor vehicles registered in Washington. They must be clean and easy to read.",
+    "tags": ["license plates", "display requirements", "legal"],
+    "relatedTopics": ["Vehicle registration", "License plate frames"],
+    "source": "Chapter 2, Section 2.2"
+  },
+  {
+    "id": "ch2_q013",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.2",
+    "question": "You can have a license plate frame as long as it does not cover or obstruct the letters, numbers, or tabs on the plate.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "You can have a license plate frame, but it cannot cover or obstruct the letters, numbers, or tabs on the plate.",
+    "tags": ["license plates", "plate frame", "legal"],
+    "relatedTopics": ["License plate display", "Vehicle registration"],
+    "source": "Chapter 2, Section 2.2"
+  },
+  {
+    "id": "ch2_q014",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.3",
+    "question": "What is the minimum liability insurance coverage required for bodily injury or death of one person in Washington State?",
+    "options": [
+      {"id": "opt1", "text": "$15,000", "isCorrect": false},
+      {"id": "opt2", "text": "$25,000", "isCorrect": true},
+      {"id": "opt3", "text": "$50,000", "isCorrect": false},
+      {"id": "opt4", "text": "$100,000", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Washington State requires a minimum of $25,000 or more, payable for the bodily injury or death of 1 person in a collision in which only 1 person was injured or killed.",
+    "tags": ["insurance", "liability", "legal requirements"],
+    "relatedTopics": ["Multiple injury coverage", "Property damage coverage"],
+    "source": "Chapter 2, Section 2.3"
   },
   {
     "id": "ch2_q015",
@@ -277,18 +269,1658 @@
     "category": "vehicles",
     "difficulty": "medium",
     "chapter": 2,
-    "section": "2.1",
-    "question": "When must you report a sale of your vehicle to the Department of Licensing?",
+    "section": "2.3",
+    "question": "What is the minimum liability insurance coverage required for bodily injury or death of 2 or more persons in Washington State?",
     "options": [
-      {"id": "opt1", "text": "Within 3 days", "isCorrect": false},
-      {"id": "opt2", "text": "Within 5 days", "isCorrect": true},
-      {"id": "opt3", "text": "Within 10 days", "isCorrect": false},
-      {"id": "opt4", "text": "Within 30 days", "isCorrect": false}
+      {"id": "opt1", "text": "$25,000", "isCorrect": false},
+      {"id": "opt2", "text": "$50,000", "isCorrect": true},
+      {"id": "opt3", "text": "$75,000", "isCorrect": false},
+      {"id": "opt4", "text": "$100,000", "isCorrect": false}
     ],
     "correctAnswerId": "opt2",
-    "explanation": "You must report the sale of your vehicle to the DOL within 5 days using a Report of Sale to protect yourself from liability.",
-    "tags": ["vehicle sale", "registration", "legal requirements"],
-    "relatedTopics": ["Title transfer", "Ownership change"],
-    "source": "Chapter 2, Section 2.1"
+    "explanation": "Washington requires a minimum of $50,000 or more, payable for the bodily injury or death of 2 or more persons in any 1 collision.",
+    "tags": ["insurance", "liability", "multiple persons"],
+    "relatedTopics": ["Single person coverage", "Property damage coverage"],
+    "source": "Chapter 2, Section 2.3"
+  },
+  {
+    "id": "ch2_q016",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.3",
+    "question": "What is the minimum liability insurance coverage required for property damage in Washington State?",
+    "options": [
+      {"id": "opt1", "text": "$5,000", "isCorrect": false},
+      {"id": "opt2", "text": "$10,000", "isCorrect": true},
+      {"id": "opt3", "text": "$15,000", "isCorrect": false},
+      {"id": "opt4", "text": "$25,000", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Washington requires a minimum of $10,000 or more, payable for injury to or destruction of property of others in any 1 collision.",
+    "tags": ["insurance", "property damage", "legal requirements"],
+    "relatedTopics": ["Bodily injury coverage", "Liability insurance"],
+    "source": "Chapter 2, Section 2.3"
+  },
+  {
+    "id": "ch2_q017",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.3",
+    "question": "You must keep proof of insurance with you or in your vehicle at all times.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "You must keep proof of insurance with you or in your vehicle. Washington State requires you to have and carry proof of liability insurance.",
+    "tags": ["insurance", "proof of insurance", "requirements"],
+    "relatedTopics": ["Liability insurance", "Legal requirements"],
+    "source": "Chapter 2, Section 2.3"
+  },
+  {
+    "id": "ch2_q018",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "It's important to read the manual for every vehicle you drive.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Each vehicle has its own set of characteristics. They differ in size, engine, safety devices, accessories, technology, and handling characteristics. It's important to read the manual for every vehicle you drive.",
+    "tags": ["vehicle manual", "vehicle familiarity", "safety"],
+    "relatedTopics": ["Vehicle functions", "Owner's manual"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q019",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Every time you get into a vehicle, you should:",
+    "options": [
+      {"id": "opt1", "text": "Start driving immediately", "isCorrect": false},
+      {"id": "opt2", "text": "Adjust the steering wheel, seat, and mirrors for good visibility and comfort", "isCorrect": true},
+      {"id": "opt3", "text": "Check only the mirrors", "isCorrect": false},
+      {"id": "opt4", "text": "Adjust only the seat", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Every time you get into a vehicle, you'll need to make adjustments. Adjust the steering wheel, seat, and mirrors so you have good visibility and can reach the pedals and instruments easily.",
+    "tags": ["adjustments", "mirrors", "seat", "steering wheel"],
+    "relatedTopics": ["Vehicle setup", "Driver comfort"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q020",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Vehicle Safety Technology (VST) and Advanced Driver Assistance Systems (ADAS) are designed to:",
+    "options": [
+      {"id": "opt1", "text": "Replace the need for a skilled driver", "isCorrect": false},
+      {"id": "opt2", "text": "Assist your already-healthy driving habits, not replace them", "isCorrect": true},
+      {"id": "opt3", "text": "Allow you to drive without paying attention", "isCorrect": false},
+      {"id": "opt4", "text": "Eliminate all accidents", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "VST and ADAS are meant to assist your already-healthy driving habits, not replace them. You are still fully responsible for the operation of your vehicle.",
+    "tags": ["ADAS", "VST", "safety technology", "driver responsibility"],
+    "relatedTopics": ["Driver responsibility", "Technology limitations"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q021",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Even with vehicle safety technology, you are still fully responsible for the operation of your vehicle.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Even with VST and ADAS, you are still fully responsible for the operation of your vehicle. These systems are meant to assist, not replace, your driving skills.",
+    "tags": ["driver responsibility", "ADAS", "safety technology"],
+    "relatedTopics": ["Vehicle Safety Technology", "Driver duty"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q022",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "A limitation of vehicle safety technology is that:",
+    "options": [
+      {"id": "opt1", "text": "It can detect vehicles in every lane simultaneously", "isCorrect": false},
+      {"id": "opt2", "text": "It can alert you to a vehicle in your blind spot but can't detect a vehicle 2 lanes over also preparing to merge", "isCorrect": true},
+      {"id": "opt3", "text": "It always recognizes pedestrians perfectly", "isCorrect": false},
+      {"id": "opt4", "text": "Sensors never get dirty", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "These systems can alert you if there is a vehicle in your blind spot; however, they can't detect if there is a vehicle 2 lanes over that is also preparing to merge. Sensors can get dirty and road markings can fade, affecting technology performance.",
+    "tags": ["ADAS limitations", "blind spot detection", "technology"],
+    "relatedTopics": ["Sensor limitations", "Driver awareness"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q023",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Your vehicle's detection technologies might not recognize the presence of people walking, rolling, or riding near your vehicle.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Your vehicle's detection technologies might not recognize the presence of people walking, rolling, or riding near your vehicle. It is your responsibility to yield according to state law.",
+    "tags": ["ADAS limitations", "pedestrians", "technology"],
+    "relatedTopics": ["Pedestrian detection", "Yielding"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q024",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "You should leave vehicle safety technology features on unless:",
+    "options": [
+      {"id": "opt1", "text": "You are an experienced driver", "isCorrect": false},
+      {"id": "opt2", "text": "Weather conditions are so severe that the notifications become a distraction", "isCorrect": true},
+      {"id": "opt3", "text": "You find them annoying", "isCorrect": false},
+      {"id": "opt4", "text": "You are driving at night", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Leave safety technology features on unless weather conditions are so severe that the notifications become a distraction.",
+    "tags": ["ADAS", "safety features", "weather"],
+    "relatedTopics": ["Technology use", "Severe weather"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q025",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Which ADAS feature detects obstacles and provides warnings to prevent collisions, including automatic emergency braking?",
+    "options": [
+      {"id": "opt1", "text": "Adaptive cruise control", "isCorrect": false},
+      {"id": "opt2", "text": "Collision avoidance systems", "isCorrect": true},
+      {"id": "opt3", "text": "Parking assistance", "isCorrect": false},
+      {"id": "opt4", "text": "Traffic sign recognition", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Collision avoidance systems detect obstacles and provide warnings to prevent collisions. These include features like automatic emergency braking (AEB), forward collision warning, and lane departure warning.",
+    "tags": ["collision avoidance", "AEB", "ADAS"],
+    "relatedTopics": ["Forward collision warning", "Lane departure warning"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q026",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Adaptive cruise control (ACC) works by:",
+    "options": [
+      {"id": "opt1", "text": "Only maintaining a set speed regardless of traffic", "isCorrect": false},
+      {"id": "opt2", "text": "Maintaining a set speed but adjusting it based on the distance to the vehicle in front", "isCorrect": true},
+      {"id": "opt3", "text": "Automatically steering the vehicle", "isCorrect": false},
+      {"id": "opt4", "text": "Automatically changing lanes", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Adaptive cruise control maintains a set speed but adjusts it based on the distance to the vehicle in front, ensuring a safe following distance.",
+    "tags": ["adaptive cruise control", "ACC", "ADAS"],
+    "relatedTopics": ["Following distance", "Speed control"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q027",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Which ADAS feature monitors lane markings and provides steering input or alerts if the vehicle drifts out of its lane?",
+    "options": [
+      {"id": "opt1", "text": "Blind spot detection", "isCorrect": false},
+      {"id": "opt2", "text": "Lane keeping assistance", "isCorrect": true},
+      {"id": "opt3", "text": "Cross traffic alert", "isCorrect": false},
+      {"id": "opt4", "text": "Driver monitoring systems", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Lane keeping assistance monitors lane markings and provides steering input or alerts if the vehicle drifts out of its lane, preventing unintended lane departures.",
+    "tags": ["lane keeping", "ADAS", "lane departure"],
+    "relatedTopics": ["Lane markings", "Unintended lane changes"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q028",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Cross traffic alert is designed to:",
+    "options": [
+      {"id": "opt1", "text": "Monitor the driver's behavior", "isCorrect": false},
+      {"id": "opt2", "text": "Warn drivers of approaching traffic from the side, such as when backing out of parking spaces", "isCorrect": true},
+      {"id": "opt3", "text": "Adjust headlight brightness", "isCorrect": false},
+      {"id": "opt4", "text": "Help with parallel parking", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Cross traffic alert warns drivers of approaching traffic from the side, such as when backing out of parking spaces. This feature reduces the risk of collisions in situations with limited visibility.",
+    "tags": ["cross traffic alert", "ADAS", "parking safety"],
+    "relatedTopics": ["Backing up", "Limited visibility"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q029",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Driver monitoring systems are designed to:",
+    "options": [
+      {"id": "opt1", "text": "Record your driving for insurance purposes", "isCorrect": false},
+      {"id": "opt2", "text": "Monitor the driver's behavior and alert them if signs of drowsiness or distraction are detected", "isCorrect": true},
+      {"id": "opt3", "text": "Control the vehicle's speed automatically", "isCorrect": false},
+      {"id": "opt4", "text": "Detect traffic signs", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Driver monitoring systems monitor the driver's behavior and alert them if signs of drowsiness or distraction are detected, enhancing safety by promoting driver attentiveness.",
+    "tags": ["driver monitoring", "drowsiness", "ADAS"],
+    "relatedTopics": ["Fatigue detection", "Distraction alerts"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q030",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Collision mitigation systems differ from collision avoidance systems because they:",
+    "options": [
+      {"id": "opt1", "text": "Only prevent collisions from happening", "isCorrect": false},
+      {"id": "opt2", "text": "Minimize the impact if a collision is unavoidable, such as pre-crash seatbelt tensioning", "isCorrect": true},
+      {"id": "opt3", "text": "Are only found in commercial vehicles", "isCorrect": false},
+      {"id": "opt4", "text": "Replace the need for airbags", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Collision mitigation systems minimize the impact if a collision is unavoidable. This goes beyond collision avoidance and can include features like pre-crash seatbelt tensioning and post-collision braking.",
+    "tags": ["collision mitigation", "ADAS", "crash protection"],
+    "relatedTopics": ["Collision avoidance", "Seatbelt tensioning"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q031",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Which ADAS feature uses sensors to monitor the vehicle's blind spots and alerts the driver if there's a vehicle in the adjacent lane?",
+    "options": [
+      {"id": "opt1", "text": "Traffic sign recognition", "isCorrect": false},
+      {"id": "opt2", "text": "Blind spot detection", "isCorrect": true},
+      {"id": "opt3", "text": "Automatic high beam control", "isCorrect": false},
+      {"id": "opt4", "text": "Adaptive cruise control", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Blind spot detection uses sensors to monitor the vehicle's blind spots and alerts the driver if there's a vehicle in the adjacent lane, reducing the risk of collisions during lane changes.",
+    "tags": ["blind spot detection", "ADAS", "lane changes"],
+    "relatedTopics": ["Lane changes", "Sensor technology"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q032",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "What is the minimum tire tread depth required in Washington?",
+    "options": [
+      {"id": "opt1", "text": "1/32 of an inch", "isCorrect": false},
+      {"id": "opt2", "text": "2/32 of an inch", "isCorrect": true},
+      {"id": "opt3", "text": "3/32 of an inch", "isCorrect": false},
+      {"id": "opt4", "text": "4/32 of an inch", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Worn tires can cause slipping and sliding, especially if the road is wet. Tire tread shouldn't be less than 2/32 of an inch.",
+    "tags": ["tire tread", "tire maintenance", "safety"],
+    "relatedTopics": ["Tire pressure", "Vehicle maintenance"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q033",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "Where can you find the proper inflation pressure for your tires?",
+    "options": [
+      {"id": "opt1", "text": "On the tire sidewall only", "isCorrect": false},
+      {"id": "opt2", "text": "On the Tire and Loading Information label on the driver's side door edge or in the owner's manual", "isCorrect": true},
+      {"id": "opt3", "text": "At any gas station", "isCorrect": false},
+      {"id": "opt4", "text": "On the vehicle's rear bumper", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "The proper inflation pressure for your tires can be found on the Tire and Loading Information label on the driver's side door edge or in your owner's manual.",
+    "tags": ["tire pressure", "tire maintenance", "owner's manual"],
+    "relatedTopics": ["Tire safety", "Vehicle maintenance"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q034",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "Before driving, you should clear all windows of:",
+    "options": [
+      {"id": "opt1", "text": "Only the windshield needs to be clear", "isCorrect": false},
+      {"id": "opt2", "text": "Snow, ice, or frost from ALL windows", "isCorrect": true},
+      {"id": "opt3", "text": "Only the front and back windows", "isCorrect": false},
+      {"id": "opt4", "text": "Nothing, the defroster will handle it", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Completely clear snow, ice, or frost from all windows before driving. Keep the windshield and windows clean, inside and outside.",
+    "tags": ["glass surfaces", "visibility", "winter driving"],
+    "relatedTopics": ["Window maintenance", "Visibility"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q035",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "You should not hang things from your mirror or clutter your windows with decals or items that block your view.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Don't hang things from your mirror or clutter your windows with decals or items that block your view. Keep your windshield and windows clear for maximum visibility.",
+    "tags": ["visibility", "obstructions", "windshield"],
+    "relatedTopics": ["Glass surfaces", "Safe driving"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q036",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "Washington law says you need to have your headlights on:",
+    "options": [
+      {"id": "opt1", "text": "Only from sunset to sunrise", "isCorrect": false},
+      {"id": "opt2", "text": "A half hour after sunset to a half hour before sunrise", "isCorrect": true},
+      {"id": "opt3", "text": "Only during complete darkness", "isCorrect": false},
+      {"id": "opt4", "text": "Only when it is rainy or foggy", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Washington law says you need to have your headlights on a half hour after sunset to a half hour before sunrise. However, you should also use them when it's dark, rainy, snowy, foggy, or smoky.",
+    "tags": ["headlights", "lighting law", "visibility"],
+    "relatedTopics": ["Night driving", "Low visibility"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q037",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "Daytime running lights are as bright as headlights and activate your taillights.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Daytime running lights aren't as bright as headlights, and they don't activate your taillights. You still need to turn on your full headlights when conditions require it.",
+    "tags": ["daytime running lights", "headlights", "taillights"],
+    "relatedTopics": ["Headlight types", "Visibility"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q038",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "You must switch from high beams to regular headlights when you are:",
+    "options": [
+      {"id": "opt1", "text": "500 feet in front of oncoming vehicles and 300 feet when behind", "isCorrect": true},
+      {"id": "opt2", "text": "300 feet in front of oncoming vehicles and 500 feet when behind", "isCorrect": false},
+      {"id": "opt3", "text": "1,000 feet in front and behind other vehicles", "isCorrect": false},
+      {"id": "opt4", "text": "200 feet in front and 100 feet behind", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "You must switch back to regular headlights when you are 500 feet in front of an oncoming vehicle and 300 feet when you're behind another vehicle.",
+    "tags": ["high beams", "headlights", "distance"],
+    "relatedTopics": ["Night driving", "Courtesy driving"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q039",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "Your brake lights must be clearly visible from how far away?",
+    "options": [
+      {"id": "opt1", "text": "50 feet", "isCorrect": false},
+      {"id": "opt2", "text": "100 feet", "isCorrect": true},
+      {"id": "opt3", "text": "200 feet", "isCorrect": false},
+      {"id": "opt4", "text": "300 feet", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Brake lights are red and must be clearly visible from 100 feet away. If your brake lights aren't working, use hand signals.",
+    "tags": ["brake lights", "visibility", "safety"],
+    "relatedTopics": ["Hand signals", "Vehicle maintenance"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q040",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "The hand signal for slowing down or stopping is:",
+    "options": [
+      {"id": "opt1", "text": "Left arm out the window, fingers pointing straight out to the left", "isCorrect": false},
+      {"id": "opt2", "text": "Left arm out the window, fingers pointing to the ground", "isCorrect": true},
+      {"id": "opt3", "text": "Left arm out the window, fingers pointing to the sky", "isCorrect": false},
+      {"id": "opt4", "text": "Right arm out the window, waving", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "To signal stopping: put your left arm out the driver-side window and point your fingers to the ground. This tells the vehicle behind you to slow down and prepare to stop.",
+    "tags": ["hand signals", "stopping", "communication"],
+    "relatedTopics": ["Turn signals", "Brake lights"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q041",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "The hand signal for a left turn is:",
+    "options": [
+      {"id": "opt1", "text": "Left arm out the window, fingers pointing to the ground", "isCorrect": false},
+      {"id": "opt2", "text": "Left arm out the window, fingers pointing straight out to the left", "isCorrect": true},
+      {"id": "opt3", "text": "Left arm out the window, arm bent with fingers pointing to the sky", "isCorrect": false},
+      {"id": "opt4", "text": "Right arm out the window pointing right", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "For a left turn: put your left arm out the window and point your fingers straight out to the left.",
+    "tags": ["hand signals", "left turn", "communication"],
+    "relatedTopics": ["Turn signals", "Right turn signal"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q042",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "The hand signal for a right turn is:",
+    "options": [
+      {"id": "opt1", "text": "Left arm out the window, fingers pointing to the ground", "isCorrect": false},
+      {"id": "opt2", "text": "Left arm out the window, fingers pointing straight out to the left", "isCorrect": false},
+      {"id": "opt3", "text": "Left arm out the window, arm bent so fingers point to the sky", "isCorrect": true},
+      {"id": "opt4", "text": "Right arm out the window, fingers pointing straight out", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt3",
+    "explanation": "For a right turn: put your left arm out the window and bend your arm so your fingers point to the sky.",
+    "tags": ["hand signals", "right turn", "communication"],
+    "relatedTopics": ["Turn signals", "Left turn signal"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q043",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "You should signal before making a move by at least:",
+    "options": [
+      {"id": "opt1", "text": "50 feet", "isCorrect": false},
+      {"id": "opt2", "text": "100 feet", "isCorrect": true},
+      {"id": "opt3", "text": "200 feet", "isCorrect": false},
+      {"id": "opt4", "text": "300 feet", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Signal 100 feet before you make your move. Create a habit of always signaling before you change direction, even when you don't see anyone else around.",
+    "tags": ["turn signals", "signaling distance", "communication"],
+    "relatedTopics": ["Hand signals", "Safe driving"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q044",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "You should make sure your turn signal stops blinking after you complete a turn.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Make sure your signal stops blinking after you make the turn. A signal left on after a turn can confuse other drivers about your intentions.",
+    "tags": ["turn signals", "signaling", "communication"],
+    "relatedTopics": ["Turn signal habits", "Driver courtesy"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q045",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "You should create a habit of always signaling before you change direction, even when you don't see anyone else around.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Create a habit of always signaling before you change direction, even when you don't see anyone else around. It helps keep you predictable to all road users.",
+    "tags": ["turn signals", "habits", "safety"],
+    "relatedTopics": ["Signaling", "Predictability"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q046",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "If your car malfunctions or you need to make an emergency stop, you should turn on your flashing hazard lights.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "If your car malfunctions or you need to make an emergency stop, turn on your flashing hazard lights. This alerts other drivers of your situation and allows them to safely go around you.",
+    "tags": ["hazard lights", "emergency", "warning"],
+    "relatedTopics": ["Emergency stops", "Vehicle breakdown"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q047",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "Your chest should be at least how far from the steering wheel to leave space for the airbag?",
+    "options": [
+      {"id": "opt1", "text": "6 inches", "isCorrect": false},
+      {"id": "opt2", "text": "10 inches", "isCorrect": true},
+      {"id": "opt3", "text": "12 inches", "isCorrect": false},
+      {"id": "opt4", "text": "15 inches", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Adjust the back of your seat so you are sitting comfortably straight. Your chest should be at least 10 inches from the steering wheel to leave space for the airbag.",
+    "tags": ["seat adjustment", "airbag", "safety"],
+    "relatedTopics": ["Driver's seat", "Airbag safety"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q048",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "The headrest should be adjusted so it is even with your:",
+    "options": [
+      {"id": "opt1", "text": "Shoulders", "isCorrect": false},
+      {"id": "opt2", "text": "Ears", "isCorrect": true},
+      {"id": "opt3", "text": "Top of your head", "isCorrect": false},
+      {"id": "opt4", "text": "Neck", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Protect yourself from whiplash by making sure the headrest is even with your ears.",
+    "tags": ["headrest", "whiplash", "safety"],
+    "relatedTopics": ["Seat adjustment", "Crash protection"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q049",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.6",
+    "question": "Wearing your seat belt dramatically drops your risk of fatal injury in a crash.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Buckling up correctly is the most effective thing you can do to protect yourself. Wearing your seat belt dramatically drops your risk of fatal injury in a crash.",
+    "tags": ["seat belts", "safety", "crash protection"],
+    "relatedTopics": ["Occupant protection", "Fatal injuries"],
+    "source": "Chapter 2, Section 2.6"
+  },
+  {
+    "id": "ch2_q050",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.6",
+    "question": "Every person in a moving vehicle must wear a seat belt or be securely fastened into an approved child restraint device.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Every person in a moving vehicle must wear a seat belt or be securely fastened into an approved child restraint device. It is illegal to drive or ride without wearing a seat belt or using child safety restraints.",
+    "tags": ["seat belts", "legal requirement", "child restraints"],
+    "relatedTopics": ["RCW 46.61.687", "RCW 46.61.688"],
+    "source": "Chapter 2, Section 2.6"
+  },
+  {
+    "id": "ch2_q051",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.6",
+    "question": "Your seat belt should go across:",
+    "options": [
+      {"id": "opt1", "text": "Behind your back for comfort", "isCorrect": false},
+      {"id": "opt2", "text": "The middle of your chest, with the shoulder belt snug across the shoulder and chest", "isCorrect": true},
+      {"id": "opt3", "text": "Under your arm for easier access", "isCorrect": false},
+      {"id": "opt4", "text": "Across your neck for the tightest fit", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Your seat belt should go across the middle of your chest. Never put it behind your back or under your arm. The shoulder belt should lie snug across the shoulder and chest, and not cross the neck or face.",
+    "tags": ["seat belt", "proper fit", "safety"],
+    "relatedTopics": ["Occupant protection", "Seat belt positioning"],
+    "source": "Chapter 2, Section 2.6"
+  },
+  {
+    "id": "ch2_q052",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "hard",
+    "chapter": 2,
+    "section": "2.6",
+    "question": "Children up to age 2 must ride in what type of car seat?",
+    "options": [
+      {"id": "opt1", "text": "Forward-facing car seat", "isCorrect": false},
+      {"id": "opt2", "text": "Rear-facing car seat", "isCorrect": true},
+      {"id": "opt3", "text": "Booster seat", "isCorrect": false},
+      {"id": "opt4", "text": "Regular seat belt", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Children up to age 2 must ride in a rear-facing car seat for optimal safety.",
+    "tags": ["child seats", "rear-facing", "infant safety"],
+    "relatedTopics": ["Child restraint stages", "Car seat laws"],
+    "source": "Chapter 2, Section 2.6"
+  },
+  {
+    "id": "ch2_q053",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.6",
+    "question": "Children ages 2 to 4 must ride in:",
+    "options": [
+      {"id": "opt1", "text": "A booster seat only", "isCorrect": false},
+      {"id": "opt2", "text": "A car seat with a rear- or forward-facing harness", "isCorrect": true},
+      {"id": "opt3", "text": "A regular seat belt", "isCorrect": false},
+      {"id": "opt4", "text": "The front seat with an airbag", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Ages 2 to 4 years must ride in a car seat with a rear- or forward-facing harness.",
+    "tags": ["child seats", "forward-facing", "toddler safety"],
+    "relatedTopics": ["Child restraint stages", "Car seat laws"],
+    "source": "Chapter 2, Section 2.6"
+  },
+  {
+    "id": "ch2_q054",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.6",
+    "question": "Children ages 4 and older must ride in a car or booster seat until the vehicle seat belts fit properly, which is typically:",
+    "options": [
+      {"id": "opt1", "text": "When the child reaches 4 feet tall", "isCorrect": false},
+      {"id": "opt2", "text": "Between ages 8 and 12 or when the child reaches 4 feet 9 inches", "isCorrect": true},
+      {"id": "opt3", "text": "When the child reaches age 6", "isCorrect": false},
+      {"id": "opt4", "text": "When the child weighs 60 pounds", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Ages 4 and older must ride in a car or booster seat until the vehicle lap and shoulder seat belts fit properly — typically, between ages 8 and 12 or when the child reaches 4'9\" tall.",
+    "tags": ["booster seat", "child safety", "height requirement"],
+    "relatedTopics": ["Child restraint stages", "Seat belt fit"],
+    "source": "Chapter 2, Section 2.6"
+  },
+  {
+    "id": "ch2_q055",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.6",
+    "question": "Children under the age of 13 should never ride in the front seat because they could be seriously injured or killed if an airbag deploys.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Airbags are why children under the age of 13 should never ride in the front seat. They could be seriously injured or killed if an airbag deploys.",
+    "tags": ["airbags", "children", "front seat", "safety"],
+    "relatedTopics": ["Airbag safety", "Child seating"],
+    "source": "Chapter 2, Section 2.6"
+  },
+  {
+    "id": "ch2_q056",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.6",
+    "question": "If you are not wearing your seatbelt when an airbag deploys, you risk serious injury or death.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Airbags and seat belts work together to keep you safe. If you are not wearing your seatbelt when an airbag deploys, you risk serious injury or death.",
+    "tags": ["airbags", "seat belts", "crash protection"],
+    "relatedTopics": ["Occupant protection", "Safety systems"],
+    "source": "Chapter 2, Section 2.6"
+  },
+  {
+    "id": "ch2_q057",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.7",
+    "question": "Where should your hands be placed on the steering wheel?",
+    "options": [
+      {"id": "opt1", "text": "At the bottom of the wheel", "isCorrect": false},
+      {"id": "opt2", "text": "On the outside of the wheel, on the top half, at 9 and 3 or 10 and 2", "isCorrect": true},
+      {"id": "opt3", "text": "At the very top of the wheel", "isCorrect": false},
+      {"id": "opt4", "text": "One hand at 12 o'clock position", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Place your hands outside the wheel, on the top half of the steering wheel. This gives you the best control. Your hands should be at 9 and 3 or 10 and 2.",
+    "tags": ["steering", "hand position", "vehicle control"],
+    "relatedTopics": ["Steering methods", "Vehicle handling"],
+    "source": "Chapter 2, Section 2.7"
+  },
+  {
+    "id": "ch2_q058",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.7",
+    "question": "Hand-to-hand (pull/push) steering is recommended because:",
+    "options": [
+      {"id": "opt1", "text": "It allows you to steer with one hand", "isCorrect": false},
+      {"id": "opt2", "text": "Your hands never cross over the wheel, reducing risk of injury from airbag deployment, and both hands stay on the wheel", "isCorrect": true},
+      {"id": "opt3", "text": "It is only used for parking", "isCorrect": false},
+      {"id": "opt4", "text": "It is the fastest turning method", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Since your hands never cross over the steering wheel with hand-to-hand steering, there is less chance of injury to the face, hands, or arms if the airbag deploys. Both hands stay on the wheel, allowing instant changes.",
+    "tags": ["hand-to-hand steering", "airbag safety", "control"],
+    "relatedTopics": ["Hand-over-hand steering", "Airbag deployment"],
+    "source": "Chapter 2, Section 2.7"
+  },
+  {
+    "id": "ch2_q059",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.7",
+    "question": "Hand-over-hand steering should be used when:",
+    "options": [
+      {"id": "opt1", "text": "Driving on highways at high speeds", "isCorrect": false},
+      {"id": "opt2", "text": "Turning at low speeds, with limited visibility, at an intersection, when parking, or recovering from a skid", "isCorrect": true},
+      {"id": "opt3", "text": "Only when backing up", "isCorrect": false},
+      {"id": "opt4", "text": "Driving straight on open roads", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Use hand-over-hand steering when turning at low speeds, with limited visibility, at an intersection, when parking the vehicle, or when recovering from a skid.",
+    "tags": ["hand-over-hand steering", "turning", "parking"],
+    "relatedTopics": ["Skid recovery", "Intersection navigation"],
+    "source": "Chapter 2, Section 2.7"
+  },
+  {
+    "id": "ch2_q060",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.7",
+    "question": "One-hand steering should be used when:",
+    "options": [
+      {"id": "opt1", "text": "Driving at all times for comfort", "isCorrect": false},
+      {"id": "opt2", "text": "Backing up or operating vehicle controls like wipers, flashers, or lights", "isCorrect": true},
+      {"id": "opt3", "text": "Making sharp turns at intersections", "isCorrect": false},
+      {"id": "opt4", "text": "Driving on the highway", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Use one-hand steering when backing up or operating vehicle controls (wipers, flashers, lights, etc.) that require you to reach from the steering wheel. The 12 position is recommended only when backing.",
+    "tags": ["one-hand steering", "backing up", "vehicle controls"],
+    "relatedTopics": ["Reverse driving", "Vehicle operation"],
+    "source": "Chapter 2, Section 2.7"
+  },
+  {
+    "id": "ch2_q061",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.8",
+    "question": "What are the four levels of braking?",
+    "options": [
+      {"id": "opt1", "text": "Slow, fast, sudden, and gradual", "isCorrect": false},
+      {"id": "opt2", "text": "Light, medium, firm, and emergency", "isCorrect": true},
+      {"id": "opt3", "text": "Gentle, normal, hard, and panic", "isCorrect": false},
+      {"id": "opt4", "text": "Low, moderate, high, and maximum", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "There are 4 levels of braking: light, medium, firm, and emergency. Ideally, you'll only need to use light and medium braking, but you can always use firm or emergency braking if needed.",
+    "tags": ["braking", "braking levels", "vehicle control"],
+    "relatedTopics": ["Stopping distance", "ABS"],
+    "source": "Chapter 2, Section 2.8"
+  },
+  {
+    "id": "ch2_q062",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.8",
+    "question": "A vehicle's Antilock Brake System (ABS) shortens your stopping distance.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": false},
+      {"id": "opt2", "text": "False", "isCorrect": true}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "An ABS does NOT shorten your stopping distance, but it will allow you to keep better steering control during emergency braking. When engaged, you can feel your vehicle shake a bit.",
+    "tags": ["ABS", "braking", "stopping distance"],
+    "relatedTopics": ["Emergency braking", "Steering control"],
+    "source": "Chapter 2, Section 2.8"
+  },
+  {
+    "id": "ch2_q063",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.8",
+    "question": "The main safety advantage of Antilock Braking Systems (ABS) is that they:",
+    "options": [
+      {"id": "opt1", "text": "Stop the vehicle faster", "isCorrect": false},
+      {"id": "opt2", "text": "Allow drivers to steer during an emergency braking situation", "isCorrect": true},
+      {"id": "opt3", "text": "Prevent all skidding", "isCorrect": false},
+      {"id": "opt4", "text": "Automatically apply the brakes", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "A vehicle's ABS offers an important safety advantage by allowing drivers to steer during an emergency braking situation. It keeps the wheels from locking up.",
+    "tags": ["ABS", "steering control", "emergency braking"],
+    "relatedTopics": ["Braking systems", "Skid prevention"],
+    "source": "Chapter 2, Section 2.8"
+  },
+  {
+    "id": "ch2_q064",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.8",
+    "question": "Unnecessary firm or emergency braking could surprise the people behind you who were anticipating a smooth stop.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Keep the people behind you in mind. Unnecessary firm or emergency braking could surprise the people behind you who were anticipating a smooth stop. Imagine having a cup of water in your lap that you don't want to spill.",
+    "tags": ["braking", "smooth driving", "following vehicles"],
+    "relatedTopics": ["Braking technique", "Driver awareness"],
+    "source": "Chapter 2, Section 2.8"
+  },
+  {
+    "id": "ch2_q065",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.9",
+    "question": "A good technique for smooth acceleration and braking is to imagine:",
+    "options": [
+      {"id": "opt1", "text": "You're in a race", "isCorrect": false},
+      {"id": "opt2", "text": "There's a cup of water in your lap that you don't want to spill", "isCorrect": true},
+      {"id": "opt3", "text": "You're driving on ice", "isCorrect": false},
+      {"id": "opt4", "text": "You're late for an appointment", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "As a braking and accelerating technique, imagine having a cup of water in your lap that you don't want to spill. This helps you accelerate and brake smoothly.",
+    "tags": ["acceleration", "braking", "smooth driving"],
+    "relatedTopics": ["Vehicle control", "Driving technique"],
+    "source": "Chapter 2, Section 2.9"
+  },
+  {
+    "id": "ch2_q066",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "hard",
+    "chapter": 2,
+    "section": "2.10",
+    "question": "What are the three types of vehicle balance?",
+    "options": [
+      {"id": "opt1", "text": "Speed, distance, and weight", "isCorrect": false},
+      {"id": "opt2", "text": "Pitch, roll, and yaw", "isCorrect": true},
+      {"id": "opt3", "text": "Forward, backward, and sideways", "isCorrect": false},
+      {"id": "opt4", "text": "Acceleration, deceleration, and turning", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "The three types of vehicle balance are pitch (forward/backward weight shift), roll (side-to-side weight shift), and yaw (zig-zag motion from sharp steering).",
+    "tags": ["vehicle balance", "pitch", "roll", "yaw"],
+    "relatedTopics": ["Weight transfer", "Vehicle dynamics"],
+    "source": "Chapter 2, Section 2.10"
+  },
+  {
+    "id": "ch2_q067",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.10",
+    "question": "When you accelerate, the weight of the vehicle shifts to:",
+    "options": [
+      {"id": "opt1", "text": "The front of the vehicle", "isCorrect": false},
+      {"id": "opt2", "text": "The back of the vehicle", "isCorrect": true},
+      {"id": "opt3", "text": "The left side of the vehicle", "isCorrect": false},
+      {"id": "opt4", "text": "The right side of the vehicle", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "When you accelerate, the weight of the vehicle shifts to the back and increases pressure on the rear of the vehicle. This forward and backward motion is called pitch.",
+    "tags": ["pitch", "acceleration", "weight transfer"],
+    "relatedTopics": ["Vehicle balance", "Braking weight shift"],
+    "source": "Chapter 2, Section 2.10"
+  },
+  {
+    "id": "ch2_q068",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.10",
+    "question": "When you make a left turn, centrifugal force transfers weight to:",
+    "options": [
+      {"id": "opt1", "text": "The left (inside) of the vehicle", "isCorrect": false},
+      {"id": "opt2", "text": "The right (outside) of the vehicle", "isCorrect": true},
+      {"id": "opt3", "text": "The front of the vehicle", "isCorrect": false},
+      {"id": "opt4", "text": "The back of the vehicle", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "When you make a left turn, centrifugal force transfers the weight down on the outside or right side of your vehicle. The body of the vehicle rolls to one side. This is called roll.",
+    "tags": ["roll", "turning", "centrifugal force"],
+    "relatedTopics": ["Vehicle balance", "Weight transfer"],
+    "source": "Chapter 2, Section 2.10"
+  },
+  {
+    "id": "ch2_q069",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "hard",
+    "chapter": 2,
+    "section": "2.10",
+    "question": "Yaw is the term for:",
+    "options": [
+      {"id": "opt1", "text": "Forward and backward weight shift", "isCorrect": false},
+      {"id": "opt2", "text": "The zig-zag motion when the steering wheel is turned sharply from side to side", "isCorrect": true},
+      {"id": "opt3", "text": "Side-to-side weight shift during turns", "isCorrect": false},
+      {"id": "opt4", "text": "The vehicle's speed reduction during braking", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "When you turn the steering wheel sharply from side to side, the front and back of your car don't stay perfectly lined up. The front wheels turn in the direction you're steering, while the back might slide a bit, creating a zig-zag motion called yaw.",
+    "tags": ["yaw", "vehicle dynamics", "steering"],
+    "relatedTopics": ["Vehicle balance", "Sharp steering"],
+    "source": "Chapter 2, Section 2.10"
+  },
+  {
+    "id": "ch2_q070",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.11",
+    "question": "At an intersection, if the stop line is under your side mirror, you are approximately:",
+    "options": [
+      {"id": "opt1", "text": "1 to 2 feet from the line", "isCorrect": false},
+      {"id": "opt2", "text": "3 to 6 inches from the line", "isCorrect": true},
+      {"id": "opt3", "text": "1 to 2 inches from the line", "isCorrect": false},
+      {"id": "opt4", "text": "1 foot from the line", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "At an intersection, stopping when the stop line is under your side mirror means you are about 3 to 6 inches from the line. This reference point helps determine the position of the front end of your vehicle.",
+    "tags": ["reference points", "stop line", "intersection"],
+    "relatedTopics": ["Vehicle positioning", "Stopping distance"],
+    "source": "Chapter 2, Section 2.11"
+  },
+  {
+    "id": "ch2_q071",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.11",
+    "question": "To determine your lane position, check that the center of your hood is in line with lane markings. If they are in line, you are approximately:",
+    "options": [
+      {"id": "opt1", "text": "1 to 2 feet from the edge of the lane", "isCorrect": false},
+      {"id": "opt2", "text": "3 to 6 inches from the edge of the lane", "isCorrect": true},
+      {"id": "opt3", "text": "Exactly on the lane marking", "isCorrect": false},
+      {"id": "opt4", "text": "12 inches from the edge of the lane", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "To determine your lane position, check that the center of your hood is in line with lane markings. If they're in line, you're approximately 3 to 6 inches from the edge of the lane.",
+    "tags": ["lane position", "reference points", "hood center"],
+    "relatedTopics": ["Vehicle positioning", "Lane markings"],
+    "source": "Chapter 2, Section 2.11"
+  },
+  {
+    "id": "ch2_q072",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.11",
+    "question": "Examples of vehicle reference points include:",
+    "options": [
+      {"id": "opt1", "text": "Only the center of the hood", "isCorrect": false},
+      {"id": "opt2", "text": "Left headlight, center of hood, side view mirrors, and rear bumper", "isCorrect": true},
+      {"id": "opt3", "text": "Only the side mirrors", "isCorrect": false},
+      {"id": "opt4", "text": "Only the rear bumper", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Examples of vehicle reference points include left headlight, center of hood, side view mirrors, and rear bumper. These help you judge distance when you park, turn, back, and stop.",
+    "tags": ["reference points", "vehicle positioning", "judgment"],
+    "relatedTopics": ["Parking", "Backing up"],
+    "source": "Chapter 2, Section 2.11"
+  },
+  {
+    "id": "ch2_q073",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.12",
+    "question": "Blind zones are:",
+    "options": [
+      {"id": "opt1", "text": "Areas visible only at night", "isCorrect": false},
+      {"id": "opt2", "text": "Areas around a vehicle you can't see from the driver's seat", "isCorrect": true},
+      {"id": "opt3", "text": "Areas visible only through mirrors", "isCorrect": false},
+      {"id": "opt4", "text": "Areas behind your vehicle only", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Blind zones are the areas around a vehicle you can't see from the driver's seat. These areas are dangerous because they can hide another vehicle, motorcyclist, or bicyclist completely.",
+    "tags": ["blind zones", "visibility", "safety"],
+    "relatedTopics": ["Mirror adjustment", "Visual search"],
+    "source": "Chapter 2, Section 2.12"
+  },
+  {
+    "id": "ch2_q074",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.12",
+    "question": "To check your blind zones, you should:",
+    "options": [
+      {"id": "opt1", "text": "Only use your mirrors", "isCorrect": false},
+      {"id": "opt2", "text": "Move your head, neck, and body so that both eyes can see if your blind zones are clear", "isCorrect": true},
+      {"id": "opt3", "text": "Only turn your head to the left", "isCorrect": false},
+      {"id": "opt4", "text": "Rely only on vehicle safety technology alerts", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You need to do a full visual search of the space around your vehicle. Move your head, neck, and body so that both eyes can see if your blind zones are clear. When turning your head to look, keep the steering wheel straight.",
+    "tags": ["blind zones", "visual search", "head check"],
+    "relatedTopics": ["Mirror adjustment", "Lane changes"],
+    "source": "Chapter 2, Section 2.12"
+  },
+  {
+    "id": "ch2_q075",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.12",
+    "question": "When turning your head to check blind zones, you should keep the steering wheel straight.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "When turning your head to look, keep the steering wheel straight. This prevents you from unintentionally steering into another lane.",
+    "tags": ["blind zones", "steering", "safety"],
+    "relatedTopics": ["Visual search", "Lane maintenance"],
+    "source": "Chapter 2, Section 2.12"
+  },
+  {
+    "id": "ch2_q076",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.13",
+    "question": "To stay aware of your surroundings while driving, you should regularly check:",
+    "options": [
+      {"id": "opt1", "text": "Only your rearview mirror", "isCorrect": false},
+      {"id": "opt2", "text": "The area in front of you, your rearview mirror, your side mirrors, and over your shoulder", "isCorrect": true},
+      {"id": "opt3", "text": "Only the area directly in front of you", "isCorrect": false},
+      {"id": "opt4", "text": "Only your side mirrors", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "To stay aware of your surroundings, regularly check: the area in front of you, your rearview mirror, your side mirrors, and over your shoulder.",
+    "tags": ["observation", "mirrors", "awareness"],
+    "relatedTopics": ["Scanning", "Visual search"],
+    "source": "Chapter 2, Section 2.13"
+  },
+  {
+    "id": "ch2_q077",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.13",
+    "question": "Large vehicles like buses, motorhomes, and commercial motor vehicles have bigger blind zones, sometimes called:",
+    "options": [
+      {"id": "opt1", "text": "Danger areas", "isCorrect": false},
+      {"id": "opt2", "text": "No zones", "isCorrect": true},
+      {"id": "opt3", "text": "Warning zones", "isCorrect": false},
+      {"id": "opt4", "text": "Dead zones", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Large vehicles have bigger blind zones, sometimes called 'no zones.' This is because there should be no vehicles traveling in that zone.",
+    "tags": ["no zones", "large vehicles", "blind zones"],
+    "relatedTopics": ["Commercial vehicles", "Safe following"],
+    "source": "Chapter 2, Section 2.13"
+  },
+  {
+    "id": "ch2_q078",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.13",
+    "question": "If you can't see a large vehicle's mirrors, the driver can't see you.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Be thoughtful and alert traveling around large vehicles. Remember: if you can't see their mirrors, the driver can't see you.",
+    "tags": ["large vehicles", "mirrors", "visibility"],
+    "relatedTopics": ["No zones", "Safe driving near trucks"],
+    "source": "Chapter 2, Section 2.13"
+  },
+  {
+    "id": "ch2_q079",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.13",
+    "question": "To stay out of another vehicle's blind zones, you can:",
+    "options": [
+      {"id": "opt1", "text": "Honk your horn repeatedly", "isCorrect": false},
+      {"id": "opt2", "text": "Speed up or slow down so the driver can clearly see you", "isCorrect": true},
+      {"id": "opt3", "text": "Flash your headlights", "isCorrect": false},
+      {"id": "opt4", "text": "Drive directly alongside them", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "You need to be aware of other vehicles' blind zones. Do your best to stay out of them. You can speed up or slow down so the driver can clearly see you.",
+    "tags": ["blind zones", "other vehicles", "visibility"],
+    "relatedTopics": ["Safe positioning", "Large vehicles"],
+    "source": "Chapter 2, Section 2.13"
+  },
+  {
+    "id": "ch2_q080",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.13",
+    "question": "When getting ready to drive, checking outside your vehicle includes looking for:",
+    "options": [
+      {"id": "opt1", "text": "Only other vehicles", "isCorrect": false},
+      {"id": "opt2", "text": "Foreign objects in tires, broken glass, fluid leaks, other obstructions, children, pets, and weather-related obstacles", "isCorrect": true},
+      {"id": "opt3", "text": "Only the weather conditions", "isCorrect": false},
+      {"id": "opt4", "text": "Only the condition of the tires", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Before driving, check outside your vehicle for: foreign objects in the tires, broken glass in the area, fluid leaks, other obstructions, children, pets, or weather-related obstacles.",
+    "tags": ["pre-drive check", "outside inspection", "safety"],
+    "relatedTopics": ["Before you go", "Vehicle inspection"],
+    "source": "Chapter 2, Section 2.13"
+  },
+  {
+    "id": "ch2_q081",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.13",
+    "question": "Before starting to drive, checking inside your vehicle includes verifying:",
+    "options": [
+      {"id": "opt1", "text": "Only that you have your phone", "isCorrect": false},
+      {"id": "opt2", "text": "No warnings on the instrument panel, windows are clear, loose items are secured, mirrors are set, seatbelt is buckled, and phone is silenced", "isCorrect": true},
+      {"id": "opt3", "text": "Only that the seatbelt works", "isCorrect": false},
+      {"id": "opt4", "text": "Only the fuel level", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Check inside: instrument panel warnings, clear windows, secured loose items, mirrors set, seat and steering wheel position, seatbelt buckled, and phone silenced and put away.",
+    "tags": ["pre-drive check", "inside inspection", "safety"],
+    "relatedTopics": ["Before you go", "Vehicle setup"],
+    "source": "Chapter 2, Section 2.13"
+  },
+  {
+    "id": "ch2_q082",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.13",
+    "question": "Before driving, you should check in with yourself by asking:",
+    "options": [
+      {"id": "opt1", "text": "Only whether you have enough gas", "isCorrect": false},
+      {"id": "opt2", "text": "Do I feel healthy and clear-headed? Am I ready to focus? Are my emotions under control?", "isCorrect": true},
+      {"id": "opt3", "text": "Whether you've eaten recently", "isCorrect": false},
+      {"id": "opt4", "text": "How long the trip will take", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Check in with yourself: Do you feel healthy and clear-headed? Are you ready to focus your attention on driving? Are your emotions under control so that you can make wise choices behind the wheel?",
+    "tags": ["self-check", "fitness to drive", "emotions"],
+    "relatedTopics": ["Driver readiness", "Mental preparation"],
+    "source": "Chapter 2, Section 2.13"
+  },
+  {
+    "id": "ch2_q083",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "Making sure your vehicle is safe to drive is your responsibility.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Making sure your vehicle is safe to drive is your responsibility. Pay attention to your vehicle's warnings and consult your owner's manual for suggested routine maintenance.",
+    "tags": ["vehicle maintenance", "responsibility", "safety"],
+    "relatedTopics": ["Routine maintenance", "Indicator lights"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q084",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "If your vehicle's turn signals are not working, you must use hand signals to communicate with other drivers.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "If 1 or both signals aren't working, use hand signals to let other drivers know what you're doing.",
+    "tags": ["hand signals", "turn signals", "communication"],
+    "relatedTopics": ["Signal requirements", "Vehicle communication"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q085",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.6",
+    "question": "A child should remain in each stage of restraint as long as the seat allows for the best protection.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "A child should remain in each stage of restraint as long as the seat allows for the best protection. Don't rush to move them to the next stage.",
+    "tags": ["child seats", "restraint stages", "child safety"],
+    "relatedTopics": ["Car seat progression", "Best protection"],
+    "source": "Chapter 2, Section 2.6"
+  },
+  {
+    "id": "ch2_q086",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.6",
+    "question": "It is illegal to drive or ride in a vehicle without wearing a seat belt or using child safety restraints in Washington.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "It is illegal to drive or ride in a vehicle without wearing a seat belt or using child safety restraints per RCW 46.61.687 and RCW 46.61.688.",
+    "tags": ["seat belt law", "child restraints", "illegal"],
+    "relatedTopics": ["RCW 46.61.687", "RCW 46.61.688"],
+    "source": "Chapter 2, Section 2.6"
+  },
+  {
+    "id": "ch2_q087",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.6",
+    "question": "For a proper seatbelt fit, your knees should bend at the edge of the seat, your feet should touch the floor, and your headrest should be:",
+    "options": [
+      {"id": "opt1", "text": "Above your head", "isCorrect": false},
+      {"id": "opt2", "text": "In line with your ears", "isCorrect": true},
+      {"id": "opt3", "text": "At shoulder level", "isCorrect": false},
+      {"id": "opt4", "text": "Below your shoulders", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Your knees should bend at the edge of the seat, your feet should touch the floor, and your headrest should be in line with your ears for proper fit and protection.",
+    "tags": ["seatbelt fit", "headrest", "proper positioning"],
+    "relatedTopics": ["Seat adjustment", "Occupant protection"],
+    "source": "Chapter 2, Section 2.6"
+  },
+  {
+    "id": "ch2_q088",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Traffic sign recognition systems work by:",
+    "options": [
+      {"id": "opt1", "text": "Automatically obeying all traffic signs for the driver", "isCorrect": false},
+      {"id": "opt2", "text": "Using cameras to identify and interpret traffic signs and displaying relevant information to the driver", "isCorrect": true},
+      {"id": "opt3", "text": "Communicating with traffic signals wirelessly", "isCorrect": false},
+      {"id": "opt4", "text": "Alerting you only to stop signs", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Traffic sign recognition uses cameras to identify and interpret traffic signs, displaying relevant information to the driver. This feature assists in maintaining awareness of speed limits and other road regulations.",
+    "tags": ["traffic sign recognition", "ADAS", "cameras"],
+    "relatedTopics": ["Speed limits", "Road signs"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q089",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Automatic high beam control works by:",
+    "options": [
+      {"id": "opt1", "text": "Keeping high beams on at all times", "isCorrect": false},
+      {"id": "opt2", "text": "Adjusting headlight brightness based on oncoming traffic and surrounding conditions", "isCorrect": true},
+      {"id": "opt3", "text": "Turning off headlights in daylight", "isCorrect": false},
+      {"id": "opt4", "text": "Only working in fog or rain", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Automatic high beam control adjusts headlight brightness based on oncoming traffic and surrounding conditions. This feature enhances visibility without causing discomfort to other drivers.",
+    "tags": ["automatic high beam", "ADAS", "headlights"],
+    "relatedTopics": ["High beams", "Night driving"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q090",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "Low tire pressure can affect your car handling and speed.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Low tire pressure can affect your car handling and speed. Maintaining proper tire pressure is important for safe driving.",
+    "tags": ["tire pressure", "handling", "speed"],
+    "relatedTopics": ["Tire maintenance", "Vehicle safety"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q091",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.0",
+    "question": "Vehicles purchased in another state should be registered in Washington immediately.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Vehicles purchased in another state should be registered in Washington immediately, unlike vehicles you already own when moving to Washington (which have a 30-day window).",
+    "tags": ["registration", "out-of-state", "immediate"],
+    "relatedTopics": ["Vehicle registration", "New purchases"],
+    "source": "Chapter 2, Section 2.0"
+  },
+  {
+    "id": "ch2_q092",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Parking assistance systems work by:",
+    "options": [
+      {"id": "opt1", "text": "Finding available parking spots from a distance", "isCorrect": false},
+      {"id": "opt2", "text": "Utilizing sensors and cameras to provide visual and/or auditory guidance, including automatic parallel parking", "isCorrect": true},
+      {"id": "opt3", "text": "Paying for parking automatically", "isCorrect": false},
+      {"id": "opt4", "text": "Only alerting you to parking signs", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "Parking assistance utilizes sensors and cameras to help with parking by providing visual and/or auditory guidance. This can include features like automatic parallel parking.",
+    "tags": ["parking assistance", "ADAS", "sensors"],
+    "relatedTopics": ["Parallel parking", "Cameras"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q093",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Technology can assist you, but it doesn't take the place of focused driving.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Technology can assist you, but it doesn't take the place of focused driving. You'll need to be familiar with the VST and ADAS features of any vehicle you drive but still rely on your intentional driving habits.",
+    "tags": ["technology", "focused driving", "driver responsibility"],
+    "relatedTopics": ["ADAS", "Driver habits"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q094",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.12",
+    "question": "Some vehicle safety technology systems have features that alert you if there is someone in your blind zone, but you should still make a habit of using your eyes to check.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Some vehicle safety technology systems have features that alert you if there is someone in your blind zone. This assistance is helpful, but make a habit of using your eyes to check for yourself.",
+    "tags": ["blind zone", "technology", "visual check"],
+    "relatedTopics": ["Blind spot detection", "Driver habits"],
+    "source": "Chapter 2, Section 2.12"
+  },
+  {
+    "id": "ch2_q095",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.13",
+    "question": "You should constantly check your mirrors for any changes to your driving situation.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "You need to be aware of everything going on around you. Constantly check your mirrors for any changes to your driving situation.",
+    "tags": ["mirrors", "awareness", "scanning"],
+    "relatedTopics": ["Stay alert", "Observation"],
+    "source": "Chapter 2, Section 2.13"
+  },
+  {
+    "id": "ch2_q096",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.13",
+    "question": "You should adjust your mirrors to eliminate as much of your blind zones as possible and recheck them every time you get behind the wheel.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Adjust your mirrors to eliminate as much of your blind zones as possible. Recheck your mirrors every time you get behind the wheel.",
+    "tags": ["mirrors", "blind zones", "optimization"],
+    "relatedTopics": ["Mirror adjustment", "Pre-drive check"],
+    "source": "Chapter 2, Section 2.13"
+  },
+  {
+    "id": "ch2_q097",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.5",
+    "question": "Headlights help you see, but they also help other people see you.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Headlights help you see, but they also help people see you! This is why it's recommended to use headlights in low-visibility conditions like rain, snow, fog, or smoke.",
+    "tags": ["headlights", "visibility", "being seen"],
+    "relatedTopics": ["Night driving", "Low visibility"],
+    "source": "Chapter 2, Section 2.5"
+  },
+  {
+    "id": "ch2_q098",
+    "type": "multiple_choice",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.10",
+    "question": "If you stop abruptly, the weight of the vehicle shifts:",
+    "options": [
+      {"id": "opt1", "text": "To the back of the vehicle", "isCorrect": false},
+      {"id": "opt2", "text": "Forward, increasing pressure on the front of the vehicle", "isCorrect": true},
+      {"id": "opt3", "text": "To the right side of the vehicle", "isCorrect": false},
+      {"id": "opt4", "text": "Evenly to all four tires", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt2",
+    "explanation": "If you stop abruptly, the weight shifts forward, increasing pressure on the front of the vehicle. This forward and backward weight shift is called pitch.",
+    "tags": ["pitch", "braking", "weight transfer"],
+    "relatedTopics": ["Vehicle balance", "Acceleration"],
+    "source": "Chapter 2, Section 2.10"
+  },
+  {
+    "id": "ch2_q099",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "easy",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "You should familiarize yourself with your vehicle's mechanics before you drive, so your focus can be on the road.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Familiarize yourself with your vehicle's mechanics before you drive, so your focus can be on the road. Read the owner's manual to understand the systems, devices, gauges, and instruments unique to the vehicle.",
+    "tags": ["vehicle familiarity", "preparation", "focus"],
+    "relatedTopics": ["Owner's manual", "Vehicle setup"],
+    "source": "Chapter 2, Section 2.4"
+  },
+  {
+    "id": "ch2_q100",
+    "type": "true_false",
+    "category": "vehicles",
+    "difficulty": "medium",
+    "chapter": 2,
+    "section": "2.4",
+    "question": "Sensors on your vehicle can get dirty or road markings can fade, making it difficult for safety technology to function properly.",
+    "options": [
+      {"id": "opt1", "text": "True", "isCorrect": true},
+      {"id": "opt2", "text": "False", "isCorrect": false}
+    ],
+    "correctAnswerId": "opt1",
+    "explanation": "Sensors can get dirty or road markings can fade, making it difficult for the technology to function properly. This is one of the limitations of ADAS that drivers need to be aware of.",
+    "tags": ["ADAS limitations", "sensors", "road markings"],
+    "relatedTopics": ["Technology limitations", "Vehicle maintenance"],
+    "source": "Chapter 2, Section 2.4"
   }
 ]
