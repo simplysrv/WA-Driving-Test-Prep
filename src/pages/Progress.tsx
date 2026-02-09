@@ -21,7 +21,7 @@ const Progress = () => {
       </div>
 
       {/* Stats Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 max-w-5xl mx-auto">
         <div className="card bg-gradient-to-br from-blue-50 to-blue-100 border-blue-200">
           <div className="flex items-center gap-4">
             <div className="w-14 h-14 bg-blue-500 rounded-lg flex items-center justify-center">
@@ -61,7 +61,7 @@ const Progress = () => {
 
       {/* Chapter Progress */}
       <div className="card max-w-5xl mx-auto">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">Study Progress by Chapter</h2>
+        <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">Study Progress by Chapter</h2>
         <div className="space-y-4">
           {[
             { chapter: 1, title: 'Licenses', questions: 10, color: 'blue' },
@@ -71,11 +71,11 @@ const Progress = () => {
             { chapter: 5, title: 'Hazards', questions: 25, color: 'red' },
           ].map(({ chapter, title, questions, color }) => (
             <div key={chapter} className="space-y-2">
-              <div className="flex justify-between items-center">
-                <h3 className="font-semibold text-gray-900">
-                  Chapter {chapter}: {title}
+              <div className="flex justify-between items-center gap-2">
+                <h3 className="font-semibold text-gray-900 text-sm sm:text-base">
+                  Ch. {chapter}: {title}
                 </h3>
-                <span className="text-sm text-gray-600">{questions} questions</span>
+                <span className="text-xs sm:text-sm text-gray-600 flex-shrink-0">{questions} Qs</span>
               </div>
               <div className="h-3 bg-gray-200 rounded-full overflow-hidden">
                 <div
@@ -119,15 +119,15 @@ const Progress = () => {
       {/* Achievements Placeholder */}
       <div className="card max-w-5xl mx-auto">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Achievements</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
           {[
             { icon: '🎯', title: 'First Steps', desc: 'Complete your first quiz' },
             { icon: '📚', title: 'Bookworm', desc: 'Bookmark 10 questions' },
             { icon: '🏆', title: 'Perfect Score', desc: 'Get 100% on a practice quiz' },
             { icon: '🎓', title: 'Test Ready', desc: 'Pass the 40-question test' },
           ].map((achievement, index) => (
-            <div key={index} className="text-center p-4 bg-gray-50 rounded-lg opacity-50">
-              <div className="text-4xl mb-2">{achievement.icon}</div>
+            <div key={index} className="text-center p-3 sm:p-4 bg-gray-50 rounded-lg opacity-50">
+              <div className="text-3xl sm:text-4xl mb-2">{achievement.icon}</div>
               <p className="font-semibold text-sm text-gray-900">{achievement.title}</p>
               <p className="text-xs text-gray-600 mt-1">{achievement.desc}</p>
             </div>

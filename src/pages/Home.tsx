@@ -36,27 +36,27 @@ const Home = () => {
   ]
 
   return (
-    <div className="space-y-16">
+    <div className="space-y-10 sm:space-y-16">
       {/* Hero Section */}
-      <section className="relative text-center space-y-8 py-16">
+      <section className="relative text-center space-y-6 sm:space-y-8 py-8 sm:py-16">
         {/* Background decoration */}
         <div className="absolute inset-0 -z-10 overflow-hidden">
           <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary-200/30 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-purple-200/30 rounded-full blur-3xl"></div>
         </div>
 
-        <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-gradient-to-br from-primary-400 to-primary-600 shadow-xl shadow-primary-500/30 mb-4 animate-bounce">
-          <BookOpen className="w-12 h-12 text-white" />
+        <div className="inline-flex items-center justify-center w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-gradient-to-br from-primary-400 to-primary-600 shadow-xl shadow-primary-500/30 mb-4 animate-bounce">
+          <BookOpen className="w-10 h-10 sm:w-12 sm:h-12 text-white" />
         </div>
 
         <div className="space-y-4">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-gray-900 tracking-tight">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-gray-900 tracking-tight">
             {t('home.hero.title')}
             <span className="block bg-gradient-to-r from-primary-600 to-purple-600 bg-clip-text text-transparent">
               {t('home.hero.titleHighlight')}
             </span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             {t('home.hero.subtitle')}
           </p>
         </div>
@@ -78,18 +78,18 @@ const Home = () => {
         </div>
 
         {/* Stats bar */}
-        <div className="grid grid-cols-3 gap-4 max-w-2xl mx-auto mt-12 pt-8 border-t border-gray-200">
+        <div className="grid grid-cols-3 gap-3 sm:gap-4 max-w-2xl mx-auto mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-gray-200">
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary-600">85+</div>
-            <div className="text-sm text-gray-600 mt-1">{t('home.hero.questionsCount')}</div>
+            <div className="text-2xl sm:text-3xl font-bold text-primary-600">85+</div>
+            <div className="text-xs sm:text-sm text-gray-600 mt-1">{t('home.hero.questionsCount')}</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-purple-600">5</div>
-            <div className="text-sm text-gray-600 mt-1">{t('home.hero.chaptersCount')}</div>
+            <div className="text-2xl sm:text-3xl font-bold text-purple-600">5</div>
+            <div className="text-xs sm:text-sm text-gray-600 mt-1">{t('home.hero.chaptersCount')}</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-success-600">80%</div>
-            <div className="text-sm text-gray-600 mt-1">{t('home.hero.passScore')}</div>
+            <div className="text-2xl sm:text-3xl font-bold text-success-600">80%</div>
+            <div className="text-xs sm:text-sm text-gray-600 mt-1">{t('home.hero.passScore')}</div>
           </div>
         </div>
       </section>
@@ -145,7 +145,7 @@ const Home = () => {
               </div>
             </div>
             <div className="flex-1">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                 {t('home.about.title')}
                 <span className="text-2xl">📋</span>
               </h2>
@@ -193,8 +193,8 @@ const Home = () => {
       {/* Call to Action */}
       <section className="text-center pb-8">
         <div className="card max-w-3xl mx-auto bg-gradient-to-r from-primary-500 to-purple-600 border-0 text-white">
-          <h2 className="text-3xl font-bold mb-3">{t('home.cta.title')}</h2>
-          <p className="text-xl text-primary-50 mb-6">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-3">{t('home.cta.title')}</h2>
+          <p className="text-base sm:text-xl text-primary-50 mb-6">
             {t('home.cta.subtitle')}
           </p>
           <Link

@@ -13,10 +13,10 @@ const TestIntro = ({ onStart, questionCount }: TestIntroProps) => {
         <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-purple-100 text-purple-600 mb-4">
           <FileText className="w-10 h-10" />
         </div>
-        <h1 className="text-4xl font-bold text-gray-900">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
           Washington State Knowledge Test Simulation
         </h1>
-        <p className="text-xl text-gray-600">
+        <p className="text-base sm:text-lg md:text-xl text-gray-600">
           Experience the real test format before taking the actual exam
         </p>
       </div>
@@ -68,7 +68,7 @@ const TestIntro = ({ onStart, questionCount }: TestIntroProps) => {
         </div>
 
         {/* Instructions */}
-        <div className="bg-white rounded-lg p-6 space-y-4">
+        <div className="bg-white rounded-lg p-4 sm:p-6 space-y-4">
           <h3 className="text-lg font-bold text-gray-900">Test Instructions</h3>
           <ul className="space-y-2 text-gray-700">
             <li className="flex items-start gap-2">
@@ -114,7 +114,7 @@ const TestIntro = ({ onStart, questionCount }: TestIntroProps) => {
       </button>
 
       {/* Tips */}
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
+      <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 sm:p-6">
         <h3 className="font-semibold text-blue-900 mb-2">💡 Test Tips</h3>
         <ul className="text-blue-800 text-sm space-y-1">
           <li>• Read each question carefully before selecting your answer</li>

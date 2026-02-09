@@ -90,21 +90,21 @@ const TestMode = () => {
       <div className="space-y-6 max-w-4xl mx-auto">
         {/* Progress Header */}
         <div className="card bg-gradient-to-r from-purple-50 to-blue-50 border-purple-200">
-          <div className="flex items-center justify-between mb-4">
-            <div>
-              <h2 className="text-xl font-bold text-gray-900">
-                Question {currentQuestionIndex + 1} of {testQuestions.length}
+          <div className="flex items-center justify-between gap-2 mb-4">
+            <div className="min-w-0">
+              <h2 className="text-base sm:text-xl font-bold text-gray-900">
+                Q{currentQuestionIndex + 1}/{testQuestions.length}
               </h2>
-              <p className="text-sm text-gray-600">
-                {answeredCount} answered • {testQuestions.length - answeredCount} remaining
+              <p className="text-xs sm:text-sm text-gray-600 truncate">
+                {answeredCount} answered • {testQuestions.length - answeredCount} left
               </p>
             </div>
             <button
               onClick={handleGoToReview}
-              className="btn btn-secondary flex items-center gap-2"
+              className="btn btn-secondary flex items-center gap-1 sm:gap-2 flex-shrink-0 px-2 sm:px-4"
             >
               <Eye className="w-4 h-4" />
-              <span>Review</span>
+              <span className="hidden sm:inline">Review</span>
             </button>
           </div>
 
@@ -137,22 +137,22 @@ const TestMode = () => {
         </div>
 
         {/* Navigation */}
-        <div className="flex items-center justify-between gap-4">
+        <div className="flex items-center justify-between gap-2 sm:gap-4">
           <button
             onClick={handlePrevious}
             disabled={currentQuestionIndex === 0}
-            className="btn btn-secondary flex items-center gap-2 disabled:opacity-30"
+            className="btn btn-secondary flex items-center gap-1 sm:gap-2 disabled:opacity-30 px-3 sm:px-4"
           >
             <ArrowLeft className="w-4 h-4" />
-            <span>Previous</span>
+            <span className="hidden sm:inline">Previous</span>
           </button>
 
-          <div className="text-center">
-            <p className="text-sm text-gray-600">
+          <div className="text-center flex-shrink-0">
+            <p className="text-xs sm:text-sm text-gray-600">
               {selectedOptionId ? (
                 <span className="text-success-600 font-medium">✓ Answered</span>
               ) : (
-                <span className="text-gray-500">Not answered yet</span>
+                <span className="text-gray-500">Unanswered</span>
               )}
             </p>
           </div>
@@ -160,15 +160,15 @@ const TestMode = () => {
           {currentQuestionIndex === testQuestions.length - 1 ? (
             <button
               onClick={handleGoToReview}
-              className="btn btn-purple flex items-center gap-2"
+              className="btn btn-purple flex items-center gap-1 sm:gap-2 px-3 sm:px-4"
             >
-              <span>Review All</span>
+              <span>Review</span>
               <Eye className="w-4 h-4" />
             </button>
           ) : (
             <button
               onClick={handleNext}
-              className="btn btn-primary flex items-center gap-2"
+              className="btn btn-primary flex items-center gap-1 sm:gap-2 px-3 sm:px-4"
             >
               <span>Next</span>
               <ArrowRight className="w-4 h-4" />

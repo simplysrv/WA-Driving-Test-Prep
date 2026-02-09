@@ -17,10 +17,10 @@ const ReviewMode = () => {
 
       {/* Info Card */}
       <div className="card bg-gradient-to-br from-orange-50 to-yellow-50 border-orange-200">
-        <div className="flex items-start gap-4">
-          <AlertCircle className="w-12 h-12 text-orange-600 flex-shrink-0" />
+        <div className="flex items-start gap-3 sm:gap-4">
+          <AlertCircle className="w-8 h-8 sm:w-12 sm:h-12 text-orange-600 flex-shrink-0" />
           <div>
-            <h2 className="text-xl font-bold text-gray-900 mb-2">How Review Mode Works</h2>
+            <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">How Review Mode Works</h2>
             <p className="text-gray-700 mb-4">
               After completing quizzes in Practice Mode, any questions you answer incorrectly are automatically tracked.
               You can then review these specific questions to focus your studying on areas that need improvement.
@@ -42,14 +42,14 @@ const ReviewMode = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <button
           onClick={() => navigate('/practice')}
-          className="btn-primary py-4 text-lg font-semibold flex items-center justify-center gap-2"
+          className="btn btn-primary py-3 sm:py-4 text-base sm:text-lg font-semibold flex items-center justify-center gap-2"
         >
           <FileText className="w-5 h-5" />
           <span>Start Practice Mode</span>
         </button>
         <button
           onClick={() => navigate('/study')}
-          className="btn-secondary py-4 text-lg font-semibold flex items-center justify-center gap-2"
+          className="btn btn-secondary py-3 sm:py-4 text-base sm:text-lg font-semibold flex items-center justify-center gap-2"
         >
           <Brain className="w-5 h-5" />
           <span>Study Flashcards</span>

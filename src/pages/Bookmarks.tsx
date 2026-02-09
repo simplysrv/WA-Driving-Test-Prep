@@ -128,16 +128,16 @@ const Bookmarks = () => {
               <div className="flex items-start justify-between gap-4">
                 <div className="flex-1">
                   {/* Question Header */}
-                  <div className="flex items-center gap-2 mb-3">
-                    <span className="text-sm font-semibold text-gray-500">
+                  <div className="flex flex-wrap items-center gap-2 mb-3">
+                    <span className="text-xs sm:text-sm font-semibold text-gray-500">
                       #{index + 1}
                     </span>
-                    <span className="px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-xs font-medium">
+                    <span className="px-2 sm:px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-xs font-medium">
                       {question.category.charAt(0).toUpperCase() +
                         question.category.slice(1).replace('_', ' ')}
                     </span>
                     <span
-                      className={`px-3 py-1 rounded-full text-xs font-medium ${
+                      className={`px-2 sm:px-3 py-1 rounded-full text-xs font-medium ${
                         question.difficulty === 'easy'
                           ? 'bg-green-100 text-green-700'
                           : question.difficulty === 'medium'
@@ -185,7 +185,7 @@ const Bookmarks = () => {
         <div className="max-w-4xl mx-auto">
           <button
             onClick={() => navigate('/study')}
-            className="btn-primary w-full py-4 text-lg font-semibold"
+            className="btn btn-primary w-full py-3 sm:py-4 text-base sm:text-lg font-semibold"
           >
             Study These {filteredQuestions.length} Question{filteredQuestions.length !== 1 ? 's' : ''}
           </button>

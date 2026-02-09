@@ -18,18 +18,18 @@ const TestReview = ({ questions, answers, onGoToQuestion, onSubmit }: TestReview
       {/* Header */}
       <div className="card bg-gradient-to-r from-purple-50 to-blue-50 border-purple-200">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Review Your Answers</h2>
-        <div className="grid grid-cols-3 gap-4 mb-4">
-          <div className="bg-white rounded-lg p-4 text-center">
-            <p className="text-3xl font-bold text-gray-900">{questions.length}</p>
-            <p className="text-sm text-gray-600">Total Questions</p>
+        <div className="grid grid-cols-3 gap-2 sm:gap-4 mb-4">
+          <div className="bg-white rounded-lg p-2 sm:p-4 text-center">
+            <p className="text-xl sm:text-3xl font-bold text-gray-900">{questions.length}</p>
+            <p className="text-xs sm:text-sm text-gray-600">Total</p>
           </div>
-          <div className="bg-white rounded-lg p-4 text-center">
-            <p className="text-3xl font-bold text-success-600">{answeredCount}</p>
-            <p className="text-sm text-gray-600">Answered</p>
+          <div className="bg-white rounded-lg p-2 sm:p-4 text-center">
+            <p className="text-xl sm:text-3xl font-bold text-success-600">{answeredCount}</p>
+            <p className="text-xs sm:text-sm text-gray-600">Answered</p>
           </div>
-          <div className="bg-white rounded-lg p-4 text-center">
-            <p className="text-3xl font-bold text-error-600">{unansweredCount}</p>
-            <p className="text-sm text-gray-600">Unanswered</p>
+          <div className="bg-white rounded-lg p-2 sm:p-4 text-center">
+            <p className="text-xl sm:text-3xl font-bold text-error-600">{unansweredCount}</p>
+            <p className="text-xs sm:text-sm text-gray-600">Unanswered</p>
           </div>
         </div>
 
@@ -51,14 +51,14 @@ const TestReview = ({ questions, answers, onGoToQuestion, onSubmit }: TestReview
       {/* Question Grid */}
       <div className="card">
         <h3 className="text-lg font-bold text-gray-900 mb-4">Question Navigator</h3>
-        <div className="grid grid-cols-5 sm:grid-cols-8 md:grid-cols-10 gap-3">
+        <div className="grid grid-cols-5 sm:grid-cols-8 md:grid-cols-10 gap-2 sm:gap-3">
           {questions.map((question, index) => {
             const isAnswered = answers[question.id] !== undefined
             return (
               <button
                 key={question.id}
                 onClick={() => onGoToQuestion(index)}
-                className={`relative aspect-square rounded-lg font-bold text-lg transition-all ${
+                className={`relative aspect-square rounded-lg font-bold text-sm sm:text-lg transition-all ${
                   isAnswered
                     ? 'bg-success-100 text-success-700 border-2 border-success-300 hover:bg-success-200'
                     : 'bg-gray-100 text-gray-400 border-2 border-gray-300 hover:bg-gray-200'
@@ -97,7 +97,7 @@ const TestReview = ({ questions, answers, onGoToQuestion, onSubmit }: TestReview
       <button
         onClick={onSubmit}
         disabled={!allAnswered}
-        className="btn-primary w-full py-6 text-xl font-bold disabled:opacity-50 disabled:cursor-not-allowed"
+        className="btn btn-primary w-full py-4 sm:py-6 text-base sm:text-xl font-bold disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {allAnswered ? 'Submit Test' : `Answer ${unansweredCount} More Question${unansweredCount !== 1 ? 's' : ''} to Submit`}
       </button>

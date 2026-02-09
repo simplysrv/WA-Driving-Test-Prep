@@ -84,19 +84,19 @@ const StudyMode = () => {
     return (
       <div className="space-y-6">
         {/* Header with back button */}
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between gap-2">
           <button
             onClick={() => {
               setStarted(false)
               setShowFilters(true)
             }}
-            className="btn btn-secondary flex items-center gap-2"
+            className="btn btn-secondary flex items-center gap-2 flex-shrink-0"
           >
             <ArrowLeft className="w-4 h-4" />
-            Back to Filters
+            <span className="hidden sm:inline">Back to Filters</span>
+            <span className="sm:hidden">Back</span>
           </button>
-          <h1 className="text-2xl font-bold text-gray-900">Study Mode</h1>
-          <div className="w-32"></div> {/* Spacer for centering */}
+          <h1 className="text-lg sm:text-2xl font-bold text-gray-900 text-right sm:text-center flex-1">Study Mode</h1>
         </div>
 
         {/* Flashcard Deck */}
@@ -200,7 +200,7 @@ const StudyMode = () => {
             <button
               onClick={handleStart}
               disabled={filteredQuestions.length === 0}
-              className="btn-primary w-full py-4 text-lg font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
+              className="btn btn-primary w-full py-3 sm:py-4 text-base sm:text-lg font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
             >
               Start Studying
             </button>

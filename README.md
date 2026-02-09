@@ -75,9 +75,10 @@
 - **Easy Switching** - Toggle languages from the header
 
 ### 📱 Responsive Design
-- **Mobile Friendly** - Optimized for phones and tablets
-- **Desktop Experience** - Full-featured desktop interface
+- **Mobile-First Approach** - Optimized typography and spacing for all screen sizes
+- **Adaptive UI Components** - Cards, buttons, and layouts that scale beautifully from mobile to desktop
 - **Touch Gestures** - Smooth interactions on touch devices
+- **Responsive Flashcards** - Study cards that adapt to screen size with proper touch-friendly controls
 
 ---
 

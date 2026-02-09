@@ -274,7 +274,7 @@ const PracticeMode = () => {
             <button
               onClick={handleStartQuiz}
               disabled={availableQuestions === 0}
-              className="btn-primary w-full py-4 text-lg font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
+              className="btn btn-primary w-full py-3 sm:py-4 text-base sm:text-lg font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
             >
               Start Practice Quiz
             </button>
@@ -327,7 +327,7 @@ const PracticeMode = () => {
           <button
             onClick={handleSubmitAnswer}
             disabled={!selectedOptionId}
-            className="btn-primary w-full mt-6 py-3 text-lg font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
+            className="btn btn-primary w-full mt-4 sm:mt-6 py-3 text-base sm:text-lg font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Submit Answer
           </button>

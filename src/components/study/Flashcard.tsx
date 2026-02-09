@@ -23,7 +23,7 @@ const Flashcard = ({ question, isBookmarked, onBookmark, showAnswer = false, onF
   const correctAnswer = question.options.find(opt => opt.id === question.correctAnswerId)
 
   return (
-    <div className="relative w-full h-[400px] md:h-[500px] perspective-1000">
+    <div className="relative w-full h-[360px] sm:h-[420px] md:h-[500px] perspective-1000">
       {/* Bookmark Button */}
       <button
         onClick={(e) => {
@@ -57,14 +57,14 @@ const Flashcard = ({ question, isBookmarked, onBookmark, showAnswer = false, onF
             WebkitBackfaceVisibility: 'hidden',
           }}
         >
-          <div className="w-full h-full bg-white rounded-2xl shadow-xl border-2 border-primary-200 p-8 flex flex-col">
-            <div className="flex-1 flex flex-col justify-center">
+          <div className="w-full h-full bg-white rounded-2xl shadow-xl border-2 border-primary-200 p-4 sm:p-6 md:p-8 flex flex-col overflow-hidden">
+            <div className="flex-1 flex flex-col justify-center overflow-y-auto min-h-0">
               {/* Question Badge */}
-              <div className="flex items-center gap-2 mb-6">
-                <span className="px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
+              <div className="flex flex-wrap items-center gap-2 mb-4 sm:mb-6">
+                <span className="px-2 sm:px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-xs sm:text-sm font-medium">
                   {question.category.charAt(0).toUpperCase() + question.category.slice(1).replace('_', ' ')}
                 </span>
-                <span className={`px-3 py-1 rounded-full text-sm font-medium ${
+                <span className={`px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium ${
                   question.difficulty === 'easy' ? 'bg-green-100 text-green-700' :
                   question.difficulty === 'medium' ? 'bg-yellow-100 text-yellow-700' :
                   'bg-red-100 text-red-700'
@@ -76,24 +76,24 @@ const Flashcard = ({ question, isBookmarked, onBookmark, showAnswer = false, onF
               {/* Question Text */}
               <div className="text-center">
                 {question.imageUrl && (
-                  <div className="mb-6">
+                  <div className="mb-4 sm:mb-6">
                     <img
                       src={question.imageUrl}
                       alt="Question illustration"
-                      className="max-h-48 mx-auto rounded-lg shadow-md"
+                      className="max-h-32 sm:max-h-48 mx-auto rounded-lg shadow-md"
                     />
                   </div>
                 )}
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2 sm:mb-4">
                   {question.question}
                 </h2>
               </div>
             </div>
 
             {/* Tap to flip hint */}
-            <div className="text-center">
+            <div className="text-center flex-shrink-0 pt-2">
               <p className="text-gray-500 text-sm">
-                Click or tap to see answer
+                Tap to see answer
               </p>
               <div className="mt-2 flex justify-center gap-1">
                 <span className="w-2 h-2 bg-primary-400 rounded-full animate-bounce"></span>
@@ -113,32 +113,32 @@ const Flashcard = ({ question, isBookmarked, onBookmark, showAnswer = false, onF
             transform: 'rotateY(180deg)',
           }}
         >
-          <div className="w-full h-full bg-gradient-to-br from-primary-50 to-success-50 rounded-2xl shadow-xl border-2 border-success-300 p-8 flex flex-col">
-            <div className="flex-1 flex flex-col justify-center">
+          <div className="w-full h-full bg-gradient-to-br from-primary-50 to-success-50 rounded-2xl shadow-xl border-2 border-success-300 p-4 sm:p-6 md:p-8 flex flex-col overflow-hidden">
+            <div className="flex-1 flex flex-col justify-start overflow-y-auto min-h-0">
               {/* Answer Badge */}
-              <div className="flex items-center gap-2 mb-6">
-                <span className="px-3 py-1 bg-success-500 text-white rounded-full text-sm font-medium">
+              <div className="flex items-center gap-2 mb-3 sm:mb-6 flex-shrink-0">
+                <span className="px-2 sm:px-3 py-1 bg-success-500 text-white rounded-full text-xs sm:text-sm font-medium">
                   ✓ Correct Answer
                 </span>
               </div>
 
               {/* Answer Text */}
-              <div className="text-center mb-6">
-                <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
+              <div className="text-center mb-3 sm:mb-6 flex-shrink-0">
+                <h3 className="text-base sm:text-xl md:text-2xl font-bold text-gray-900 mb-2 sm:mb-4">
                   {correctAnswer?.text}
                 </h3>
               </div>
 
               {/* Explanation */}
-              <div className="bg-white/80 rounded-lg p-6 backdrop-blur-sm">
-                <h4 className="font-semibold text-gray-900 mb-2">Explanation:</h4>
-                <p className="text-gray-700 leading-relaxed">
+              <div className="bg-white/80 rounded-lg p-3 sm:p-6 backdrop-blur-sm">
+                <h4 className="font-semibold text-gray-900 mb-1 sm:mb-2 text-sm sm:text-base">Explanation:</h4>
+                <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
                   {question.explanation}
                 </p>
 
                 {/* Source */}
-                <div className="mt-4 pt-4 border-t border-gray-200">
-                  <p className="text-sm text-gray-600">
+                <div className="mt-2 sm:mt-4 pt-2 sm:pt-4 border-t border-gray-200">
+                  <p className="text-xs sm:text-sm text-gray-600">
                     <span className="font-medium">Source:</span> {question.source}
                   </p>
                 </div>
@@ -146,9 +146,9 @@ const Flashcard = ({ question, isBookmarked, onBookmark, showAnswer = false, onF
             </div>
 
             {/* Tap to flip hint */}
-            <div className="text-center mt-4">
-              <p className="text-gray-600 text-sm">
-                Click or tap to see question again
+            <div className="text-center mt-2 sm:mt-4 flex-shrink-0">
+              <p className="text-gray-600 text-xs sm:text-sm">
+                Tap to see question again
               </p>
             </div>
           </div>

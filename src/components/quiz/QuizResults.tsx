@@ -76,7 +76,7 @@ const QuizResults = ({
         >
           <Trophy className="w-12 h-12 text-white" />
         </div>
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900">Quiz Complete!</h1>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">Quiz Complete!</h1>
         <p className={`text-xl font-semibold ${passed ? 'text-success-600' : 'text-gray-600'}`}>
           {passed ? '🎉 Congratulations!' : 'Keep studying and try again!'}
         </p>
@@ -88,16 +88,16 @@ const QuizResults = ({
           {/* Grade */}
           <div>
             <p className="text-gray-700 text-lg mb-2">Your Grade</p>
-            <div className={`text-8xl font-bold ${grade.color}`}>{grade.letter}</div>
-            <p className="text-2xl font-semibold text-gray-700 mt-2">{grade.message}</p>
+            <div className={`text-6xl sm:text-8xl font-bold ${grade.color}`}>{grade.letter}</div>
+            <p className="text-xl sm:text-2xl font-semibold text-gray-700 mt-2">{grade.message}</p>
           </div>
 
           {/* Score */}
-          <div className="bg-white rounded-lg p-6 shadow-md">
-            <p className="text-6xl font-bold text-gray-900 mb-2">
+          <div className="bg-white rounded-lg p-4 sm:p-6 shadow-md">
+            <p className="text-4xl sm:text-6xl font-bold text-gray-900 mb-2">
               {Math.round(percentage)}%
             </p>
-            <p className="text-gray-600 text-lg">
+            <p className="text-gray-600 text-base sm:text-lg">
               {correctAnswers} out of {totalQuestions} correct
             </p>
           </div>
@@ -105,7 +105,7 @@ const QuizResults = ({
       </div>
 
       {/* Detailed Stats */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
         <div className="card bg-white">
           <div className="flex items-center gap-3 mb-2">
             <div className="w-10 h-10 bg-success-100 rounded-lg flex items-center justify-center">
@@ -148,7 +148,7 @@ const QuizResults = ({
       </div>
 
       {/* Actions */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 gap-3 sm:gap-4">
         <button
           onClick={onRetry}
           className="btn btn-primary btn-lg flex items-center justify-center gap-2"
@@ -186,8 +186,8 @@ const QuizResults = ({
 
       {/* Passing Message */}
       {passed && (
-        <div className="bg-success-50 border-2 border-success-300 rounded-lg p-6 text-center">
-          <p className="text-success-900 text-lg font-semibold">
+        <div className="bg-success-50 border-2 border-success-300 rounded-lg p-4 sm:p-6 text-center">
+          <p className="text-success-900 text-base sm:text-lg font-semibold">
             🎊 You passed! You're ready for the real Washington State knowledge test!
           </p>
           <p className="text-success-700 mt-2">

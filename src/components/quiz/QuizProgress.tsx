@@ -37,26 +37,26 @@ const QuizProgress = ({
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-3 gap-4">
-          <div className="bg-white rounded-lg p-3 text-center shadow-sm">
-            <p className="text-2xl font-bold text-gray-900">{currentQuestion}</p>
+        <div className="grid grid-cols-3 gap-2 sm:gap-4">
+          <div className="bg-white rounded-lg p-2 sm:p-3 text-center shadow-sm">
+            <p className="text-xl sm:text-2xl font-bold text-gray-900">{currentQuestion}</p>
             <p className="text-xs text-gray-600 mt-1">Answered</p>
           </div>
-          <div className="bg-white rounded-lg p-3 text-center shadow-sm">
-            <p className="text-2xl font-bold text-success-600">{correctAnswers}</p>
+          <div className="bg-white rounded-lg p-2 sm:p-3 text-center shadow-sm">
+            <p className="text-xl sm:text-2xl font-bold text-success-600">{correctAnswers}</p>
             <p className="text-xs text-gray-600 mt-1">Correct</p>
           </div>
-          <div className="bg-white rounded-lg p-3 text-center shadow-sm">
-            <p className="text-2xl font-bold text-error-600">{incorrectAnswers}</p>
+          <div className="bg-white rounded-lg p-2 sm:p-3 text-center shadow-sm">
+            <p className="text-xl sm:text-2xl font-bold text-error-600">{incorrectAnswers}</p>
             <p className="text-xs text-gray-600 mt-1">Incorrect</p>
           </div>
         </div>
 
         {/* Accuracy */}
         {correctAnswers + incorrectAnswers > 0 && (
-          <div className="bg-white rounded-lg p-3 text-center shadow-sm">
-            <p className="text-sm text-gray-600 mb-1">Current Accuracy</p>
-            <p className={`text-3xl font-bold ${
+          <div className="bg-white rounded-lg p-2 sm:p-3 text-center shadow-sm">
+            <p className="text-xs sm:text-sm text-gray-600 mb-1">Accuracy</p>
+            <p className={`text-2xl sm:text-3xl font-bold ${
               accuracy >= 80 ? 'text-success-600' :
               accuracy >= 60 ? 'text-yellow-600' :
               'text-error-600'

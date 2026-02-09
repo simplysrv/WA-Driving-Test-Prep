@@ -19,16 +19,16 @@ const QuizCard = ({
   return (
     <div className="card relative">
       {/* Header */}
-      <div className="flex items-center justify-between mb-6">
-        <div className="flex items-center gap-3">
-          <span className="text-sm font-semibold text-gray-500">
-            Question {questionNumber} of {totalQuestions}
+      <div className="flex items-start justify-between gap-2 mb-4 sm:mb-6">
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-xs sm:text-sm font-semibold text-gray-500">
+            Q{questionNumber}/{totalQuestions}
           </span>
-          <span className="px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
+          <span className="px-2 sm:px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-xs sm:text-sm font-medium">
             {question.category.charAt(0).toUpperCase() + question.category.slice(1).replace('_', ' ')}
           </span>
           <span
-            className={`px-3 py-1 rounded-full text-sm font-medium ${
+            className={`px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium ${
               question.difficulty === 'easy'
                 ? 'bg-green-100 text-green-700'
                 : question.difficulty === 'medium'
@@ -43,7 +43,7 @@ const QuizCard = ({
         {/* Bookmark Button */}
         <button
           onClick={onBookmark}
-          className="p-2 rounded-lg hover:bg-gray-100 transition-colors"
+          className="p-2 rounded-lg hover:bg-gray-100 transition-colors flex-shrink-0"
           aria-label={isBookmarked ? 'Remove bookmark' : 'Add bookmark'}
         >
           {isBookmarked ? (
