@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { Question } from '../../types/question'
-import { useBookmarkStore } from '../../store/bookmarkStore'
 import Flashcard from './Flashcard'
 import FlashcardProgress from './FlashcardProgress'
 import FlashcardControls from './FlashcardControls'
@@ -14,8 +13,6 @@ const FlashcardDeck = ({ questions, onComplete }: FlashcardDeckProps) => {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [studiedCards, setStudiedCards] = useState<Set<number>>(new Set())
   const [shuffledQuestions, setShuffledQuestions] = useState<Question[]>(questions)
-
-  const { isBookmarked, toggleBookmark } = useBookmarkStore()
 
   const currentQuestion = shuffledQuestions[currentIndex]
 
@@ -69,12 +66,6 @@ const FlashcardDeck = ({ questions, onComplete }: FlashcardDeckProps) => {
     onComplete?.()
   }
 
-  const handleBookmark = () => {
-    if (currentQuestion) {
-      toggleBookmark(currentQuestion.id)
-    }
-  }
-
   if (!currentQuestion) {
     return (
       <div className="text-center py-12">
@@ -95,8 +86,6 @@ const FlashcardDeck = ({ questions, onComplete }: FlashcardDeckProps) => {
       {/* Flashcard */}
       <Flashcard
         question={currentQuestion}
-        isBookmarked={isBookmarked(currentQuestion.id)}
-        onBookmark={handleBookmark}
       />
 
       {/* Controls */}

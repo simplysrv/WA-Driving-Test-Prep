@@ -7,7 +7,6 @@ export interface QuestionProgress {
   correctCount: number
   incorrectCount: number
   lastAttempt: Date
-  isBookmarked: boolean
   notes?: string
 }
 

@@ -7,6 +7,8 @@ const LanguageSwitcher = () => {
   const languages = [
     { code: 'en', name: 'English', nativeName: 'English' },
     { code: 'mr', name: 'Marathi', nativeName: 'मराठी' },
+    { code: 'hi', name: 'Hindi', nativeName: 'हिन्दी' },
+    { code: 'zh', name: 'Chinese', nativeName: '中文' },
   ]
 
   const changeLanguage = (languageCode: string) => {

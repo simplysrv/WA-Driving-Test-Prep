@@ -6,7 +6,6 @@ import PracticeMode from './pages/PracticeMode'
 import TestMode from './pages/TestMode'
 import ReviewMode from './pages/ReviewMode'
 import Progress from './pages/Progress'
-import Bookmarks from './pages/Bookmarks'
 import ChapterList from './pages/ChapterList'
 
 // Use basename for GitHub Pages deployment
@@ -44,10 +43,6 @@ export const router = createBrowserRouter([
       {
         path: 'progress',
         element: <Progress />,
-      },
-      {
-        path: 'bookmarks',
-        element: <Bookmarks />,
       },
     ],
   },

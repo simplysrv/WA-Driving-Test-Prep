@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, X, Home, BookOpen, Brain, FileText, TrendingUp, Bookmark } from 'lucide-react'
+import { Menu, X, Home, BookOpen, Brain, FileText, TrendingUp } from 'lucide-react'
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import LanguageSwitcher from '../shared/LanguageSwitcher'
@@ -16,7 +16,6 @@ const Header = () => {
     { nameKey: 'nav.practice', href: '/practice', icon: FileText },
     { nameKey: 'nav.test', href: '/test', icon: FileText },
     { nameKey: 'nav.progress', href: '/progress', icon: TrendingUp },
-    { nameKey: 'nav.bookmarks', href: '/bookmarks', icon: Bookmark },
   ]
 
   const isActive = (path: string) => {

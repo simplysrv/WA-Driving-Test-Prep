@@ -1,11 +1,9 @@
 import { TrendingUp, Target, Trophy, BookOpen, Brain } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
-import { useBookmarkStore } from '../store/bookmarkStore'
 import allQuestionsData from '../data/questions'
 
 const Progress = () => {
   const navigate = useNavigate()
-  const { bookmarkedQuestions } = useBookmarkStore()
 
   const totalQuestions = allQuestionsData.length
 
@@ -40,8 +38,8 @@ const Progress = () => {
               <Brain className="w-7 h-7 text-white" />
             </div>
             <div>
-              <p className="text-3xl font-bold text-purple-900">{bookmarkedQuestions.length}</p>
-              <p className="text-sm text-purple-700">Bookmarked</p>
+              <p className="text-3xl font-bold text-purple-900">5</p>
+              <p className="text-sm text-purple-700">Chapters</p>
             </div>
           </div>
         </div>
@@ -122,7 +120,7 @@ const Progress = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
           {[
             { icon: '🎯', title: 'First Steps', desc: 'Complete your first quiz' },
-            { icon: '📚', title: 'Bookworm', desc: 'Bookmark 10 questions' },
+            { icon: '📚', title: 'Studious', desc: 'Study all 5 chapters' },
             { icon: '🏆', title: 'Perfect Score', desc: 'Get 100% on a practice quiz' },
             { icon: '🎓', title: 'Test Ready', desc: 'Pass the 40-question test' },
           ].map((achievement, index) => (

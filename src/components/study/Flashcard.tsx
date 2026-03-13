@@ -1,17 +1,14 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Question } from '../../types/question'
-import { Bookmark, BookmarkCheck } from 'lucide-react'
 
 interface FlashcardProps {
   question: Question
-  isBookmarked: boolean
-  onBookmark: () => void
   showAnswer?: boolean
   onFlip?: () => void
 }
 
-const Flashcard = ({ question, isBookmarked, onBookmark, showAnswer = false, onFlip }: FlashcardProps) => {
+const Flashcard = ({ question, showAnswer = false, onFlip }: FlashcardProps) => {
   const [isFlipped, setIsFlipped] = useState(showAnswer)
 
   const handleFlip = () => {
@@ -24,22 +21,6 @@ const Flashcard = ({ question, isBookmarked, onBookmark, showAnswer = false, onF
 
   return (
     <div className="relative w-full h-[360px] sm:h-[420px] md:h-[500px] perspective-1000">
-      {/* Bookmark Button */}
-      <button
-        onClick={(e) => {
-          e.stopPropagation()
-          onBookmark()
-        }}
-        className="absolute top-4 right-4 z-20 p-2 bg-white rounded-full shadow-lg hover:shadow-xl transition-all"
-        aria-label={isBookmarked ? 'Remove bookmark' : 'Add bookmark'}
-      >
-        {isBookmarked ? (
-          <BookmarkCheck className="w-5 h-5 text-primary-600" />
-        ) : (
-          <Bookmark className="w-5 h-5 text-gray-400 hover:text-primary-600" />
-        )}
-      </button>
-
       {/* Flip Container */}
       <motion.div
         className="relative w-full h-full cursor-pointer"

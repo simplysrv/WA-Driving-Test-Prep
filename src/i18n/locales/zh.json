@@ -1,0 +1,381 @@
+{
+  "nav": {
+    "home": "首页",
+    "chapters": "章节",
+    "study": "学习",
+    "practice": "练习",
+    "test": "考试",
+    "progress": "进度",
+    "appTitle": "华盛顿驾照考试准备",
+    "appTitleShort": "WA考试"
+  },
+  "home": {
+    "hero": {
+      "title": "华盛顿州",
+      "titleHighlight": "驾照考试准备",
+      "subtitle": "自信地通过您的华盛顿驾照知识考试。通过我们的互动学习平台学习、练习和跟踪您的进度。",
+      "startStudying": "开始学习",
+      "takePracticeTest": "参加模拟考试",
+      "questionsCount": "题目",
+      "chaptersCount": "章节",
+      "passScore": "及格分数"
+    },
+    "features": {
+      "studyMode": {
+        "title": "学习模式",
+        "description": "使用涵盖所有章节的互动闪卡学习"
+      },
+      "practiceMode": {
+        "title": "练习模式",
+        "description": "通过即时反馈和解释练习题目"
+      },
+      "testSimulation": {
+        "title": "考试模拟",
+        "description": "参加与实际华盛顿知识考试相匹配的40题考试"
+      },
+      "trackProgress": {
+        "title": "跟踪进度",
+        "description": "监控您的表现并确定需要改进的领域"
+      },
+      "getStarted": "开始"
+    },
+    "about": {
+      "title": "关于华盛顿知识考试",
+      "description": "华盛顿州驾驶员知识考试包含<strong>40道选择题</strong>，涵盖交通法规、道路标志和安全驾驶实践。",
+      "passRequirement": "✅ 您必须<strong>正确回答至少32道题（80%）</strong>才能通过。",
+      "materialsTitle": "我们全面的学习材料涵盖所有五个章节：",
+      "chapter1": "驾照",
+      "chapter1Desc": "要求、类型、法律",
+      "chapter2": "车辆",
+      "chapter2Desc": "登记、维护、安全",
+      "chapter3": "驾驶员",
+      "chapter3Desc": "损害、分心、决策",
+      "chapter4": "道路",
+      "chapter4Desc": "共享道路、交通规则、优先权",
+      "chapter5": "危险",
+      "chapter5Desc": "天气、路况、紧急情况"
+    },
+    "cta": {
+      "title": "准备好开始了吗？",
+      "subtitle": "加入数千名自信通过考试的华盛顿驾驶员！",
+      "button": "开始您的旅程"
+    }
+  },
+  "study": {
+    "title": "学习模式",
+    "subtitle": "通过互动闪卡掌握内容",
+    "filterBy": "筛选",
+    "all": "全部",
+    "chapter": "章节",
+    "category": "类别",
+    "difficulty": "难度",
+    "easy": "简单",
+    "medium": "中等",
+    "hard": "困难",
+    "startStudying": "开始学习",
+    "flipCard": "翻转卡片",
+    "previous": "上一个",
+    "next": "下一个",
+    "shuffle": "随机排序",
+    "progress": "进度",
+    "of": "/",
+    "questions": "题"
+  },
+  "practice": {
+    "title": "练习模式",
+    "subtitle": "通过即时反馈测试您的知识",
+    "selectChapter": "选择章节",
+    "questionCount": "题目数量",
+    "startPractice": "开始练习",
+    "questionNumber": "第 {{current}} 题，共 {{total}} 题",
+    "submit": "提交答案",
+    "next": "下一题",
+    "showResults": "显示结果",
+    "correct": "正确！",
+    "incorrect": "错误",
+    "explanation": "解释",
+    "accuracy": "准确率"
+  },
+  "test": {
+    "title": "华盛顿州知识考试模拟",
+    "subtitle": "在参加真实考试前体验真实考试格式",
+    "info": {
+      "title": "考试信息",
+      "questions": "题目",
+      "questionsDesc": "{{count}}道选择题",
+      "passingScore": "及格分数",
+      "passingScoreDesc": "40题中答对32题（80%）",
+      "time": "时间",
+      "timeDesc": "无时间限制（实际考试：不定）",
+      "format": "格式",
+      "formatDesc": "结束时复查，与真实考试相同"
+    },
+    "instructions": {
+      "title": "考试说明",
+      "item1": "通过为每道题选择最佳答案来回答所有40道题",
+      "item2": "您可以在提交前更改您的答案",
+      "item3": "在最终提交前复查所有题目",
+      "item4": "提交后显示结果和解释",
+      "item5": "您需要答对32题（80%）才能通过"
+    },
+    "tips": {
+      "title": "💡 考试技巧",
+      "tip1": "• 在选择答案前仔细阅读每道题",
+      "tip2": "• 不要匆忙——花时间思考每道题",
+      "tip3": "• 如果不确定，先排除明显错误的答案",
+      "tip4": "• 相信你的第一直觉，除非你发现明显的错误",
+      "tip5": "• 如果时间允许，在提交前复查所有题目"
+    },
+    "startButton": "🚀 开始考试模拟",
+    "questionProgress": "第 {{current}} 题，共 {{total}} 题",
+    "answered": "已答",
+    "remaining": "剩余",
+    "reviewButton": "复查",
+    "reviewAll": "复查全部",
+    "previous": "上一题",
+    "submitTest": "提交考试",
+    "backToTest": "返回考试",
+    "complete": "考试完成！",
+    "score": "您在{{total}}题中答对了{{correct}}题（{{percentage}}%）",
+    "left": "剩余",
+    "answeredStatus": "已答",
+    "unansweredStatus": "未答",
+    "next": "下一题",
+    "reviewAllQuestions": "复查所有题目",
+    "viewDetailedAnalysis": "查看详细分析",
+    "timeLimit": {
+      "title": "选择时间限制",
+      "minutes": "{{count}}分钟",
+      "noLimit": "无限制",
+      "waStandard": "华盛顿州标准",
+      "extended": "延长时间",
+      "relaxed": "轻松节奏",
+      "practiceMode": "练习模式"
+    },
+    "review": {
+      "title": "复查您的答案",
+      "total": "总计",
+      "answered": "已答",
+      "unanswered": "未答",
+      "unansweredWarning": "您有{{count}}道题未答",
+      "clickToAnswer": "点击下方任何题目返回作答",
+      "navigator": "题目导航",
+      "legend": {
+        "answered": "已答",
+        "unanswered": "未答"
+      },
+      "submitButton": "提交考试",
+      "answerMore": "再答{{count}}道题才能提交",
+      "allAnswered": "✓ 所有题目已答！准备提交您的考试。"
+    },
+    "questionReview": {
+      "title": "题目复查",
+      "yourAnswer": "您的答案",
+      "correctAnswer": "正确答案",
+      "viewAnalysis": "查看详细分析",
+      "backToResults": "返回结果",
+      "jumpToQuestion": "跳转到题目",
+      "questionOf": "第 {{current}} 题，共 {{total}} 题",
+      "correct": "正确！",
+      "incorrect": "错误",
+      "explanation": "解释"
+    },
+    "analysis": {
+      "title": "详细考试分析",
+      "subtitle": "您的个性化表现分析",
+      "downloadPDF": "下载PDF",
+      "accuracy": "准确率",
+      "totalTime": "总时间",
+      "avgPerQuestion": "平均/题",
+      "correct": "正确",
+      "teacherFeedback": "老师反馈",
+      "chapterBreakdown": "各章节表现",
+      "correctOf": "{{correct}}/{{total}}正确 • 共{{time}}",
+      "avgTime": "平均：{{time}}/题",
+      "needsAttention": "需要注意",
+      "focusAreas": "重点关注领域",
+      "missed": "（错{{count}}题）",
+      "topic": "主题",
+      "moreQuestions": "本章还有{{count}}道题",
+      "nextSteps": "下一步",
+      "reviewChapter": "复习第{{chapter}}章（{{chapterName}}）——这是您最薄弱的领域，准确率{{accuracy}}%",
+      "useFlashcards": "使用学习模式闪卡巩固关键概念",
+      "practiceChapter": "在重新参加完整考试前先做章节练习题",
+      "readyForTest": "您已准备好！趁知识还新鲜，考虑尽快参加真实考试。",
+      "takeAnotherTest": "学习后再做一次模拟考试以跟踪您的进步。",
+      "chapterNames": {
+        "1": "驾照与许可证",
+        "2": "车辆与设备",
+        "3": "驾驶员与责任",
+        "4": "道路与交通规则",
+        "5": "危险与紧急情况"
+      },
+      "feedback": {
+        "outstanding": "表现出色！您对华盛顿州驾驶规则有很好的掌握。",
+        "passed": "做得好！您以扎实的理解通过了考试。",
+        "close": "您离通过很近了。再多学习一点就能通过。",
+        "encouragement": "不要气馁。专注于下面确定的薄弱领域并再次尝试。",
+        "priorityAreas": "优先学习领域：{{chapters}}。复习这些主题的指南章节和练习题。",
+        "tooFast": "您回答得非常快。考虑花更多时间仔细阅读题目。",
+        "tooSlow": "您在题目上花了很多时间。多练习以建立信心和速度。",
+        "rushing": "许多题目在10秒内作答。确保您没有在不阅读所有选项的情况下匆忙作答。",
+        "slowQuestions": "几道题花了超过一分钟。这些可能表示知识差距——复习这些主题。",
+        "unanswered": "您有{{count}}道题未答。在真实考试中，总是做出您的最佳猜测——错误答案没有惩罚。"
+      }
+    }
+  },
+  "results": {
+    "title": "测验完成！",
+    "congratulations": "🎉 恭喜！",
+    "tryAgain": "继续学习并再试一次！",
+    "grade": "您的成绩",
+    "excellent": "优秀！",
+    "goodJob": "做得好！",
+    "notBad": "还不错",
+    "keepTrying": "继续努力",
+    "needsImprovement": "需要改进",
+    "correct": "正确",
+    "incorrect": "错误",
+    "timeTaken": "用时",
+    "tryAgainButton": "再试一次",
+    "reviewIncorrect": "复查错题",
+    "viewProgress": "查看进度",
+    "backHome": "返回首页",
+    "passed": "🎊 您通过了！您已准备好参加真正的华盛顿州知识考试！",
+    "passReminder": "请记住：真实考试需要40题中答对32题（80%）才能通过。"
+  },
+  "progress": {
+    "title": "您的进度",
+    "subtitle": "跟踪您的学习旅程并保持动力",
+    "totalQuestions": "总题目数",
+    "bookmarked": "已收藏",
+    "passScore": "及格分数",
+    "chapterProgress": "各章节学习进度",
+    "readyToContinue": "准备继续？",
+    "studyMode": "学习模式",
+    "practice": "练习",
+    "takeTest": "参加考试",
+    "achievements": "成就",
+    "achievement1": {
+      "title": "第一步",
+      "desc": "完成您的第一次测验"
+    },
+    "achievement2": {
+      "title": "书虫",
+      "desc": "收藏10道题"
+    },
+    "achievement3": {
+      "title": "满分",
+      "desc": "在练习测验中获得100%"
+    },
+    "achievement4": {
+      "title": "考试就绪",
+      "desc": "通过40题考试"
+    }
+  },
+  "bookmarks": {
+    "title": "已收藏的题目",
+    "subtitle": "保存题目以便稍后复习",
+    "empty": {
+      "title": "暂无收藏",
+      "description": "在学习或练习时开始收藏题目，以便稍后复习。",
+      "startStudying": "开始学习",
+      "practiceQuestions": "练习题目"
+    },
+    "count": "您有{{count}}道已收藏的题目",
+    "countPlural": "您有{{count}}道已收藏的题目",
+    "filterBy": "按类别筛选",
+    "all": "全部",
+    "removeBookmark": "取消收藏",
+    "answer": "答案：",
+    "studyButton": "学习这{{count}}道题",
+    "studyButtonPlural": "学习这{{count}}道题",
+    "noQuestionsInCategory": "此类别中没有收藏的题目"
+  },
+  "chapters": {
+    "title": "按章节学习",
+    "subtitle": "学习按章节组织的华盛顿州驾驶员指南",
+    "chapter1": {
+      "title": "驾照",
+      "description": "驾照流程、类型、要求、酒驾法律和违规",
+      "topics": ["REAL ID", "驾照类型", "知识考试", "酒驾法律", "驾照暂停"]
+    },
+    "chapter2": {
+      "title": "车辆",
+      "description": "登记、维护、安全功能和乘客保护",
+      "topics": ["保险", "车头灯", "安全带", "儿童安全座椅", "ADAS"]
+    },
+    "chapter3": {
+      "title": "驾驶员",
+      "description": "损害、分心、决策和安全驾驶行为",
+      "topics": ["酒精/药物影响", "疲劳", "分心驾驶", "路怒症", "OODA循环"]
+    },
+    "chapter4": {
+      "title": "道路",
+      "description": "共享道路、交通规则、优先权和紧急程序",
+      "topics": ["行人", "优先权", "交通信号", "停车", "紧急车辆"]
+    },
+    "chapter5": {
+      "title": "危险",
+      "description": "天气危险、路况、野生动物、机械故障和紧急程序",
+      "topics": ["天气状况", "水滑", "黑冰", "野生动物", "刹车失灵", "爆胎", "紧急停车", "能见度问题"]
+    },
+    "questionsAvailable": "{{count}}道题可用",
+    "keyTopics": "重点主题：",
+    "study": "学习",
+    "practice": "练习",
+    "about": {
+      "title": "📖 关于华盛顿驾驶员指南",
+      "description": "华盛顿州驾驶员指南是您学习道路规则的官方资源。知识考试中的所有问题都基于这四个章节。彻底学习每个章节以确保您为驾照考试做好准备。"
+    }
+  },
+  "review": {
+    "title": "复习模式",
+    "subtitle": "练习您答错的题目以提高您的知识",
+    "howItWorks": "复习模式如何工作",
+    "description": "在练习模式中完成测验后，您答错的任何题目都会被自动跟踪。然后您可以复习这些特定题目，将学习重点放在需要改进的领域。",
+    "steps": {
+      "title": "使用复习模式：",
+      "step1": "在练习模式中完成一些测验",
+      "step2": "任何错误答案将被自动跟踪",
+      "step3": "返回这里只复习您的错题",
+      "step4": "掌握内容并提高您的准确率！"
+    },
+    "startPractice": "开始练习模式",
+    "studyFlashcards": "学习闪卡",
+    "tips": {
+      "title": "💡 学习技巧",
+      "tip1": "• 专注于理解每个答案背后的'为什么'",
+      "tip2": "• 仔细查看错误答案的解释",
+      "tip3": "• 使用收藏保存特别有挑战性的题目",
+      "tip4": "• 持续练习以建立长期记忆",
+      "tip5": "• 在学习期间休息以避免疲劳"
+    }
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "save": "保存",
+    "cancel": "取消",
+    "close": "关闭",
+    "delete": "删除",
+    "edit": "编辑",
+    "back": "返回",
+    "continue": "继续",
+    "finish": "完成",
+    "bookmark": "收藏",
+    "bookmarked": "已收藏",
+    "source": "来源",
+    "chapter": "章节",
+    "category": "类别",
+    "difficulty": "难度",
+    "question": "题目",
+    "answer": "答案",
+    "explanation": "解释"
+  },
+  "footer": {
+    "disclaimer": "非官方练习工具。请参考官方华盛顿州车管局材料准备考试。",
+    "officialGuide": "官方华盛顿驾驶员指南",
+    "dolWebsite": "华盛顿车管局网站"
+  }
+}

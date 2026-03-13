@@ -27,7 +27,7 @@
 | **Passing Score** | 32/40 (80%) |
 | **Time Limit** | No official time limit |
 | **Topics Covered** | Traffic laws, road signs, safe driving practices |
-| **Languages** | Available in English and Marathi |
+| **Languages** | Available in English, Marathi, Hindi, and Chinese |
 
 ### 📊 Question Bank Statistics
 
@@ -56,8 +56,11 @@
 
 ### 🎓 Test Simulation
 - **Realistic Experience** - 40-question test matching the real DOL exam format
+- **Optional Timer** - Configurable time limit (15/30/45/60 min) or untimed mode
 - **Pass/Fail Results** - 80% passing threshold just like the real test
-- **Detailed Review** - Review all questions and explanations after completing the test
+- **Question-by-Question Review** - Navigate through all questions with correct/incorrect indicators
+- **Detailed Analysis** - Chapter-wise breakdown, per-question timing stats, and performance insights
+- **PDF Report Export** - Download a detailed test report as a PDF
 - **Celebration Animations** - Confetti celebration when you pass! 🎉
 
 ### 📊 Progress Tracking
@@ -65,13 +68,11 @@
 - **Chapter-wise Stats** - See your strengths and weaknesses by topic
 - **Test History** - Track all your practice test attempts
 
-### 🔖 Bookmarks
-- **Save Questions** - Bookmark difficult questions for later review
-- **Quick Access** - Easily access all bookmarked questions from one place
-
 ### 🌐 Multi-language Support
 - **English** - Full support
-- **Marathi (मराठी)** - Complete translation available
+- **Marathi (मराठी)** - Complete translation
+- **Hindi (हिन्दी)** - Complete translation
+- **Chinese (中文)** - Complete translation
 - **Easy Switching** - Toggle languages from the header
 
 ### 📱 Responsive Design
@@ -114,6 +115,7 @@
 |------------|---------|
 | [i18next](https://www.i18next.com/) | Internationalization Framework |
 | [Recharts](https://recharts.org/) | Data Visualization Charts |
+| [jsPDF](https://github.com/parallax/jsPDF) | PDF Report Generation |
 | [React Confetti](https://www.npmjs.com/package/react-confetti) | Celebration Effects |
 
 ---
@@ -179,6 +181,7 @@ wa-driving-test-prep/
 │   │   │   ├── FlashcardDeck.tsx
 │   │   │   └── FlashcardProgress.tsx
 │   │   └── test/            # Test simulation components
+│   │       ├── TestAnalysis.tsx
 │   │       ├── TestIntro.tsx
 │   │       └── TestReview.tsx
 │   ├── data/
@@ -193,7 +196,9 @@ wa-driving-test-prep/
 │   │   ├── config.ts        # i18next configuration
 │   │   └── locales/         # Translation files
 │   │       ├── en.json      # English translations
-│   │       └── mr.json      # Marathi translations
+│   │       ├── hi.json      # Hindi translations
+│   │       ├── mr.json      # Marathi translations
+│   │       └── zh.json      # Chinese translations
 │   ├── pages/               # Route page components
 │   │   ├── Home.tsx
 │   │   ├── ChapterList.tsx
@@ -201,10 +206,8 @@ wa-driving-test-prep/
 │   │   ├── PracticeMode.tsx
 │   │   ├── TestMode.tsx
 │   │   ├── Progress.tsx
-│   │   ├── Bookmarks.tsx
 │   │   └── ReviewMode.tsx
 │   ├── store/               # Zustand state stores
-│   │   ├── bookmarkStore.ts
 │   │   ├── progressStore.ts
 │   │   ├── quizStore.ts
 │   │   └── settingsStore.ts
@@ -215,6 +218,8 @@ wa-driving-test-prep/
 │   │   ├── progress.ts
 │   │   ├── question.ts
 │   │   └── quiz.ts
+│   ├── utils/
+│   │   └── generateTestReport.ts  # PDF report generation
 │   ├── App.tsx              # Main App component
 │   ├── main.tsx             # Application entry point
 │   └── router.tsx           # React Router configuration

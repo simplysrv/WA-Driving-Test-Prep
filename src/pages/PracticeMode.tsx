@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { Question, QuestionCategory, QuestionDifficulty } from '../types/question'
-import { useBookmarkStore } from '../store/bookmarkStore'
 import { useProgressStore } from '../store/progressStore'
 import QuizCard from '../components/quiz/QuizCard'
 import QuizOptions from '../components/quiz/QuizOptions'
@@ -15,7 +14,6 @@ import allQuestionsData from '../data/questions'
 type QuizPhase = 'setup' | 'question' | 'feedback' | 'results'
 
 const PracticeMode = () => {
-  const { isBookmarked, toggleBookmark } = useBookmarkStore()
   const { userProgress, initializeProgress } = useProgressStore()
 
   // Initialize progress on mount
@@ -310,8 +308,6 @@ const PracticeMode = () => {
           question={currentQuestion}
           questionNumber={currentQuestionIndex + 1}
           totalQuestions={quizQuestions.length}
-          isBookmarked={isBookmarked(currentQuestion.id)}
-          onBookmark={() => toggleBookmark(currentQuestion.id)}
         />
 
         {/* Options */}
@@ -355,8 +351,6 @@ const PracticeMode = () => {
           question={currentQuestion}
           questionNumber={currentQuestionIndex + 1}
           totalQuestions={quizQuestions.length}
-          isBookmarked={isBookmarked(currentQuestion.id)}
-          onBookmark={() => toggleBookmark(currentQuestion.id)}
         />
 
         {/* Options with feedback */}
