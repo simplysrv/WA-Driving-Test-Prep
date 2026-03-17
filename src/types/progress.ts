@@ -8,6 +8,7 @@ export interface QuestionProgress {
   incorrectCount: number
   lastAttempt: Date
   notes?: string
+  isBookmarked?: boolean
 }
 
 export interface CategoryProgress {
